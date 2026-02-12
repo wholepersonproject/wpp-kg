@@ -138,9 +138,6 @@
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-0883-9754"
             },
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "@type": "dcat:Dataset",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv"
@@ -149,6 +146,9 @@
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "rdfs:label": "Whole Person Physiome (WPP) table for the endocrine system",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:dateCreated": {
                 "@value": "2025-11-05",
                 "@type": "xsd:date"

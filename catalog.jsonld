@@ -1,12 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://orcid.org/0000-0003-4716-1285",
             "dcat:conforms_to": "Person",
             "schema1:name": "Maria Basil",
@@ -15,6 +9,24 @@
             "schema1:familyName": "Basil",
             "rdfs:label": "Maria Basil",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "_:b2",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/collection",
@@ -49,6 +61,21 @@
                 "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft"
             },
             "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution urinary-system (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution urinary-system (draft) in N-Triples format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#ntriples",
@@ -96,16 +123,31 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution skeletal-system (draft) in JSON format",
+            "rdfs:label": "Graph data distribution skeletal-system (draft) in JSON format",
+            "@type": "dcat:Distribution"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data",
             "dct:title": "Whole Person Physiome (WPP) table for the digestive system",
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "rdfs:label": "Whole Person Physiome (WPP) table for the digestive system",
             "@type": "dcat:Dataset",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "rdfs:comment": "TODO: description",
             "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b3"
+            },
             "schema1:reviewedBy": [
                 {
                     "@id": "https://orcid.org/0000-0002-1005-3726"
@@ -129,7 +171,7 @@
             }
         },
         {
-            "@id": "_:b1",
+            "@id": "_:b3",
             "schema1:funder": "National Institutes of Health",
             "schema1:award": "1U24AT013504-01",
             "@type": "schema1:Grant"
@@ -338,6 +380,139 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b4",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": [
+                {
+                    "@id": "_:b22"
+                },
+                {
+                    "@id": "_:b23"
+                },
+                {
+                    "@id": "_:b24"
+                },
+                {
+                    "@id": "_:b7"
+                },
+                {
+                    "@id": "_:b10"
+                },
+                {
+                    "@id": "_:b16"
+                },
+                {
+                    "@id": "_:b4"
+                },
+                {
+                    "@id": "_:b21"
+                },
+                {
+                    "@id": "_:b25"
+                },
+                {
+                    "@id": "_:b26"
+                },
+                {
+                    "@id": "_:b27"
+                },
+                {
+                    "@id": "_:b28"
+                },
+                {
+                    "@id": "_:b17"
+                },
+                {
+                    "@id": "_:b29"
+                },
+                {
+                    "@id": "_:b15"
+                }
+            ],
+            "dcat:conforms_to": "SoftwareApplication",
+            "@type": "schema1:SoftwareApplication",
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system",
+            "dcat:dataset": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft"
+            },
+            "dct:title": [
+                {
+                    "@language": "en",
+                    "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system"
+                },
+                {
+                    "@language": "en",
+                    "@value": "urinary-system"
+                }
+            ],
+            "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft",
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#turtle"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#nquads"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml"
+                }
+            ],
+            "rdfs:label": "urinary-system (draft) graph data",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data"
+            },
+            "schema1:version": "draft",
+            "@type": "dcat:Dataset",
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the urinary system dataset.",
+            "dct:title": [
+                "urinary-system (draft) graph data",
+                {
+                    "@language": "en",
+                    "@value": "draft"
+                }
+            ],
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "dct:publisher": "HuBMAP",
+            "schema1:dateCreated": {
+                "@value": "2026-02-12",
+                "@type": "xsd:date"
+            },
+            "rdfs:seeAlso": {
+                "@id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft"
+            },
+            "schema1:name": "urinary-system",
+            "schema1:additionalType": "wpp"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#rdfxml",
             "dcat:mediaType": "application/rdf+xml",
             "dcat:downloadURL": {
@@ -502,52 +677,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": [
-                {
-                    "@id": "_:b20"
-                },
-                {
-                    "@id": "_:b19"
-                },
-                {
-                    "@id": "_:b21"
-                },
-                {
-                    "@id": "_:b15"
-                },
-                {
-                    "@id": "_:b17"
-                },
-                {
-                    "@id": "_:b22"
-                },
-                {
-                    "@id": "_:b6"
-                },
-                {
-                    "@id": "_:b10"
-                },
-                {
-                    "@id": "_:b7"
-                },
-                {
-                    "@id": "_:b3"
-                },
-                {
-                    "@id": "_:b11"
-                },
-                {
-                    "@id": "_:b23"
-                }
-            ],
-            "dcat:conforms_to": "SoftwareApplication",
-            "@type": "schema1:SoftwareApplication",
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#turtle",
             "dcat:mediaType": "text/turtle",
             "dcat:downloadURL": {
@@ -614,7 +743,7 @@
             "dct:title": "Whole Person Physiome (WPP) table for the male reproductive system",
             "dct:publisher": "WPP",
             "schema1:funding": {
-                "@id": "_:b2"
+                "@id": "_:b5"
             },
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0001-8187-0507"
@@ -749,7 +878,7 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b2",
+            "@id": "_:b5",
             "schema1:funder": "National Institutes of Health",
             "schema1:award": "1U24AT013504-01",
             "@type": "schema1:Grant"
@@ -870,11 +999,11 @@
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "rdfs:label": "Whole Person Physiome (WPP) table for the craniofacial and dental system",
-            "schema1:funding": {
-                "@id": "_:b4"
-            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv"
+            },
+            "schema1:funding": {
+                "@id": "_:b6"
             },
             "schema1:dateCreated": {
                 "@value": "2026-01-09",
@@ -974,16 +1103,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b3",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft",
             "dct:publisher": "HuBMAP",
             "dcat:distribution": [
@@ -1067,9 +1186,6 @@
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data",
             "@type": "dcat:Dataset",
-            "schema1:funding": {
-                "@id": "_:b12"
-            },
             "dct:title": "Whole Person Physiome (WPP) table for the integumentary system",
             "schema1:reviewedBy": [
                 {
@@ -1092,6 +1208,9 @@
             "schema1:dateCreated": {
                 "@value": "2025-12-04",
                 "@type": "xsd:date"
+            },
+            "schema1:funding": {
+                "@id": "_:b13"
             },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#Integumentary_System.csv"
@@ -1270,11 +1389,11 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data",
+            "schema1:funding": {
+                "@id": "_:b18"
+            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
-            },
-            "schema1:funding": {
-                "@id": "_:b14"
             },
             "schema1:reviewedBy": [
                 {
@@ -1357,12 +1476,6 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b4",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv",
             "dcat:mediaType": "text/csv",
             "dcat:downloadURL": {
@@ -1378,10 +1491,25 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b5",
+            "@id": "_:b6",
             "schema1:funder": "National Institutes of Health",
             "schema1:award": "1U24AT013504-01",
             "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution cardiovascular-system (draft) in JSON format",
+            "rdfs:label": "Graph data distribution cardiovascular-system (draft) in JSON format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle",
@@ -1414,6 +1542,22 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b7",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "_:b8",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#ntriples",
             "dcat:mediaType": "application/n-triples",
             "dcat:downloadURL": {
@@ -1442,13 +1586,13 @@
                 "@type": "xsd:date"
             },
             "dct:title": "Whole Person Physiome (WPP) table for the pulmonary system",
+            "schema1:funding": {
+                "@id": "_:b9"
+            },
             "rdfs:comment": "TODO: description",
             "rdfs:label": "Whole Person Physiome (WPP) table for the pulmonary system",
             "dct:publisher": "WPP",
             "@type": "dcat:Dataset",
-            "schema1:funding": {
-                "@id": "_:b5"
-            },
             "schema1:reviewedBy": [
                 {
                     "@id": "https://orcid.org/0000-0002-1005-3726"
@@ -1460,6 +1604,22 @@
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv"
             }
+        },
+        {
+            "@id": "_:b9",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "_:b10",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg",
@@ -1505,13 +1665,22 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system"
                 },
                 {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system"
+                },
+                {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system"
                 },
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system"
                 },
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system"
                 }
             ],
             "@type": "dcat:Catalog",
@@ -1629,6 +1798,23 @@
             "@type": "dcat:Catalog"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system",
+            "dcat:dataset": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft"
+            },
+            "dct:title": [
+                {
+                    "@language": "en",
+                    "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system"
+                },
+                {
+                    "@language": "en",
+                    "@value": "cardiovascular-system"
+                }
+            ],
+            "@type": "dcat:Catalog"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system",
             "dct:title": [
                 {
@@ -1661,6 +1847,69 @@
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft"
             },
             "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system",
+            "dcat:dataset": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft"
+            },
+            "dct:title": [
+                {
+                    "@language": "en",
+                    "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system"
+                },
+                {
+                    "@language": "en",
+                    "@value": "skeletal-system"
+                }
+            ],
+            "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data",
+            "dct:creator": {
+                "@id": "https://orcid.org/0000-0001-8187-0507"
+            },
+            "schema1:dateCreated": {
+                "@value": "2025-11-17",
+                "@type": "xsd:date"
+            },
+            "dct:title": "Whole Person Physiome (WPP) table for the skeletal system",
+            "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b11"
+            },
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "rdfs:comment": "TODO: description",
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+            "rdfs:label": "Whole Person Physiome (WPP) table for the skeletal system",
+            "@type": "dcat:Dataset",
+            "dcat:distribution": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"
+            }
+        },
+        {
+            "@id": "_:b11",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv",
+            "dcat:mediaType": "text/csv",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/assets/Skeletal_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'Skeletal_System.csv' file",
+            "rdfs:label": "Raw data distribution 'Skeletal_System.csv' file",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#nquads",
@@ -1746,6 +1995,9 @@
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data",
             "dct:title": "Whole Person Physiome (WPP) table for the muscular system",
+            "schema1:funding": {
+                "@id": "_:b8"
+            },
             "rdfs:label": "Whole Person Physiome (WPP) table for the muscular system",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
@@ -1763,9 +2015,6 @@
             },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0003-2700-1815"
-            },
-            "schema1:funding": {
-                "@id": "_:b9"
             },
             "dct:publisher": "WPP",
             "rdfs:comment": "TODO: description",
@@ -1832,6 +2081,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b12",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#ntriples",
             "dcat:mediaType": "application/n-triples",
             "dcat:downloadURL": {
@@ -1847,14 +2102,19 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b6",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.nq",
+                "@type": "xsd:anyURI"
             },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#nquads",
+                "@type": "xsd:anyURI"
             },
-            "@type": "schema1:SoftwareSourceCode"
+            "dct:title": "Graph data distribution skeletal-system (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution skeletal-system (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#json",
@@ -1887,6 +2147,21 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv",
+            "dcat:mediaType": "text/csv",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/assets/Cardiovascular_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'Cardiovascular_System.csv' file",
+            "rdfs:label": "Raw data distribution 'Cardiovascular_System.csv' file",
+            "@type": "dcat:Distribution"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads",
             "dcat:mediaType": "application/n-quads",
             "dcat:downloadURL": {
@@ -1900,16 +2175,6 @@
             "dct:title": "Graph data distribution endocrine-system (draft) in N-Quads format",
             "rdfs:label": "Graph data distribution endocrine-system (draft) in N-Quads format",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b7",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "https://orcid.org/0000-0002-0883-9754",
@@ -1937,6 +2202,16 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "https://orcid.org/0000-0002-1979-044X",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Rajan Jain",
+            "schema1:identifier": "0000-0002-1979-044X",
+            "schema1:givenName": "Rajan",
+            "schema1:familyName": "Jain",
+            "rdfs:label": "Rajan Jain",
+            "@type": "schema1:Person"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft",
             "schema1:additionalType": "collection",
             "rdfs:label": "wpp (draft) graph data",
@@ -1962,37 +2237,46 @@
             ],
             "prov:hadMember": [
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/skeletal-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/immune-and-lymphatic-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/fascia-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/nervous-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/male-reproductive-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/digestive-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/nervous-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/urinary-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/integumentary-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/muscular-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/endocrine-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/digestive-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/female-reproductive-system/draft"
                 },
                 {
-                    "@id": "https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/pulmonary-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/cardiovascular-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/integumentary-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org//wpp/dental-and-craniofacial-system/draft"
                 }
             ],
             "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) dataset.",
@@ -2038,10 +2322,38 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b8",
+            "@id": "_:b13",
             "schema1:funder": "National Institutes of Health",
             "schema1:award": "1U24AT013504-01",
             "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data",
+            "rdfs:label": "Whole Person Physiome (WPP) table for the cardiovascular system",
+            "dct:creator": {
+                "@id": "https://orcid.org/0000-0001-8187-0507"
+            },
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "schema1:reviewedBy": {
+                "@id": "https://orcid.org/0000-0002-1979-044X"
+            },
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+            "rdfs:comment": "TODO: description",
+            "dct:title": "Whole Person Physiome (WPP) table for the cardiovascular system",
+            "dct:publisher": "WPP",
+            "@type": "dcat:Dataset",
+            "dcat:distribution": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv"
+            },
+            "schema1:funding": {
+                "@id": "_:b2"
+            },
+            "schema1:dateCreated": {
+                "@value": "2025-11-13",
+                "@type": "xsd:date"
+            }
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json",
@@ -2059,18 +2371,18 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#nquads",
-            "dcat:mediaType": "application/n-quads",
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
             "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.nq",
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.jsonld",
                 "@type": "xsd:anyURI"
             },
             "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#nquads",
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld",
                 "@type": "xsd:anyURI"
             },
-            "dct:title": "Graph data distribution wpp (draft) in N-Quads format",
-            "rdfs:label": "Graph data distribution wpp (draft) in N-Quads format",
+            "dct:title": "Graph data distribution skeletal-system (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution skeletal-system (draft) in JSON-LD format",
             "@type": "dcat:Distribution"
         },
         {
@@ -2089,6 +2401,21 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.nq",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#nquads",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution wpp (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
+        },
+        {
             "@id": "https://orcid.org/0000-0001-9286-4268",
             "dcat:conforms_to": "Person",
             "schema1:name": "David Hill",
@@ -2099,10 +2426,55 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b9",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft",
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#json"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#nquads"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle"
+                }
+            ],
+            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the skeletal system dataset.",
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "dct:publisher": "HuBMAP",
+            "dct:title": [
+                {
+                    "@language": "en",
+                    "@value": "draft"
+                },
+                "skeletal-system (draft) graph data"
+            ],
+            "schema1:additionalType": "wpp",
+            "rdfs:label": "skeletal-system (draft) graph data",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data"
+            },
+            "schema1:name": "skeletal-system",
+            "schema1:dateCreated": {
+                "@value": "2026-02-12",
+                "@type": "xsd:date"
+            },
+            "rdfs:seeAlso": {
+                "@id": "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft"
+            },
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:version": "draft",
+            "@type": "dcat:Dataset"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads",
@@ -2135,24 +2507,10 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b10",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "_:b11",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
+            "@id": "_:b14",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld",
@@ -2170,10 +2528,19 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b12",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution urinary-system (draft) in JSON format",
+            "rdfs:label": "Graph data distribution urinary-system (draft) in JSON format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#jsonld",
@@ -2242,6 +2609,16 @@
             "schema1:additionalType": "wpp"
         },
         {
+            "@id": "_:b15",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#jsonld",
             "dcat:mediaType": "application/ld+json",
             "dcat:downloadURL": {
@@ -2254,6 +2631,31 @@
             },
             "dct:title": "Graph data distribution digestive-system (draft) in JSON-LD format",
             "rdfs:label": "Graph data distribution digestive-system (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b16",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution cardiovascular-system (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution cardiovascular-system (draft) in Turtle format",
             "@type": "dcat:Distribution"
         },
         {
@@ -2272,6 +2674,22 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b17",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "_:b18",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#turtle",
             "dcat:mediaType": "text/turtle",
             "dcat:downloadURL": {
@@ -2287,10 +2705,34 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b13",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv",
+            "dcat:mediaType": "text/csv",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/assets/Urinary_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'Urinary_System.csv' file",
+            "rdfs:label": "Raw data distribution 'Urinary_System.csv' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution cardiovascular-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution cardiovascular-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#rdfxml",
@@ -2338,21 +2780,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld",
-            "dcat:mediaType": "application/ld+json",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.jsonld",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution pulmonary-system (draft) in JSON-LD format",
-            "rdfs:label": "Graph data distribution pulmonary-system (draft) in JSON-LD format",
-            "@type": "dcat:Distribution"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#rdfxml",
             "dcat:mediaType": "application/rdf+xml",
             "dcat:downloadURL": {
@@ -2384,9 +2811,6 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data",
-            "schema1:funding": {
-                "@id": "_:b18"
-            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#Immune_and_Lymphatic_System.csv"
             },
@@ -2400,6 +2824,9 @@
             },
             "@type": "dcat:Dataset",
             "dct:title": "Whole Person Physiome (WPP) table for the immune and lymphatic system",
+            "schema1:funding": {
+                "@id": "_:b19"
+            },
             "schema1:reviewedBy": [
                 {
                     "@id": "https://orcid.org/0000-0001-9286-4268"
@@ -2414,6 +2841,21 @@
             "rdfs:label": "Whole Person Physiome (WPP) table for the immune and lymphatic system",
             "rdfs:comment": "TODO: description",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution pulmonary-system (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution pulmonary-system (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#rdfxml",
@@ -2431,10 +2873,115 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b14",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution skeletal-system (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution skeletal-system (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft",
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#rdfxml"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#turtle"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#json"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#nquads"
+                }
+            ],
+            "schema1:version": "draft",
+            "rdfs:label": "cardiovascular-system (draft) graph data",
+            "schema1:dateCreated": {
+                "@value": "2026-02-12",
+                "@type": "xsd:date"
+            },
+            "rdfs:seeAlso": {
+                "@id": "https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft"
+            },
+            "dct:title": [
+                "cardiovascular-system (draft) graph data",
+                {
+                    "@language": "en",
+                    "@value": "draft"
+                }
+            ],
+            "schema1:additionalType": "wpp",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data"
+            },
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:name": "cardiovascular-system",
+            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the cardiovascular system dataset.",
+            "dct:publisher": "HuBMAP",
+            "@type": "dcat:Dataset"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution cardiovascular-system (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution cardiovascular-system (draft) in N-Triples format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution cardiovascular-system (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution cardiovascular-system (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.nq",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#nquads",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution cardiovascular-system (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution cardiovascular-system (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft",
@@ -2488,6 +3035,21 @@
             "schema1:version": "draft"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution skeletal-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution skeletal-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#Integumentary_System.csv",
             "dcat:mediaType": "text/csv",
             "dcat:downloadURL": {
@@ -2500,6 +3062,27 @@
             },
             "dct:title": "Raw data distribution 'Integumentary_System.csv' file",
             "rdfs:label": "Raw data distribution 'Integumentary_System.csv' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b19",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution skeletal-system (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution skeletal-system (draft) in N-Triples format",
             "@type": "dcat:Distribution"
         },
         {
@@ -2525,7 +3108,7 @@
             },
             "dct:publisher": "WPP",
             "schema1:funding": {
-                "@id": "_:b0"
+                "@id": "_:b14"
             },
             "rdfs:label": "Whole Person Physiome (WPP)",
             "ccf:project_lead": {
@@ -2570,16 +3153,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b15",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#Female_Reproductive_System.csv",
             "dcat:mediaType": "text/csv",
             "dcat:downloadURL": {
@@ -2593,12 +3166,6 @@
             "dct:title": "Raw data distribution 'Female_Reproductive_System.csv' file",
             "rdfs:label": "Raw data distribution 'Female_Reproductive_System.csv' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b16",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv",
@@ -2616,16 +3183,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b17",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle",
             "dcat:mediaType": "text/turtle",
             "dcat:downloadURL": {
@@ -2638,6 +3195,21 @@
             },
             "dct:title": "Graph data distribution nervous-system (draft) in Turtle format",
             "rdfs:label": "Graph data distribution nervous-system (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.nq",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#nquads",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution urinary-system (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution urinary-system (draft) in N-Quads format",
             "@type": "dcat:Distribution"
         },
         {
@@ -2654,6 +3226,40 @@
             "dct:title": "Graph data distribution endocrine-system (draft) in JSON format",
             "rdfs:label": "Graph data distribution endocrine-system (draft) in JSON format",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data",
+            "dct:creator": {
+                "@id": "https://orcid.org/0000-0002-1868-3896"
+            },
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+            "dcat:distribution": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv"
+            },
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "@type": "dcat:Dataset",
+            "rdfs:comment": "TODO: description",
+            "schema1:funding": {
+                "@id": "_:b20"
+            },
+            "rdfs:label": "Whole Person Physiome (WPP) table for the urinary system",
+            "schema1:reviewedBy": {
+                "@id": "https://orcid.org/0000-0002-1005-3726"
+            },
+            "schema1:dateCreated": {
+                "@value": "2025-09-23",
+                "@type": "xsd:date"
+            },
+            "dct:title": "Whole Person Physiome (WPP) table for the urinary system",
+            "dct:publisher": "WPP"
+        },
+        {
+            "@id": "_:b20",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#json",
@@ -2686,10 +3292,14 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b18",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "_:b21",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "https://orcid.org/0000-0003-1980-6840",
@@ -2700,6 +3310,16 @@
             "schema1:familyName": "O'Neill",
             "rdfs:label": "Kathleen O'Neill",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b22",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft",
@@ -2769,6 +3389,9 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:dateCreated": {
                 "@value": "2025-10-02",
                 "@type": "xsd:date"
@@ -2788,22 +3411,9 @@
             },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "dct:title": "Whole Person Physiome (WPP) table for the female reproductive system",
-            "schema1:funding": {
-                "@id": "_:b16"
-            },
             "rdfs:comment": "TODO: description",
             "rdfs:label": "Whole Person Physiome (WPP) table for the female reproductive system",
             "dct:publisher": "WPP"
-        },
-        {
-            "@id": "_:b19",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data",
@@ -2824,44 +3434,29 @@
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
-            "schema1:funding": {
-                "@id": "_:b8"
-            },
             "rdfs:label": "Whole Person Physiome (WPP) table for the endocrine system",
+            "schema1:funding": {
+                "@id": "_:b12"
+            },
             "schema1:dateCreated": {
                 "@value": "2025-11-05",
                 "@type": "xsd:date"
             }
         },
         {
-            "@id": "_:b20",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
             },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld",
+                "@type": "xsd:anyURI"
             },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "_:b21",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "_:b22",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
+            "dct:title": "Graph data distribution urinary-system (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution urinary-system (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "_:b23",
@@ -2874,13 +3469,73 @@
             "@type": "schema1:SoftwareSourceCode"
         },
         {
+            "@id": "_:b24",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "_:b25",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "_:b26",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "_:b27",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "_:b28",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "_:b29",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data",
             "dct:publisher": "WPP",
-            "schema1:funding": {
-                "@id": "_:b13"
-            },
             "rdfs:label": "Whole Person Physiome (WPP) table for the nervous system",
             "dct:title": "Whole Person Physiome (WPP) table for the nervous system",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
@@ -2911,6 +3566,36 @@
             },
             "dct:title": "Graph data distribution nervous-system (draft) in N-Quads format",
             "rdfs:label": "Graph data distribution nervous-system (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution urinary-system (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution urinary-system (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution urinary-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution urinary-system (draft) in RDF/XML format",
             "@type": "dcat:Distribution"
         }
     ],

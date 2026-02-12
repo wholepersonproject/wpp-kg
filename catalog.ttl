@@ -1736,6 +1736,7 @@ _:b21   a                       schema1:SoftwareSourceCode ;
 <https://wholepersonproject.github.io/wpp-kg/wpp>
         a             dcat:Catalog ;
         dct:title     "https://wholepersonproject.github.io/wpp-kg/wpp"@en ;
+        dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system> ;
         dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system> ;
         dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system> ;
         dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system> ;
@@ -1746,7 +1747,13 @@ _:b21   a                       schema1:SoftwareSourceCode ;
         dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system> ;
         dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system> ;
         dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system> ;
-        dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system> .
+        dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system> ;
+        dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system> ;
+        dcat:catalog  <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system>
+        a          dcat:Catalog ;
+        dct:title  "cardiovascular-system"@en .
 
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system>
         a          dcat:Catalog ;
@@ -1791,6 +1798,466 @@ _:b21   a                       schema1:SoftwareSourceCode ;
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system>
         a          dcat:Catalog ;
         dct:title  "pulmonary-system"@en .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system>
+        a          dcat:Catalog ;
+        dct:title  "skeletal-system"@en .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system>
+        a          dcat:Catalog ;
+        dct:title  "urinary-system"@en .
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft>
+        a                       dcat:Dataset ;
+        rdfs:label              "cardiovascular-system (draft) graph data" ;
+        dct:creator             <https://github.com/hubmapconsortium/hra-do-processor> ;
+        dct:license             "https://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher           "HuBMAP" ;
+        dct:title               "cardiovascular-system (draft) graph data" ;
+        schema1:additionalType  "wpp" ;
+        schema1:dateCreated     "2026-02-12"^^xsd:date ;
+        schema1:name            "cardiovascular-system" ;
+        schema1:version         "draft" ;
+        rdfs:comment            "The graph representation of the Whole Person Physiome (WPP) table for the cardiovascular system dataset." ;
+        rdfs:seeAlso            <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#json> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#jsonld> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#nquads> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#rdfxml> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#turtle> ;
+        prov:wasDerivedFrom     <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> .
+
+<https://orcid.org/0000-0001-8187-0507>
+        a                   schema1:Person ;
+        rdfs:label          "Jacob C. Scherba" ;
+        schema1:familyName  "Scherba" ;
+        schema1:givenName   "Jacob" ;
+        schema1:identifier  "0000-0001-8187-0507" ;
+        schema1:name        "Jacob C. Scherba" ;
+        dcat:conforms_to    "Person" .
+
+<https://orcid.org/0000-0002-1979-044X>
+        a                   schema1:Person ;
+        rdfs:label          "Rajan Jain" ;
+        schema1:familyName  "Jain" ;
+        schema1:givenName   "Rajan" ;
+        schema1:identifier  "0000-0002-1979-044X" ;
+        schema1:name        "Rajan Jain" ;
+        dcat:conforms_to    "Person" .
+
+<https://orcid.org/0000-0002-3321-6137>
+        a                   schema1:Person ;
+        rdfs:label          "Katy Börner" ;
+        schema1:familyName  "Börner" ;
+        schema1:givenName   "Katy" ;
+        schema1:identifier  "0000-0002-3321-6137" ;
+        schema1:name        "Katy Börner" ;
+        dcat:conforms_to    "Person" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv>
+        a                 dcat:Distribution ;
+        rdfs:label        "Raw data distribution 'Cardiovascular_System.csv' file" ;
+        dct:title         "Raw data distribution 'Cardiovascular_System.csv' file" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/assets/Cardiovascular_System.csv"^^xsd:anyURI ;
+        dcat:mediaType    "text/csv" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#json>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution cardiovascular-system (draft) in JSON format" ;
+        dct:title         "Graph data distribution cardiovascular-system (draft) in JSON format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#json"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.json"^^xsd:anyURI ;
+        dcat:mediaType    "application/json" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#jsonld>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution cardiovascular-system (draft) in JSON-LD format" ;
+        dct:title         "Graph data distribution cardiovascular-system (draft) in JSON-LD format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#jsonld"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.jsonld"^^xsd:anyURI ;
+        dcat:mediaType    "application/ld+json" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#nquads>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution cardiovascular-system (draft) in N-Quads format" ;
+        dct:title         "Graph data distribution cardiovascular-system (draft) in N-Quads format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#nquads"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.nq"^^xsd:anyURI ;
+        dcat:mediaType    "application/n-quads" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution cardiovascular-system (draft) in N-Triples format" ;
+        dct:title         "Graph data distribution cardiovascular-system (draft) in N-Triples format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.nt"^^xsd:anyURI ;
+        dcat:mediaType    "application/n-triples" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data>
+        a                    dcat:Dataset ;
+        rdfs:label           "Whole Person Physiome (WPP) table for the cardiovascular system" ;
+        ccf:project_lead     <https://orcid.org/0000-0002-3321-6137> ;
+        dct:creator          <https://orcid.org/0000-0001-8187-0507> ;
+        dct:license          "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))" ;
+        dct:publisher        "WPP" ;
+        dct:title            "Whole Person Physiome (WPP) table for the cardiovascular system" ;
+        schema1:dateCreated  "2025-11-13"^^xsd:date .
+
+_:b22   a               schema1:Grant ;
+        schema1:award   "1U24AT013504-01" ;
+        schema1:funder  "National Institutes of Health" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data>
+        schema1:funding     _:b22 ;
+        schema1:reviewedBy  <https://orcid.org/0000-0002-1979-044X> ;
+        rdfs:comment        "TODO: description" ;
+        dcat:distribution   <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#rdfxml>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution cardiovascular-system (draft) in RDF/XML format" ;
+        dct:title         "Graph data distribution cardiovascular-system (draft) in RDF/XML format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#rdfxml"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.xml"^^xsd:anyURI ;
+        dcat:mediaType    "application/rdf+xml" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#turtle>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution cardiovascular-system (draft) in Turtle format" ;
+        dct:title         "Graph data distribution cardiovascular-system (draft) in Turtle format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#turtle"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.ttl"^^xsd:anyURI ;
+        dcat:mediaType    "text/turtle" .
+
+<https://github.com/hubmapconsortium/hra-do-processor>
+        a             schema1:SoftwareApplication ;
+        rdfs:label    "HRA Digital Object Processor" ;
+        schema1:name  "HRA Digital Object Processor" .
+
+_:b23   a                       schema1:SoftwareSourceCode ;
+        schema1:codeRepository  <https://github.com/hubmapconsortium/hra-do-processor> ;
+        rdfs:seeAlso            <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> .
+
+<https://github.com/hubmapconsortium/hra-do-processor>
+        schema1:targetProduct  _:b23 ;
+        schema1:version        "0.10.0" ;
+        dcat:conforms_to       "SoftwareApplication" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system>
+        a             dcat:Catalog ;
+        dct:title     "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system"@en ;
+        dcat:dataset  <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft>
+        a          dcat:Dataset ;
+        dct:title  "draft"@en .
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft>
+        a                       dcat:Dataset ;
+        rdfs:label              "skeletal-system (draft) graph data" ;
+        dct:creator             <https://github.com/hubmapconsortium/hra-do-processor> ;
+        dct:license             "https://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher           "HuBMAP" ;
+        dct:title               "skeletal-system (draft) graph data" ;
+        schema1:additionalType  "wpp" ;
+        schema1:dateCreated     "2026-02-12"^^xsd:date ;
+        schema1:name            "skeletal-system" ;
+        schema1:version         "draft" ;
+        rdfs:comment            "The graph representation of the Whole Person Physiome (WPP) table for the skeletal system dataset." ;
+        rdfs:seeAlso            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#json> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#nquads> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle> ;
+        prov:wasDerivedFrom     <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> .
+
+<https://orcid.org/0000-0001-8187-0507>
+        a                   schema1:Person ;
+        rdfs:label          "Jacob C. Scherba" ;
+        schema1:familyName  "Scherba" ;
+        schema1:givenName   "Jacob" ;
+        schema1:identifier  "0000-0001-8187-0507" ;
+        schema1:name        "Jacob C. Scherba" ;
+        dcat:conforms_to    "Person" .
+
+<https://orcid.org/0000-0002-3321-6137>
+        a                   schema1:Person ;
+        rdfs:label          "Katy Börner" ;
+        schema1:familyName  "Börner" ;
+        schema1:givenName   "Katy" ;
+        schema1:identifier  "0000-0002-3321-6137" ;
+        schema1:name        "Katy Börner" ;
+        dcat:conforms_to    "Person" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv>
+        a                 dcat:Distribution ;
+        rdfs:label        "Raw data distribution 'Skeletal_System.csv' file" ;
+        dct:title         "Raw data distribution 'Skeletal_System.csv' file" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/assets/Skeletal_System.csv"^^xsd:anyURI ;
+        dcat:mediaType    "text/csv" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#json>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution skeletal-system (draft) in JSON format" ;
+        dct:title         "Graph data distribution skeletal-system (draft) in JSON format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#json"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.json"^^xsd:anyURI ;
+        dcat:mediaType    "application/json" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution skeletal-system (draft) in JSON-LD format" ;
+        dct:title         "Graph data distribution skeletal-system (draft) in JSON-LD format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.jsonld"^^xsd:anyURI ;
+        dcat:mediaType    "application/ld+json" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#nquads>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution skeletal-system (draft) in N-Quads format" ;
+        dct:title         "Graph data distribution skeletal-system (draft) in N-Quads format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#nquads"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.nq"^^xsd:anyURI ;
+        dcat:mediaType    "application/n-quads" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution skeletal-system (draft) in N-Triples format" ;
+        dct:title         "Graph data distribution skeletal-system (draft) in N-Triples format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.nt"^^xsd:anyURI ;
+        dcat:mediaType    "application/n-triples" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data>
+        a                    dcat:Dataset ;
+        rdfs:label           "Whole Person Physiome (WPP) table for the skeletal system" ;
+        ccf:project_lead     <https://orcid.org/0000-0002-3321-6137> ;
+        dct:creator          <https://orcid.org/0000-0001-8187-0507> ;
+        dct:license          "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))" ;
+        dct:publisher        "WPP" ;
+        dct:title            "Whole Person Physiome (WPP) table for the skeletal system" ;
+        schema1:dateCreated  "2025-11-17"^^xsd:date .
+
+_:b24   a               schema1:Grant ;
+        schema1:award   "1U24AT013504-01" ;
+        schema1:funder  "National Institutes of Health" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data>
+        schema1:funding    _:b24 ;
+        rdfs:comment       "TODO: description" ;
+        dcat:distribution  <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution skeletal-system (draft) in RDF/XML format" ;
+        dct:title         "Graph data distribution skeletal-system (draft) in RDF/XML format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.xml"^^xsd:anyURI ;
+        dcat:mediaType    "application/rdf+xml" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution skeletal-system (draft) in Turtle format" ;
+        dct:title         "Graph data distribution skeletal-system (draft) in Turtle format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.ttl"^^xsd:anyURI ;
+        dcat:mediaType    "text/turtle" .
+
+<https://github.com/hubmapconsortium/hra-do-processor>
+        a             schema1:SoftwareApplication ;
+        rdfs:label    "HRA Digital Object Processor" ;
+        schema1:name  "HRA Digital Object Processor" .
+
+_:b25   a                       schema1:SoftwareSourceCode ;
+        schema1:codeRepository  <https://github.com/hubmapconsortium/hra-do-processor> ;
+        rdfs:seeAlso            <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> .
+
+<https://github.com/hubmapconsortium/hra-do-processor>
+        schema1:targetProduct  _:b25 ;
+        schema1:version        "0.10.0" ;
+        dcat:conforms_to       "SoftwareApplication" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system>
+        a             dcat:Catalog ;
+        dct:title     "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system"@en ;
+        dcat:dataset  <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft>
+        a          dcat:Dataset ;
+        dct:title  "draft"@en .
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft>
+        a                       dcat:Dataset ;
+        rdfs:label              "urinary-system (draft) graph data" ;
+        dct:creator             <https://github.com/hubmapconsortium/hra-do-processor> ;
+        dct:license             "https://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher           "HuBMAP" ;
+        dct:title               "urinary-system (draft) graph data" ;
+        schema1:additionalType  "wpp" ;
+        schema1:dateCreated     "2026-02-12"^^xsd:date ;
+        schema1:name            "urinary-system" ;
+        schema1:version         "draft" ;
+        rdfs:comment            "The graph representation of the Whole Person Physiome (WPP) table for the urinary system dataset." ;
+        rdfs:seeAlso            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#nquads> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml> ;
+        dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#turtle> ;
+        prov:wasDerivedFrom     <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> .
+
+<https://orcid.org/0000-0002-1005-3726>
+        a                   schema1:Person ;
+        rdfs:label          "Katalin Susztak" ;
+        schema1:familyName  "Susztak" ;
+        schema1:givenName   "Katalin" ;
+        schema1:identifier  "0000-0002-1005-3726" ;
+        schema1:name        "Katalin Susztak" ;
+        dcat:conforms_to    "Person" .
+
+<https://orcid.org/0000-0002-1868-3896>
+        a                   schema1:Person ;
+        rdfs:label          "Minyan Zhu" ;
+        schema1:familyName  "Zhu" ;
+        schema1:givenName   "Minyan" ;
+        schema1:identifier  "0000-0002-1868-3896" ;
+        schema1:name        "Minyan Zhu" ;
+        dcat:conforms_to    "Person" .
+
+<https://orcid.org/0000-0002-3321-6137>
+        a                   schema1:Person ;
+        rdfs:label          "Katy Börner" ;
+        schema1:familyName  "Börner" ;
+        schema1:givenName   "Katy" ;
+        schema1:identifier  "0000-0002-3321-6137" ;
+        schema1:name        "Katy Börner" ;
+        dcat:conforms_to    "Person" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv>
+        a                 dcat:Distribution ;
+        rdfs:label        "Raw data distribution 'Urinary_System.csv' file" ;
+        dct:title         "Raw data distribution 'Urinary_System.csv' file" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/assets/Urinary_System.csv"^^xsd:anyURI ;
+        dcat:mediaType    "text/csv" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution urinary-system (draft) in JSON format" ;
+        dct:title         "Graph data distribution urinary-system (draft) in JSON format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.json"^^xsd:anyURI ;
+        dcat:mediaType    "application/json" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution urinary-system (draft) in JSON-LD format" ;
+        dct:title         "Graph data distribution urinary-system (draft) in JSON-LD format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.jsonld"^^xsd:anyURI ;
+        dcat:mediaType    "application/ld+json" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#nquads>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution urinary-system (draft) in N-Quads format" ;
+        dct:title         "Graph data distribution urinary-system (draft) in N-Quads format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#nquads"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.nq"^^xsd:anyURI ;
+        dcat:mediaType    "application/n-quads" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution urinary-system (draft) in N-Triples format" ;
+        dct:title         "Graph data distribution urinary-system (draft) in N-Triples format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.nt"^^xsd:anyURI ;
+        dcat:mediaType    "application/n-triples" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data>
+        a                    dcat:Dataset ;
+        rdfs:label           "Whole Person Physiome (WPP) table for the urinary system" ;
+        ccf:project_lead     <https://orcid.org/0000-0002-3321-6137> ;
+        dct:creator          <https://orcid.org/0000-0002-1868-3896> ;
+        dct:license          "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))" ;
+        dct:publisher        "WPP" ;
+        dct:title            "Whole Person Physiome (WPP) table for the urinary system" ;
+        schema1:dateCreated  "2025-09-23"^^xsd:date .
+
+_:b26   a               schema1:Grant ;
+        schema1:award   "1U24AT013504-01" ;
+        schema1:funder  "National Institutes of Health" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data>
+        schema1:funding     _:b26 ;
+        schema1:reviewedBy  <https://orcid.org/0000-0002-1005-3726> ;
+        rdfs:comment        "TODO: description" ;
+        dcat:distribution   <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution urinary-system (draft) in RDF/XML format" ;
+        dct:title         "Graph data distribution urinary-system (draft) in RDF/XML format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.xml"^^xsd:anyURI ;
+        dcat:mediaType    "application/rdf+xml" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#turtle>
+        a                 dcat:Distribution ;
+        rdfs:label        "Graph data distribution urinary-system (draft) in Turtle format" ;
+        dct:title         "Graph data distribution urinary-system (draft) in Turtle format" ;
+        dcat:accessURL    "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#turtle"^^xsd:anyURI ;
+        dcat:downloadURL  "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.ttl"^^xsd:anyURI ;
+        dcat:mediaType    "text/turtle" .
+
+<https://github.com/hubmapconsortium/hra-do-processor>
+        a             schema1:SoftwareApplication ;
+        rdfs:label    "HRA Digital Object Processor" ;
+        schema1:name  "HRA Digital Object Processor" .
+
+_:b27   a                       schema1:SoftwareSourceCode ;
+        schema1:codeRepository  <https://github.com/hubmapconsortium/hra-do-processor> ;
+        rdfs:seeAlso            <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> .
+
+<https://github.com/hubmapconsortium/hra-do-processor>
+        schema1:targetProduct  _:b27 ;
+        schema1:version        "0.10.0" ;
+        dcat:conforms_to       "SoftwareApplication" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system>
+        a             dcat:Catalog ;
+        dct:title     "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system"@en ;
+        dcat:dataset  <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft>
+        a          dcat:Dataset ;
+        dct:title  "draft"@en .
 @prefix ccf: <http://purl.org/ccf/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -1818,17 +2285,20 @@ _:b21   a                       schema1:SoftwareSourceCode ;
         dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#ntriples> ;
         dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#rdfxml> ;
         dcat:distribution       <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#turtle> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/integumentary-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/nervous-system/draft> ;
-        prov:hadMember          <https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/cardiovascular-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/dental-and-craniofacial-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/digestive-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/endocrine-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/fascia-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/female-reproductive-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/immune-and-lymphatic-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/integumentary-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/male-reproductive-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/muscular-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/nervous-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/pulmonary-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/skeletal-system/draft> ;
+        prov:hadMember          <https://purl.wholepersonphysiome.org//wpp/urinary-system/draft> ;
         prov:wasDerivedFrom     <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data> .
 
 <https://orcid.org/0000-0002-3321-6137>
@@ -1889,12 +2359,12 @@ _:b21   a                       schema1:SoftwareSourceCode ;
         dct:title            "Whole Person Physiome (WPP)" ;
         schema1:dateCreated  "2026-02-12"^^xsd:date .
 
-_:b22   a               schema1:Grant ;
+_:b28   a               schema1:Grant ;
         schema1:award   "1U24AT013504-01" ;
         schema1:funder  "National Institutes of Health" .
 
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data>
-        schema1:funding    _:b22 ;
+        schema1:funding    _:b28 ;
         rdfs:comment       "TODO: description" ;
         dcat:distribution  <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml> .
 
@@ -1919,12 +2389,12 @@ _:b22   a               schema1:Grant ;
         rdfs:label    "HRA Digital Object Processor" ;
         schema1:name  "HRA Digital Object Processor" .
 
-_:b23   a                       schema1:SoftwareSourceCode ;
+_:b29   a                       schema1:SoftwareSourceCode ;
         schema1:codeRepository  <https://github.com/hubmapconsortium/hra-do-processor> ;
         rdfs:seeAlso            <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> .
 
 <https://github.com/hubmapconsortium/hra-do-processor>
-        schema1:targetProduct  _:b23 ;
+        schema1:targetProduct  _:b29 ;
         schema1:version        "0.10.0" ;
         dcat:conforms_to       "SoftwareApplication" .
 

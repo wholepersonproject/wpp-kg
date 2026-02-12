@@ -1,6 +1,27 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b0"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#nquads",
             "dcat:mediaType": "application/n-quads",
             "dcat:downloadURL": {
@@ -79,17 +100,6 @@
                 "@id": "https://purl.wholepersonphysiome.org/wpp/digestive-system/draft"
             },
             "rdfs:label": "digestive-system (draft) graph data"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#rdfxml",
@@ -186,7 +196,7 @@
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "schema1:funding": {
-                "@id": "_:b0"
+                "@id": "_:b1"
             },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#Digestive_System.csv"
@@ -220,7 +230,7 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
+            "@id": "_:b1",
             "schema1:funder": "National Institutes of Health",
             "schema1:award": "1U24AT013504-01",
             "@type": "schema1:Grant"
@@ -239,16 +249,6 @@
             "dct:title": "Raw data distribution 'Digestive_System.csv' file",
             "rdfs:label": "Raw data distribution 'Digestive_System.csv' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

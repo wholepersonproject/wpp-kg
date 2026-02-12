@@ -1,0 +1,23 @@
+{
+    "@graph": [
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system",
+            "http://www.w3.org/ns/dcat#dataset": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "draft"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Dataset"
+        }
+    ]
+}

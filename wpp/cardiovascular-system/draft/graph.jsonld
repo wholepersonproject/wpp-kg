@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "dct:creator",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "schema1:dateCreated",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:title",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "prov:wasDerivedFrom",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:description",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:publisher",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "https://purl.wholepersonphysiome.org/wpp/cardiovascular-system",
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "dct:title": "cardiovascular-system (draft) graph data",
+            "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the cardiovascular system dataset.",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data"
+            },
+            "schema1:version": "draft",
+            "rdfs:seeAlso": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft"
+            },
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "dct:publisher": "HuBMAP",
+            "schema1:dateCreated": "2026-02-12",
+            "@type": "owl:Ontology"
+        },
+        {
+            "@id": "dct:license",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "schema1:version",
+            "@type": "owl:AnnotationProperty"
+        }
+    ],
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dct": "http://purl.org/dc/terms/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "schema1": "http://schema.org/",
+        "prov": "http://www.w3.org/ns/prov#"
+    }
+}

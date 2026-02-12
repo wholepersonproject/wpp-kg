@@ -11,6 +11,27 @@
             "@type": "schema1:Person"
         },
         {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b0"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-1868-3896",
             "dcat:conforms_to": "Person",
             "schema1:name": "Minyan Zhu",
@@ -30,6 +51,9 @@
                 "@value": "2026-01-05",
                 "@type": "xsd:date"
             },
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
@@ -45,9 +69,6 @@
             ],
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0002-1868-3896"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "rdfs:label": "Whole Person Physiome (WPP) table for the immune and lymphatic system",
             "rdfs:comment": "TODO: description",
@@ -69,6 +90,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0001-9286-4268",
             "dcat:conforms_to": "Person",
             "schema1:name": "David Hill",
@@ -77,12 +104,6 @@
             "schema1:familyName": "Hill",
             "rdfs:label": "David Hill",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-1005-3726",
@@ -170,17 +191,6 @@
             }
         },
         {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -239,16 +249,6 @@
             "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in N-Triples format",
             "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in N-Triples format",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

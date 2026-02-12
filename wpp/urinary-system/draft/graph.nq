@@ -1,0 +1,18 @@
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<http://schema.org/dateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<http://schema.org/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://purl.org/dc/terms/creator> <https://github.com/hubmapconsortium/hra-do-processor> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://purl.org/dc/terms/description> "The graph representation of the Whole Person Physiome (WPP) table for the urinary system dataset." <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://purl.org/dc/terms/publisher> "HuBMAP" <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://purl.org/dc/terms/title> "urinary-system (draft) graph data" <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://schema.org/dateCreated> "2026-02-12" <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://schema.org/version> "draft" <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .
+<https://purl.wholepersonphysiome.org/wpp/urinary-system> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <https://purl.wholepersonphysiome.org/wpp/urinary-system> .

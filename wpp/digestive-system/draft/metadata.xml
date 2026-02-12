@@ -32,6 +32,11 @@
     <rdfs:label>Katalin Susztak</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
@@ -60,11 +65,11 @@
     <dct:title>Whole Person Physiome (WPP) table for the digestive system</dct:title>
     <rdfs:label>Whole Person Physiome (WPP) table for the digestive system</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <schema1:funding rdf:nodeID="A1"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:publisher>WPP</dct:publisher>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-6988-4102"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#Digestive_System.csv"/>
@@ -100,11 +105,6 @@
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data"/>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/digestive-system/draft"/>
     <rdfs:label>digestive-system (draft) graph data</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>

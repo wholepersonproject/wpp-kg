@@ -15,6 +15,11 @@
     <rdfs:label>Graph data distribution dental-and-craniofacial-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0001-7392-8852">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>George Hajishengallis</schema1:name>
@@ -32,11 +37,6 @@
     <rdfs:label>Graph data distribution dental-and-craniofacial-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.json</dcat:downloadURL>
@@ -48,7 +48,7 @@
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
-    <schema1:targetProduct rdf:nodeID="A1"/>
+    <schema1:targetProduct rdf:nodeID="A0"/>
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
@@ -94,12 +94,12 @@
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data">
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <schema1:funding rdf:nodeID="A0"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0001-7392-8852"/>
     <dct:title>Whole Person Physiome (WPP) table for the craniofacial and dental system</dct:title>
     <dct:publisher>WPP</dct:publisher>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the craniofacial and dental system</rdfs:label>
+    <schema1:funding rdf:nodeID="A1"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-09</schema1:dateCreated>
     <rdfs:comment>TODO: description</rdfs:comment>
@@ -113,6 +113,11 @@
     <schema1:familyName>Scherba</schema1:familyName>
     <rdfs:label>Jacob C. Scherba</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv">
     <dcat:mediaType>text/csv</dcat:mediaType>
@@ -137,10 +142,5 @@
     <dct:title>Graph data distribution dental-and-craniofacial-system (draft) in Turtle format</dct:title>
     <rdfs:label>Graph data distribution dental-and-craniofacial-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
 </rdf:RDF>

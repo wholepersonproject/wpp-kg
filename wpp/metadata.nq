@@ -1,5 +1,6 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp> <http://purl.org/dc/terms/title> "https://wholepersonproject.github.io/wpp-kg/wpp"@en <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
@@ -11,6 +12,10 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system> <http://purl.org/dc/terms/title> "cardiovascular-system"@en <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system> <http://purl.org/dc/terms/title> "dental-and-craniofacial-system"@en <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
@@ -33,3 +38,7 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system> <http://purl.org/dc/terms/title> "nervous-system"@en <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system> <http://purl.org/dc/terms/title> "pulmonary-system"@en <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system> <http://purl.org/dc/terms/title> "skeletal-system"@en <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system> <http://purl.org/dc/terms/title> "urinary-system"@en <https://wholepersonproject.github.io/wpp-kg/wpp/> .

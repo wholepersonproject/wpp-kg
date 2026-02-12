@@ -1,7 +1,10 @@
 
 <https://wholepersonproject.github.io/wpp-kg/wpp> a <http://www.w3.org/ns/dcat#Catalog> ;
 	<http://purl.org/dc/terms/title> "https://wholepersonproject.github.io/wpp-kg/wpp"@en ;
-	<http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system> .
+	<http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system>, <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system> a <http://www.w3.org/ns/dcat#Catalog> ;
+	<http://purl.org/dc/terms/title> "cardiovascular-system"@en .
 
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system> a <http://www.w3.org/ns/dcat#Catalog> ;
 	<http://purl.org/dc/terms/title> "dental-and-craniofacial-system"@en .
@@ -35,4 +38,10 @@
 
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system> a <http://www.w3.org/ns/dcat#Catalog> ;
 	<http://purl.org/dc/terms/title> "pulmonary-system"@en .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system> a <http://www.w3.org/ns/dcat#Catalog> ;
+	<http://purl.org/dc/terms/title> "skeletal-system"@en .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system> a <http://www.w3.org/ns/dcat#Catalog> ;
+	<http://purl.org/dc/terms/title> "urinary-system"@en .
 

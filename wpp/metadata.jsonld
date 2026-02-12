@@ -25,6 +25,14 @@
             "@type": "http://www.w3.org/ns/dcat#Catalog"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "skeletal-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp",
             "http://www.w3.org/ns/dcat#catalog": [
                 {
@@ -52,13 +60,22 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system"
                 },
                 {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system"
+                },
+                {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system"
                 },
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system"
                 },
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system"
                 }
             ],
             "@type": "http://www.w3.org/ns/dcat#Catalog",
@@ -108,10 +125,26 @@
             "@type": "http://www.w3.org/ns/dcat#Catalog"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "urinary-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system",
             "http://purl.org/dc/terms/title": {
                 "@language": "en",
                 "@value": "immune-and-lymphatic-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "cardiovascular-system"
             },
             "@type": "http://www.w3.org/ns/dcat#Catalog"
         },
