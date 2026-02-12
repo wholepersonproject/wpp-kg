@@ -1,0 +1,135 @@
+{
+    "@graph": [
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "fascia-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "muscular-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "pulmonary-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp",
+            "http://www.w3.org/ns/dcat#catalog": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system"
+                }
+            ],
+            "@type": "http://www.w3.org/ns/dcat#Catalog",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp"
+            }
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "endocrine-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "digestive-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "female-reproductive-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "nervous-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "dental-and-craniofacial-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "immune-and-lymphatic-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "integumentary-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "male-reproductive-system"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        }
+    ]
+}

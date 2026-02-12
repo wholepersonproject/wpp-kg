@@ -1,0 +1,248 @@
+{
+    "@graph": [
+        {
+            "@id": "https://orcid.org/0000-0002-3321-6137",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Katy Börner",
+            "schema1:identifier": "0000-0002-3321-6137",
+            "schema1:givenName": "Katy",
+            "schema1:familyName": "Börner",
+            "rdfs:label": "Katy Börner",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in N-Triples format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.nq",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#nquads",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv",
+            "dcat:mediaType": "text/csv",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/assets/Dental_and_Craniofacial_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'Dental_and_Craniofacial_System.csv' file",
+            "rdfs:label": "Raw data distribution 'Dental_and_Craniofacial_System.csv' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7392-8852",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "George Hajishengallis",
+            "schema1:identifier": "0000-0001-7392-8852",
+            "schema1:givenName": "George",
+            "schema1:familyName": "Hajishengallis",
+            "rdfs:label": "George Hajishengallis",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in JSON format",
+            "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in JSON format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data",
+            "dct:creator": {
+                "@id": "https://orcid.org/0000-0001-8187-0507"
+            },
+            "@type": "dcat:Dataset",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
+            "schema1:reviewedBy": {
+                "@id": "https://orcid.org/0000-0001-7392-8852"
+            },
+            "dct:title": "Whole Person Physiome (WPP) table for the craniofacial and dental system",
+            "dct:publisher": "WPP",
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "rdfs:label": "Whole Person Physiome (WPP) table for the craniofacial and dental system",
+            "dcat:distribution": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv"
+            },
+            "schema1:dateCreated": {
+                "@value": "2026-01-09",
+                "@type": "xsd:date"
+            },
+            "rdfs:comment": "TODO: description",
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8187-0507",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Jacob C. Scherba",
+            "schema1:identifier": "0000-0001-8187-0507",
+            "schema1:givenName": "Jacob",
+            "schema1:familyName": "Scherba",
+            "rdfs:label": "Jacob C. Scherba",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data"
+            },
+            "schema1:dateCreated": {
+                "@value": "2026-02-12",
+                "@type": "xsd:date"
+            },
+            "rdfs:seeAlso": {
+                "@id": "https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"
+            },
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#json"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#rdfxml"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#ntriples"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#turtle"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#nquads"
+                }
+            ],
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:name": "dental-and-craniofacial-system",
+            "rdfs:label": "dental-and-craniofacial-system (draft) graph data",
+            "dct:publisher": "HuBMAP",
+            "dct:title": "dental-and-craniofacial-system (draft) graph data",
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "dcat:Dataset",
+            "schema1:additionalType": "wpp",
+            "schema1:version": "draft",
+            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset."
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        }
+    ],
+    "@context": {
+        "dct": "http://purl.org/dc/terms/",
+        "schema1": "http://schema.org/",
+        "ccf": "http://purl.org/ccf/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#"
+    }
+}

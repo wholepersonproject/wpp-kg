@@ -1,0 +1,36 @@
+{
+    "@graph": [
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg",
+            "http://www.w3.org/ns/dcat#catalog": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/collection"
+                }
+            ],
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "https://wholepersonproject.github.io/wpp-kg"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "wpp"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "collection"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        }
+    ]
+}

@@ -1,0 +1,257 @@
+{
+    "@graph": [
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution wpp (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution wpp (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3321-6137",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Katy Börner",
+            "schema1:identifier": "0000-0002-3321-6137",
+            "schema1:givenName": "Katy",
+            "schema1:familyName": "Börner",
+            "rdfs:label": "Katy Börner",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft",
+            "schema1:additionalType": "collection",
+            "rdfs:label": "wpp (draft) graph data",
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#json"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#turtle"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#ntriples"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#rdfxml"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#nquads"
+                }
+            ],
+            "prov:hadMember": [
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/nervous-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/digestive-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/integumentary-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"
+                }
+            ],
+            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) dataset.",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data"
+            },
+            "schema1:version": "draft",
+            "schema1:dateCreated": {
+                "@value": "2026-02-12",
+                "@type": "xsd:date"
+            },
+            "rdfs:seeAlso": {
+                "@id": "https://purl.wholepersonphysiome.org/collection/wpp/draft"
+            },
+            "dct:publisher": "HuBMAP",
+            "dct:title": "wpp (draft) graph data",
+            "@type": "dcat:Dataset",
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:name": "wpp",
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            }
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp (draft) in JSON format",
+            "rdfs:label": "Graph data distribution wpp (draft) in JSON format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
+            "rdfs:comment": "TODO: description",
+            "dcat:distribution": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml"
+            },
+            "dct:publisher": "WPP",
+            "rdfs:label": "Whole Person Physiome (WPP)",
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "dct:title": "Whole Person Physiome (WPP)",
+            "@type": "dcat:Dataset",
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+            "schema1:dateCreated": {
+                "@value": "2026-02-12",
+                "@type": "xsd:date"
+            }
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution wpp (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution wpp (draft) in N-Triples format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.nq",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#nquads",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution wpp (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml",
+            "dcat:mediaType": "text/yaml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/assets/digital-objects.yaml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'digital-objects.yaml' file",
+            "rdfs:label": "Raw data distribution 'digital-objects.yaml' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        }
+    ],
+    "@context": {
+        "dct": "http://purl.org/dc/terms/",
+        "schema1": "http://schema.org/",
+        "ccf": "http://purl.org/ccf/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#"
+    }
+}

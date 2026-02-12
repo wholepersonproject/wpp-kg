@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "dct:creator",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "schema1:dateCreated",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:title",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "prov:wasDerivedFrom",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:description",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:publisher",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:license",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "schema1:version",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "https://purl.wholepersonphysiome.org/wpp/fascia-system",
+            "rdfs:seeAlso": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft"
+            },
+            "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the fascia system dataset.",
+            "schema1:dateCreated": "2026-02-12",
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "schema1:version": "draft",
+            "dct:publisher": "HuBMAP",
+            "@type": "owl:Ontology",
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data"
+            },
+            "dct:title": "fascia-system (draft) graph data"
+        }
+    ],
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dct": "http://purl.org/dc/terms/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "schema1": "http://schema.org/",
+        "prov": "http://www.w3.org/ns/prov#"
+    }
+}

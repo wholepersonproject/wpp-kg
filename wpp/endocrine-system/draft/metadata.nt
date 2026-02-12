@@ -1,0 +1,106 @@
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/2000/01/rdf-schema#label> "endocrine-system (draft) graph data" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://purl.org/dc/terms/creator> <https://github.com/hubmapconsortium/hra-do-processor> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://purl.org/dc/terms/title> "endocrine-system (draft) graph data" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/additionalType> "wpp" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/dateCreated> "2026-02-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/name> "endocrine-system" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/version> "draft" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the endocrine system dataset." .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#json> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#ntriples> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#rdfxml> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> .
+<https://orcid.org/0000-0001-8187-0507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0001-8187-0507> <http://www.w3.org/2000/01/rdf-schema#label> "Jacob C. Scherba" .
+<https://orcid.org/0000-0001-8187-0507> <http://schema.org/familyName> "Scherba" .
+<https://orcid.org/0000-0001-8187-0507> <http://schema.org/givenName> "Jacob" .
+<https://orcid.org/0000-0001-8187-0507> <http://schema.org/identifier> "0000-0001-8187-0507" .
+<https://orcid.org/0000-0001-8187-0507> <http://schema.org/name> "Jacob C. Scherba" .
+<https://orcid.org/0000-0001-8187-0507> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://orcid.org/0000-0002-0883-9754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0002-0883-9754> <http://www.w3.org/2000/01/rdf-schema#label> "Anne Cappola" .
+<https://orcid.org/0000-0002-0883-9754> <http://schema.org/familyName> "Cappola" .
+<https://orcid.org/0000-0002-0883-9754> <http://schema.org/givenName> "Anne" .
+<https://orcid.org/0000-0002-0883-9754> <http://schema.org/identifier> "0000-0002-0883-9754" .
+<https://orcid.org/0000-0002-0883-9754> <http://schema.org/name> "Anne Cappola" .
+<https://orcid.org/0000-0002-0883-9754> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/2000/01/rdf-schema#label> "Katy Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/familyName> "Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/givenName> "Katy" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/identifier> "0000-0002-3321-6137" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/name> "Katy Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'Endocrine_System.csv' file" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv> <http://purl.org/dc/terms/title> "Raw data distribution 'Endocrine_System.csv' file" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft/assets/Endocrine_System.csv"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv> <http://www.w3.org/ns/dcat#mediaType> "text/csv" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#json> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution endocrine-system (draft) in JSON format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#json> <http://purl.org/dc/terms/title> "Graph data distribution endocrine-system (draft) in JSON format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#json> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#json"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#json> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft/graph.json"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#json> <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution endocrine-system (draft) in JSON-LD format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld> <http://purl.org/dc/terms/title> "Graph data distribution endocrine-system (draft) in JSON-LD format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft/graph.jsonld"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#jsonld> <http://www.w3.org/ns/dcat#mediaType> "application/ld+json" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution endocrine-system (draft) in N-Quads format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads> <http://purl.org/dc/terms/title> "Graph data distribution endocrine-system (draft) in N-Quads format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft/graph.nq"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads> <http://www.w3.org/ns/dcat#mediaType> "application/n-quads" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#ntriples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#ntriples> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution endocrine-system (draft) in N-Triples format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#ntriples> <http://purl.org/dc/terms/title> "Graph data distribution endocrine-system (draft) in N-Triples format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#ntriples> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#ntriples"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#ntriples> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft/graph.nt"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#ntriples> <http://www.w3.org/ns/dcat#mediaType> "application/n-triples" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#label> "Whole Person Physiome (WPP) table for the endocrine system" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://purl.org/ccf/project_lead> <https://orcid.org/0000-0002-3321-6137> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-8187-0507> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://purl.org/dc/terms/license> "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the endocrine system" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://schema.org/dateCreated> "2025-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:B622fb6ca8d2a6b828c3fda6270d3170d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B622fb6ca8d2a6b828c3fda6270d3170d <http://schema.org/award> "1U24AT013504-01" .
+_:B622fb6ca8d2a6b828c3fda6270d3170d <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://schema.org/funding> _:B622fb6ca8d2a6b828c3fda6270d3170d .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-0883-9754> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#rdfxml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#rdfxml> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution endocrine-system (draft) in RDF/XML format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#rdfxml> <http://purl.org/dc/terms/title> "Graph data distribution endocrine-system (draft) in RDF/XML format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#rdfxml> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#rdfxml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#rdfxml> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft/graph.xml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#rdfxml> <http://www.w3.org/ns/dcat#mediaType> "application/rdf+xml" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution endocrine-system (draft) in Turtle format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle> <http://purl.org/dc/terms/title> "Graph data distribution endocrine-system (draft) in Turtle format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft/graph.ttl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle> <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
+_:Bbb8c995821a77281f7462ef6e73f6114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bbb8c995821a77281f7462ef6e73f6114 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bbb8c995821a77281f7462ef6e73f6114 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bbb8c995821a77281f7462ef6e73f6114 .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .

@@ -1,0 +1,263 @@
+{
+    "@graph": [
+        {
+            "@id": "https://orcid.org/0000-0002-3321-6137",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Katy Börner",
+            "schema1:identifier": "0000-0002-3321-6137",
+            "schema1:givenName": "Katy",
+            "schema1:familyName": "Börner",
+            "rdfs:label": "Katy Börner",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1868-3896",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Minyan Zhu",
+            "schema1:identifier": "0000-0002-1868-3896",
+            "schema1:givenName": "Minyan",
+            "schema1:familyName": "Zhu",
+            "rdfs:label": "Minyan Zhu",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data",
+            "dcat:distribution": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#Immune_and_Lymphatic_System.csv"
+            },
+            "dct:publisher": "WPP",
+            "schema1:dateCreated": {
+                "@value": "2026-01-05",
+                "@type": "xsd:date"
+            },
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "@type": "dcat:Dataset",
+            "dct:title": "Whole Person Physiome (WPP) table for the immune and lymphatic system",
+            "schema1:reviewedBy": [
+                {
+                    "@id": "https://orcid.org/0000-0001-9286-4268"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-1005-3726"
+                }
+            ],
+            "dct:creator": {
+                "@id": "https://orcid.org/0000-0002-1868-3896"
+            },
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
+            "rdfs:label": "Whole Person Physiome (WPP) table for the immune and lymphatic system",
+            "rdfs:comment": "TODO: description",
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#Immune_and_Lymphatic_System.csv",
+            "dcat:mediaType": "text/csv",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/assets/Immune_and_Lymphatic_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#Immune_and_Lymphatic_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'Immune_and_Lymphatic_System.csv' file",
+            "rdfs:label": "Raw data distribution 'Immune_and_Lymphatic_System.csv' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9286-4268",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "David Hill",
+            "schema1:identifier": "0000-0001-9286-4268",
+            "schema1:givenName": "David",
+            "schema1:familyName": "Hill",
+            "rdfs:label": "David Hill",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1005-3726",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Katalin Susztak",
+            "schema1:identifier": "0000-0002-1005-3726",
+            "schema1:givenName": "Katalin",
+            "schema1:familyName": "Susztak",
+            "rdfs:label": "Katalin Susztak",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft",
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#rdfxml"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#turtle"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#json"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#nquads"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#ntriples"
+                }
+            ],
+            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the immune and lymphatic system dataset.",
+            "rdfs:label": "immune-and-lymphatic-system (draft) graph data",
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "dct:publisher": "HuBMAP",
+            "schema1:name": "immune-and-lymphatic-system",
+            "schema1:dateCreated": {
+                "@value": "2026-02-12",
+                "@type": "xsd:date"
+            },
+            "schema1:version": "draft",
+            "rdfs:seeAlso": {
+                "@id": "https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft"
+            },
+            "dct:title": "immune-and-lymphatic-system (draft) graph data",
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:additionalType": "wpp",
+            "@type": "dcat:Dataset",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data"
+            }
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/graph.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in JSON format",
+            "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in JSON format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/graph.nq",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#nquads",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in N-Triples format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        }
+    ],
+    "@context": {
+        "dct": "http://purl.org/dc/terms/",
+        "schema1": "http://schema.org/",
+        "ccf": "http://purl.org/ccf/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#"
+    }
+}

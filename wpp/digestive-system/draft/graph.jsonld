@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "dct:creator",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "schema1:dateCreated",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:title",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "prov:wasDerivedFrom",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:description",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "https://purl.wholepersonphysiome.org/wpp/digestive-system",
+            "rdfs:seeAlso": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft"
+            },
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data"
+            },
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the digestive system dataset.",
+            "dct:title": "digestive-system (draft) graph data",
+            "dct:publisher": "HuBMAP",
+            "@type": "owl:Ontology",
+            "schema1:dateCreated": "2026-02-12",
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:version": "draft"
+        },
+        {
+            "@id": "dct:publisher",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:license",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "schema1:version",
+            "@type": "owl:AnnotationProperty"
+        }
+    ],
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dct": "http://purl.org/dc/terms/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "schema1": "http://schema.org/",
+        "prov": "http://www.w3.org/ns/prov#"
+    }
+}

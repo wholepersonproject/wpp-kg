@@ -1,0 +1,45 @@
+{
+  "$schema": "https://wholepersonproject.github.io/wpp-kg/schema/collection/latest/assets/schema.json",
+  "@context": "https://wholepersonproject.github.io/wpp-kg/schema/collection/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.wholepersonphysiome.org/collection/wpp",
+  "data": [
+    "wpp/pulmonary-system/draft",
+    "wpp/nervous-system/draft",
+    "wpp/muscular-system/draft",
+    "wpp/male-reproductive-system/draft",
+    "wpp/integumentary-system/draft",
+    "wpp/immune-and-lymphatic-system/draft",
+    "wpp/female-reproductive-system/draft",
+    "wpp/fascia-system/draft",
+    "wpp/endocrine-system/draft",
+    "wpp/digestive-system/draft",
+    "wpp/dental-and-craniofacial-system/draft"
+  ],
+  "metadata": {
+    "title": "wpp (draft) graph data",
+    "description": "The graph representation of the Whole Person Physiome (WPP) dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "version": "draft",
+    "creation_date": "2026-02-12",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft",
+    "derived_from": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data",
+    "had_member": [
+      "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/nervous-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/integumentary-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/digestive-system/draft",
+      "https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"
+    ]
+  }
+}

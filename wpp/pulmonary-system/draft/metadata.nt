@@ -1,0 +1,114 @@
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/2000/01/rdf-schema#label> "pulmonary-system (draft) graph data" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://purl.org/dc/terms/creator> <https://github.com/hubmapconsortium/hra-do-processor> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://purl.org/dc/terms/title> "pulmonary-system (draft) graph data" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/additionalType> "wpp" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/dateCreated> "2026-02-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/name> "pulmonary-system" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/version> "draft" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the pulmonary system dataset." .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> .
+<https://orcid.org/0000-0002-1005-3726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0002-1005-3726> <http://www.w3.org/2000/01/rdf-schema#label> "Katalin Susztak" .
+<https://orcid.org/0000-0002-1005-3726> <http://schema.org/familyName> "Susztak" .
+<https://orcid.org/0000-0002-1005-3726> <http://schema.org/givenName> "Katalin" .
+<https://orcid.org/0000-0002-1005-3726> <http://schema.org/identifier> "0000-0002-1005-3726" .
+<https://orcid.org/0000-0002-1005-3726> <http://schema.org/name> "Katalin Susztak" .
+<https://orcid.org/0000-0002-1005-3726> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://orcid.org/0000-0002-1868-3896> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0002-1868-3896> <http://www.w3.org/2000/01/rdf-schema#label> "Minyan Zhu" .
+<https://orcid.org/0000-0002-1868-3896> <http://schema.org/familyName> "Zhu" .
+<https://orcid.org/0000-0002-1868-3896> <http://schema.org/givenName> "Minyan" .
+<https://orcid.org/0000-0002-1868-3896> <http://schema.org/identifier> "0000-0002-1868-3896" .
+<https://orcid.org/0000-0002-1868-3896> <http://schema.org/name> "Minyan Zhu" .
+<https://orcid.org/0000-0002-1868-3896> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/2000/01/rdf-schema#label> "Katy Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/familyName> "Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/givenName> "Katy" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/identifier> "0000-0002-3321-6137" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/name> "Katy Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://orcid.org/0000-0003-4716-1285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0003-4716-1285> <http://www.w3.org/2000/01/rdf-schema#label> "Maria Basil" .
+<https://orcid.org/0000-0003-4716-1285> <http://schema.org/familyName> "Basil" .
+<https://orcid.org/0000-0003-4716-1285> <http://schema.org/givenName> "Maria" .
+<https://orcid.org/0000-0003-4716-1285> <http://schema.org/identifier> "0000-0003-4716-1285" .
+<https://orcid.org/0000-0003-4716-1285> <http://schema.org/name> "Maria Basil" .
+<https://orcid.org/0000-0003-4716-1285> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'Pulmonary_System.csv' file" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv> <http://purl.org/dc/terms/title> "Raw data distribution 'Pulmonary_System.csv' file" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/assets/Pulmonary_System.csv"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv> <http://www.w3.org/ns/dcat#mediaType> "text/csv" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution pulmonary-system (draft) in JSON format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json> <http://purl.org/dc/terms/title> "Graph data distribution pulmonary-system (draft) in JSON format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.json"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#json> <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution pulmonary-system (draft) in JSON-LD format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld> <http://purl.org/dc/terms/title> "Graph data distribution pulmonary-system (draft) in JSON-LD format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.jsonld"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld> <http://www.w3.org/ns/dcat#mediaType> "application/ld+json" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution pulmonary-system (draft) in N-Quads format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads> <http://purl.org/dc/terms/title> "Graph data distribution pulmonary-system (draft) in N-Quads format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.nq"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads> <http://www.w3.org/ns/dcat#mediaType> "application/n-quads" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution pulmonary-system (draft) in N-Triples format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples> <http://purl.org/dc/terms/title> "Graph data distribution pulmonary-system (draft) in N-Triples format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.nt"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples> <http://www.w3.org/ns/dcat#mediaType> "application/n-triples" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#label> "Whole Person Physiome (WPP) table for the pulmonary system" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/ccf/project_lead> <https://orcid.org/0000-0002-3321-6137> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1868-3896> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/dc/terms/license> "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the pulmonary system" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/dateCreated> "2025-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:B1558d5f3ba46c0df41ad1ed628510ad7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B1558d5f3ba46c0df41ad1ed628510ad7 <http://schema.org/award> "1U24AT013504-01" .
+_:B1558d5f3ba46c0df41ad1ed628510ad7 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/funding> _:B1558d5f3ba46c0df41ad1ed628510ad7 .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0003-4716-1285> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution pulmonary-system (draft) in RDF/XML format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml> <http://purl.org/dc/terms/title> "Graph data distribution pulmonary-system (draft) in RDF/XML format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.xml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml> <http://www.w3.org/ns/dcat#mediaType> "application/rdf+xml" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution pulmonary-system (draft) in Turtle format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle> <http://purl.org/dc/terms/title> "Graph data distribution pulmonary-system (draft) in Turtle format" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.ttl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle> <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
+_:B628445b5c455432f7714d481753310c8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B628445b5c455432f7714d481753310c8 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B628445b5c455432f7714d481753310c8 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B628445b5c455432f7714d481753310c8 .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .

@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "https://purl.wholepersonphysiome.org/collection/wpp",
+            "prov:hadMember": [
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/digestive-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/integumentary-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/nervous-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft"
+                },
+                {
+                    "@id": "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft"
+                }
+            ],
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:version": "draft",
+            "dct:publisher": "HuBMAP",
+            "rdfs:seeAlso": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft"
+            },
+            "dct:description": "The graph representation of the Whole Person Physiome (WPP) dataset.",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data"
+            },
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "owl:Ontology",
+            "dct:title": "wpp (draft) graph data",
+            "schema1:dateCreated": "2026-02-12"
+        },
+        {
+            "@id": "dct:creator",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "schema1:dateCreated",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:title",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "prov:wasDerivedFrom",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:description",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:publisher",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "dct:license",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "prov:hadMember",
+            "@type": "owl:AnnotationProperty"
+        },
+        {
+            "@id": "schema1:version",
+            "@type": "owl:AnnotationProperty"
+        }
+    ],
+    "@context": {
+        "dct": "http://purl.org/dc/terms/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "xml": "http://www.w3.org/XML/1998/namespace",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "@vocab": "https://purl.wholepersonphysiome.org/collection/wpp#"
+    }
+}

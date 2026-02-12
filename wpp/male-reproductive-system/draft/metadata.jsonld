@@ -1,0 +1,248 @@
+{
+    "@graph": [
+        {
+            "@id": "https://orcid.org/0000-0002-5604-2651",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Kotaro Sasaki",
+            "schema1:identifier": "0000-0002-5604-2651",
+            "schema1:givenName": "Kotaro",
+            "schema1:familyName": "Sasaki",
+            "rdfs:label": "Kotaro Sasaki",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3321-6137",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Katy Börner",
+            "schema1:identifier": "0000-0002-3321-6137",
+            "schema1:givenName": "Katy",
+            "schema1:familyName": "Börner",
+            "rdfs:label": "Katy Börner",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft/graph.nq",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#nquads",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution male-reproductive-system (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution male-reproductive-system (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution male-reproductive-system (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution male-reproductive-system (draft) in N-Triples format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#Male_Reproductive_System.csv",
+            "dcat:mediaType": "text/csv",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft/assets/Male_Reproductive_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#Male_Reproductive_System.csv",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'Male_Reproductive_System.csv' file",
+            "rdfs:label": "Raw data distribution 'Male_Reproductive_System.csv' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data",
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+            "@type": "dcat:Dataset",
+            "dct:title": "Whole Person Physiome (WPP) table for the male reproductive system",
+            "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
+            "dct:creator": {
+                "@id": "https://orcid.org/0000-0001-8187-0507"
+            },
+            "schema1:reviewedBy": {
+                "@id": "https://orcid.org/0000-0002-5604-2651"
+            },
+            "rdfs:label": "Whole Person Physiome (WPP) table for the male reproductive system",
+            "schema1:dateCreated": {
+                "@value": "2025-11-05",
+                "@type": "xsd:date"
+            },
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "rdfs:comment": "TODO: description",
+            "dcat:distribution": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#Male_Reproductive_System.csv"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8187-0507",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Jacob C. Scherba",
+            "schema1:identifier": "0000-0001-8187-0507",
+            "schema1:givenName": "Jacob",
+            "schema1:familyName": "Scherba",
+            "rdfs:label": "Jacob C. Scherba",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution male-reproductive-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution male-reproductive-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft/graph.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution male-reproductive-system (draft) in JSON format",
+            "rdfs:label": "Graph data distribution male-reproductive-system (draft) in JSON format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution male-reproductive-system (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution male-reproductive-system (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution male-reproductive-system (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution male-reproductive-system (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft",
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#ntriples"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#json"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#turtle"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#rdfxml"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#nquads"
+                }
+            ],
+            "dct:title": "male-reproductive-system (draft) graph data",
+            "rdfs:seeAlso": {
+                "@id": "https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"
+            },
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "schema1:dateCreated": {
+                "@value": "2026-02-12",
+                "@type": "xsd:date"
+            },
+            "schema1:name": "male-reproductive-system",
+            "dct:publisher": "HuBMAP",
+            "schema1:additionalType": "wpp",
+            "schema1:version": "draft",
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data"
+            },
+            "rdfs:label": "male-reproductive-system (draft) graph data",
+            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the male reproductive system dataset.",
+            "@type": "dcat:Dataset"
+        }
+    ],
+    "@context": {
+        "dct": "http://purl.org/dc/terms/",
+        "schema1": "http://schema.org/",
+        "ccf": "http://purl.org/ccf/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#"
+    }
+}

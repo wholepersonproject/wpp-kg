@@ -1,0 +1,116 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> a dcat:Dataset ;
+    rdfs:label "nervous-system (draft) graph data" ;
+    dct:creator <https://github.com/hubmapconsortium/hra-do-processor> ;
+    dct:license "https://creativecommons.org/licenses/by/4.0/" ;
+    dct:publisher "HuBMAP" ;
+    dct:title "nervous-system (draft) graph data" ;
+    schema1:additionalType "wpp" ;
+    schema1:dateCreated "2026-02-12"^^xsd:date ;
+    schema1:name "nervous-system" ;
+    schema1:version "draft" ;
+    rdfs:comment "The graph representation of the Whole Person Physiome (WPP) table for the nervous system dataset." ;
+    rdfs:seeAlso <https://purl.wholepersonphysiome.org/wpp/nervous-system/draft> ;
+    dcat:distribution <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#json>,
+        <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#jsonld>,
+        <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#nquads>,
+        <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#ntriples>,
+        <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#rdfxml>,
+        <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle> ;
+    prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> .
+
+<https://orcid.org/0000-0001-8187-0507> a schema1:Person ;
+    rdfs:label "Jacob C. Scherba" ;
+    schema1:familyName "Scherba" ;
+    schema1:givenName "Jacob" ;
+    schema1:identifier "0000-0001-8187-0507" ;
+    schema1:name "Jacob C. Scherba" ;
+    dcat:conforms_to "Person" .
+
+<https://orcid.org/0000-0002-3321-6137> a schema1:Person ;
+    rdfs:label "Katy Börner" ;
+    schema1:familyName "Börner" ;
+    schema1:givenName "Katy" ;
+    schema1:identifier "0000-0002-3321-6137" ;
+    schema1:name "Katy Börner" ;
+    dcat:conforms_to "Person" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> a dcat:Distribution ;
+    rdfs:label "Raw data distribution 'Nervous_System.csv' file" ;
+    dct:title "Raw data distribution 'Nervous_System.csv' file" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/assets/Nervous_System.csv"^^xsd:anyURI ;
+    dcat:mediaType "text/csv" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#json> a dcat:Distribution ;
+    rdfs:label "Graph data distribution nervous-system (draft) in JSON format" ;
+    dct:title "Graph data distribution nervous-system (draft) in JSON format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#json"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/graph.json"^^xsd:anyURI ;
+    dcat:mediaType "application/json" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#jsonld> a dcat:Distribution ;
+    rdfs:label "Graph data distribution nervous-system (draft) in JSON-LD format" ;
+    dct:title "Graph data distribution nervous-system (draft) in JSON-LD format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#jsonld"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/graph.jsonld"^^xsd:anyURI ;
+    dcat:mediaType "application/ld+json" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#nquads> a dcat:Distribution ;
+    rdfs:label "Graph data distribution nervous-system (draft) in N-Quads format" ;
+    dct:title "Graph data distribution nervous-system (draft) in N-Quads format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#nquads"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/graph.nq"^^xsd:anyURI ;
+    dcat:mediaType "application/n-quads" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#ntriples> a dcat:Distribution ;
+    rdfs:label "Graph data distribution nervous-system (draft) in N-Triples format" ;
+    dct:title "Graph data distribution nervous-system (draft) in N-Triples format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#ntriples"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/graph.nt"^^xsd:anyURI ;
+    dcat:mediaType "application/n-triples" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> a dcat:Dataset ;
+    rdfs:label "Whole Person Physiome (WPP) table for the nervous system" ;
+    ccf:project_lead <https://orcid.org/0000-0002-3321-6137> ;
+    dct:creator <https://orcid.org/0000-0001-8187-0507> ;
+    dct:license "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))" ;
+    dct:publisher "WPP" ;
+    dct:title "Whole Person Physiome (WPP) table for the nervous system" ;
+    schema1:dateCreated "2026-01-12"^^xsd:date ;
+    schema1:funding [ a schema1:Grant ;
+            schema1:award "1U24AT013504-01" ;
+            schema1:funder "National Institutes of Health" ] ;
+    rdfs:comment "TODO: description" ;
+    dcat:distribution <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#rdfxml> a dcat:Distribution ;
+    rdfs:label "Graph data distribution nervous-system (draft) in RDF/XML format" ;
+    dct:title "Graph data distribution nervous-system (draft) in RDF/XML format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#rdfxml"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/graph.xml"^^xsd:anyURI ;
+    dcat:mediaType "application/rdf+xml" .
+
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle> a dcat:Distribution ;
+    rdfs:label "Graph data distribution nervous-system (draft) in Turtle format" ;
+    dct:title "Graph data distribution nervous-system (draft) in Turtle format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/graph.ttl"^^xsd:anyURI ;
+    dcat:mediaType "text/turtle" .
+
+<https://github.com/hubmapconsortium/hra-do-processor> a schema1:SoftwareApplication ;
+    rdfs:label "HRA Digital Object Processor" ;
+    schema1:name "HRA Digital Object Processor" ;
+    schema1:targetProduct [ a schema1:SoftwareSourceCode ;
+            schema1:codeRepository <https://github.com/hubmapconsortium/hra-do-processor> ;
+            rdfs:seeAlso <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> ] ;
+    schema1:version "0.10.0" ;
+    dcat:conforms_to "SoftwareApplication" .
+

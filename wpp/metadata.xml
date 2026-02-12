@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/dc/terms/"
+    xmlns:j.1="http://www.w3.org/ns/dcat#" > 
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system">
+    <j.0:title xml:lang="en">digestive-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system">
+    <j.0:title xml:lang="en">immune-and-lymphatic-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system">
+    <j.0:title xml:lang="en">endocrine-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system">
+    <j.0:title xml:lang="en">fascia-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system">
+    <j.0:title xml:lang="en">dental-and-craniofacial-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp">
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <j.0:title xml:lang="en">https://wholepersonproject.github.io/wpp-kg/wpp</j.0:title>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system"/>
+    <j.1:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system">
+    <j.0:title xml:lang="en">muscular-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system">
+    <j.0:title xml:lang="en">female-reproductive-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system">
+    <j.0:title xml:lang="en">pulmonary-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system">
+    <j.0:title xml:lang="en">male-reproductive-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system">
+    <j.0:title xml:lang="en">nervous-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system">
+    <j.0:title xml:lang="en">integumentary-system</j.0:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+</rdf:RDF>
