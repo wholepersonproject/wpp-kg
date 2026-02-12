@@ -23,30 +23,30 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/collection/wpp">
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/integumentary-system/draft"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/endocrine-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/cardiovascular-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/integumentary-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/muscular-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/fascia-system/draft"/>
     <schema1:version>draft</schema1:version>
     <dct:publisher>HuBMAP</dct:publisher>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/dental-and-craniofacial-system/draft"/>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft"/>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) dataset.</dct:description>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/male-reproductive-system/draft"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/muscular-system/draft"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/immune-and-lymphatic-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"/>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/skeletal-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/nervous-system/draft"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/female-reproductive-system/draft"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/pulmonary-system/draft"/>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/urinary-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/digestive-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/urinary-system/draft"/>
     <dct:title>wpp (draft) graph data</dct:title>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/digestive-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft"/>
     <schema1:dateCreated>2026-02-12</schema1:dateCreated>
-    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org//wpp/fascia-system/draft"/>
+    <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/nervous-system/draft"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/description">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>

@@ -32,11 +32,6 @@
     <rdfs:label>Katalin Susztak</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
@@ -68,8 +63,8 @@
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:publisher>WPP</dct:publisher>
-    <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <schema1:funding rdf:nodeID="A1"/>
+    <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-6988-4102"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#Digestive_System.csv"/>
@@ -114,10 +109,10 @@
     <rdfs:label>Graph data distribution digestive-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-1868-3896">
     <dcat:conforms_to>Person</dcat:conforms_to>
@@ -152,5 +147,10 @@
     <dct:title>Raw data distribution 'Digestive_System.csv' file</dct:title>
     <rdfs:label>Raw data distribution 'Digestive_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
 </rdf:RDF>

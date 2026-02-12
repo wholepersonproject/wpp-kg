@@ -54,10 +54,10 @@
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
-            "rdfs:comment": "TODO: description",
             "schema1:funding": {
                 "@id": "_:b0"
             },
+            "rdfs:comment": "TODO: description",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "rdfs:label": "Whole Person Physiome (WPP) table for the skeletal system",
             "@type": "dcat:Dataset",
@@ -97,21 +97,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle",
-            "dcat:mediaType": "text/turtle",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.ttl",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution skeletal-system (draft) in Turtle format",
-            "rdfs:label": "Graph data distribution skeletal-system (draft) in Turtle format",
-            "@type": "dcat:Distribution"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#nquads",
             "dcat:mediaType": "application/n-quads",
             "dcat:downloadURL": {
@@ -124,6 +109,21 @@
             },
             "dct:title": "Graph data distribution skeletal-system (draft) in N-Quads format",
             "rdfs:label": "Graph data distribution skeletal-system (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution skeletal-system (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution skeletal-system (draft) in Turtle format",
             "@type": "dcat:Distribution"
         },
         {

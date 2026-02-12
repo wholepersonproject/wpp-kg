@@ -1628,3 +1628,776 @@ time jobs/fix-dist-dir.sh
 real	0m0.283s
 user	0m0.009s
 sys	0m0.045s
+
+# time jobs/pull-wpp-drafts.sh
+time do-processor build --clean collection/wpp/draft
+[INFO] Preparing to build...
+[INFO] 
+[INFO] -----------------------------------------------------
+[INFO] Generating resources in the 'raw' step
+[INFO] -----------------------------------------------------
+[INFO] 
+[INFO] --- collection:draft:wpp (run-normalize) @ https://purl.wholepersonphysiome.org/collection/wpp ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized-metadata.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- collection:draft:wpp (run-validation) @ https://purl.wholepersonphysiome.org/collection/wpp ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized.yaml
+[INFO] No error found.
+[INFO] 
+[INFO] -----------------------------------------------------
+[INFO] Generating resources in the 'normalize' step
+[INFO] -----------------------------------------------------
+[INFO] 
+[INFO] --- collection:draft:wpp (run-normalize) @ https://purl.wholepersonphysiome.org/collection/wpp ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized-metadata.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- collection:draft:wpp (run-validation) @ https://purl.wholepersonphysiome.org/collection/wpp ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized.yaml
+[INFO] No error found.
+[INFO] 
+[INFO] --- wpp:draft:cardiovascular-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/cardiovascular-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Cardiovascular_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:cardiovascular-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/cardiovascular-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:dental-and-craniofacial-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Dental_and_Craniofacial_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:dental-and-craniofacial-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:digestive-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/digestive-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Digestive_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:digestive-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/digestive-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:endocrine-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/endocrine-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Endocrine_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:endocrine-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/endocrine-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:fascia-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/fascia-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Fascia_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:fascia-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/fascia-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:female-reproductive-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/female-reproductive-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Female_Reproductive_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:female-reproductive-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/female-reproductive-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:immune-and-lymphatic-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Immune_and_Lymphatic_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:immune-and-lymphatic-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:integumentary-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/integumentary-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Integumentary_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:integumentary-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/integumentary-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:male-reproductive-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/male-reproductive-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Male_Reproductive_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:male-reproductive-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/male-reproductive-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:muscular-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/muscular-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Muscular_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:muscular-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/muscular-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:nervous-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/nervous-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Nervous_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:nervous-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/nervous-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:pulmonary-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/pulmonary-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Pulmonary_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:pulmonary-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/pulmonary-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:skeletal-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/skeletal-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Skeletal_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:skeletal-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/skeletal-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] --- wpp:draft:urinary-system (run-normalize) @ https://purl.wholepersonphysiome.org/wpp/urinary-system ---
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized metadata written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Reading data: Urinary_System.csv
+[WARNING] Warnings were reported by the parser. This may indicate further errors that need resolved.
+Please review the warnings at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/warnings.yaml
+0.10.0
+https://github.com/hubmapconsortium/hra-do-processor
+7974f9490d6d2421c27fa53f9a55a692397d23bb
+https://github.com/hubmapconsortium/hra-do-processor
+[INFO] Normalized digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized.yaml
+[INFO] 
+[INFO] --- wpp:draft:urinary-system (run-validation) @ https://purl.wholepersonphysiome.org/wpp/urinary-system ---
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized-metadata.yaml
+[INFO] No error found.
+[INFO] Using 'check-jsonschema' to validate /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized.yaml
+[ERROR] ValidationError: The content was invalid!
+ValidationError: The content was invalid!
+Please review the errors at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/data-validation-errors.yaml
+[INFO] 
+[INFO] -----------------------------------------------------
+[INFO] Generating resources in the 'enrich' step
+[INFO] -----------------------------------------------------
+[INFO] 
+[INFO] --- wpp:draft:cardiovascular-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/cardiovascular-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:dental-and-craniofacial-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:digestive-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/digestive-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:endocrine-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/endocrine-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:fascia-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/fascia-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:female-reproductive-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/female-reproductive-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:immune-and-lymphatic-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:integumentary-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/integumentary-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:male-reproductive-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/male-reproductive-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:muscular-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/muscular-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:nervous-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/nervous-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:pulmonary-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/pulmonary-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:skeletal-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/skeletal-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- wpp:draft:urinary-system (run-enrich) @ https://purl.wholepersonphysiome.org/wpp/urinary-system ---
+[WARNING] "wpp" digital object type is using basic processing.
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized.yaml to OWL format using the 'basic' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/enriched/enriched.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the basic...
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] --- collection:draft:wpp (run-enrich) @ https://purl.wholepersonphysiome.org/collection/wpp ---
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/enriched-metadata.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized-metadata.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/enriched-metadata.json
+[INFO] Using 'linkml-data2owl' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized.yaml to OWL format using the 'collection' schema
+[INFO] Successfully transformed to OWL format at /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/base-input.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/base-input.ttl
+[INFO] Reading data: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized.yaml
+[INFO] Validating digital objects in the collection...
+[INFO] Consolidating all collection members...
+[INFO] Merging files:
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/base-input.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/cardiovascular-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/dental-and-craniofacial-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/digestive-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/endocrine-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/fascia-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/female-reproductive-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/immune-and-lymphatic-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/integumentary-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/male-reproductive-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/muscular-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/nervous-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/pulmonary-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/skeletal-system/draft/enriched/enriched.ttl
+ -> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/wpp/urinary-system/draft/enriched/enriched.ttl
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/enriched-merge.owl
+[INFO] Creating collection: /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/enriched.ttl
+[INFO] Optimizing collection graph...
+Feb 12, 2026 1:38:01 PM org.jline.utils.Log logr
+WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[36m[1m2026.02.12 13:38:01:058[0m[36m[0m [3mzio-default-blocking-2[0m [34mINFO[0m [32morg.renci.relationgraph.RelationGraph$[0m
+    Running reasoner[0m
+    Done running reasoner[0m
+[36m[1m2026.02.12 13:38:01:353[0m[36m[0m [3mZScheduler-Worker-17[0m [34mINFO[0m [32morg.renci.relationgraph.Main.program:40[0m
+    Done computing relations[0m
+==> /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/redundant.ttl
+[INFO] Using 'linkml-convert' to transform /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/normalized/normalized.yaml
+[INFO] Enriched digital object written to /teradata/bherr/workspaces/hubmap/wpp-kg/digital-objects/collection/wpp/draft/enriched/enriched.json
+[INFO] Cleaning up temporary files.
+[INFO] Done.
+[INFO] 
+[INFO] -----------------------------------------------------
+[INFO] Generating resources in the 'deploy' step
+[INFO] -----------------------------------------------------
+[INFO] Reifying "wpp/cardiovascular-system/draft"
+[INFO] Reifying "wpp/cardiovascular-system/draft" metadata
+[INFO] Reifying "wpp/dental-and-craniofacial-system/draft"
+[INFO] Reifying "wpp/dental-and-craniofacial-system/draft" metadata
+[INFO] Reifying "wpp/digestive-system/draft"
+[INFO] Reifying "wpp/digestive-system/draft" metadata
+[INFO] Reifying "wpp/endocrine-system/draft"
+[INFO] Reifying "wpp/endocrine-system/draft" metadata
+[INFO] Reifying "wpp/fascia-system/draft"
+[INFO] Reifying "wpp/fascia-system/draft" metadata
+[INFO] Reifying "wpp/female-reproductive-system/draft"
+[INFO] Reifying "wpp/female-reproductive-system/draft" metadata
+[INFO] Reifying "wpp/immune-and-lymphatic-system/draft"
+[INFO] Reifying "wpp/immune-and-lymphatic-system/draft" metadata
+[INFO] Reifying "wpp/integumentary-system/draft"
+[INFO] Reifying "wpp/integumentary-system/draft" metadata
+[INFO] Reifying "wpp/male-reproductive-system/draft"
+[INFO] Reifying "wpp/male-reproductive-system/draft" metadata
+[INFO] Reifying "wpp/muscular-system/draft"
+[INFO] Reifying "wpp/muscular-system/draft" metadata
+[INFO] Reifying "wpp/nervous-system/draft"
+[INFO] Reifying "wpp/nervous-system/draft" metadata
+[INFO] Reifying "wpp/pulmonary-system/draft"
+[INFO] Reifying "wpp/pulmonary-system/draft" metadata
+[INFO] Reifying "wpp/skeletal-system/draft"
+[INFO] Reifying "wpp/skeletal-system/draft" metadata
+[INFO] Reifying "wpp/urinary-system/draft"
+[INFO] Reifying "wpp/urinary-system/draft" metadata
+[INFO] Reifying "collection/wpp/draft"
+[INFO] Reifying "collection/wpp/draft" metadata
+
+real	6m3.862s
+user	11m24.568s
+sys	0m59.497s
+time do-processor finalize --skip-db
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/collection/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/collection/wpp/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/
+[INFO] Reifying https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/
+../wpp-kg--dist/wpp/pulmonary-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/pulmonary-system/metadata.ttl
+../wpp-kg--dist/wpp/nervous-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/nervous-system/metadata.ttl
+../wpp-kg--dist/wpp/muscular-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/muscular-system/metadata.ttl
+../wpp-kg--dist/wpp/male-reproductive-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/male-reproductive-system/metadata.ttl
+../wpp-kg--dist/wpp/integumentary-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/integumentary-system/metadata.ttl
+../wpp-kg--dist/wpp/immune-and-lymphatic-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/immune-and-lymphatic-system/metadata.ttl
+../wpp-kg--dist/wpp/female-reproductive-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/female-reproductive-system/metadata.ttl
+../wpp-kg--dist/wpp/fascia-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/fascia-system/metadata.ttl
+../wpp-kg--dist/wpp/endocrine-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/endocrine-system/metadata.ttl
+../wpp-kg--dist/wpp/digestive-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/digestive-system/metadata.ttl
+../wpp-kg--dist/wpp/dental-and-craniofacial-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/dental-and-craniofacial-system/metadata.ttl
+../wpp-kg--dist/wpp/metadata.ttl
+../wpp-kg--dist/wpp/cardiovascular-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/cardiovascular-system/metadata.ttl
+../wpp-kg--dist/wpp/skeletal-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/skeletal-system/metadata.ttl
+../wpp-kg--dist/wpp/urinary-system/draft/metadata.ttl
+../wpp-kg--dist/wpp/urinary-system/metadata.ttl
+../wpp-kg--dist/collection/wpp/draft/metadata.ttl
+../wpp-kg--dist/collection/wpp/metadata.ttl
+../wpp-kg--dist/collection/metadata.ttl
+../wpp-kg--dist/metadata.ttl
+13:43:20 INFO  riot            :: File: ../wpp-kg--dist/wpp/pulmonary-system/draft/metadata.ttl
+13:43:20 INFO  riot            :: File: ../wpp-kg--dist/wpp/pulmonary-system/metadata.ttl
+13:43:20 INFO  riot            :: File: ../wpp-kg--dist/wpp/nervous-system/draft/metadata.ttl
+13:43:20 INFO  riot            :: File: ../wpp-kg--dist/wpp/nervous-system/metadata.ttl
+13:43:20 INFO  riot            :: File: ../wpp-kg--dist/wpp/muscular-system/draft/metadata.ttl
+13:43:20 INFO  riot            :: File: ../wpp-kg--dist/wpp/muscular-system/metadata.ttl
+13:43:20 INFO  riot            :: File: ../wpp-kg--dist/wpp/male-reproductive-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/male-reproductive-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/integumentary-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/integumentary-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/immune-and-lymphatic-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/immune-and-lymphatic-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/female-reproductive-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/female-reproductive-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/fascia-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/fascia-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/endocrine-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/endocrine-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/digestive-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/digestive-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/dental-and-craniofacial-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/dental-and-craniofacial-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/cardiovascular-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/cardiovascular-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/skeletal-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/skeletal-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/urinary-system/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/wpp/urinary-system/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/collection/wpp/draft/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/collection/wpp/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/collection/metadata.ttl
+13:43:21 INFO  riot            :: File: ../wpp-kg--dist/metadata.ttl
+
+real	2m8.785s
+user	5m6.091s
+sys	0m24.836s
+time jobs/fix-dist-dir.sh
+
+real	0m0.281s
+user	0m0.012s
+sys	0m0.046s
