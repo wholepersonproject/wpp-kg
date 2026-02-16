@@ -48,6 +48,7 @@
             ],
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "schema1:version": "draft",
+            "schema1:dateCreated": "2026-02-16",
             "dct:publisher": "HuBMAP",
             "rdfs:seeAlso": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft"
@@ -60,8 +61,7 @@
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "@type": "owl:Ontology",
-            "dct:title": "wpp (draft) graph data",
-            "schema1:dateCreated": "2026-02-12"
+            "dct:title": "wpp (draft) graph data"
         },
         {
             "@id": "dct:creator",

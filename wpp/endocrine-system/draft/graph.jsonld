@@ -3,7 +3,6 @@
         {
             "@id": "https://purl.wholepersonphysiome.org/wpp/endocrine-system",
             "dct:publisher": "HuBMAP",
-            "schema1:dateCreated": "2026-02-12",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
@@ -11,6 +10,7 @@
             "rdfs:seeAlso": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft"
             },
+            "schema1:dateCreated": "2026-02-16",
             "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the endocrine system dataset.",
             "schema1:version": "draft",
             "dct:title": "endocrine-system (draft) graph data",

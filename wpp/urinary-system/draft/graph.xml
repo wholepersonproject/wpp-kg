@@ -18,8 +18,8 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/wpp/urinary-system">
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
     <dct:publisher>HuBMAP</dct:publisher>
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
     <schema1:version>draft</schema1:version>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) table for the urinary system dataset.</dct:description>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft"/>

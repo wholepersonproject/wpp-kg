@@ -38,13 +38,13 @@
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft"
             },
             "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the fascia system dataset.",
-            "schema1:dateCreated": "2026-02-12",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "schema1:version": "draft",
             "dct:publisher": "HuBMAP",
             "@type": "owl:Ontology",
+            "schema1:dateCreated": "2026-02-16",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data"

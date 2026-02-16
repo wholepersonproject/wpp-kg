@@ -27,13 +27,13 @@
             },
             "dct:publisher": "HuBMAP",
             "schema1:version": "draft",
-            "schema1:dateCreated": "2026-02-12",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "dct:title": "muscular-system (draft) graph data",
             "@type": "owl:Ontology",
             "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the muscular system dataset.",
+            "schema1:dateCreated": "2026-02-16",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data"

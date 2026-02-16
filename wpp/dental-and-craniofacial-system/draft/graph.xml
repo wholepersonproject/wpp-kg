@@ -15,11 +15,11 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system">
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset.</dct:description>
     <schema1:version>draft</schema1:version>
     <dct:title>dental-and-craniofacial-system (draft) graph data</dct:title>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft"/>
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>

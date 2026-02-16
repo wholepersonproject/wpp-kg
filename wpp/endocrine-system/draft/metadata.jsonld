@@ -46,27 +46,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b0"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-3321-6137",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katy Börner",
@@ -93,6 +72,10 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft",
+            "schema1:dateCreated": {
+                "@value": "2026-02-16",
+                "@type": "xsd:date"
+            },
             "schema1:name": "endocrine-system",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dct:publisher": "HuBMAP",
@@ -128,13 +111,20 @@
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft"
             },
-            "schema1:dateCreated": {
-                "@value": "2026-02-12",
-                "@type": "xsd:date"
-            },
             "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the endocrine system dataset.",
             "schema1:additionalType": "wpp",
             "schema1:version": "draft"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b0"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data",
@@ -148,15 +138,15 @@
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-0883-9754"
             },
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "@type": "dcat:Dataset",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv"
             },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
-            },
-            "schema1:funding": {
-                "@id": "_:b1"
             },
             "rdfs:label": "Whole Person Physiome (WPP) table for the endocrine system",
             "schema1:dateCreated": {
@@ -208,6 +198,16 @@
             "dct:title": "Graph data distribution endocrine-system (draft) in JSON-LD format",
             "rdfs:label": "Graph data distribution endocrine-system (draft) in JSON-LD format",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "_:b1",

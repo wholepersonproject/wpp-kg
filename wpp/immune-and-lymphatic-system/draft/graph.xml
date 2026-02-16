@@ -18,6 +18,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system">
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
     <schema1:version>draft</schema1:version>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) table for the immune and lymphatic system dataset.</dct:description>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft"/>
@@ -27,7 +28,6 @@
     <dct:title>immune-and-lymphatic-system (draft) graph data</dct:title>
     <dct:publisher>HuBMAP</dct:publisher>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data"/>
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/description">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>

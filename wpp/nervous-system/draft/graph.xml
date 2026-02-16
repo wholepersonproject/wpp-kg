@@ -6,7 +6,6 @@
     xmlns:schema1="http://schema.org/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/wpp/nervous-system">
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft"/>
     <dct:title>nervous-system (draft) graph data</dct:title>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
@@ -15,6 +14,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) table for the nervous system dataset.</dct:description>
     <schema1:version>draft</schema1:version>
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://schema.org/dateCreated">

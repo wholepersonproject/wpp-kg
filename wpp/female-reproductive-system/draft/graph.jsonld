@@ -31,7 +31,6 @@
         {
             "@id": "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system",
             "@type": "owl:Ontology",
-            "schema1:dateCreated": "2026-02-12",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data"
             },
@@ -44,6 +43,7 @@
             "rdfs:seeAlso": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft"
             },
+            "schema1:dateCreated": "2026-02-16",
             "schema1:version": "draft",
             "dct:publisher": "HuBMAP"
         },

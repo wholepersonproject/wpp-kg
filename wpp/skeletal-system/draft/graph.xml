@@ -20,13 +20,13 @@
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/wpp/skeletal-system">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <schema1:version>draft</schema1:version>
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft"/>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) table for the skeletal system dataset.</dct:description>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data"/>
     <dct:publisher>HuBMAP</dct:publisher>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
     <dct:title>skeletal-system (draft) graph data</dct:title>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/description">

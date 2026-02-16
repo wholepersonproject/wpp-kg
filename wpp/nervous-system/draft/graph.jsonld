@@ -34,7 +34,6 @@
         },
         {
             "@id": "https://purl.wholepersonphysiome.org/wpp/nervous-system",
-            "schema1:dateCreated": "2026-02-12",
             "rdfs:seeAlso": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft"
             },
@@ -47,6 +46,7 @@
             "@type": "owl:Ontology",
             "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the nervous system dataset.",
             "schema1:version": "draft",
+            "schema1:dateCreated": "2026-02-16",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             }

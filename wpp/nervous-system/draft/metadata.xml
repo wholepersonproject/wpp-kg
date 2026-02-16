@@ -15,13 +15,13 @@
     <dct:title>nervous-system (draft) graph data</dct:title>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-12</schema1:dateCreated>
     <dct:publisher>HuBMAP</dct:publisher>
     <schema1:version>draft</schema1:version>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#jsonld"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle"/>
     <schema1:name>nervous-system</schema1:name>
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the nervous system dataset.</rdfs:comment>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#nquads"/>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/nervous-system/draft"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -43,11 +43,6 @@
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv">
     <dcat:mediaType>text/csv</dcat:mediaType>
@@ -103,11 +98,6 @@
     <rdfs:label>Graph data distribution nervous-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0001-8187-0507">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Jacob C. Scherba</schema1:name>
@@ -124,6 +114,16 @@
     <dct:title>Graph data distribution nervous-system (draft) in RDF/XML format</dct:title>
     <rdfs:label>Graph data distribution nervous-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>

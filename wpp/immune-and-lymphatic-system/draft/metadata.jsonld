@@ -1,6 +1,12 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-3321-6137",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katy Börner",
@@ -11,7 +17,7 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
+            "@id": "_:b1",
             "rdfs:seeAlso": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
             },
@@ -25,7 +31,7 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b0"
+                "@id": "_:b1"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
@@ -67,12 +73,12 @@
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0002-1868-3896"
             },
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "rdfs:label": "Whole Person Physiome (WPP) table for the immune and lymphatic system",
             "rdfs:comment": "TODO: description",
-            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
-            "schema1:funding": {
-                "@id": "_:b1"
-            }
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#Immune_and_Lymphatic_System.csv",
@@ -108,12 +114,6 @@
             "schema1:familyName": "Susztak",
             "rdfs:label": "Katalin Susztak",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#turtle",
@@ -174,16 +174,16 @@
             },
             "dct:publisher": "HuBMAP",
             "schema1:name": "immune-and-lymphatic-system",
-            "schema1:dateCreated": {
-                "@value": "2026-02-12",
-                "@type": "xsd:date"
-            },
             "schema1:version": "draft",
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft"
             },
             "dct:title": "immune-and-lymphatic-system (draft) graph data",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:dateCreated": {
+                "@value": "2026-02-16",
+                "@type": "xsd:date"
+            },
             "schema1:additionalType": "wpp",
             "@type": "dcat:Dataset",
             "prov:wasDerivedFrom": {

@@ -26,13 +26,13 @@
         },
         {
             "@id": "https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system",
-            "schema1:dateCreated": "2026-02-12",
             "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset.",
             "schema1:version": "draft",
             "dct:title": "dental-and-craniofacial-system (draft) graph data",
             "rdfs:seeAlso": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft"
             },
+            "schema1:dateCreated": "2026-02-16",
             "@type": "owl:Ontology",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dct:creator": {

@@ -19,13 +19,13 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/wpp/female-reproductive-system">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data"/>
     <dct:title>female-reproductive-system (draft) graph data</dct:title>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) table for the female reproductive system dataset.</dct:description>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft"/>
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
     <schema1:version>draft</schema1:version>
     <dct:publisher>HuBMAP</dct:publisher>
   </rdf:Description>

@@ -22,12 +22,12 @@
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data"/>
     <dct:title>pulmonary-system (draft) graph data</dct:title>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <schema1:version>draft</schema1:version>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) table for the pulmonary system dataset.</dct:description>
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/description">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>

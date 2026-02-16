@@ -2,6 +2,7 @@
     "@graph": [
         {
             "@id": "https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system",
+            "schema1:dateCreated": "2026-02-16",
             "schema1:version": "draft",
             "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the immune and lymphatic system dataset.",
             "rdfs:seeAlso": {
@@ -16,8 +17,7 @@
             "dct:publisher": "HuBMAP",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data"
-            },
-            "schema1:dateCreated": "2026-02-12"
+            }
         },
         {
             "@id": "dct:creator",

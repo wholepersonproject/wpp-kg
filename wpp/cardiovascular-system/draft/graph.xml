@@ -12,12 +12,12 @@
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <dct:title>cardiovascular-system (draft) graph data</dct:title>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) table for the cardiovascular system dataset.</dct:description>
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data"/>
     <schema1:version>draft</schema1:version>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft"/>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <dct:publisher>HuBMAP</dct:publisher>
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/creator">

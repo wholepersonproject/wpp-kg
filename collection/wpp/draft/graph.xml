@@ -31,6 +31,7 @@
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft"/>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/fascia-system/draft"/>
     <schema1:version>draft</schema1:version>
+    <schema1:dateCreated>2026-02-16</schema1:dateCreated>
     <dct:publisher>HuBMAP</dct:publisher>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft"/>
     <dct:description>The graph representation of the Whole Person Physiome (WPP) dataset.</dct:description>
@@ -45,7 +46,6 @@
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/urinary-system/draft"/>
     <dct:title>wpp (draft) graph data</dct:title>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft"/>
-    <schema1:dateCreated>2026-02-12</schema1:dateCreated>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/nervous-system/draft"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/description">

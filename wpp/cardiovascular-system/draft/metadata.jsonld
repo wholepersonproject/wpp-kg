@@ -5,6 +5,10 @@
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
+            "schema1:dateCreated": {
+                "@value": "2026-02-16",
+                "@type": "xsd:date"
+            },
             "dcat:distribution": [
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples"
@@ -27,10 +31,6 @@
             ],
             "schema1:version": "draft",
             "rdfs:label": "cardiovascular-system (draft) graph data",
-            "schema1:dateCreated": {
-                "@value": "2026-02-12",
-                "@type": "xsd:date"
-            },
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft"
             },
@@ -152,9 +152,6 @@
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0001-8187-0507"
             },
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
@@ -168,6 +165,9 @@
             "@type": "dcat:Dataset",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv"
+            },
+            "schema1:funding": {
+                "@id": "_:b0"
             },
             "schema1:dateCreated": {
                 "@value": "2025-11-13",
@@ -183,12 +183,6 @@
             "schema1:familyName": "Scherba",
             "rdfs:label": "Jacob C. Scherba",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-3321-6137",
@@ -224,6 +218,12 @@
             "dct:title": "Raw data distribution 'Cardiovascular_System.csv' file",
             "rdfs:label": "Raw data distribution 'Cardiovascular_System.csv' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "_:b1",

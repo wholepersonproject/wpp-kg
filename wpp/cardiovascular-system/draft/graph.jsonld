@@ -29,6 +29,7 @@
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dct:title": "cardiovascular-system (draft) graph data",
             "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the cardiovascular system dataset.",
+            "schema1:dateCreated": "2026-02-16",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data"
             },
@@ -40,7 +41,6 @@
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "dct:publisher": "HuBMAP",
-            "schema1:dateCreated": "2026-02-12",
             "@type": "owl:Ontology"
         },
         {

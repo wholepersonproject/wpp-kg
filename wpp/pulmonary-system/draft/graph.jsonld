@@ -16,7 +16,6 @@
             },
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "@type": "owl:Ontology",
-            "schema1:dateCreated": "2026-02-12",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data"
             },
@@ -25,7 +24,8 @@
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "schema1:version": "draft",
-            "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the pulmonary system dataset."
+            "dct:description": "The graph representation of the Whole Person Physiome (WPP) table for the pulmonary system dataset.",
+            "schema1:dateCreated": "2026-02-16"
         },
         {
             "@id": "dct:title",

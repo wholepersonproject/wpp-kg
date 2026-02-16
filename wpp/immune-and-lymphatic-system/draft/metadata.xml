@@ -30,6 +30,11 @@
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-1005-3726">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Katalin Susztak</schema1:name>
@@ -54,11 +59,6 @@
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0001-9286-4268">
     <dcat:conforms_to>Person</dcat:conforms_to>
@@ -86,6 +86,11 @@
     <rdfs:label>Graph data distribution immune-and-lymphatic-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-1868-3896">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Minyan Zhu</schema1:name>
@@ -102,11 +107,6 @@
     <dct:title>Raw data distribution 'Immune_and_Lymphatic_System.csv' file</dct:title>
     <rdfs:label>Raw data distribution 'Immune_and_Lymphatic_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#nquads">
     <dcat:mediaType>application/n-quads</dcat:mediaType>
@@ -142,11 +142,11 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#json"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#jsonld"/>
     <schema1:name>immune-and-lymphatic-system</schema1:name>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-12</schema1:dateCreated>
     <schema1:version>draft</schema1:version>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft"/>
     <dct:title>immune-and-lymphatic-system (draft) graph data</dct:title>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</schema1:dateCreated>
     <schema1:additionalType>wpp</schema1:additionalType>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#nquads"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>

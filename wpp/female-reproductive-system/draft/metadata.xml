@@ -21,13 +21,13 @@
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#Female_Reproductive_System.csv"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <schema1:funding rdf:nodeID="A0"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <dct:title>Whole Person Physiome (WPP) table for the female reproductive system</dct:title>
     <rdfs:comment>TODO: description</rdfs:comment>
     <rdfs:label>Whole Person Physiome (WPP) table for the female reproductive system</rdfs:label>
     <dct:publisher>WPP</dct:publisher>
+    <schema1:funding rdf:nodeID="A0"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
@@ -41,12 +41,12 @@
     <schema1:additionalType>wpp</schema1:additionalType>
     <schema1:name>female-reproductive-system</schema1:name>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#ntriples"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-12</schema1:dateCreated>
     <schema1:version>draft</schema1:version>
     <rdfs:label>female-reproductive-system (draft) graph data</rdfs:label>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#json"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#jsonld"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</schema1:dateCreated>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#nquads"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#rdfxml"/>
@@ -130,6 +130,11 @@
     <rdfs:label>Jacob C. Scherba</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft/graph.nt</dcat:downloadURL>
@@ -137,10 +142,5 @@
     <dct:title>Graph data distribution female-reproductive-system (draft) in N-Triples format</dct:title>
     <rdfs:label>Graph data distribution female-reproductive-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
 </rdf:RDF>
