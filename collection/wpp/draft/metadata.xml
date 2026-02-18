@@ -15,15 +15,10 @@
     <rdfs:label>Graph data distribution wpp (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
-    <schema1:targetProduct rdf:nodeID="A1"/>
+    <schema1:targetProduct rdf:nodeID="A0"/>
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
@@ -36,6 +31,11 @@
     <schema1:familyName>Börner</schema1:familyName>
     <rdfs:label>Katy Börner</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft">
     <schema1:additionalType>collection</schema1:additionalType>
@@ -54,6 +54,7 @@
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/collection/wpp/draft"/>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/immune-and-lymphatic-system/draft"/>
     <dct:publisher>HuBMAP</dct:publisher>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-18</schema1:dateCreated>
     <dct:title>wpp (draft) graph data</dct:title>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#turtle"/>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/muscular-system/draft"/>
@@ -61,7 +62,6 @@
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"/>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#rdfxml"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</schema1:dateCreated>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
@@ -88,6 +88,11 @@
     <rdfs:label>Graph data distribution wpp (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft/graph.json</dcat:downloadURL>
@@ -100,9 +105,9 @@
     <rdfs:comment>TODO: description</rdfs:comment>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml"/>
     <dct:publisher>WPP</dct:publisher>
+    <schema1:funding rdf:nodeID="A1"/>
     <rdfs:label>Whole Person Physiome (WPP)</rdfs:label>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
-    <schema1:funding rdf:nodeID="A0"/>
     <dct:title>Whole Person Physiome (WPP)</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
@@ -131,10 +136,5 @@
     <dct:title>Graph data distribution wpp (draft) in N-Quads format</dct:title>
     <rdfs:label>Graph data distribution wpp (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,6 +1,6 @@
 {
-  "$schema": "https://wholepersonproject.github.io/wpp-kg/schema/basic-metadata/latest/assets/schema.json",
-  "@context": "https://wholepersonproject.github.io/wpp-kg/schema/basic-metadata/latest/assets/schema.context.jsonld",
+  "$schema": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/latest/assets/schema.json",
+  "@context": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/latest/assets/schema.context.jsonld",
   "@type": "Container",
   "id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft",
   "title": "urinary-system (draft) graph data",
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "creation_date": "2026-02-16",
+  "creation_date": "2026-02-18",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "distributions": [
     {

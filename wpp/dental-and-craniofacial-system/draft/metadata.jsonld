@@ -41,12 +41,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#ntriples",
             "dcat:mediaType": "application/n-triples",
             "dcat:downloadURL": {
@@ -92,6 +86,27 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b0"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv",
             "dcat:mediaType": "text/csv",
             "dcat:downloadURL": {
@@ -105,6 +120,12 @@
             "dct:title": "Raw data distribution 'Dental_and_Craniofacial_System.csv' file",
             "rdfs:label": "Raw data distribution 'Dental_and_Craniofacial_System.csv' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0001-7392-8852",
@@ -136,10 +157,10 @@
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0001-8187-0507"
             },
-            "@type": "dcat:Dataset",
             "schema1:funding": {
-                "@id": "_:b0"
+                "@id": "_:b1"
             },
+            "@type": "dcat:Dataset",
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0001-7392-8852"
             },
@@ -170,28 +191,8 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft",
+            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset.",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data"
             },
@@ -219,10 +220,6 @@
                 }
             ],
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
-            "schema1:dateCreated": {
-                "@value": "2026-02-16",
-                "@type": "xsd:date"
-            },
             "schema1:name": "dental-and-craniofacial-system",
             "rdfs:label": "dental-and-craniofacial-system (draft) graph data",
             "dct:publisher": "HuBMAP",
@@ -233,7 +230,10 @@
             "@type": "dcat:Dataset",
             "schema1:additionalType": "wpp",
             "schema1:version": "draft",
-            "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset."
+            "schema1:dateCreated": {
+                "@value": "2026-02-18",
+                "@type": "xsd:date"
+            }
         }
     ],
     "@context": {

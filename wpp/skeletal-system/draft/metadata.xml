@@ -7,11 +7,6 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:ccf="http://purl.org/ccf/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.ttl</dcat:downloadURL>
@@ -23,7 +18,7 @@
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
-    <schema1:targetProduct rdf:nodeID="A1"/>
+    <schema1:targetProduct rdf:nodeID="A0"/>
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
@@ -32,14 +27,19 @@
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-17</schema1:dateCreated>
     <dct:title>Whole Person Physiome (WPP) table for the skeletal system</dct:title>
-    <schema1:funding rdf:nodeID="A0"/>
     <dct:publisher>WPP</dct:publisher>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdfs:comment>TODO: description</rdfs:comment>
+    <schema1:funding rdf:nodeID="A1"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <rdfs:label>Whole Person Physiome (WPP) table for the skeletal system</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
@@ -67,9 +67,9 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A1">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld">
     <dcat:mediaType>application/ld+json</dcat:mediaType>
@@ -85,8 +85,8 @@
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <dct:publisher>HuBMAP</dct:publisher>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</schema1:dateCreated>
     <schema1:additionalType>wpp</schema1:additionalType>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-18</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld"/>
     <rdfs:label>skeletal-system (draft) graph data</rdfs:label>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data"/>

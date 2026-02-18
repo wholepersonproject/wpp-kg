@@ -23,11 +23,6 @@
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.ttl</dcat:downloadURL>
@@ -52,6 +47,11 @@
     <rdfs:label>Graph data distribution cardiovascular-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-3321-6137">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Katy Börner</schema1:name>
@@ -72,6 +72,7 @@
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data">
     <rdfs:label>Whole Person Physiome (WPP) table for the cardiovascular system</rdfs:label>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1979-044X"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
@@ -80,7 +81,6 @@
     <dct:publisher>WPP</dct:publisher>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv"/>
-    <schema1:funding rdf:nodeID="A1"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-13</schema1:dateCreated>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv">
@@ -93,9 +93,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft">
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#rdfxml"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-18</schema1:dateCreated>
     <schema1:version>draft</schema1:version>
     <rdfs:label>cardiovascular-system (draft) graph data</rdfs:label>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#turtle"/>
@@ -121,11 +121,6 @@
     <rdfs:label>Jacob C. Scherba</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-1979-044X">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Rajan Jain</schema1:name>
@@ -134,6 +129,11 @@
     <schema1:familyName>Jain</schema1:familyName>
     <rdfs:label>Rajan Jain</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>

@@ -61,6 +61,10 @@
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft"
             },
+            "schema1:dateCreated": {
+                "@value": "2026-02-18",
+                "@type": "xsd:date"
+            },
             "dct:title": "fascia-system (draft) graph data",
             "rdfs:label": "fascia-system (draft) graph data",
             "prov:wasDerivedFrom": {
@@ -72,10 +76,6 @@
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "schema1:additionalType": "wpp",
-            "schema1:dateCreated": {
-                "@value": "2026-02-16",
-                "@type": "xsd:date"
-            },
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dct:publisher": "HuBMAP",
             "schema1:name": "fascia-system"
@@ -130,6 +130,9 @@
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "schema1:reviewedBy": [
                 {
                     "@id": "https://orcid.org/0000-0002-1005-3726"
@@ -148,9 +151,6 @@
             "dct:title": "Whole Person Physiome (WPP) table for the fascia system",
             "dct:publisher": "WPP",
             "rdfs:comment": "TODO: description",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "@type": "dcat:Dataset",
             "rdfs:label": "Whole Person Physiome (WPP) table for the fascia system",
             "schema1:dateCreated": {
@@ -163,7 +163,7 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b1"
+                "@id": "_:b0"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
@@ -200,6 +200,16 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-1868-3896",
             "dcat:conforms_to": "Person",
             "schema1:name": "Minyan Zhu",
@@ -220,12 +230,6 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#Fascia_System.csv",
             "dcat:mediaType": "text/csv",
             "dcat:downloadURL": {
@@ -242,13 +246,9 @@
         },
         {
             "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         }
     ],
     "@context": {

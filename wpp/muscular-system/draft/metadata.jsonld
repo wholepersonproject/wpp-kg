@@ -71,12 +71,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -95,11 +89,11 @@
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data",
             "dct:title": "Whole Person Physiome (WPP) table for the muscular system",
             "rdfs:label": "Whole Person Physiome (WPP) table for the muscular system",
-            "ccf:project_lead": {
-                "@id": "https://orcid.org/0000-0002-3321-6137"
-            },
             "schema1:funding": {
                 "@id": "_:b0"
+            },
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "@type": "dcat:Dataset",
             "schema1:dateCreated": {
@@ -120,6 +114,12 @@
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
         },
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0001-8187-0507",
             "dcat:conforms_to": "Person",
             "schema1:name": "Jacob C. Scherba",
@@ -138,6 +138,27 @@
             "schema1:familyName": "Stedman",
             "rdfs:label": "Hansell Stedman",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#rdfxml",
@@ -171,10 +192,6 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft",
-            "schema1:dateCreated": {
-                "@value": "2026-02-16",
-                "@type": "xsd:date"
-            },
             "dcat:distribution": [
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#json"
@@ -205,6 +222,10 @@
             },
             "dct:publisher": "HuBMAP",
             "schema1:name": "muscular-system",
+            "schema1:dateCreated": {
+                "@value": "2026-02-18",
+                "@type": "xsd:date"
+            },
             "@type": "dcat:Dataset",
             "schema1:version": "draft",
             "rdfs:label": "muscular-system (draft) graph data",
@@ -213,27 +234,6 @@
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "dct:title": "muscular-system (draft) graph data"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

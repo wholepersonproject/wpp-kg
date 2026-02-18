@@ -46,6 +46,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-3321-6137",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katy Börner",
@@ -72,15 +78,15 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft",
-            "schema1:dateCreated": {
-                "@value": "2026-02-16",
-                "@type": "xsd:date"
-            },
             "schema1:name": "endocrine-system",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dct:publisher": "HuBMAP",
             "rdfs:label": "endocrine-system (draft) graph data",
             "dct:title": "endocrine-system (draft) graph data",
+            "schema1:dateCreated": {
+                "@value": "2026-02-18",
+                "@type": "xsd:date"
+            },
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
@@ -120,7 +126,7 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b0"
+                "@id": "_:b1"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
@@ -138,10 +144,10 @@
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-0883-9754"
             },
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "@type": "dcat:Dataset",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv"
             },
@@ -200,7 +206,7 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
+            "@id": "_:b1",
             "rdfs:seeAlso": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
             },
@@ -208,12 +214,6 @@
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-0883-9754",

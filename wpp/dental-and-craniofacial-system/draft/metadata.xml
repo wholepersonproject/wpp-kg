@@ -56,12 +56,17 @@
     <rdfs:label>Graph data distribution dental-and-craniofacial-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft">
+    <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset.</rdfs:comment>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data"/>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#json"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</schema1:dateCreated>
     <schema1:name>dental-and-craniofacial-system</schema1:name>
     <rdfs:label>dental-and-craniofacial-system (draft) graph data</rdfs:label>
     <dct:publisher>HuBMAP</dct:publisher>
@@ -75,7 +80,7 @@
     <schema1:version>draft</schema1:version>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#turtle"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#nquads"/>
-    <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset.</rdfs:comment>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-18</schema1:dateCreated>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-3321-6137">
     <dcat:conforms_to>Person</dcat:conforms_to>
@@ -86,16 +91,16 @@
     <rdfs:label>Katy Börner</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data">
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0001-7392-8852"/>
-    <schema1:funding rdf:nodeID="A1"/>
     <dct:title>Whole Person Physiome (WPP) table for the craniofacial and dental system</dct:title>
     <dct:publisher>WPP</dct:publisher>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
@@ -121,11 +126,6 @@
     <dct:title>Raw data distribution 'Dental_and_Craniofacial_System.csv' file</dct:title>
     <rdfs:label>Raw data distribution 'Dental_and_Craniofacial_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#rdfxml">
     <dcat:mediaType>application/rdf+xml</dcat:mediaType>
