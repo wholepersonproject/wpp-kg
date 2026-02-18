@@ -30,9 +30,6 @@
                 "@value": "2026-01-05",
                 "@type": "xsd:date"
             },
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
@@ -46,6 +43,9 @@
                     "@id": "https://orcid.org/0000-0002-1005-3726"
                 }
             ],
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0002-1868-3896"
             },
@@ -69,12 +69,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://orcid.org/0000-0001-9286-4268",
             "dcat:conforms_to": "Person",
             "schema1:name": "David Hill",
@@ -83,6 +77,12 @@
             "schema1:familyName": "Hill",
             "rdfs:label": "David Hill",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-1005-3726",

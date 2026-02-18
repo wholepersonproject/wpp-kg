@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0002-1868-3896"
             },
@@ -26,13 +23,10 @@
                 "@type": "xsd:date"
             },
             "dct:title": "Whole Person Physiome (WPP) table for the urinary system",
-            "dct:publisher": "WPP"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "https://orcid.org/0000-0002-1868-3896",
@@ -78,6 +72,12 @@
             "schema1:familyName": "Susztak",
             "rdfs:label": "Katalin Susztak",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml",
@@ -140,6 +140,21 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution urinary-system (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution urinary-system (draft) in N-Triples format",
+            "@type": "dcat:Distribution"
+        },
+        {
             "@id": "_:b1",
             "rdfs:seeAlso": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
@@ -159,21 +174,6 @@
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
             "@type": "schema1:SoftwareApplication"
-        },
-        {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples",
-            "dcat:mediaType": "application/n-triples",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.nt",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution urinary-system (draft) in N-Triples format",
-            "rdfs:label": "Graph data distribution urinary-system (draft) in N-Triples format",
-            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft",
