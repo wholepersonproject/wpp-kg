@@ -14,7 +14,7 @@
         {
             "@id": "_:b0",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
@@ -143,6 +143,9 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.svg"
                 }
             ],
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "rdfs:label": "wpp-metadata linkml schema",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
@@ -155,9 +158,6 @@
                 "@id": "https://orcid.org/0000-0002-6703-7647"
             },
             "dct:publisher": "HuBMAP",
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "dct:title": "wpp-metadata linkml schema",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "rdfs:comment": "LinkML Schema for wpp-metadata",
@@ -239,6 +239,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -267,12 +273,6 @@
             "dct:title": "Raw data distribution 'schema.yaml' file",
             "rdfs:label": "Raw data distribution 'schema.yaml' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-6703-7647",

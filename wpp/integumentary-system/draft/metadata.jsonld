@@ -66,27 +66,6 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b0"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -145,7 +124,7 @@
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data",
             "@type": "dcat:Dataset",
             "schema1:funding": {
-                "@id": "_:b1"
+                "@id": "_:b0"
             },
             "dct:title": "Whole Person Physiome (WPP) table for the integumentary system",
             "schema1:reviewedBy": [
@@ -175,7 +154,7 @@
             }
         },
         {
-            "@id": "_:b1",
+            "@id": "_:b0",
             "schema1:funder": "National Institutes of Health",
             "schema1:award": "1U24AT013504-01",
             "@type": "schema1:Grant"
@@ -234,6 +213,10 @@
             "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the integumentary system dataset.",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "@type": "dcat:Dataset",
+            "schema1:dateCreated": {
+                "@value": "2026-02-19",
+                "@type": "xsd:date"
+            },
             "schema1:additionalType": "wpp",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data"
@@ -244,11 +227,28 @@
             },
             "rdfs:label": "integumentary-system (draft) graph data",
             "schema1:version": "draft",
-            "schema1:name": "integumentary-system",
-            "schema1:dateCreated": {
-                "@value": "2026-02-18",
-                "@type": "xsd:date"
-            }
+            "schema1:name": "integumentary-system"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

@@ -26,7 +26,7 @@
                                                                        dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                                        dct:publisher "HuBMAP" ;
                                                                        dct:title "female-reproductive-system (draft) graph data" ;
-                                                                       schema1:dateCreated "2026-02-18" ;
+                                                                       schema1:dateCreated "2026-02-19" ;
                                                                        schema1:version "draft" ;
                                                                        rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> ;
                                                                        prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> .
@@ -694,6 +694,10 @@ wpp:record_field rdf:type owl:AnnotationProperty .
 
 ###  https://purl.wholepersonphysiome.org/schema/wpp#record_number
 wpp:record_number rdf:type owl:AnnotationProperty .
+
+
+###  https://purl.wholepersonphysiome.org/schema/wpp#record_source
+wpp:record_source rdf:type owl:AnnotationProperty .
 
 
 ###  https://purl.wholepersonphysiome.org/schema/wpp#reference_field
@@ -13653,6 +13657,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R100-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R100-FunctionField-5> ;
                                                                                  wpp:record_number 100 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R100-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds" .
 
@@ -13756,6 +13761,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R101-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R101-FunctionField-5> ;
                                                                                  wpp:record_number 101 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R101-ReferenceField-1> ;
                                                                                  wpp:signal_field "paraympathetic activity" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -13862,6 +13868,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R102-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R102-FunctionField-5> ;
                                                                                  wpp:record_number 102 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R102-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds" .
 
@@ -13966,6 +13973,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R103-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R103-FunctionField-5> ;
                                                                                  wpp:record_number 103 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R103-ReferenceField-1> ;
                                                                                  wpp:signal_field "paraympathetic activity" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -14072,6 +14080,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R104-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R104-FunctionField-5> ;
                                                                                  wpp:record_number 104 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R104-ReferenceField-1> ;
                                                                                  wpp:signal_field "decreased contraction of corpus cavernosum clitoridis" ;
                                                                                  wpp:signal_scale_field "autocrine" ;
@@ -14178,6 +14187,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R105-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R105-FunctionField-5> ;
                                                                                  wpp:record_number 105 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R105-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds" .
 
@@ -14282,6 +14292,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R106-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R106-FunctionField-5> ;
                                                                                  wpp:record_number 106 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R106-ReferenceField-1> ;
                                                                                  wpp:signal_field "paraympathetic activity" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -14388,6 +14399,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R107-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R107-FunctionField-5> ;
                                                                                  wpp:record_number 107 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R107-ReferenceField-1> ;
                                                                                  wpp:signal_field "decreased contraction of corpus cavernosum clitoridis" ;
                                                                                  wpp:signal_scale_field "autocrine" ;
@@ -14494,6 +14506,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R108-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R108-FunctionField-5> ;
                                                                                  wpp:record_number 108 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R108-ReferenceField-1> ;
                                                                                  wpp:signal_field "sympathetic activity" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -14600,6 +14613,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R109-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R109-FunctionField-5> ;
                                                                                  wpp:record_number 109 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R109-ReferenceField-1> ;
                                                                                  wpp:signal_field "increased contraction of corpus cavernosum clitoridis" ;
                                                                                  wpp:signal_scale_field "autocrine" ;
@@ -14706,6 +14720,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R110-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R110-FunctionField-5> ;
                                                                                  wpp:record_number 110 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R110-ReferenceField-1> ;
                                                                                  wpp:signal_field "sympathetic activity" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -14812,6 +14827,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R111-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R111-FunctionField-5> ;
                                                                                  wpp:record_number 111 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R111-ReferenceField-1> ;
                                                                                  wpp:signal_field "increased contraction of corpus cavernosum clitoridis" ;
                                                                                  wpp:signal_scale_field "autocrine" ;
@@ -14917,6 +14933,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R112-FunctionField-3> ;
                                                                                  wpp:process_field "Bartholin's gland secrete fluid to lubricate vagina during coitus" ;
                                                                                  wpp:record_number 112 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R112-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds" .
 
@@ -14998,6 +15015,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R113-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R113-FunctionField-3> ;
                                                                                  wpp:record_number 113 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R113-ReferenceField-1> ;
                                                                                  wpp:signal_field "sexual activity" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -15083,6 +15101,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R114-FunctionField-4> ;
                                                                                  wpp:process_field "sacral plexus parasympathetic outflow innervates Bartholin's glands to lubricate vagina" ;
                                                                                  wpp:record_number 114 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R114-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "milliseconds" .
 
@@ -15176,6 +15195,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R115-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R115-FunctionField-4> ;
                                                                                  wpp:record_number 115 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R115-ReferenceField-1> ;
                                                                                  wpp:signal_field "sympathetic activity" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -15273,6 +15293,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R116-FunctionField-5> ;
                                                                                  wpp:process_field "spinal cord reflex via afferents through S2-S4, efferent activity via motor pudendal nerve. Results in rhythmic contraction of perineal muscles" ;
                                                                                  wpp:record_number 116 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R116-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "milliseconds" .
 
@@ -15377,6 +15398,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R117-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R117-FunctionField-5> ;
                                                                                  wpp:record_number 117 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R117-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds" .
 
@@ -15480,6 +15502,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R118-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R118-FunctionField-5> ;
                                                                                  wpp:record_number 118 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R118-ReferenceField-1> ;
                                                                                  wpp:signal_field "sensation of clitoris" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -15586,6 +15609,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R119-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R119-FunctionField-5> ;
                                                                                  wpp:record_number 119 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R119-ReferenceField-1> ;
                                                                                  wpp:signal_field "sensation of clitoris" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -15695,6 +15719,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R12-InteractionField-1> ;
                                                                                 wpp:process_field "DHEA is a testosterone and estrogen precursor; elevated in adrenarche" ;
                                                                                 wpp:record_number 12 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R12-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -15821,6 +15846,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R120-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R120-FunctionField-5> ;
                                                                                  wpp:record_number 120 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R120-ReferenceField-1> ;
                                                                                  wpp:signal_field "sensation of clitoris" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -15927,6 +15953,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R121-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R121-FunctionField-5> ;
                                                                                  wpp:record_number 121 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R121-ReferenceField-1> ;
                                                                                  wpp:signal_field "sensation of clitoris" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -16032,6 +16059,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R122-FunctionField-4> ;
                                                                                  wpp:process_field "cervix dilates during female orgasm to promote sperm entry" ;
                                                                                  wpp:record_number 122 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R122-ReferenceField-1> ;
                                                                                  wpp:signal_field "orgasm" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -16127,6 +16155,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R123-FunctionField-4> ;
                                                                                  wpp:process_field "uterus contracts in response to oxytocin release during orgasm to facilitate sperm entry" ;
                                                                                  wpp:record_number 123 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R123-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds" .
 
@@ -16220,6 +16249,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R124-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R124-FunctionField-4> ;
                                                                                  wpp:record_number 124 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R124-ReferenceField-1> ;
                                                                                  wpp:signal_field "orgasm" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -16314,6 +16344,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R125-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R125-FunctionField-4> ;
                                                                                  wpp:record_number 125 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R125-ReferenceField-1> ;
                                                                                  wpp:signal_field "orgasm" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -16409,6 +16440,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R126-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R126-FunctionField-4> ;
                                                                                  wpp:record_number 126 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R126-ReferenceField-1> ;
                                                                                  wpp:signal_field "orgasm" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -16504,6 +16536,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R127-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R127-FunctionField-4> ;
                                                                                  wpp:record_number 127 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R127-ReferenceField-1> ;
                                                                                  wpp:signal_field "orgasm" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -16598,6 +16631,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R128-FunctionField-2> ;
                                                                                  wpp:process_field "anterior pituitary secretes substantially more FSH without estradiol-mediated inhibition" ;
                                                                                  wpp:record_number 128 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R128-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds" .
 
@@ -16668,6 +16702,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                  wpp:function_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R129-FunctionField-1> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R129-FunctionField-2> ;
                                                                                  wpp:record_number 129 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R129-ReferenceField-1> ;
                                                                                  wpp:signal_field "decreased ovarian follicle storage" ;
                                                                                  wpp:signal_scale_field "intra-organ" ;
@@ -16745,6 +16780,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R13-FunctionField-5> ;
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R13-InteractionField-1> ;
                                                                                 wpp:record_number 13 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R13-ReferenceField-1> ;
                                                                                 wpp:signal_field "adrenarche status" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -16870,6 +16906,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                  wpp:function_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R130-FunctionField-1> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R130-FunctionField-2> ;
                                                                                  wpp:record_number 130 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R130-ReferenceField-1> ;
                                                                                  wpp:signal_field "menopause" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -16942,6 +16979,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                  wpp:function_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R131-FunctionField-1> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R131-FunctionField-2> ;
                                                                                  wpp:record_number 131 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R131-ReferenceField-1> ;
                                                                                  wpp:signal_field "menopause" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -17020,6 +17058,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R132-FunctionField-5> ;
                                                                                  wpp:process_field "cilia in fallopian tube transport mature oocyte from ovarian fimbriae to uterus" ;
                                                                                  wpp:record_number 132 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R132-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -17127,6 +17166,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R133-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R133-FunctionField-5> ;
                                                                                  wpp:record_number 133 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R133-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -17234,6 +17274,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R134-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R134-FunctionField-5> ;
                                                                                  wpp:record_number 134 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R134-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -17338,6 +17379,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R135-FunctionField-3> ;
                                                                                  wpp:process_field "sperm fertilizes oocyte in ampulla of fallopian tube" ;
                                                                                  wpp:record_number 135 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R135-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -17420,6 +17462,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R136-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R136-FunctionField-3> ;
                                                                                  wpp:record_number 136 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R136-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -17502,6 +17545,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R137-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R137-FunctionField-3> ;
                                                                                  wpp:record_number 137 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R137-ReferenceField-1> ;
                                                                                  wpp:signal_field "oocyte fuse to sperm" ;
                                                                                  wpp:signal_scale_field "autocrine" ;
@@ -17587,6 +17631,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R138-FunctionField-3> ;
                                                                                  wpp:process_field "morula forms approximately 3 days after fertilization, remains in ampulla until blastocyst stage" ;
                                                                                  wpp:record_number 138 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R138-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -17670,6 +17715,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R139-FunctionField-3> ;
                                                                                  wpp:process_field "blastocyst implants in endometrium 6-7 days post-fertilization" ;
                                                                                  wpp:record_number 139 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R139-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -17753,6 +17799,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:process_field "GnRH stimulates LH and FSH release from the anterior pituitary" ;
                                                                                 wpp:quantitative_notes_field "release of GnRH is sinusoidal, with period of 60-90 minutes" ;
                                                                                 wpp:record_number 14 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R14-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -17825,6 +17872,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R140-FunctionField-3> ;
                                                                                  wpp:process_field "endometrial stromal cells change into rounded decidual cells, beginning near the spiral arteries" ;
                                                                                  wpp:record_number 140 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R140-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -17907,6 +17955,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R141-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R141-FunctionField-3> ;
                                                                                  wpp:record_number 141 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R141-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -17989,6 +18038,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R142-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R142-FunctionField-3> ;
                                                                                  wpp:record_number 142 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R142-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -18071,6 +18121,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R143-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R143-FunctionField-3> ;
                                                                                  wpp:record_number 143 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R143-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -18153,6 +18204,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R144-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R144-FunctionField-3> ;
                                                                                  wpp:record_number 144 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R144-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -18236,6 +18288,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R145-FunctionField-3> ;
                                                                                  wpp:process_field "trophoblast of blastocyst secretes beta hcg to maintain iniital pregnancy, sustains corpus luteum as maternal LH decreases" ;
                                                                                  wpp:record_number 145 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R145-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -18317,6 +18370,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R146-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R146-FunctionField-3> ;
                                                                                  wpp:record_number 146 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R146-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -18398,6 +18452,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R147-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R147-FunctionField-3> ;
                                                                                  wpp:record_number 147 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R147-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -18481,6 +18536,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R148-FunctionField-4> ;
                                                                                  wpp:process_field "syncytiotrophoblast becomes main component of maternal-fetal interface" ;
                                                                                  wpp:record_number 148 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R148-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -18575,6 +18631,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R149-FunctionField-4> ;
                                                                                  wpp:process_field "cytotrophoblast will penetrate syncytiotrophoblast and form chorionic villi" ;
                                                                                  wpp:record_number 149 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R149-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "days" .
 
@@ -18667,6 +18724,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R15-FunctionField-2> ;
                                                                                 wpp:quantitative_notes_field "LH levels also sinusoidal, go from 10 to 40mU/mL in response to pulsatile GnRH; LH dual exponential half life of 40 minutes and 120 minutes in circulation" ;
                                                                                 wpp:record_number 15 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R15-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -18740,6 +18798,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R150-FunctionField-4> ;
                                                                                  wpp:process_field "invasion of syncytiotrophoblast into maternal endometrium begins the formation of the placenta" ;
                                                                                  wpp:record_number 150 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R150-ReferenceField-1> ;
                                                                                  wpp:signal_field "fuse to endometrium" ;
                                                                                  wpp:signal_scale_field "intra-organ" ;
@@ -18836,6 +18895,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                  wpp:process_field "blood volume increases by ~45% in pregnancy (~50% bump in plasma, ~33% increase in erythrocytes, leading to dilutional anemia)" ;
                                                                                  wpp:quantitative_notes_field "increase by 33%" ;
                                                                                  wpp:record_number 151 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R151-ReferenceField-1> ;
                                                                                  wpp:signal_field "pregnancy" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -18931,6 +18991,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R152-FunctionField-4> ;
                                                                                  wpp:quantitative_notes_field "increase by 50%" ;
                                                                                  wpp:record_number 152 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R152-ReferenceField-1> ;
                                                                                  wpp:signal_field "pregnancy" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -19027,6 +19088,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                  wpp:process_field "cardiac output increases 35-45% in pregnancy" ;
                                                                                  wpp:quantitative_notes_field "increase by 35%" ;
                                                                                  wpp:record_number 153 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R153-ReferenceField-1> ;
                                                                                  wpp:signal_field "pregnancy" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -19122,6 +19184,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                  wpp:process_field "alveolar ventilation (via tidal volume) increases ~45%" ;
                                                                                  wpp:quantitative_notes_field "increase by 45%" ;
                                                                                  wpp:record_number 154 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R154-ReferenceField-1> ;
                                                                                  wpp:signal_field "pregnancy" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -19217,6 +19280,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R155-FunctionField-4> ;
                                                                                  wpp:process_field "gravid uterus grows and expands via myometrial hypertrophy to accomodate the growing fetus" ;
                                                                                  wpp:record_number 155 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R155-ReferenceField-1> ;
                                                                                  wpp:signal_field "pregnancy" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -19313,6 +19377,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R156-FunctionField-4> ;
                                                                                  wpp:process_field "myometrium undergoes genetic expression changes leading to increased expression of connexin-43, receptors for prostaglandins, and oxytocin" ;
                                                                                  wpp:record_number 156 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R156-ReferenceField-1> ;
                                                                                  wpp:signal_field "pregnancy" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -19408,6 +19473,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R157-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R157-FunctionField-4> ;
                                                                                  wpp:record_number 157 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R157-ReferenceField-1> ;
                                                                                  wpp:signal_field "pregnancy" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -19503,6 +19569,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R158-FunctionField-4> ;
                                                                                  wpp:process_field "cervix increases transcription of genes such as collagenases to facilitate effacement and dilation" ;
                                                                                  wpp:record_number 158 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R158-ReferenceField-1> ;
                                                                                  wpp:signal_field "activation stage" ;
                                                                                  wpp:signal_scale_field "systemic" ;
@@ -19599,6 +19666,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R159-FunctionField-5> ;
                                                                                  wpp:process_field "oxytocin and prostaglandins cause coordinated and rhythmic uterine contraction" ;
                                                                                  wpp:record_number 159 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R159-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "hours" .
 
@@ -19702,6 +19770,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R16-FunctionField-2> ;
                                                                                 wpp:quantitative_notes_field "LH levels also sinusoidal, go from 10 to 40mU/mL in response to pulsatile GnRH; LH dual exponential half life of 40 minutes and 120 minutes in circulation" ;
                                                                                 wpp:record_number 16 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R16-ReferenceField-1> ;
                                                                                 wpp:signal_field "gonadotropin releasing hormone, sinusoidal" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -19776,6 +19845,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R160-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R160-FunctionField-5> ;
                                                                                  wpp:record_number 160 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R160-ReferenceField-1> ;
                                                                                  wpp:signal_field "oxytocin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -19883,6 +19953,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R161-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R161-FunctionField-5> ;
                                                                                  wpp:record_number 161 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R161-ReferenceField-1> ;
                                                                                  wpp:signal_field "oxytocin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -19990,6 +20061,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R162-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R162-FunctionField-5> ;
                                                                                  wpp:record_number 162 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R162-ReferenceField-1> ;
                                                                                  wpp:signal_field "oxytocin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -20096,6 +20168,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R163-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R163-FunctionField-5> ;
                                                                                  wpp:record_number 163 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R163-ReferenceField-1> ;
                                                                                  wpp:signal_field "prostacyclin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -20203,6 +20276,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R164-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R164-FunctionField-5> ;
                                                                                  wpp:record_number 164 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R164-ReferenceField-1> ;
                                                                                  wpp:signal_field "prostacyclin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -20310,6 +20384,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R165-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R165-FunctionField-5> ;
                                                                                  wpp:record_number 165 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R165-ReferenceField-1> ;
                                                                                  wpp:signal_field "prostacyclin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -20417,6 +20492,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R166-FunctionField-5> ;
                                                                                  wpp:process_field "contraction and pushing of fetal head against cervix leads to progressive cervical dilation" ;
                                                                                  wpp:record_number 166 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R166-ReferenceField-1> ;
                                                                                  wpp:signal_field "myometrium contraction" ;
                                                                                  wpp:signal_scale_field "intra-organ" ;
@@ -20522,6 +20598,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R167-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R167-FunctionField-5> ;
                                                                                  wpp:record_number 167 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R167-ReferenceField-1> ;
                                                                                  wpp:signal_field "myometrium contraction" ;
                                                                                  wpp:signal_scale_field "intra-organ" ;
@@ -20628,6 +20705,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R168-FunctionField-5> ;
                                                                                  wpp:process_field "oxytocin drives further uterine contraction to cause constriction of the spiral arteries and delivery of the placenta" ;
                                                                                  wpp:record_number 168 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R168-ReferenceField-1> ;
                                                                                  wpp:signal_field "myometrium contraction" ;
                                                                                  wpp:signal_scale_field "intra-organ" ;
@@ -20734,6 +20812,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R169-FunctionField-4> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R169-FunctionField-5> ;
                                                                                  wpp:record_number 169 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R169-ReferenceField-1> ;
                                                                                  wpp:signal_field "myometrium contraction" ;
                                                                                  wpp:signal_scale_field "intra-organ" ;
@@ -20839,6 +20918,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R17-FunctionField-2> ;
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R17-InteractionField-1> ;
                                                                                 wpp:record_number 17 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R17-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "seconds" .
 
@@ -20925,6 +21005,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R170-FunctionField-5> ;
                                                                                  wpp:process_field "placenta is delivered from the uterus through the vagina" ;
                                                                                  wpp:record_number 170 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R170-ReferenceField-1> ;
                                                                                  wpp:signal_field "myometrium contraction" ;
                                                                                  wpp:signal_scale_field "intra-organ" ;
@@ -21030,6 +21111,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R171-FunctionField-3> ;
                                                                                  wpp:process_field "driven by prolactin, mammary alveolar epithelial cells produce milk (sugar, lipids, protein)" ;
                                                                                  wpp:record_number 171 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R171-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -21111,6 +21193,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R172-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R172-FunctionField-3> ;
                                                                                  wpp:record_number 172 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R172-ReferenceField-1> ;
                                                                                  wpp:signal_field "prolactin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -21196,6 +21279,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R173-FunctionField-4> ;
                                                                                  wpp:process_field "nipple stimulation triggers prolactin secretion via dopamine inhibition by a spinal reflex pathway from sensory afferents" ;
                                                                                  wpp:record_number 173 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R173-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "minutes" .
 
@@ -21289,6 +21373,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R174-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R174-FunctionField-4> ;
                                                                                  wpp:record_number 174 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R174-ReferenceField-1> ;
                                                                                  wpp:signal_field "sensation of nipple" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -21384,6 +21469,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R175-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R175-FunctionField-4> ;
                                                                                  wpp:record_number 175 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R175-ReferenceField-1> ;
                                                                                  wpp:signal_field "sensation of nipple" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -21479,6 +21565,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R176-FunctionField-3> ;
                                                                                  wpp:process_field "oxytocin release from physical and psychosocial stimuli triggers milk letdown" ;
                                                                                  wpp:record_number 176 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R176-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds, minutes" .
 
@@ -21560,6 +21647,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R177-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R177-FunctionField-3> ;
                                                                                  wpp:record_number 177 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R177-ReferenceField-1> ;
                                                                                  wpp:signal_field "oxytocin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -21645,6 +21733,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R178-FunctionField-4> ;
                                                                                  wpp:process_field "nursing triggers spinal cord reflex that triggers parvocellular neurons in the neurohypophysis to secrete oxytocin and trigger contraction of milk ducts leading to milk letdown" ;
                                                                                  wpp:record_number 178 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R178-ReferenceField-1> ;
                                                                                  wpp:signal_field "sensation of nipple" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -21740,6 +21829,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R179-FunctionField-4> ;
                                                                                  wpp:process_field "smooth muscle cells around the mammary ducts contract in response to oxytocin stimulation" ;
                                                                                  wpp:record_number 179 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R179-ReferenceField-1> ;
                                                                                  wpp:time_scale_field "seconds" .
 
@@ -21831,6 +21921,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R18-FunctionField-2> ;
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R18-InteractionField-1> ;
                                                                                 wpp:record_number 18 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R18-ReferenceField-1> ;
                                                                                 wpp:signal_field "gonadotropin releasing hormone, sinusoidal" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -21914,6 +22005,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R180-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R180-FunctionField-4> ;
                                                                                  wpp:record_number 180 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R180-ReferenceField-1> ;
                                                                                  wpp:signal_field "oxytocin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -22008,6 +22100,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R181-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R181-FunctionField-4> ;
                                                                                  wpp:record_number 181 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R181-ReferenceField-1> ;
                                                                                  wpp:signal_field "oxytocin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -22102,6 +22195,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R182-FunctionField-3> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R182-FunctionField-4> ;
                                                                                  wpp:record_number 182 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R182-ReferenceField-1> ;
                                                                                  wpp:signal_field "oxytocin" ;
                                                                                  wpp:signal_scale_field "circulatory" ;
@@ -22195,6 +22289,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R183-FunctionField-2> ,
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R183-FunctionField-3> ;
                                                                                  wpp:record_number 183 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R183-ReferenceField-1> ;
                                                                                  wpp:signal_field "mammary gland smooth muscle contraction" ;
                                                                                  wpp:signal_scale_field "intra-organ" ;
@@ -22280,6 +22375,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                     <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R184-FunctionField-4> ;
                                                                                  wpp:process_field "reduction of GnRH release by suckling leads to decreased FSH and LH, inhibiting ovarian cycle during nursing" ;
                                                                                  wpp:record_number 184 ;
+                                                                                 wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                  wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R184-ReferenceField-1> ;
                                                                                  wpp:signal_field "sensation of nipple" ;
                                                                                  wpp:signal_scale_field "paracrine" ;
@@ -22372,6 +22468,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:function_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R19-FunctionField-1> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R19-FunctionField-2> ;
                                                                                 wpp:record_number 19 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R19-ReferenceField-1> ;
                                                                                 wpp:signal_field "gonadotropin releasing hormone, continuous" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -22444,6 +22541,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:function_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R20-FunctionField-1> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R20-FunctionField-2> ;
                                                                                 wpp:record_number 20 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R20-ReferenceField-1> ;
                                                                                 wpp:signal_field "gonadotropin releasing hormone, continuous" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -22518,6 +22616,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:process_field "LH triggers ovulation in females and testosterone production in males" ;
                                                                                 wpp:quantitative_notes_field "peak LH = 75 mU/mL, triggers oocyte release from the ovarian follicle" ;
                                                                                 wpp:record_number 21 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R21-ReferenceField-1> ;
                                                                                 wpp:signal_field "peak luteinizing hormone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -22590,6 +22689,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:function_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R22-FunctionField-1> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R22-FunctionField-2> ;
                                                                                 wpp:record_number 22 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R22-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "seconds, minutes" .
 
@@ -22660,6 +22760,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:function_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R23-FunctionField-1> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R23-FunctionField-2> ;
                                                                                 wpp:record_number 23 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R23-ReferenceField-1> ;
                                                                                 wpp:signal_field "luteal phase" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -22738,6 +22839,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R24-InteractionField-2> ;
                                                                                 wpp:process_field "prolactin promotes breast tissue development and lactation" ;
                                                                                 wpp:record_number 24 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R24-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -22865,6 +22967,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R25-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R25-InteractionField-2> ;
                                                                                 wpp:record_number 25 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R25-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -22992,6 +23095,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R26-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R26-InteractionField-2> ;
                                                                                 wpp:record_number 26 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R26-ReferenceField-1> ;
                                                                                 wpp:signal_field "prolactin" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -23121,6 +23225,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R27-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R27-InteractionField-2> ;
                                                                                 wpp:record_number 27 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R27-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -23248,6 +23353,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R28-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R28-InteractionField-2> ;
                                                                                 wpp:record_number 28 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R28-ReferenceField-1> ;
                                                                                 wpp:signal_field "prolactin" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -23376,6 +23482,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R29-InteractionField-2> ;
                                                                                 wpp:process_field "FSH promotes secondary sexual characteristics, regulates menstrual cycle, promotes endometrial proliferation and hyperplasia" ;
                                                                                 wpp:record_number 29 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R29-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -23479,6 +23586,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R30-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R30-InteractionField-2> ;
                                                                                 wpp:record_number 30 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R30-ReferenceField-1> ;
                                                                                 wpp:signal_field "follicle stimulating hormone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -23584,6 +23692,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R31-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R31-InteractionField-2> ;
                                                                                 wpp:record_number 31 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R31-ReferenceField-1> ;
                                                                                 wpp:signal_field "estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -23689,6 +23798,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R32-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R32-InteractionField-2> ;
                                                                                 wpp:record_number 32 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R32-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -23792,6 +23902,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R33-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R33-InteractionField-2> ;
                                                                                 wpp:record_number 33 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R33-ReferenceField-1> ;
                                                                                 wpp:signal_field "estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -23897,6 +24008,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R34-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R34-InteractionField-2> ;
                                                                                 wpp:record_number 34 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R34-ReferenceField-1> ;
                                                                                 wpp:signal_field "estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -24002,6 +24114,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R35-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R35-InteractionField-2> ;
                                                                                 wpp:record_number 35 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R35-ReferenceField-1> ;
                                                                                 wpp:signal_field "estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -24108,6 +24221,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R36-InteractionField-2> ;
                                                                                 wpp:quantitative_notes_field "peak estradiol = 800pg/mL" ;
                                                                                 wpp:record_number 36 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R36-ReferenceField-1> ;
                                                                                 wpp:signal_field "peak estradiol" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -24213,6 +24327,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R37-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R37-InteractionField-2> ;
                                                                                 wpp:record_number 37 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R37-ReferenceField-1> ;
                                                                                 wpp:signal_field "peak estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -24320,6 +24435,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R38-InteractionField-3> ;
                                                                                 wpp:process_field "progesterone promotes endometrial proliferation and maturation for implantation; inhibits uterine contraction" ;
                                                                                 wpp:record_number 38 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R38-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -24434,6 +24550,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R39-InteractionField-2> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R39-InteractionField-3> ;
                                                                                 wpp:record_number 39 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R39-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -24548,6 +24665,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R40-InteractionField-2> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R40-InteractionField-3> ;
                                                                                 wpp:record_number 40 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R40-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -24664,6 +24782,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R41-InteractionField-2> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R41-InteractionField-3> ;
                                                                                 wpp:record_number 41 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R41-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -24780,6 +24899,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R42-InteractionField-2> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R42-InteractionField-3> ;
                                                                                 wpp:record_number 42 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R42-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -24895,6 +25015,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R43-InteractionField-2> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R43-InteractionField-3> ;
                                                                                 wpp:record_number 43 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R43-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "seconds, minutes" .
 
@@ -25009,6 +25130,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R44-InteractionField-2> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R44-InteractionField-3> ;
                                                                                 wpp:record_number 44 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R44-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -25125,6 +25247,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R45-InteractionField-2> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R45-InteractionField-3> ;
                                                                                 wpp:record_number 45 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R45-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -25242,6 +25365,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R46-InteractionField-3> ;
                                                                                 wpp:process_field "selectively inhibits FSH release from the anterior pituitary" ;
                                                                                 wpp:record_number 46 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R46-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -25356,6 +25480,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R47-InteractionField-2> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R47-InteractionField-3> ;
                                                                                 wpp:record_number 47 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R47-ReferenceField-1> ;
                                                                                 wpp:signal_field "inhibin" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -25471,6 +25596,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R48-InteractionField-2> ;
                                                                                 wpp:process_field "stimulates FSH release and promotes ovarian follicular development" ;
                                                                                 wpp:record_number 48 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R48-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -25563,6 +25689,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R49-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R49-InteractionField-2> ;
                                                                                 wpp:record_number 49 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R49-ReferenceField-1> ;
                                                                                 wpp:signal_field "activin" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -25657,6 +25784,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R50-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R50-InteractionField-2> ;
                                                                                 wpp:record_number 50 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R50-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -25749,6 +25877,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R51-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R51-InteractionField-2> ;
                                                                                 wpp:record_number 51 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R51-ReferenceField-1> ;
                                                                                 wpp:signal_field "activin" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -25847,6 +25976,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:process_field "serves as a precursor to estrogen in granulosa cells" ;
                                                                                 wpp:quantitative_notes_field "units = ng/dL" ;
                                                                                 wpp:record_number 52 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R52-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" ;
                                                                                 wpp:x_target_field "[30, 200]" .
@@ -25965,6 +26095,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:process_field "serves as a precursor to estrogen" ;
                                                                                 wpp:quantitative_notes_field "units = ng/dL" ;
                                                                                 wpp:record_number 53 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R53-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" ;
                                                                                 wpp:x_target_field "[30, 200]" .
@@ -26080,6 +26211,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R54-FunctionField-3> ;
                                                                                 wpp:process_field "converts androstenedione and testosterone to estrogen" ;
                                                                                 wpp:record_number 54 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R54-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -26162,6 +26294,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R55-FunctionField-2> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R55-FunctionField-3> ;
                                                                                 wpp:record_number 55 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R55-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -26244,6 +26377,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R56-FunctionField-2> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R56-FunctionField-3> ;
                                                                                 wpp:record_number 56 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R56-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -26328,6 +26462,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R57-InteractionField-1> ;
                                                                                 wpp:process_field "beta hCG is produced by the placenta to maintain pregnancy" ;
                                                                                 wpp:record_number 57 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R57-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -26431,6 +26566,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R58-FunctionField-3> ;
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R58-InteractionField-1> ;
                                                                                 wpp:record_number 58 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R58-ReferenceField-1> ;
                                                                                 wpp:signal_field "beta human chorionic gonadotropin" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -26538,6 +26674,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R59-InteractionField-2> ;
                                                                                 wpp:process_field "progesterone is produced by the placenta to maintain pregnancy" ;
                                                                                 wpp:record_number 59 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R59-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -26653,6 +26790,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R60-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R60-InteractionField-2> ;
                                                                                 wpp:record_number 60 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R60-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -26771,6 +26909,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R61-InteractionField-2> ;
                                                                                 wpp:process_field "estrogen is produced by the placenta to maintain pregnancy" ;
                                                                                 wpp:record_number 61 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R61-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes" .
 
@@ -26886,6 +27025,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R62-InteractionField-1> ,
                                                                                                       <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R62-InteractionField-2> ;
                                                                                 wpp:record_number 62 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R62-ReferenceField-1> ;
                                                                                 wpp:signal_field "estrogen" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -27002,6 +27142,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R63-InteractionField-1> ;
                                                                                 wpp:process_field "estrogen and progesterone from the ovaries promote breast development" ;
                                                                                 wpp:record_number 63 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R63-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -27098,6 +27239,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R64-InteractionField-1> ;
                                                                                 wpp:process_field "leptin secretion triggers GnRH secretion to trigger ovulation/signal sufficient nutrition status" ;
                                                                                 wpp:record_number 64 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R64-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -27190,6 +27332,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R65-FunctionField-3> ;
                                                                                 wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R65-InteractionField-1> ;
                                                                                 wpp:record_number 65 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R65-ReferenceField-1> ;
                                                                                 wpp:signal_field "leptin" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -27285,6 +27428,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R66-FunctionField-4> ;
                                                                                 wpp:process_field "in the follicular phase, FSH and LH drive follicle proliferation; follicles produce estradiol, dominant follicle emerges; lasts approximately 14 days" ;
                                                                                 wpp:record_number 66 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R66-ReferenceField-1> ;
                                                                                 wpp:signal_field "follicular phase" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -27380,6 +27524,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R67-FunctionField-3> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R67-FunctionField-4> ;
                                                                                 wpp:record_number 67 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R67-ReferenceField-1> ;
                                                                                 wpp:signal_field "follicle stimulating hormone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -27475,6 +27620,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R68-FunctionField-3> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R68-FunctionField-4> ;
                                                                                 wpp:record_number 68 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R68-ReferenceField-1> ;
                                                                                 wpp:signal_field "luteinizing hormone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -27572,6 +27718,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R69-FunctionField-5> ;
                                                                                 wpp:process_field "proliferating follicles secrete estradiol; serves to support endometrial proliferation" ;
                                                                                 wpp:record_number 69 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R69-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "minutes, hours" .
 
@@ -27678,6 +27825,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:process_field "estradiol at maximal level at end of follicular phase leads to switch from inhibitory to excitatory hypothalamic feedback -> LH surge" ;
                                                                                 wpp:quantitative_notes_field "peak LH = 75 mU/mL, triggers oocyte release from the ovarian follicle" ;
                                                                                 wpp:record_number 70 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R70-ReferenceField-1> ;
                                                                                 wpp:signal_field "peak estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -27786,6 +27934,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R71-FunctionField-5> ;
                                                                                 wpp:process_field "LH surge triggers rupture of dominant follicle and release of its oocyte" ;
                                                                                 wpp:record_number 71 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R71-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -27891,6 +28040,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R72-FunctionField-4> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R72-FunctionField-5> ;
                                                                                 wpp:record_number 72 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R72-ReferenceField-1> ;
                                                                                 wpp:signal_field "peak luteinizing hormone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -27998,6 +28148,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R73-FunctionField-4> ;
                                                                                 wpp:process_field "remnants of ruptured follicle become the corpus luteum, secrete progesterone; supports secretory phase of endometrial cycle" ;
                                                                                 wpp:record_number 73 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R73-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -28091,6 +28242,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R74-FunctionField-3> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R74-FunctionField-4> ;
                                                                                 wpp:record_number 74 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R74-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "hours" .
 
@@ -28185,6 +28337,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R75-FunctionField-3> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R75-FunctionField-4> ;
                                                                                 wpp:record_number 75 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R75-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -28281,6 +28434,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R76-FunctionField-3> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R76-FunctionField-4> ;
                                                                                 wpp:record_number 76 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R76-ReferenceField-1> ;
                                                                                 wpp:signal_field "estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -28376,6 +28530,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R77-FunctionField-3> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R77-FunctionField-4> ;
                                                                                 wpp:record_number 77 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R77-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -28471,6 +28626,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R78-FunctionField-3> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R78-FunctionField-4> ;
                                                                                 wpp:record_number 78 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R78-ReferenceField-1> ;
                                                                                 wpp:signal_field "estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -28568,6 +28724,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R79-FunctionField-5> ;
                                                                                 wpp:process_field "if implantation is successful, the placenta produces beta hCG to maintain the corpus luteum" ;
                                                                                 wpp:record_number 79 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R79-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "days" .
 
@@ -28672,6 +28829,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R80-FunctionField-4> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R80-FunctionField-5> ;
                                                                                 wpp:record_number 80 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R80-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "days" .
 
@@ -28776,6 +28934,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R81-FunctionField-4> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R81-FunctionField-5> ;
                                                                                 wpp:record_number 81 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R81-ReferenceField-1> ;
                                                                                 wpp:signal_field "implantation" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -28882,6 +29041,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R82-FunctionField-4> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R82-FunctionField-5> ;
                                                                                 wpp:record_number 82 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R82-ReferenceField-1> ;
                                                                                 wpp:signal_field "implantation" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -28987,6 +29147,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R83-FunctionField-4> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R83-FunctionField-5> ;
                                                                                 wpp:record_number 83 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R83-ReferenceField-1> ;
                                                                                 wpp:signal_field "implantation" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -29092,6 +29253,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R84-FunctionField-4> ;
                                                                                 wpp:process_field "if pregnancy is not established, withdrawal of progesterone and estrogen lead to shedding of endometrium" ;
                                                                                 wpp:record_number 84 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R84-ReferenceField-1> ;
                                                                                 wpp:signal_field "pregnancy" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -29189,6 +29351,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R85-FunctionField-5> ;
                                                                                 wpp:process_field "driven in part by elevated estradiol from proliferating follicles in ovarian follicular phase" ;
                                                                                 wpp:record_number 85 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R85-ReferenceField-1> ;
                                                                                 wpp:signal_field "estradiol" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -29294,6 +29457,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R86-FunctionField-4> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R86-FunctionField-5> ;
                                                                                 wpp:record_number 86 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R86-ReferenceField-1> ;
                                                                                 wpp:signal_field "follicular phase" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -29400,6 +29564,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R87-FunctionField-5> ;
                                                                                 wpp:process_field "driven by increased progesterone from corpus luteum" ;
                                                                                 wpp:record_number 87 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R87-ReferenceField-1> ;
                                                                                 wpp:signal_field "progesterone" ;
                                                                                 wpp:signal_scale_field "circulatory" ;
@@ -29505,6 +29670,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R88-FunctionField-4> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R88-FunctionField-5> ;
                                                                                 wpp:record_number 88 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R88-ReferenceField-1> ;
                                                                                 wpp:signal_field "implantation" ;
                                                                                 wpp:signal_scale_field "systemic" ;
@@ -29612,6 +29778,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R89-FunctionField-6> ;
                                                                                 wpp:process_field "oocyte enlarges in size and forms the zona pellucida" ;
                                                                                 wpp:record_number 89 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R89-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "days" .
 
@@ -29728,6 +29895,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R90-FunctionField-5> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R90-FunctionField-6> ;
                                                                                 wpp:record_number 90 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R90-ReferenceField-1> ;
                                                                                 wpp:signal_field "maturation" ;
                                                                                 wpp:signal_scale_field "autocrine" ;
@@ -29846,6 +30014,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R91-FunctionField-5> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R91-FunctionField-6> ;
                                                                                 wpp:record_number 91 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R91-ReferenceField-1> ;
                                                                                 wpp:signal_field "maturation" ;
                                                                                 wpp:signal_scale_field "autocrine" ;
@@ -29965,6 +30134,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R92-FunctionField-6> ;
                                                                                 wpp:process_field "theca cells proliferate, increasing follicle size to ~100µm; develops vascular capillary network" ;
                                                                                 wpp:record_number 92 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R92-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "days" .
 
@@ -30081,6 +30251,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R93-FunctionField-5> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R93-FunctionField-6> ;
                                                                                 wpp:record_number 93 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R93-ReferenceField-1> ;
                                                                                 wpp:signal_field "hyperplastic growth (volume increase)" ;
                                                                                 wpp:signal_scale_field "autocrine" ;
@@ -30200,6 +30371,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R94-FunctionField-6> ;
                                                                                 wpp:process_field "generation of mural, cumulus, and antral granulosa cells to secrete estrogen" ;
                                                                                 wpp:record_number 94 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R94-ReferenceField-1> ;
                                                                                 wpp:signal_field "maturation" ;
                                                                                 wpp:signal_scale_field "autocrine" ;
@@ -30319,6 +30491,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R95-FunctionField-5> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R95-FunctionField-6> ;
                                                                                 wpp:record_number 95 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R95-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "days" .
 
@@ -30436,6 +30609,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R96-FunctionField-5> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R96-FunctionField-6> ;
                                                                                 wpp:record_number 96 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R96-ReferenceField-1> ;
                                                                                 wpp:signal_field "maturation" ;
                                                                                 wpp:signal_scale_field "autocrine" ;
@@ -30554,6 +30728,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R97-FunctionField-5> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R97-FunctionField-6> ;
                                                                                 wpp:record_number 97 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R97-ReferenceField-1> ;
                                                                                 wpp:signal_field "tertiary ovarian follicle" ;
                                                                                 wpp:signal_scale_field "autocrine" ;
@@ -30672,6 +30847,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R98-FunctionField-5> ;
                                                                                 wpp:process_field "sacral plexus parasympathetic outflow innervates clitoral tissues to produce erection" ;
                                                                                 wpp:record_number 98 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R98-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "milliseconds" .
 
@@ -30777,6 +30953,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R99-FunctionField-5> ;
                                                                                 wpp:process_field "carvernous nerve of clitoris innervates corpus cavernosum" ;
                                                                                 wpp:record_number 99 ;
+                                                                                wpp:record_source "https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft" ;
                                                                                 wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R99-ReferenceField-1> ;
                                                                                 wpp:time_scale_field "seconds" .
 

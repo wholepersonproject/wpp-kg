@@ -13,7 +13,7 @@
     dct:publisher "HuBMAP" ;
     dct:title "muscular-system (draft) graph data" ;
     schema1:additionalType "wpp" ;
-    schema1:dateCreated "2026-02-18"^^xsd:date ;
+    schema1:dateCreated "2026-02-19"^^xsd:date ;
     schema1:name "muscular-system" ;
     schema1:version "draft" ;
     rdfs:comment "The graph representation of the Whole Person Physiome (WPP) table for the muscular system dataset." ;
@@ -119,7 +119,7 @@
     schema1:name "HRA Digital Object Processor" ;
     schema1:targetProduct [ a schema1:SoftwareSourceCode ;
             schema1:codeRepository <https://github.com/hubmapconsortium/hra-do-processor> ;
-            rdfs:seeAlso <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> ] ;
+            rdfs:seeAlso <https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6> ] ;
     schema1:version "0.10.0" ;
     dcat:conforms_to "SoftwareApplication" .
 

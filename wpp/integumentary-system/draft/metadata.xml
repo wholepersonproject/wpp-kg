@@ -23,11 +23,6 @@
     <rdfs:label>Graph data distribution integumentary-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-1005-3726">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Katalin Susztak</schema1:name>
@@ -40,7 +35,7 @@
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
-    <schema1:targetProduct rdf:nodeID="A1"/>
+    <schema1:targetProduct rdf:nodeID="A0"/>
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
@@ -70,8 +65,8 @@
     <rdfs:label>Raw data distribution 'Integumentary_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"/>
     <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
@@ -83,8 +78,12 @@
     <rdfs:label>Graph data distribution integumentary-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data">
-    <schema1:funding rdf:nodeID="A0"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:title>Whole Person Physiome (WPP) table for the integumentary system</dct:title>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
@@ -95,6 +94,7 @@
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-7036-8359"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-04</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#Integumentary_System.csv"/>
   </rdf:Description>
@@ -139,6 +139,7 @@
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the integumentary system dataset.</rdfs:comment>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema1:dateCreated>
     <schema1:additionalType>wpp</schema1:additionalType>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#json"/>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data"/>
@@ -148,7 +149,6 @@
     <rdfs:label>integumentary-system (draft) graph data</rdfs:label>
     <schema1:version>draft</schema1:version>
     <schema1:name>integumentary-system</schema1:name>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-18</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#turtle"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#rdfxml"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#nquads"/>

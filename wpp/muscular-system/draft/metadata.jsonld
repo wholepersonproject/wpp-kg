@@ -46,6 +46,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-3321-6137",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katy Börner",
@@ -54,33 +60,6 @@
             "schema1:familyName": "Börner",
             "rdfs:label": "Katy Börner",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#Muscular_System.csv",
@@ -120,9 +99,6 @@
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "@type": "dcat:Dataset",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "schema1:dateCreated": {
                 "@value": "2025-10-16",
                 "@type": "xsd:date"
@@ -135,6 +111,9 @@
             },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0003-2700-1815"
+            },
+            "schema1:funding": {
+                "@id": "_:b0"
             },
             "dct:publisher": "WPP",
             "rdfs:comment": "TODO: description",
@@ -159,6 +138,27 @@
             "schema1:familyName": "Stedman",
             "rdfs:label": "Hansell Stedman",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#rdfxml",
@@ -222,10 +222,6 @@
             },
             "dct:publisher": "HuBMAP",
             "schema1:name": "muscular-system",
-            "schema1:dateCreated": {
-                "@value": "2026-02-18",
-                "@type": "xsd:date"
-            },
             "@type": "dcat:Dataset",
             "schema1:version": "draft",
             "rdfs:label": "muscular-system (draft) graph data",
@@ -233,7 +229,11 @@
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
-            "dct:title": "muscular-system (draft) graph data"
+            "dct:title": "muscular-system (draft) graph data",
+            "schema1:dateCreated": {
+                "@value": "2026-02-19",
+                "@type": "xsd:date"
+            }
         }
     ],
     "@context": {

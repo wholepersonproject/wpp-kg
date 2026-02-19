@@ -1,19 +1,10 @@
 {
     "@graph": [
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#rdfxml",
-            "dcat:mediaType": "application/rdf+xml",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft/graph.xml",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#rdfxml",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution female-reproductive-system (draft) in RDF/XML format",
-            "rdfs:label": "Graph data distribution female-reproductive-system (draft) in RDF/XML format",
-            "@type": "dcat:Distribution"
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#ntriples",
@@ -58,6 +49,21 @@
             },
             "dct:title": "Graph data distribution female-reproductive-system (draft) in JSON format",
             "rdfs:label": "Graph data distribution female-reproductive-system (draft) in JSON format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution female-reproductive-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution female-reproductive-system (draft) in RDF/XML format",
             "@type": "dcat:Distribution"
         },
         {
@@ -126,6 +132,10 @@
             ],
             "schema1:version": "draft",
             "rdfs:label": "female-reproductive-system (draft) graph data",
+            "schema1:dateCreated": {
+                "@value": "2026-02-19",
+                "@type": "xsd:date"
+            },
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
@@ -139,11 +149,7 @@
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data"
             },
-            "dct:title": "female-reproductive-system (draft) graph data",
-            "schema1:dateCreated": {
-                "@value": "2026-02-18",
-                "@type": "xsd:date"
-            }
+            "dct:title": "female-reproductive-system (draft) graph data"
         },
         {
             "@id": "https://github.com/hubmapconsortium/hra-do-processor",
@@ -171,15 +177,15 @@
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#Female_Reproductive_System.csv"
             },
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "@type": "dcat:Dataset",
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0001-8187-0507"
             },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "dct:title": "Whole Person Physiome (WPP) table for the female reproductive system",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "rdfs:comment": "TODO: description",
             "rdfs:label": "Whole Person Physiome (WPP) table for the female reproductive system",
             "dct:publisher": "WPP"
@@ -210,12 +216,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://orcid.org/0000-0001-8187-0507",
             "dcat:conforms_to": "Person",
             "schema1:name": "Jacob C. Scherba",
@@ -228,7 +228,7 @@
         {
             "@id": "_:b1",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"

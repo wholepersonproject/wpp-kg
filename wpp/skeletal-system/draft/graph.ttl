@@ -25,7 +25,7 @@
                                                             dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                             dct:publisher "HuBMAP" ;
                                                             dct:title "skeletal-system (draft) graph data" ;
-                                                            schema1:dateCreated "2026-02-18" ;
+                                                            schema1:dateCreated "2026-02-19" ;
                                                             schema1:version "draft" ;
                                                             rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> ;
                                                             prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> .
@@ -626,6 +626,10 @@ wpp:record_field rdf:type owl:AnnotationProperty .
 
 ###  https://purl.wholepersonphysiome.org/schema/wpp#record_number
 wpp:record_number rdf:type owl:AnnotationProperty .
+
+
+###  https://purl.wholepersonphysiome.org/schema/wpp#record_source
+wpp:record_source rdf:type owl:AnnotationProperty .
 
 
 ###  https://purl.wholepersonphysiome.org/schema/wpp#reference_field
@@ -4540,6 +4544,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R12-InteractionField-2> ;
                                                                      wpp:process_field "calcitonin lowers serum calcium by inhibiting bone resorption" ;
                                                                      wpp:record_number 12 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R12-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -4670,6 +4675,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field "PTH increases calcium and decreases phosphate by promoting reabsorption in the kidney, increasing bone resorption, increasing vitamin D activation, and increasing calcium uptake from the small intestine" ;
                                                                      wpp:quantitative_notes_field "units = pg/mL" ;
                                                                      wpp:record_number 13 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R13-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" ;
                                                                      wpp:x_target_field "[10, 65]" .
@@ -4809,6 +4815,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R14-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R14-InteractionField-2> ;
                                                                      wpp:record_number 14 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R14-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -4950,6 +4957,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R15-InteractionField-2> ;
                                                                      wpp:quantitative_notes_field "units = mg/dL" ;
                                                                      wpp:record_number 15 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R15-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" ;
                                                                      wpp:x_target_field "[8.6, 10.2]" .
@@ -5089,6 +5097,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R16-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R16-InteractionField-2> ;
                                                                      wpp:record_number 16 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R16-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -5230,6 +5239,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R17-InteractionField-2> ;
                                                                      wpp:quantitative_notes_field "units = mg/dL" ;
                                                                      wpp:record_number 17 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R17-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" ;
                                                                      wpp:x_target_field "[3.0, 4.5]" .
@@ -5369,6 +5379,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R18-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R18-InteractionField-2> ;
                                                                      wpp:record_number 18 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R18-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -5506,6 +5517,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R19-FunctionField-4> ;
                                                                      wpp:quantitative_notes_field "units = mg/dL" ;
                                                                      wpp:record_number 19 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R19-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes, hours" ;
                                                                      wpp:x_target_field "[8.6, 10.2]" .
@@ -5604,6 +5616,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R20-FunctionField-4> ;
                                                                      wpp:quantitative_notes_field "units = pg/mL" ;
                                                                      wpp:record_number 20 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R20-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" ;
                                                                      wpp:x_target_field "[15, 60]" .
@@ -5712,6 +5725,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R21-FunctionField-4> ;
                                                                      wpp:quantitative_notes_field "calcifediol normal range [30, 60] ng/mL" ;
                                                                      wpp:record_number 21 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R21-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -5821,6 +5835,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R22-FunctionField-4> ;
                                                                      wpp:quantitative_notes_field "calcifediol normal range [30, 60] ng/mL" ;
                                                                      wpp:record_number 22 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R22-ReferenceField-1> ;
                                                                      wpp:signal_field "FGF23" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -5931,6 +5946,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field "osteocalcin is produced by osteoblasts and indicates increased bone turnover" ;
                                                                      wpp:quantitative_notes_field "units = ng/mL" ;
                                                                      wpp:record_number 23 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R23-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" ;
                                                                      wpp:x_target_field "[9, 38]" .
@@ -6047,6 +6063,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R24-InteractionField-1> ;
                                                                      wpp:process_field "collagen is produced by osteoblasts and indicates increased bone synthesis" ;
                                                                      wpp:record_number 24 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R24-ReferenceField-1> ;
                                                                      wpp:time_scale_field "hours" .
 
@@ -6152,6 +6169,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R25-FunctionField-4> ;
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R25-InteractionField-1> ;
                                                                      wpp:record_number 25 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R25-ReferenceField-1> ;
                                                                      wpp:signal_field "osteocalcin" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -6269,6 +6287,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R26-FunctionField-4> ;
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R26-InteractionField-1> ;
                                                                      wpp:record_number 26 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R26-ReferenceField-1> ;
                                                                      wpp:signal_field "testosterone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -6386,6 +6405,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R27-FunctionField-4> ;
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R27-InteractionField-1> ;
                                                                      wpp:record_number 27 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R27-ReferenceField-1> ;
                                                                      wpp:signal_field "growth hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -6504,6 +6524,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field "mechanical loading acts directly on osteocytes, then through osteoblasts via sclerostin and RANKL" ;
                                                                      wpp:quantitative_notes_field "Use Wolff's law for a spatial model" ;
                                                                      wpp:record_number 28 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R28-ReferenceField-1> ;
                                                                      wpp:signal_field "mechanical loading" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -6613,6 +6634,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field "sclerostin is secreted by osteocytes and inhibits osteoblasts; antagonist of Wnt signaling" ;
                                                                      wpp:quantitative_notes_field "units = ng/mL" ;
                                                                      wpp:record_number 29 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R29-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" ;
                                                                      wpp:x_target_field "[2.5, 4]" .
@@ -6730,6 +6752,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R30-InteractionField-2> ;
                                                                      wpp:quantitative_notes_field "Use Wolff's law for a spatial model" ;
                                                                      wpp:record_number 30 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R30-ReferenceField-1> ;
                                                                      wpp:signal_field "mechanical loading" ;
                                                                      wpp:signal_scale_field "systemic" ;
@@ -6847,6 +6870,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R31-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R31-InteractionField-2> ;
                                                                      wpp:record_number 31 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R31-ReferenceField-1> ;
                                                                      wpp:signal_field "sclerostin" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -6964,6 +6988,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R32-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R32-InteractionField-2> ;
                                                                      wpp:record_number 32 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R32-ReferenceField-1> ;
                                                                      wpp:signal_field "sclerostin" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -7080,6 +7105,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R33-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R33-InteractionField-2> ;
                                                                      wpp:record_number 33 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R33-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -7184,6 +7210,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R34-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R34-InteractionField-2> ;
                                                                      wpp:record_number 34 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R34-ReferenceField-1> ;
                                                                      wpp:signal_field "hypoxia" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7290,6 +7317,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R35-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R35-InteractionField-2> ;
                                                                      wpp:record_number 35 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R35-ReferenceField-1> ;
                                                                      wpp:signal_field "decreased erythrocyte count" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7396,6 +7424,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R36-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R36-InteractionField-2> ;
                                                                      wpp:record_number 36 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R36-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -7500,6 +7529,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R37-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R37-InteractionField-2> ;
                                                                      wpp:record_number 37 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R37-ReferenceField-1> ;
                                                                      wpp:signal_field "erythropoietin" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7606,6 +7636,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R38-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R38-InteractionField-2> ;
                                                                      wpp:record_number 38 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R38-ReferenceField-1> ;
                                                                      wpp:signal_field "decreased erythrocyte count" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7712,6 +7743,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R39-FunctionField-4> ;
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R39-InteractionField-1> ;
                                                                      wpp:record_number 39 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R39-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -7816,6 +7848,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R40-FunctionField-4> ;
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R40-InteractionField-1> ;
                                                                      wpp:record_number 40 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R40-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -7921,6 +7954,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R41-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R41-InteractionField-2> ;
                                                                      wpp:record_number 41 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R41-ReferenceField-1> ;
                                                                      wpp:signal_field "RANKL" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -8038,6 +8072,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R42-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R42-InteractionField-2> ;
                                                                      wpp:record_number 42 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R42-ReferenceField-1> ;
                                                                      wpp:signal_field "RANKL" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -8154,6 +8189,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R43-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R43-InteractionField-2> ;
                                                                      wpp:record_number 43 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R43-ReferenceField-1> ;
                                                                      wpp:signal_field "estrogen" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8260,6 +8296,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R44-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R44-InteractionField-2> ;
                                                                      wpp:record_number 44 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R44-ReferenceField-1> ;
                                                                      wpp:signal_field "t3" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8366,6 +8403,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R45-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R45-InteractionField-2> ;
                                                                      wpp:record_number 45 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R45-ReferenceField-1> ;
                                                                      wpp:signal_field "inflammation" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8473,6 +8511,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R46-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R46-InteractionField-2> ;
                                                                      wpp:record_number 46 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R46-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -8589,6 +8628,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R47-InteractionField-2> ;
                                                                      wpp:process_field "OPG is a decoy receptor that binds RANKL, reducing its effective concentration to bind RANK" ;
                                                                      wpp:record_number 47 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R47-ReferenceField-1> ;
                                                                      wpp:signal_field "osteoprotegrin" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -8706,6 +8746,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R48-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R48-InteractionField-2> ;
                                                                      wpp:record_number 48 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R48-ReferenceField-1> ;
                                                                      wpp:signal_field "osteoprotegrin" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -8823,6 +8864,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R49-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R49-InteractionField-2> ;
                                                                      wpp:record_number 49 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R49-ReferenceField-1> ;
                                                                      wpp:signal_field "osteoprotegrin" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -8940,6 +8982,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R50-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R50-InteractionField-2> ;
                                                                      wpp:record_number 50 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R50-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9057,6 +9100,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R51-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R51-InteractionField-2> ;
                                                                      wpp:record_number 51 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R51-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9174,6 +9218,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R52-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R52-InteractionField-2> ;
                                                                      wpp:record_number 52 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R52-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9291,6 +9336,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R53-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R53-InteractionField-2> ;
                                                                      wpp:record_number 53 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R53-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9408,6 +9454,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R54-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R54-InteractionField-2> ;
                                                                      wpp:record_number 54 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R54-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9525,6 +9572,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R55-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R55-InteractionField-2> ;
                                                                      wpp:record_number 55 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R55-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9642,6 +9690,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R56-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R56-InteractionField-2> ;
                                                                      wpp:record_number 56 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R56-ReferenceField-1> ;
                                                                      wpp:signal_field "bone tissue degradation" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
@@ -9759,6 +9808,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R57-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R57-InteractionField-2> ;
                                                                      wpp:record_number 57 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R57-ReferenceField-1> ;
                                                                      wpp:signal_field "bone tissue degradation" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
@@ -9875,6 +9925,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R58-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R58-InteractionField-2> ;
                                                                      wpp:record_number 58 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R58-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -9979,6 +10030,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R59-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R59-InteractionField-2> ;
                                                                      wpp:record_number 59 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R59-ReferenceField-1> ;
                                                                      wpp:signal_field "parathyroid hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -10085,6 +10137,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R60-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R60-InteractionField-2> ;
                                                                      wpp:record_number 60 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R60-ReferenceField-1> ;
                                                                      wpp:signal_field "calcitriol" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -10191,6 +10244,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R61-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R61-InteractionField-2> ;
                                                                      wpp:record_number 61 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R61-ReferenceField-1> ;
                                                                      wpp:signal_scale_field "circulatory" ;
                                                                      wpp:time_scale_field "minutes" .
@@ -10296,6 +10350,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R62-InteractionField-1> ,
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R62-InteractionField-2> ;
                                                                      wpp:record_number 62 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R62-ReferenceField-1> ;
                                                                      wpp:signal_field "FGF23" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -10404,6 +10459,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R63-InteractionField-2> ;
                                                                      wpp:quantitative_notes_field "units = mg/dL" ;
                                                                      wpp:record_number 63 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R63-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" ;
                                                                      wpp:x_target_field "[8.6, 10.2]" .
@@ -10521,6 +10577,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R64-InteractionField-2> ;
                                                                      wpp:quantitative_notes_field "units = mg/dL" ;
                                                                      wpp:record_number 64 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft#R64-ReferenceField-1> ;
                                                                      wpp:signal_field "calcitriol" ;
                                                                      wpp:time_scale_field "minutes" ;

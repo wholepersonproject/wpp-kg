@@ -1,6 +1,12 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#nquads",
             "dcat:mediaType": "application/n-quads",
             "dcat:downloadURL": {
@@ -62,11 +68,11 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#jsonld"
                 }
             ],
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "schema1:dateCreated": {
-                "@value": "2026-02-18",
+                "@value": "2026-02-19",
                 "@type": "xsd:date"
             },
-            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the digestive system dataset.",
             "schema1:version": "draft",
             "dct:publisher": "HuBMAP",
@@ -174,6 +180,9 @@
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "rdfs:comment": "TODO: description",
             "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:reviewedBy": [
                 {
                     "@id": "https://orcid.org/0000-0002-1005-3726"
@@ -191,9 +200,6 @@
             "schema1:dateCreated": {
                 "@value": "2025-10-28",
                 "@type": "xsd:date"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0002-1868-3896"
@@ -235,15 +241,9 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "_:b1",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"

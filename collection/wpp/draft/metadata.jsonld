@@ -117,12 +117,12 @@
                 "@id": "https://purl.wholepersonphysiome.org/collection/wpp/draft"
             },
             "dct:publisher": "HuBMAP",
-            "schema1:dateCreated": {
-                "@value": "2026-02-18",
-                "@type": "xsd:date"
-            },
             "dct:title": "wpp (draft) graph data",
             "@type": "dcat:Dataset",
+            "schema1:dateCreated": {
+                "@value": "2026-02-19",
+                "@type": "xsd:date"
+            },
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "schema1:name": "wpp",
             "dct:creator": {
@@ -146,6 +146,9 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "rdfs:comment": "TODO: description",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml"
@@ -158,9 +161,6 @@
             "dct:title": "Whole Person Physiome (WPP)",
             "@type": "dcat:Dataset",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "schema1:dateCreated": {
                 "@value": "2026-02-12",
                 "@type": "xsd:date"
@@ -240,7 +240,7 @@
         {
             "@id": "_:b0",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"

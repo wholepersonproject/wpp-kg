@@ -26,7 +26,7 @@
                                                             dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                             dct:publisher "HuBMAP" ;
                                                             dct:title "muscular-system (draft) graph data" ;
-                                                            schema1:dateCreated "2026-02-18" ;
+                                                            schema1:dateCreated "2026-02-19" ;
                                                             schema1:version "draft" ;
                                                             rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> ;
                                                             prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> .
@@ -562,6 +562,10 @@ wpp:record_field rdf:type owl:AnnotationProperty .
 
 ###  https://purl.wholepersonphysiome.org/schema/wpp#record_number
 wpp:record_number rdf:type owl:AnnotationProperty .
+
+
+###  https://purl.wholepersonphysiome.org/schema/wpp#record_source
+wpp:record_source rdf:type owl:AnnotationProperty .
 
 
 ###  https://purl.wholepersonphysiome.org/schema/wpp#reference_field
@@ -4093,6 +4097,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field "depolarization of the motor end plate triggers contraction of skeletal muscle via calcium influx" ;
                                                                      wpp:quantitative_notes_field "units = ms, Duration of twitch is between 25 and 200ms" ;
                                                                      wpp:record_number 12 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R12-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" ;
                                                                      wpp:x_target_field "[25, 200]" .
@@ -4199,6 +4204,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R13-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R13-FunctionField-5> ;
                                                                      wpp:record_number 13 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R13-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" .
 
@@ -4304,6 +4310,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R14-FunctionField-5> ;
                                                                      wpp:quantitative_notes_field "units = ms, Duration of nerve depolarization is between 2 and 9ms" ;
                                                                      wpp:record_number 14 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R14-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" ;
                                                                      wpp:x_target_field "[2, 9]" .
@@ -4409,6 +4416,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R15-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R15-FunctionField-5> ;
                                                                      wpp:record_number 15 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R15-ReferenceField-1> ;
                                                                      wpp:signal_field "lower motor neuron depolarization" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -4516,6 +4524,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R16-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R16-FunctionField-5> ;
                                                                      wpp:record_number 16 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R16-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" .
 
@@ -4622,6 +4631,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R17-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R17-FunctionField-5> ;
                                                                      wpp:record_number 17 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R17-ReferenceField-1> ;
                                                                      wpp:signal_field "lower motor neuron depolarization" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -4729,6 +4739,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R18-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R18-FunctionField-5> ;
                                                                      wpp:record_number 18 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R18-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium uptake" ;
                                                                      wpp:signal_scale_field "autocrine" ;
@@ -4837,6 +4848,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R19-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R19-FunctionField-5> ;
                                                                      wpp:record_number 19 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R19-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium uptake" ;
                                                                      wpp:signal_scale_field "autocrine" ;
@@ -4945,6 +4957,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R20-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R20-FunctionField-5> ;
                                                                      wpp:record_number 20 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R20-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" .
 
@@ -5051,6 +5064,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R21-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R21-FunctionField-5> ;
                                                                      wpp:record_number 21 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R21-ReferenceField-1> ;
                                                                      wpp:signal_field "lower motor neuron depolarization" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -5158,6 +5172,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R22-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R22-FunctionField-5> ;
                                                                      wpp:record_number 22 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R22-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium export" ;
                                                                      wpp:signal_scale_field "autocrine" ;
@@ -5266,6 +5281,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R23-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R23-FunctionField-5> ;
                                                                      wpp:record_number 23 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R23-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium export" ;
                                                                      wpp:signal_scale_field "autocrine" ;
@@ -5376,6 +5392,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R24-FunctionField-6> ;
                                                                      wpp:quantitative_notes_field "Twitching of nearby skeletal muscle fibers in a motor unit leads to recruitment of additional twitches, allowing spatial summation" ;
                                                                      wpp:record_number 24 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R24-ReferenceField-1> ;
                                                                      wpp:signal_field "skeletal muscle fiber contraction" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -5495,6 +5512,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R25-FunctionField-6> ;
                                                                      wpp:quantitative_notes_field "If multiple action potential occur within the time of a twitch, the contraction forces of the twitches sum" ;
                                                                      wpp:record_number 25 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R25-ReferenceField-1> ;
                                                                      wpp:signal_field "lower motor neuron depolarization frequency" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -5611,6 +5629,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field "depolarization of the autonomic neuron triggers smooth muscle cell depolarization via influx of calcium" ;
                                                                      wpp:quantitative_notes_field "units = ms, Duration of twitch is between 25 and 200ms" ;
                                                                      wpp:record_number 26 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R26-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" ;
                                                                      wpp:x_target_field "[25, 200]" .
@@ -5695,6 +5714,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R27-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R27-FunctionField-4> ;
                                                                      wpp:record_number 27 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R27-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" .
 
@@ -5788,6 +5808,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R28-FunctionField-4> ;
                                                                      wpp:quantitative_notes_field "units = ms, Duration of nerve depolarization is between 2 and 9ms" ;
                                                                      wpp:record_number 28 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R28-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" ;
                                                                      wpp:x_target_field "[2, 9]" .
@@ -5881,6 +5902,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R29-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R29-FunctionField-4> ;
                                                                      wpp:record_number 29 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R29-ReferenceField-1> ;
                                                                      wpp:signal_field "autonomic neuron depolarization" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -5976,6 +5998,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R30-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R30-FunctionField-4> ;
                                                                      wpp:record_number 30 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R30-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" .
 
@@ -6070,6 +6093,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R31-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R31-FunctionField-4> ;
                                                                      wpp:record_number 31 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R31-ReferenceField-1> ;
                                                                      wpp:signal_field "lower motor neuron depolarization" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -6165,6 +6189,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R32-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R32-FunctionField-4> ;
                                                                      wpp:record_number 32 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R32-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium uptake" ;
                                                                      wpp:signal_scale_field "autocrine" ;
@@ -6261,6 +6286,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R33-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R33-FunctionField-4> ;
                                                                      wpp:record_number 33 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R33-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium uptake" ;
                                                                      wpp:signal_scale_field "autocrine" ;
@@ -6357,6 +6383,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R34-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R34-FunctionField-4> ;
                                                                      wpp:record_number 34 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R34-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" .
 
@@ -6451,6 +6478,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R35-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R35-FunctionField-4> ;
                                                                      wpp:record_number 35 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R35-ReferenceField-1> ;
                                                                      wpp:signal_field "lower motor neuron depolarization" ;
                                                                      wpp:signal_scale_field "paracrine" ;
@@ -6546,6 +6574,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R36-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R36-FunctionField-4> ;
                                                                      wpp:record_number 36 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R36-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium export" ;
                                                                      wpp:signal_scale_field "autocrine" ;
@@ -6642,6 +6671,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R37-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R37-FunctionField-4> ;
                                                                      wpp:record_number 37 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R37-ReferenceField-1> ;
                                                                      wpp:signal_field "calcium export" ;
                                                                      wpp:signal_scale_field "autocrine" ;
@@ -6739,6 +6769,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R38-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R38-FunctionField-4> ;
                                                                      wpp:record_number 38 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R38-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes, hours" .
 
@@ -6833,6 +6864,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R39-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R39-FunctionField-4> ;
                                                                      wpp:record_number 39 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R39-ReferenceField-1> ;
                                                                      wpp:signal_field "fed status" ;
                                                                      wpp:signal_scale_field "systemic" ;
@@ -6929,6 +6961,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R40-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R40-FunctionField-4> ;
                                                                      wpp:record_number 40 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R40-ReferenceField-1> ;
                                                                      wpp:signal_field "fasted status" ;
                                                                      wpp:signal_scale_field "systemic" ;
@@ -7025,6 +7058,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R41-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R41-FunctionField-4> ;
                                                                      wpp:record_number 41 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R41-ReferenceField-1> ;
                                                                      wpp:signal_field "insulin" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7121,6 +7155,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R42-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R42-FunctionField-4> ;
                                                                      wpp:record_number 42 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R42-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes, hours" .
 
@@ -7215,6 +7250,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R43-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R43-FunctionField-4> ;
                                                                      wpp:record_number 43 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R43-ReferenceField-1> ;
                                                                      wpp:signal_field "fed status" ;
                                                                      wpp:signal_scale_field "systemic" ;
@@ -7311,6 +7347,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R44-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R44-FunctionField-4> ;
                                                                      wpp:record_number 44 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R44-ReferenceField-1> ;
                                                                      wpp:signal_field "fasted status" ;
                                                                      wpp:signal_scale_field "systemic" ;
@@ -7407,6 +7444,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R45-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R45-FunctionField-4> ;
                                                                      wpp:record_number 45 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R45-ReferenceField-1> ;
                                                                      wpp:signal_field "glucagon" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7503,6 +7541,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R46-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R46-FunctionField-4> ;
                                                                      wpp:record_number 46 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R46-ReferenceField-1> ;
                                                                      wpp:signal_field "norepinephrine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7599,6 +7638,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R47-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R47-FunctionField-4> ;
                                                                      wpp:record_number 47 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R47-ReferenceField-1> ;
                                                                      wpp:signal_field "epinephrine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7694,6 +7734,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R48-FunctionField-3> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R48-FunctionField-4> ;
                                                                      wpp:record_number 48 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R48-ReferenceField-1> ;
                                                                      wpp:time_scale_field "hours, days" .
 
@@ -7789,6 +7830,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R49-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R49-FunctionField-5> ;
                                                                      wpp:record_number 49 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R49-ReferenceField-1> ;
                                                                      wpp:signal_field "testosterone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -7897,6 +7939,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R50-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R50-FunctionField-5> ;
                                                                      wpp:record_number 50 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R50-ReferenceField-1> ;
                                                                      wpp:signal_field "growth hormone" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8005,6 +8048,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R51-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R51-FunctionField-5> ;
                                                                      wpp:record_number 51 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R51-ReferenceField-1> ;
                                                                      wpp:signal_field "t3" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8113,6 +8157,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R52-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R52-FunctionField-5> ;
                                                                      wpp:record_number 52 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R52-ReferenceField-1> ;
                                                                      wpp:signal_field "insulin" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8221,6 +8266,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R53-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R53-FunctionField-5> ;
                                                                      wpp:record_number 53 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R53-ReferenceField-1> ;
                                                                      wpp:signal_field "estrogen" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8329,6 +8375,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R54-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R54-FunctionField-5> ;
                                                                      wpp:record_number 54 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R54-ReferenceField-1> ;
                                                                      wpp:signal_field "insulin-like growth factor" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8437,6 +8484,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R55-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R55-FunctionField-5> ;
                                                                      wpp:record_number 55 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R55-ReferenceField-1> ;
                                                                      wpp:signal_field "cortisol" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8544,6 +8592,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R56-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R56-FunctionField-5> ;
                                                                      wpp:record_number 56 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R56-ReferenceField-1> ;
                                                                      wpp:signal_field "t3" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8652,6 +8701,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R57-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R57-FunctionField-5> ;
                                                                      wpp:record_number 57 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R57-ReferenceField-1> ;
                                                                      wpp:signal_field "t3" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8760,6 +8810,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R58-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R58-FunctionField-5> ;
                                                                      wpp:record_number 58 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R58-ReferenceField-1> ;
                                                                      wpp:signal_field "t3" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8867,6 +8918,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R59-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R59-FunctionField-5> ;
                                                                      wpp:record_number 59 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R59-ReferenceField-1> ;
                                                                      wpp:signal_field "norepinephrine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -8975,6 +9027,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R60-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R60-FunctionField-5> ;
                                                                      wpp:record_number 60 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R60-ReferenceField-1> ;
                                                                      wpp:signal_field "norepinephrine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9083,6 +9136,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R61-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R61-FunctionField-5> ;
                                                                      wpp:record_number 61 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R61-ReferenceField-1> ;
                                                                      wpp:signal_field "norepinephrine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9190,6 +9244,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R62-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R62-FunctionField-5> ;
                                                                      wpp:record_number 62 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R62-ReferenceField-1> ;
                                                                      wpp:signal_field "epinephrine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9298,6 +9353,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R63-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R63-FunctionField-5> ;
                                                                      wpp:record_number 63 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R63-ReferenceField-1> ;
                                                                      wpp:signal_field "epinephrine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9406,6 +9462,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R64-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R64-FunctionField-5> ;
                                                                      wpp:record_number 64 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R64-ReferenceField-1> ;
                                                                      wpp:signal_field "epinephrine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9513,6 +9570,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R65-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R65-FunctionField-5> ;
                                                                      wpp:record_number 65 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R65-ReferenceField-1> ;
                                                                      wpp:signal_field "caffeine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9621,6 +9679,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R66-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R66-FunctionField-5> ;
                                                                      wpp:record_number 66 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R66-ReferenceField-1> ;
                                                                      wpp:signal_field "caffeine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9729,6 +9788,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R67-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R67-FunctionField-5> ;
                                                                      wpp:record_number 67 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R67-ReferenceField-1> ;
                                                                      wpp:signal_field "caffeine" ;
                                                                      wpp:signal_scale_field "circulatory" ;
@@ -9837,6 +9897,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R68-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R68-FunctionField-5> ;
                                                                      wpp:record_number 68 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R68-ReferenceField-1> ;
                                                                      wpp:time_scale_field "seconds, minutes" .
 
@@ -9942,6 +10003,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R69-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R69-FunctionField-5> ;
                                                                      wpp:record_number 69 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R69-ReferenceField-1> ;
                                                                      wpp:signal_field "insulin" ;
                                                                      wpp:time_scale_field "seconds, minutes" .
@@ -10047,6 +10109,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R70-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R70-FunctionField-5> ;
                                                                      wpp:record_number 70 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -10139,6 +10202,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R71-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R71-FunctionField-5> ;
                                                                      wpp:record_number 71 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -10231,6 +10295,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R72-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R72-FunctionField-5> ;
                                                                      wpp:record_number 72 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -10323,6 +10388,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R73-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R73-FunctionField-5> ;
                                                                      wpp:record_number 73 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -10415,6 +10481,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R74-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R74-FunctionField-5> ;
                                                                      wpp:record_number 74 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -10507,6 +10574,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R75-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R75-FunctionField-5> ;
                                                                      wpp:record_number 75 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -10599,6 +10667,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R76-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R76-FunctionField-5> ;
                                                                      wpp:record_number 76 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:signal_field "semitendinosus contraction" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
                                                                      wpp:time_scale_field "seconds" .
@@ -10693,6 +10762,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R77-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R77-FunctionField-5> ;
                                                                      wpp:record_number 77 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:signal_field "semimembranosus contraction" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
                                                                      wpp:time_scale_field "seconds" .
@@ -10787,6 +10857,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R78-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R78-FunctionField-5> ;
                                                                      wpp:record_number 78 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:signal_field "biceps femoris contraction" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
                                                                      wpp:time_scale_field "seconds" .
@@ -10881,6 +10952,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R79-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R79-FunctionField-5> ;
                                                                      wpp:record_number 79 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:signal_field "sartorius muscle contraction" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
                                                                      wpp:time_scale_field "seconds" .
@@ -10975,6 +11047,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R80-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R80-FunctionField-5> ;
                                                                      wpp:record_number 80 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -11067,6 +11140,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R81-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R81-FunctionField-5> ;
                                                                      wpp:record_number 81 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -11159,6 +11233,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R82-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R82-FunctionField-5> ;
                                                                      wpp:record_number 82 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -11251,6 +11326,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R83-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R83-FunctionField-5> ;
                                                                      wpp:record_number 83 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -11343,6 +11419,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R84-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R84-FunctionField-5> ;
                                                                      wpp:record_number 84 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:time_scale_field "seconds" .
 
 
@@ -11435,6 +11512,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R85-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R85-FunctionField-5> ;
                                                                      wpp:record_number 85 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:signal_field "rectus femoris contraction" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
                                                                      wpp:time_scale_field "seconds" .
@@ -11529,6 +11607,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R86-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R86-FunctionField-5> ;
                                                                      wpp:record_number 86 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:signal_field "vastus lateralis contraction" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
                                                                      wpp:time_scale_field "seconds" .
@@ -11623,6 +11702,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R87-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R87-FunctionField-5> ;
                                                                      wpp:record_number 87 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:signal_field "vastus medialis contraction" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
                                                                      wpp:time_scale_field "seconds" .
@@ -11717,6 +11797,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R88-FunctionField-4> ,
                                                                                         <https://purl.wholepersonphysiome.org/wpp/muscular-system/draft#R88-FunctionField-5> ;
                                                                      wpp:record_number 88 ;
+                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft" ;
                                                                      wpp:signal_field "vastus intermedius contraction" ;
                                                                      wpp:signal_scale_field "intra-organ" ;
                                                                      wpp:time_scale_field "seconds" .

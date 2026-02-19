@@ -9,7 +9,7 @@
     "created_by": [
       "https://github.com/hubmapconsortium/hra-do-processor"
     ],
-    "creation_date": "2026-02-18",
+    "creation_date": "2026-02-19",
     "version": "draft",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "publisher": "HuBMAP",
@@ -20,6 +20,7 @@
     "wpp_records": [
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R12",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 12,
         "behavior": "X proportion to Y",
         "behavior_x": "alveolar CO2 production",
@@ -170,6 +171,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R13",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 13,
         "behavior": "X proportion to Y",
         "behavior_x": "alveolar ventilation",
@@ -320,6 +322,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R14",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 14,
         "behavior": "X equivalence to Y",
         "behavior_x": "arterial CO2",
@@ -470,6 +473,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R15",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 15,
         "behavior": "X equivalence to Y",
         "behavior_x": "anatomic dead space",
@@ -606,6 +610,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R16",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 16,
         "behavior": "X measurement of Y",
         "behavior_x": "terial vs expired CO₂ difference",
@@ -741,6 +746,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R17",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 17,
         "behavior": "X preference to Y",
         "behavior_x": "posterior ventilation",
@@ -900,6 +906,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R18",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 18,
         "behavior": "X ventilation",
         "behavior_x": "dependent region ventilation",
@@ -1059,6 +1066,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R19",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 19,
         "behavior": "X proportion to Y",
         "behavior_x": "Gas diffusion rate",
@@ -1197,6 +1205,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R20",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 20,
         "behavior": "X depends on Y",
         "behavior_x": "gas diffusion",
@@ -1335,6 +1344,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R21",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 21,
         "behavior": "X as Y",
         "behavior_x": "Diffusion rate decrease",
@@ -1473,6 +1483,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R22",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 22,
         "behavior": "X diffusion",
         "behavior_x": "CO diffusion",
@@ -1609,6 +1620,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R23",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 23,
         "behavior": "X perfusion",
         "behavior_x": "N2O perfusion",
@@ -1745,6 +1757,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R24",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 24,
         "behavior": "X perfusion",
         "behavior_x": "O2 perfusion",
@@ -1881,6 +1894,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R25",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 25,
         "behavior": "X equilibrium",
         "behavior_x": "oxygen",
@@ -2017,6 +2031,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R26",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 26,
         "behavior": "X equilibrium",
         "behavior_x": "O2",
@@ -2153,6 +2168,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R27",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 27,
         "behavior": "X equilibrium",
         "behavior_x": "end-capillary oxygen",
@@ -2290,6 +2306,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R28",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 28,
         "behavior": "X reduction",
         "behavior_x": "capillary transit time",
@@ -2429,6 +2446,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R29",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 29,
         "behavior": "X reduction of Y",
         "behavior_x": "alveolar oxygen",
@@ -2567,6 +2585,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R30",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 30,
         "behavior": "X regulation of Y",
         "behavior_x": "membrane thickness",
@@ -2705,6 +2724,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R31",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 31,
         "behavior": "X equivalence to Y",
         "behavior_x": "Lung diffusing capacity for carbon monoxide (DLCO)",
@@ -2854,6 +2874,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R32",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 32,
         "behavior": "X equivalence to Y",
         "behavior_x": "The total resistance to gas transfer",
@@ -3005,6 +3026,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R33",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 33,
         "behavior": "X diffusion across Y",
         "behavior_x": "gas",
@@ -3158,6 +3180,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R34",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 34,
         "behavior": "X diffusion across Y",
         "behavior_x": "gas",
@@ -3311,6 +3334,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R35",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 35,
         "behavior": "X calculation of Y",
         "behavior_x": "diffusing capacity for carbon monoxide (DLCO)",
@@ -3462,6 +3486,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R36",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 36,
         "behavior": "X adjustion",
         "behavior_x": "hemoglobin",
@@ -3611,6 +3636,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R37",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 37,
         "behavior": "X equivalence to Y",
         "behavior_x": "Transfer coefficient",
@@ -3761,6 +3787,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R38",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 38,
         "behavior": "X dominance to Y",
         "behavior_x": "CO₂ diffusion",
@@ -3910,6 +3937,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R39",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 39,
         "behavior": "X transport to Y",
         "behavior_x": "CO₂ buffering",
@@ -4060,6 +4088,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R40",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 40,
         "behavior": "X diffusion",
         "behavior_x": "diffusion limitation",
@@ -4208,6 +4237,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R41",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 41,
         "behavior": "X description",
         "behavior_x": "pulmonary pressure",
@@ -4358,6 +4388,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R42",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 42,
         "behavior": "X gradient",
         "behavior_x": "pressure gradient",
@@ -4508,6 +4539,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R43",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 43,
         "behavior": "X gradient",
         "behavior_x": "systemic pressure gradient",
@@ -4658,6 +4690,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R44",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 44,
         "behavior": "X process",
         "behavior_x": "alveolar vessel",
@@ -4797,6 +4830,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R45",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 45,
         "behavior": "X process",
         "behavior_x": "extra-alveolar vessel caliber",
@@ -4936,6 +4970,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R46",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 46,
         "behavior": "X across Y",
         "behavior_x": "pressure difference across the vessel wall",
@@ -5074,6 +5109,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R47",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 47,
         "behavior": "X equivalence to Y",
         "behavior_x": "pulmonary vascular resistance",
@@ -5225,6 +5261,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R48",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 48,
         "behavior": "X reference",
         "behavior_x": "pulmonary resistance",
@@ -5375,6 +5412,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R49",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 49,
         "behavior": "X dependence",
         "behavior_x": "vessel resistance",
@@ -5526,6 +5564,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R50",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 50,
         "behavior": "X process",
         "behavior_x": "vascular resistance",
@@ -5664,6 +5703,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R51",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 51,
         "behavior": "X process",
         "behavior_x": "vascular resistance",
@@ -5802,6 +5842,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R52",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 52,
         "behavior": "X process",
         "behavior_x": "network resistance",
@@ -5940,6 +5981,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R53",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 53,
         "behavior": "X process",
         "behavior_x": "extra-alveolar resistance",
@@ -6078,6 +6120,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R54",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 54,
         "behavior": "X process",
         "behavior_x": "capillary resistance",
@@ -6216,6 +6259,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R55",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 55,
         "behavior": "X process",
         "behavior_x": "vascular resistance",
@@ -6354,6 +6398,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R56",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 56,
         "behavior": "X equivalence to Y",
         "behavior_x": "oxygen uptake",
@@ -6504,6 +6549,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R57",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 57,
         "behavior": "X equivalence to Y",
         "behavior_x": "cardiac output",
@@ -6654,6 +6700,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R58",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 58,
         "behavior": "X measurement",
         "behavior_x": "cardiac output",
@@ -6803,6 +6850,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R59",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 59,
         "behavior": "X perfusion",
         "behavior_x": "gas",
@@ -6963,6 +7011,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R60",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 60,
         "behavior": "X formation",
         "behavior_x": "perfusion gradient",
@@ -7123,6 +7172,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R61",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 61,
         "behavior": "X formation",
         "behavior_x": "perfusion gradient",
@@ -7282,6 +7332,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R62",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 62,
         "behavior": "X vasoconstriction",
         "behavior_x": "hypoxic vasoconstriction",
@@ -7442,6 +7493,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R63",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 63,
         "behavior": "X process",
         "behavior_x": "depolarization and Ca²⁺ entry",
@@ -7602,6 +7654,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R64",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 64,
         "behavior": "X redistribution",
         "behavior_x": "gas flow",
@@ -7762,6 +7815,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R65",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 65,
         "behavior": "X process",
         "behavior_x": "vasoconstriction",
@@ -7913,6 +7967,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R66",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 66,
         "behavior": "X process",
         "behavior_x": "vasoconstriction",
@@ -8064,6 +8119,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R67",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 67,
         "behavior": "X process",
         "behavior_x": "autonomic influence",
@@ -8212,6 +8268,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R68",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 68,
         "behavior": "X calculation",
         "behavior_x": "fluid flux",
@@ -8360,6 +8417,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R69",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 69,
         "behavior": "X risk",
         "behavior_x": "edema",
@@ -8507,6 +8565,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R70",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 70,
         "behavior": "X clearance",
         "behavior_x": "lymph",
@@ -8655,6 +8714,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R71",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 71,
         "behavior": "X storage",
         "behavior_x": "blood volume",
@@ -8804,6 +8864,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R72",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 72,
         "behavior": "X filtering",
         "behavior_x": "blood",
@@ -8953,6 +9014,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R73",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 73,
         "behavior": "X process",
         "behavior_x": "immune and metabolic function",
@@ -9101,6 +9163,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R74",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 74,
         "behavior": "X conversion to Y",
         "behavior_x": "Angiotensin I (Ang I)",
@@ -9253,6 +9316,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R75",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 75,
         "behavior": "X level",
         "behavior_x": "vasoactive mediator",
@@ -9404,6 +9468,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R76",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 76,
         "behavior": "X maintenance",
         "behavior_x": "circulating mediator",
@@ -9555,6 +9620,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R77",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 77,
         "behavior": "X level",
         "behavior_x": "inspired oxygen",
@@ -9702,6 +9768,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R78",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 78,
         "behavior": "X level",
         "behavior_x": "alveolar oxygen",
@@ -9850,6 +9917,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R79",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 79,
         "behavior": "Xprocess",
         "behavior_x": "ventilation",
@@ -9997,6 +10065,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R80",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 80,
         "behavior": "X diffusion",
         "behavior_x": "oxygen diffusion",
@@ -10144,6 +10213,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R81",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 81,
         "behavior": "X process",
         "behavior_x": "arterial oxygenation",
@@ -10291,6 +10361,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R82",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 82,
         "behavior": "X matching",
         "behavior_x": "ventilation–perfusion",
@@ -10437,6 +10508,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R83",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 83,
         "function_list": [
           {
@@ -10459,6 +10531,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R84",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 84,
         "behavior": "X equation",
         "behavior_x": "alveolar ventilation",
@@ -10607,6 +10680,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R85",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 85,
         "behavior": "X equation",
         "behavior_x": "alveolar gas",
@@ -10755,6 +10829,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R86",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 86,
         "behavior": "X attainment",
         "behavior_x": "steady state",
@@ -10903,6 +10978,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R87",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 87,
         "behavior": "X equilibrium",
         "behavior_x": "oxygen equilibration",
@@ -11062,6 +11138,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R88",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 88,
         "behavior": "X equilibrium",
         "behavior_x": "oxygen equilibration",
@@ -11222,6 +11299,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R89",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 89,
         "behavior": "X maintenance",
         "behavior_x": "resting oxygenation",
@@ -11382,6 +11460,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R90",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 90,
         "behavior": "X contribution",
         "behavior_x": "physiologic shunt",
@@ -11517,6 +11596,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R91",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 91,
         "behavior": "X contribution",
         "behavior_x": "pathologic shunt",
@@ -11652,6 +11732,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R92",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 92,
         "behavior": "X calculation",
         "behavior_x": "shunt",
@@ -11786,6 +11867,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R93",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 93,
         "behavior": "X determination",
         "behavior_x": "alveolar gas",
@@ -11921,6 +12003,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R94",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 94,
         "behavior": "X formation",
         "behavior_x": "ventilation gradient",
@@ -12058,6 +12141,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R95",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 95,
         "behavior": "X formation",
         "behavior_x": "perfusion gradient",
@@ -12195,6 +12279,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R96",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 96,
         "behavior": "X process",
         "behavior_x": "arterial oxygenation",
@@ -12330,6 +12415,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R97",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 97,
         "behavior": "X process",
         "behavior_x": "high V̇A/O₂ contribution",
@@ -12464,6 +12550,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R98",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 98,
         "behavior": "X formation",
         "behavior_x": "A–a gradient",
@@ -12599,6 +12686,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R99",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 99,
         "behavior": "X elimination",
         "behavior_x": "CO₂",
@@ -12746,6 +12834,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R100",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 100,
         "behavior": "X compensation",
         "behavior_x": "ventilation",
@@ -12893,6 +12982,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R101",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 101,
         "behavior": "X formation",
         "behavior_x": "physiologic dead space",
@@ -13040,6 +13130,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R102",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 102,
         "behavior": "X infusion",
         "behavior_x": "inert gas",
@@ -13176,6 +13267,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R103",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 103,
         "behavior": "X distribution",
         "behavior_x": "V̇A/Q̇",
@@ -13311,6 +13403,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R104",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 104,
         "behavior": "X distribution",
         "behavior_x": "V̇A/Q̇",
@@ -13446,6 +13539,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R105",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 105,
         "behavior": "X calculation",
         "behavior_x": "alveolar oxygen",
@@ -13581,6 +13675,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R106",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 106,
         "behavior": "X equivalence to Y",
         "behavior_x": "alveolar–arterial gradient",
@@ -13717,6 +13812,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R107",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 107,
         "behavior": "X reference",
         "behavior_x": "A–a gradient",
@@ -13852,6 +13948,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R108",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 108,
         "behavior": "X process",
         "behavior_x": "alveolar oxygen",
@@ -13988,6 +14085,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R109",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 109,
         "behavior": "X improvement",
         "behavior_x": "oxygen",
@@ -14124,6 +14222,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R110",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 110,
         "behavior": "X improvement",
         "behavior_x": "oxygen",
@@ -14260,6 +14359,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R111",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 111,
         "behavior": "X equivalence to Y",
         "behavior_x": "oxygen dissolution",
@@ -14410,6 +14510,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R112",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 112,
         "behavior": "X quantification",
         "behavior_x": "dissolved oxygen",
@@ -14559,6 +14660,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R113",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 113,
         "behavior": "X adequacy",
         "behavior_x": "dissolved oxygen",
@@ -14707,6 +14809,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R114",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 114,
         "behavior": "X binding",
         "behavior_x": "oxygen binding",
@@ -14843,6 +14946,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R115",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 115,
         "behavior": "X calculation",
         "behavior_x": "oxygen capacity",
@@ -14979,6 +15083,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R116",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 116,
         "behavior": "X equivalence to Y",
         "behavior_x": "oxygen content",
@@ -15116,6 +15221,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R117",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 117,
         "behavior": "X transition",
         "behavior_x": "hemoglobin allosteric",
@@ -15263,6 +15369,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R118",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 118,
         "behavior": "X definition",
         "behavior_x": "saturation anchor",
@@ -15411,6 +15518,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R119",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 119,
         "behavior": "X process",
         "behavior_x": "O₂ dissociation curve",
@@ -15558,6 +15666,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R120",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 120,
         "behavior": "X affinity",
         "behavior_x": "hemoglobin affinity",
@@ -15720,6 +15829,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R121",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 121,
         "behavior": "X affinity",
         "behavior_x": "hemoglobin affinity",
@@ -15882,6 +15992,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R122",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 122,
         "behavior": "X relation",
         "behavior_x": "P50 shift",
@@ -16044,6 +16155,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R123",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 123,
         "behavior": "X capacity",
         "behavior_x": "oxygen binding",
@@ -16193,6 +16305,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R124",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 124,
         "behavior": "X capacity",
         "behavior_x": "oxygen capacity",
@@ -16342,6 +16455,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R125",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 125,
         "behavior": "X affinity",
         "behavior_x": "oxygen affinity",
@@ -16491,6 +16605,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R126",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 126,
         "behavior": "X formation",
         "behavior_x": "bicarbonate formation",
@@ -16629,6 +16744,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R127",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 127,
         "behavior": "X formation",
         "behavior_x": "carbamino formation",
@@ -16767,6 +16883,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R128",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 128,
         "behavior": "X process",
         "behavior_x": "chloride shift",
@@ -16905,6 +17022,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R129",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 129,
         "behavior": "X formation",
         "behavior_x": "bicarbonate",
@@ -17043,6 +17161,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R130",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 130,
         "behavior": "X binding",
         "behavior_x": "carbamino",
@@ -17181,6 +17300,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R131",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 131,
         "behavior": "X release",
         "behavior_x": "CO₂",
@@ -17319,6 +17439,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R132",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 132,
         "behavior": "X description",
         "behavior_x": "CO₂ dissociation curve",
@@ -17456,6 +17577,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R133",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 133,
         "behavior": "X affinity",
         "behavior_x": "CO₂ affinity",
@@ -17593,6 +17715,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R134",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 134,
         "behavior": "X deviation",
         "behavior_x": "PaCO₂",
@@ -17731,6 +17854,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R135",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 135,
         "behavior": "X equivalence to Y",
         "behavior_x": "pH",
@@ -17881,6 +18005,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R136",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 136,
         "behavior": "X reference",
         "behavior_x": "buffer ratio",
@@ -18030,6 +18155,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R137",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 137,
         "behavior": "X regulation",
         "behavior_x": "acid–base",
@@ -18179,6 +18305,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R138",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 138,
         "behavior": "X description",
         "behavior_x": "buffer line",
@@ -18327,6 +18454,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R139",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 139,
         "behavior": "X relation",
         "behavior_x": "isopleth",
@@ -18475,6 +18603,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R140",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 140,
         "behavior": "X equivalence to Y",
         "behavior_x": "base excess",
@@ -18625,6 +18754,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R141",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 141,
         "behavior": "X description",
         "behavior_x": "capillary spacing",
@@ -18776,6 +18906,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R142",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 142,
         "behavior": "X distance",
         "behavior_x": "diffusion distance",
@@ -18927,6 +19058,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R143",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 143,
         "behavior": "X transport",
         "behavior_x": "intracellular oxygen",
@@ -19078,6 +19210,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R144",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 144,
         "behavior": "X process",
         "behavior_x": "arterial oxygen",
@@ -19227,6 +19360,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R145",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 145,
         "behavior": "X content",
         "behavior_x": "oxygen content",
@@ -19376,6 +19510,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R146",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 146,
         "behavior": "X transport",
         "behavior_x": "oxygen",
@@ -19525,6 +19660,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R147",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 147,
         "behavior": "X utilization",
         "behavior_x": "oxygen",
@@ -19676,6 +19812,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R148",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 148,
         "behavior": "X process",
         "behavior_x": "intrapleural pressure",
@@ -19824,6 +19961,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R149",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 149,
         "behavior": "X process",
         "behavior_x": "thoracic volume",
@@ -19972,6 +20110,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R150",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 150,
         "behavior": "X process",
         "behavior_x": "inspiratory effort",
@@ -20120,6 +20259,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R151",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 151,
         "behavior": "X process",
         "behavior_x": "passive expiration",
@@ -20256,6 +20396,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R152",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 152,
         "behavior": "X process",
         "behavior_x": "diaphragmatic elevation",
@@ -20392,6 +20533,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R153",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 153,
         "behavior": "X process",
         "behavior_x": "rib space volume",
@@ -20528,6 +20670,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R154",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 154,
         "behavior": "X description",
         "behavior_x": "compliance curve",
@@ -20665,6 +20808,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R155",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 155,
         "behavior": "X process",
         "behavior_x": "hysteresis",
@@ -20802,6 +20946,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R156",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 156,
         "behavior": "X equivalence to Y",
         "behavior_x": "lung compliance",
@@ -20940,6 +21085,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R157",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 157,
         "behavior": "X equivalence to Y",
         "behavior_x": "pressure",
@@ -21103,6 +21249,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R158",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 158,
         "behavior": "X process",
         "behavior_x": "surface tension",
@@ -21265,6 +21412,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R159",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 159,
         "behavior": "X secretion",
         "behavior_x": "surfactant",
@@ -21427,6 +21575,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R160",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 160,
         "behavior": "X formation",
         "behavior_x": "pleural pressure gradient",
@@ -21564,6 +21713,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R161",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 161,
         "behavior": "X distribution",
         "behavior_x": "ventilation",
@@ -21701,6 +21851,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R162",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 162,
         "behavior": "X change",
         "behavior_x": "volume change",
@@ -21838,6 +21989,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R163",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 163,
         "behavior": "X closure",
         "behavior_x": "airway closure",
@@ -21988,6 +22140,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R164",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 164,
         "behavior": "X volume",
         "behavior_x": "closure volume",
@@ -22138,6 +22291,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R165",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 165,
         "behavior": "X lowering Y",
         "behavior_x": "Trapped gas",
@@ -22289,6 +22443,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R166",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 166,
         "behavior": "X process",
         "behavior_x": "lung recoil",
@@ -22426,6 +22581,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R167",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 167,
         "behavior": "X equivalence to Y",
         "behavior_x": "functional residual capacity",
@@ -22564,6 +22720,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R168",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 168,
         "behavior": "X equivalence to Y",
         "behavior_x": "total compliance",
@@ -22702,6 +22859,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R169",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 169,
         "behavior": "X equivalence to Y",
         "behavior_x": "airway resistance",
@@ -22853,6 +23011,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R170",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 170,
         "behavior": "X relation",
         "behavior_x": "laminar flow",
@@ -23002,6 +23161,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R171",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 171,
         "behavior": "X relation",
         "behavior_x": "turbulent flow",
@@ -23151,6 +23311,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R172",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 172,
         "behavior": "X patency",
         "behavior_x": "airway patency",
@@ -23286,6 +23447,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R173",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 173,
         "behavior": "X equivalence to Y",
         "behavior_x": "airflow",
@@ -23423,6 +23585,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R174",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 174,
         "behavior": "X risk",
         "behavior_x": "airway collapse",
@@ -23558,6 +23721,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R175",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 175,
         "behavior": "X equivalence to Y",
         "behavior_x": "forced expiratory volume (FEV₁)",
@@ -23708,6 +23872,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R176",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 176,
         "behavior": "X equivalence to Y",
         "behavior_x": "forced vital capacity (FVC)",
@@ -23858,6 +24023,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R177",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 177,
         "behavior": "X identification",
         "behavior_x": "pattern identification",
@@ -24007,6 +24173,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R178",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 178,
         "behavior": "X process",
         "behavior_x": "filling rate",
@@ -24143,6 +24310,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R179",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 179,
         "behavior": "X process",
         "behavior_x": "tidal volume",
@@ -24279,6 +24447,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R180",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 180,
         "behavior": "X heterogeneity",
         "behavior_x": "ventilation",
@@ -24414,6 +24583,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R181",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 181,
         "behavior": "X equivalence to Y",
         "behavior_x": "mechanical work",
@@ -24563,6 +24733,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R182",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 182,
         "behavior": "X performing Y",
         "behavior_x": "Respiration",
@@ -24712,6 +24883,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R183",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 183,
         "behavior": "X equivalence to Y",
         "behavior_x": "area on pressure–volume loop",
@@ -24861,6 +25033,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R184",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 184,
         "behavior": "X transport to Y",
         "behavior_x": "air",
@@ -25012,6 +25185,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R185",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 185,
         "behavior": "X influence by Y",
         "behavior_x": "Ventilatory work",
@@ -25160,6 +25334,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R186",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 186,
         "behavior": "X generation",
         "behavior_x": "breath rhythm",
@@ -25310,6 +25485,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R187",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 187,
         "behavior": "X transport to Y",
         "behavior_x": "air",
@@ -25461,6 +25637,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R188",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 188,
         "behavior": "X transport to Y",
         "behavior_x": "air",
@@ -25612,6 +25789,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R189",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 189,
         "behavior": "X prolongation of Y",
         "behavior_x": "apneustic center",
@@ -25764,6 +25942,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R190",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 190,
         "behavior": "X inhibition of Y",
         "behavior_x": "pneumotaxic center",
@@ -25916,6 +26095,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R191",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 191,
         "behavior": "X adjustment",
         "behavior_x": "ramp-like inspiratory pattern",
@@ -26067,6 +26247,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R192",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 192,
         "behavior": "X signals to Y",
         "behavior_x": "motor cortex",
@@ -26216,6 +26397,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R193",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 193,
         "behavior": "X decrease",
         "behavior_x": "PCO₂",
@@ -26367,6 +26549,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R194",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 194,
         "behavior": "X increase",
         "behavior_x": "pH",
@@ -26517,6 +26700,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R195",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 195,
         "behavior": "X increase",
         "clinical_measure_list": [
@@ -26667,6 +26851,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R196",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 196,
         "behavior": "X change",
         "behavior_x": "breathing pattern change",
@@ -26804,6 +26989,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R197",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 197,
         "behavior": "X transition to Y",
         "behavior_x": "apnea",
@@ -26943,6 +27129,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R198",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 198,
         "behavior": "X process",
         "behavior_x": "respiration rate",
@@ -27081,6 +27268,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R199",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 199,
         "behavior": "X transport to Y",
         "behavior_x": "air",
@@ -27220,6 +27408,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R200",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 200,
         "behavior": "X regulation",
         "behavior_x": "respiratory muscle tone",
@@ -27359,6 +27548,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R201",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 201,
         "behavior": "X sensation from",
         "behavior_x": "CO₂",
@@ -27498,6 +27688,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R202",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 202,
         "behavior": "X response",
         "behavior_x": "peripheral PO₂, PCO₂, pH",
@@ -27647,6 +27838,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R203",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 203,
         "behavior": "X leads to Y",
         "behavior_x": "afferent firing",
@@ -27799,6 +27991,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R204",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 204,
         "behavior": "X transport to Y",
         "behavior_x": "air",
@@ -27939,6 +28132,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R205",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 205,
         "behavior": "X transport to Y",
         "behavior_x": "air",
@@ -28079,6 +28273,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R206",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 206,
         "behavior": "X leads to Y",
         "behavior_x": "Irritant receptors activation",
@@ -28231,6 +28426,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R207",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 207,
         "behavior": "X leads to Y",
         "behavior_x": "J receptors",
@@ -28372,6 +28568,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R208",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 208,
         "behavior": "X transport to Y",
         "behavior_x": "air",
@@ -28511,6 +28708,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R209",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 209,
         "behavior": "X leads to Y",
         "behavior_x": "movement Muscle effort sensation",
@@ -28647,6 +28845,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R210",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 210,
         "behavior": "X process",
         "behavior_x": "breathing",
@@ -28797,6 +28996,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R211",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 211,
         "behavior": "X leads to Y",
         "behavior_x": "chemoreceptor sensitivity",
@@ -28949,6 +29149,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R212",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 212,
         "behavior": "X leads to Y",
         "behavior_x": "upper airway tone",
@@ -29101,6 +29302,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R213",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 213,
         "behavior": "X leads to Y",
         "behavior_x": "feedback delay",
@@ -29240,6 +29442,7 @@
       },
       {
         "id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft#R214",
+        "record_source": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft",
         "record_number": 214,
         "behavior": "X cycling with Y",
         "behavior_x": "apnea",
