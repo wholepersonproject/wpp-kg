@@ -9,9 +9,6 @@
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv"
             },
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
@@ -20,6 +17,9 @@
             "rdfs:label": "Whole Person Physiome (WPP) table for the urinary system",
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-1005-3726"
+            },
+            "schema1:funding": {
+                "@id": "_:b0"
             },
             "schema1:dateCreated": {
                 "@value": "2025-09-23",
@@ -54,12 +54,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-3321-6137",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katy Börner",
@@ -80,19 +74,10 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld",
-            "dcat:mediaType": "application/ld+json",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.jsonld",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution urinary-system (draft) in JSON-LD format",
-            "rdfs:label": "Graph data distribution urinary-system (draft) in JSON-LD format",
-            "@type": "dcat:Distribution"
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml",
@@ -107,6 +92,21 @@
             },
             "dct:title": "Graph data distribution urinary-system (draft) in RDF/XML format",
             "rdfs:label": "Graph data distribution urinary-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution urinary-system (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution urinary-system (draft) in JSON-LD format",
             "@type": "dcat:Distribution"
         },
         {
@@ -155,27 +155,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft",
             "dcat:distribution": [
                 {
@@ -221,6 +200,17 @@
             "schema1:additionalType": "wpp"
         },
         {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -234,6 +224,16 @@
             "dct:title": "Graph data distribution urinary-system (draft) in JSON format",
             "rdfs:label": "Graph data distribution urinary-system (draft) in JSON format",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

@@ -31,42 +31,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml",
-            "dcat:mediaType": "application/rdf+xml",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.xml",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution skeletal-system (draft) in RDF/XML format",
-            "rdfs:label": "Graph data distribution skeletal-system (draft) in RDF/XML format",
-            "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b0",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b0"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-3321-6137",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katy Börner",
@@ -87,6 +51,9 @@
             },
             "dct:title": "Whole Person Physiome (WPP) table for the skeletal system",
             "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
@@ -96,9 +63,6 @@
             "@type": "dcat:Dataset",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"
-            },
-            "schema1:funding": {
-                "@id": "_:b1"
             }
         },
         {
@@ -110,6 +74,12 @@
             "schema1:familyName": "Scherba",
             "rdfs:label": "Jacob C. Scherba",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv",
@@ -125,12 +95,6 @@
             "dct:title": "Raw data distribution 'Skeletal_System.csv' file",
             "rdfs:label": "Raw data distribution 'Skeletal_System.csv' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle",
@@ -208,6 +172,32 @@
             }
         },
         {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution skeletal-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution skeletal-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples",
             "dcat:mediaType": "application/n-triples",
             "dcat:downloadURL": {
@@ -221,6 +211,16 @@
             "dct:title": "Graph data distribution skeletal-system (draft) in N-Triples format",
             "rdfs:label": "Graph data distribution skeletal-system (draft) in N-Triples format",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

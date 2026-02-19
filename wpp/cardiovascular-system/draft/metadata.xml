@@ -7,6 +7,11 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:ccf="http://purl.org/ccf/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.nt</dcat:downloadURL>
@@ -15,15 +20,10 @@
     <rdfs:label>Graph data distribution cardiovascular-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
-    <schema1:targetProduct rdf:nodeID="A1"/>
+    <schema1:targetProduct rdf:nodeID="A0"/>
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
@@ -61,11 +61,6 @@
     <rdfs:label>Katy Börner</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#rdfxml">
     <dcat:mediaType>application/rdf+xml</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.xml</dcat:downloadURL>
@@ -79,13 +74,13 @@
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1979-044X"/>
-    <schema1:funding rdf:nodeID="A0"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:title>Whole Person Physiome (WPP) table for the cardiovascular system</dct:title>
     <dct:publisher>WPP</dct:publisher>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-13</schema1:dateCreated>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv">
@@ -125,6 +120,11 @@
     <schema1:familyName>Scherba</schema1:familyName>
     <rdfs:label>Jacob C. Scherba</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-1979-044X">
     <dcat:conforms_to>Person</dcat:conforms_to>

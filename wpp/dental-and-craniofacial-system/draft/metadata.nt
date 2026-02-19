@@ -76,10 +76,10 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the craniofacial and dental system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://schema.org/dateCreated> "2026-01-09"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B26dd36f8235a2d090729bd80ea5c66c6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B26dd36f8235a2d090729bd80ea5c66c6 <http://schema.org/award> "1U24AT013504-01" .
-_:B26dd36f8235a2d090729bd80ea5c66c6 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://schema.org/funding> _:B26dd36f8235a2d090729bd80ea5c66c6 .
+_:B42844e77951f29cb596a7a5d3e710afa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B42844e77951f29cb596a7a5d3e710afa <http://schema.org/award> "1U24AT013504-01" .
+_:B42844e77951f29cb596a7a5d3e710afa <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://schema.org/funding> _:B42844e77951f29cb596a7a5d3e710afa .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0001-7392-8852> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv> .
@@ -98,9 +98,9 @@ _:B26dd36f8235a2d090729bd80ea5c66c6 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B68d2603b33365a66f2779cc8440cbeb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B68d2603b33365a66f2779cc8440cbeb7 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B68d2603b33365a66f2779cc8440cbeb7 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B68d2603b33365a66f2779cc8440cbeb7 .
+_:B5288eb00d2f90a929f81f9bcebe3dc28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B5288eb00d2f90a929f81f9bcebe3dc28 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B5288eb00d2f90a929f81f9bcebe3dc28 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B5288eb00d2f90a929f81f9bcebe3dc28 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .

@@ -1,12 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#nquads",
             "dcat:mediaType": "application/n-quads",
             "dcat:downloadURL": {
@@ -214,6 +208,12 @@
             "schema1:familyName": "Zhu",
             "rdfs:label": "Minyan Zhu",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-1005-3726",

@@ -16,19 +16,10 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle",
-            "dcat:mediaType": "text/turtle",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/graph.ttl",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution nervous-system (draft) in Turtle format",
-            "rdfs:label": "Graph data distribution nervous-system (draft) in Turtle format",
-            "@type": "dcat:Distribution"
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#ntriples",
@@ -103,11 +94,11 @@
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data",
             "dct:publisher": "WPP",
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "rdfs:label": "Whole Person Physiome (WPP) table for the nervous system",
             "dct:title": "Whole Person Physiome (WPP) table for the nervous system",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
@@ -145,7 +136,7 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b0"
+                "@id": "_:b1"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
@@ -167,6 +158,21 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution nervous-system (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution nervous-system (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#nquads",
             "dcat:mediaType": "application/n-quads",
             "dcat:downloadURL": {
@@ -180,22 +186,6 @@
             "dct:title": "Graph data distribution nervous-system (draft) in N-Quads format",
             "rdfs:label": "Graph data distribution nervous-system (draft) in N-Quads format",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b0",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv",
@@ -221,6 +211,16 @@
             "schema1:familyName": "Scherba",
             "rdfs:label": "Jacob C. Scherba",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

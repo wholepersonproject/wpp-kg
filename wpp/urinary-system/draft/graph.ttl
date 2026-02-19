@@ -7772,7 +7772,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R100-InteractionField-2> ;
                                                                      wpp:process_field "Principal cells secrete K⁺; ↑ by aldosterone and high tubular flow: Principal cells – secrete – K⁺" ;
                                                                      wpp:record_number 100 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R100-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -7921,7 +7921,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R101-InteractionField-2> ;
                                                                      wpp:process_field "↑ arterial pressure → ↑ Na⁺ excretion independent of hormones: High arterial pressure – leads to – ↑ Na⁺ excretion" ;
                                                                      wpp:record_number 101 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R101-ReferenceField-1> ;
                                                                      wpp:signal_field "Arterial pressure" ;
                                                                      wpp:signal_scale_field "Circulatory" ;
@@ -8061,7 +8061,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R102-InteractionField-2> ;
                                                                      wpp:process_field "Preserves medullary osmotic gradient: Vasa recta – preserves – medullary osmotic gradient" ;
                                                                      wpp:record_number 102 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R102-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes–hours" .
 
@@ -8201,7 +8201,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R103-InteractionField-2> ;
                                                                      wpp:process_field "Sympathetic activity reduces RBF/GFR: Sympathetic activity – reduces – renal blood flow (RBF) and glomerular filtration rate (GFR)" ;
                                                                      wpp:record_number 103 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R103-ReferenceField-1> ;
                                                                      wpp:signal_field "Sympathetic activity" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -8352,7 +8352,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R104-InteractionField-2> ;
                                                                      wpp:process_field "ADH increases UT-A1/3; recycles urea to inner medulla: ADH – increases – UT-A1/UT-A3 expression; urea – recycled – to inner medulla" ;
                                                                      wpp:record_number 104 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R104-ReferenceField-1> ;
                                                                      wpp:signal_field "ADH" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -8505,7 +8505,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R105-InteractionField-2> ;
                                                                      wpp:process_field "ADH increases UT-A1/3; recycles urea to inner medulla: urea – recycled – inner medulla" ;
                                                                      wpp:record_number 105 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R105-ReferenceField-1> ;
                                                                      wpp:signal_field "UT-A1/UT-A3 expression" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -8656,7 +8656,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R106-InteractionField-2> ;
                                                                      wpp:process_field "Strong intrarenal vasoconstrictor: Endothelin – acts as – strong intrarenal vasoconstrictor" ;
                                                                      wpp:record_number 106 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R106-ReferenceField-1> ;
                                                                      wpp:signal_field "Endothelin" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -8797,7 +8797,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R107-InteractionField-2> ;
                                                                      wpp:process_field "Counteract Ang II–mediated constriction: Vasodilatory mechanisms counteract Ang II–mediated vasoconstriction" ;
                                                                      wpp:record_number 107 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R107-ReferenceField-1> ;
                                                                      wpp:signal_field "Vasodilatory mechanisms" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -8949,7 +8949,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R108-InteractionField-2> ;
                                                                      wpp:process_field "Volume expansion → ↑Na⁺/water excretion: Volume expansion promotes natriuresis and diuresis" ;
                                                                      wpp:record_number 108 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R108-ReferenceField-1> ;
                                                                      wpp:signal_field "Volume expansion" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -9101,7 +9101,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R109-InteractionField-2> ;
                                                                      wpp:process_field "Principal cells insert AQP2 via V2 receptor signalling: V2 receptor signaling promotes AQP2 insertion in principal cells" ;
                                                                      wpp:record_number 109 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R109-ReferenceField-1> ;
                                                                      wpp:signal_field "V2 receptor signaling" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -9254,7 +9254,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R110-InteractionField-2> ;
                                                                      wpp:process_field "Always active in PT, descending thin limb: Na⁺ reabsorption always active in proximal tubule (PT) and descending thin limb" ;
                                                                      wpp:record_number 110 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R110-ReferenceField-1> ;
                                                                      wpp:time_scale_field "seconds–minutes" .
 
@@ -9405,7 +9405,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R111-InteractionField-2> ;
                                                                      wpp:process_field "Renal blood flow (RBF) ≈ 1.1 L/min (~25% of cardiac output): renal blood flow – delivers – cardiac output" ;
                                                                      wpp:record_number 111 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R111-ReferenceField-1> ;
                                                                      wpp:time_scale_field "milliseconds" .
 
@@ -9534,7 +9534,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R112-InteractionField-2> ;
                                                                      wpp:process_field "~1.1 L/min or ~25% of the cardic output (5L/min); RBF=∆P/R: RBF = ΔP / R(ΔP,Pressure difference = (Renal arterial pressure − Renal venous pressure)" ;
                                                                      wpp:record_number 112 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R112-ReferenceField-1> ;
                                                                      wpp:signal_field "Renal arterial pressure − Renal venous pressure" ;
                                                                      wpp:signal_scale_field "Circulatory" ;
@@ -9665,7 +9665,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R113-InteractionField-2> ;
                                                                      wpp:process_field "~1.1 L/min or ~25% of the cardic output (5L/min); RBF=∆P/R: RBF = ΔP / R(R, Total renal vascular resistance)" ;
                                                                      wpp:record_number 113 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R113-ReferenceField-1> ;
                                                                      wpp:signal_field "Total renal vascular resistance" ;
                                                                      wpp:signal_scale_field "Circulatory" ;
@@ -9796,7 +9796,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R114-InteractionField-2> ;
                                                                      wpp:process_field "establish a diffusion gradient in epithelial cells: Solute transport establishes diffusion gradient in epithelial cells" ;
                                                                      wpp:record_number 114 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R114-ReferenceField-1> ;
                                                                      wpp:signal_field "solute transport" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -9937,7 +9937,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R115-InteractionField-2> ;
                                                                      wpp:process_field "bulk-flow of interstital fluid: Bulk flow of interstitial fluid supports peritubular capillary reabsorption" ;
                                                                      wpp:record_number 115 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R115-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes – hours" .
 
@@ -10076,7 +10076,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R116-InteractionField-2> ;
                                                                      wpp:process_field "reabsorption of 100% of filtered organic nutrient: Reabsorption of 100% of filtered organic nutrients in the proximal tubule (PCT)" ;
                                                                      wpp:record_number 116 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R116-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes – hours" .
 
@@ -10214,7 +10214,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R117-InteractionField-2> ;
                                                                      wpp:process_field "50% of filtered urea by PCT, 10% inner medullary CD: Urea reabsorption occurs in PCT (50%) and IMCD (10%) contributing to medullary osmotic gradient" ;
                                                                      wpp:record_number 117 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R117-ReferenceField-1> ;
                                                                      wpp:signal_field "urea reabsorption" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -10354,7 +10354,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R118-InteractionField-1> ;
                                                                      wpp:process_field "PCT reabsorb 65%, PST 5%, DTL 5%, CD 5-25%: Segmental reabsorption of Na⁺ and water: PCT 65%, PST 5%, DTL 5%, CD 5–25%" ;
                                                                      wpp:record_number 118 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R118-ReferenceField-1> ;
                                                                      wpp:time_scale_field "seconds–minutes" .
 
@@ -10495,7 +10495,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R119-InteractionField-2> ;
                                                                      wpp:process_field "CD reabsorb H2O(isosmotic tubular fluid-300 mOsm/L,hyperosmotic medullary interstitial fluid-1400 mOsm/L): CD reabsorbs H₂O due to osmotic gradient (300 → 1400 mOsm/L)" ;
                                                                      wpp:record_number 119 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R119-ReferenceField-1> ;
                                                                      wpp:signal_field "osmotic gradient" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -10649,7 +10649,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R12-InteractionField-2> ;
                                                                     wpp:process_field "Filtered HCO₃⁻ reclaimed via luminal CA reaction and basolateral transport: Lumina tubular epithelial cell catalyzes filtered HCO₃⁻ into CO₂" ;
                                                                     wpp:record_number 12 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R12-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -10799,7 +10799,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R120-InteractionField-2> ;
                                                                      wpp:process_field "maintain a hyperosmotic gradient of 300-1400 mOsm (PST,DTL impereable to Na+ & Cl-, but permeable to H2O; ATL, DST opposite ): PST & DTL permeable to H₂O, impermeable to Na⁺/Cl⁻" ;
                                                                      wpp:record_number 120 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R120-ReferenceField-1> ;
                                                                      wpp:time_scale_field "hours" .
 
@@ -10939,7 +10939,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R121-InteractionField-2> ;
                                                                      wpp:process_field "maintain a hyperosmotic gradient of 300-1400 mOsm (PST,DTL impereable to Na+ & Cl-, but permeable to H2O; ATL, DST opposite ): ATL & DST opposite → maintain corticomedullary gradient" ;
                                                                      wpp:record_number 121 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R121-ReferenceField-1> ;
                                                                      wpp:time_scale_field "hours" .
 
@@ -11079,7 +11079,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R122-InteractionField-2> ;
                                                                      wpp:process_field "maintain 50% of the hyperosmolarity of the medullary interstitial fluid at the tip of medulla: medullary interstitium – maintains – hyperosmolarity" ;
                                                                      wpp:record_number 122 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R122-ReferenceField-1> ;
                                                                      wpp:time_scale_field "hours-days" .
 
@@ -11219,7 +11219,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R123-InteractionField-2> ;
                                                                      wpp:process_field "maintains the hyperosmolarity gradient: medullary interstitium – maintains – hyperosmolarity" ;
                                                                      wpp:record_number 123 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R123-ReferenceField-1> ;
                                                                      wpp:time_scale_field "Minutes–hours" .
 
@@ -11360,7 +11360,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R124-InteractionField-2> ;
                                                                      wpp:process_field "H2O excretion = H2O filtered-H2O reabsorbed= (GFR × [P]H2O) - H2O reabsorbed; Na accounts for 90% of all osmotically osmotically active extracellular solutes.: GFR – determines – water excretion" ;
                                                                      wpp:record_number 124 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R124-ReferenceField-1> ;
                                                                      wpp:time_scale_field "Minutes–hours" .
 
@@ -11510,7 +11510,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R125-InteractionField-2> ;
                                                                      wpp:process_field "H2O excretion = H2O filtered-H2O reabsorbed= (GFR × [P]H2O) - H2O reabsorbed; Na accounts for 90% of all osmotically osmotically active extracellular solutes.: sodium – accounts – extracellular osmotic activity" ;
                                                                      wpp:record_number 125 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R125-ReferenceField-1> ;
                                                                      wpp:signal_field "Na⁺" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -11663,7 +11663,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field """↓ Na levels in the tubular fluid will be monitored by the macula densa cells (MD) of the distal straight tubule (DST); ↓blood pressure will be monitored by baroreceptors and JG cells->RAAS->↑Na+ reabsorbtion
   ↑plasma osmolarity monitered by hypothalamic osmpreceptors,↓blood pressure monitored by baroreceptors ->neurons within the supraoptic and paraventricular nuclei-> ↑ADH(neurohypophysis)->↑H2O reabsorption by collecting ducts: LOW Na⁺ in DST sensed by macula densa → RAAS activation → HIGH Na⁺ reabsorption""" ;
                                                                      wpp:record_number 126 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R126-ReferenceField-1> ;
                                                                      wpp:signal_field "Na⁺" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -11817,7 +11817,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field """↓ Na levels in the tubular fluid will be monitored by the macula densa cells (MD) of the distal straight tubule (DST); ↓blood pressure will be monitored by baroreceptors and JG cells->RAAS->↑Na+ reabsorbtion
   ↑plasma osmolarity monitered by hypothalamic osmpreceptors,↓blood pressure monitored by baroreceptors ->neurons within the supraoptic and paraventricular nuclei-> ↑ADH(neurohypophysis)->↑H2O reabsorption by collecting ducts: HIGH plasma osmolarity or IS LOW BP → HIGH ADH → HIGH H₂O reabsorption in CD""" ;
                                                                      wpp:record_number 127 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R127-ReferenceField-1> ;
                                                                      wpp:signal_field "ADH" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -11971,7 +11971,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field """↑ Na levels in the tubular fluid will be monitored by the macula densa cells (MD) of the distal straight tubule (DST); ↑ blood pressure will be monitored by baroreceptors and JG cells->↑ANP->↓RAAS,↑GFR,↓ADH->↓Na+ reabsorbtion, 
   ↓plasma osmolarity monitered by hypothalamic osmpreceptors,↑blood pressure monitored by baroreceptors ->neurons within the supraoptic and paraventricular nuclei-> ↓ADH(neurohypophysis)->↓H2O reabsorption by collecting ducts: HIGH Na⁺ in DST or HIGH BP → HIGH ANP → LOW RAAS, HIGH GFR, LOW ADH → LOW Na⁺ reabsorption""" ;
                                                                      wpp:record_number 128 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R128-ReferenceField-1> ;
                                                                      wpp:signal_field "ANP" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -12135,7 +12135,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:process_field """↑ Na levels in the tubular fluid will be monitored by the macula densa cells (MD) of the distal straight tubule (DST); ↑ blood pressure will be monitored by baroreceptors and JG cells->↑ANP->↓RAAS,↑GFR,↓ADH->↓Na+ reabsorbtion, 
   ↓plasma osmolarity monitered by hypothalamic osmpreceptors,↑blood pressure monitored by baroreceptors ->neurons within the supraoptic and paraventricular nuclei-> ↓ADH(neurohypophysis)->↓H2O reabsorption by collecting ducts: LOW plasma osmolarity or HIGH BP → LOW ADH → LOW H₂O reabsorption in CD""" ;
                                                                      wpp:record_number 129 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R129-ReferenceField-1> ;
                                                                      wpp:signal_field "ADH" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -12288,7 +12288,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R13-InteractionField-2> ;
                                                                     wpp:process_field "Filtered HCO₃⁻ reclaimed via luminal CA reaction and basolateral transport: Basolateral NBCe1 (Na⁺/HCO₃⁻ cotransporter) increases plasma HCO₃⁻ (reclamation)" ;
                                                                     wpp:record_number 13 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R13-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -12439,7 +12439,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R130-InteractionField-2> ;
                                                                      wpp:process_field "PCT absorb 55%, DST absorb 30%, DCT&corCD reabsorb and secretes, medCD reabsorb, regulates [ECF]K+ (2% of body's K+): proximal tubule – reabsorbs – solutes" ;
                                                                      wpp:record_number 130 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R130-ReferenceField-1> ;
                                                                      wpp:signal_field "Proximal tubule (PCT)" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -12589,7 +12589,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R131-InteractionField-1> ;
                                                                      wpp:process_field "↓[P]K+ monitored by zona glomerulosa (ZG) cells of the adrenal cortex->↓ALD->↓K+ secretion by CD; monitered by PC of Cortical CD (CorCD)->↓ Na+-K+ ATPase activity->↓K+ secretion: LOW [P]K⁺ sensed by ZG cells → LOW aldosterone → LOW K⁺ secretion by CD" ;
                                                                      wpp:record_number 131 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R131-ReferenceField-1> ;
                                                                      wpp:signal_field "aldosterone" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -12729,7 +12729,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R132-InteractionField-1> ;
                                                                      wpp:process_field "↑ [P]K+ monitored by zona glomerulosa (ZG) cells of the adrenal cortex->↑ ALD->↑ K+ secretion by CD; monitered by PC of Cortical CD (CorCD)->↑ Na+-K+ ATPase activity->↑ K+ secretion: HIGH [P]K⁺ monitored by zona glomerulosa (ZG) cells → HIGH aldosterone → HIGH K⁺ secretion by CD" ;
                                                                      wpp:record_number 132 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R132-ReferenceField-1> ;
                                                                      wpp:signal_field "ENaC/Na⁺-K⁺ ATPase activity" ;
                                                                      wpp:signal_scale_field "Autocrine" ;
@@ -12871,7 +12871,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R133-InteractionField-3> ;
                                                                      wpp:process_field "Of 10 g of calcium filtered by the kidney daily, only approximately 200 mg is excreted in the urine:" ;
                                                                      wpp:record_number 133 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R133-ReferenceField-1> ;
                                                                      wpp:time_scale_field "Hours–days" .
 
@@ -13012,7 +13012,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R134-InteractionField-4> ;
                                                                      wpp:process_field "Of 10 g of calcium filtered by the kidney daily, only approximately 200 mg is excreted in the urine:" ;
                                                                      wpp:record_number 134 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R134-ReferenceField-1> ;
                                                                      wpp:time_scale_field "Hours–days" .
 
@@ -13158,7 +13158,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R135-FunctionField-4> ;
                                                                      wpp:process_field "PCT absorb 60-70%:  reabsorb or secrete – calcium" ;
                                                                      wpp:record_number 135 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R135-ReferenceField-1> ;
                                                                      wpp:time_scale_field "seconds-minutes" .
 
@@ -13265,7 +13265,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R136-InteractionField-1> ;
                                                                      wpp:process_field "TAL absorb 20%:  reabsorb or secrete – calcium" ;
                                                                      wpp:record_number 136 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R136-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes – hours" .
 
@@ -13383,7 +13383,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R137-InteractionField-2> ;
                                                                      wpp:process_field "CD reabsorb 5%:  reabsorb or secrete – calcium" ;
                                                                      wpp:record_number 137 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R137-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes – hours" .
 
@@ -13511,7 +13511,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R138-InteractionField-2> ;
                                                                      wpp:process_field "TRPV5 channels mediate distal Ca²⁺ reabsorption: TRPV5 channels mediate distal Ca²⁺ reabsorption" ;
                                                                      wpp:record_number 138 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R138-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes – hours" .
 
@@ -13638,7 +13638,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R139-InteractionField-1> ;
                                                                      wpp:process_field "PTH increases distal Ca²⁺ reabsorption: PTH increases distal Ca²⁺ reabsorption" ;
                                                                      wpp:record_number 139 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R139-ReferenceField-1> ;
                                                                      wpp:signal_field "PTH" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -13769,7 +13769,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R14-InteractionField-2> ;
                                                                     wpp:process_field "Filtered HCO₃⁻ reclaimed via luminal CA reaction and basolateral transport: Intracellular CA enzyme regenerates intracellular HCO₃⁻" ;
                                                                     wpp:record_number 14 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R14-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -13918,7 +13918,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R140-InteractionField-1> ;
                                                                      wpp:process_field "High serum phosphate ↓ Ca²⁺ → ↑ PTH → ↑ phosphaturia; PTH also ↑ Ca²⁺ reabsorption: High serum phosphate increases Ca²⁺ reabsorption" ;
                                                                      wpp:record_number 140 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R140-ReferenceField-1> ;
                                                                      wpp:signal_field "plasma P" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -14048,7 +14048,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R141-InteractionField-2> ;
                                                                      wpp:process_field "[P]Ca2+ controlled by VitD (liver&PCT hydroxylate): [P]Ca²⁺ controlled by Vitamin D (liver & PCT hydroxylation)" ;
                                                                      wpp:record_number 141 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R141-ReferenceField-1> ;
                                                                      wpp:signal_field "Vitamin D" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -14188,7 +14188,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R142-InteractionField-1> ;
                                                                      wpp:process_field "Ca2+ excretion = Ca2+ filtered-Ca2+ reabsorbed = (GFR x [P]Ca2+) - Ca2+ reabsorbed: calcium – excreted – urine" ;
                                                                      wpp:record_number 142 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R142-ReferenceField-1> ;
                                                                      wpp:signal_field "blood flow into glomerulus" ;
                                                                      wpp:signal_scale_field "Circulatory" ;
@@ -14316,7 +14316,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                         <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R143-FunctionField-5> ;
                                                                      wpp:process_field "Ca2+ excretion = Ca2+ filtered-Ca2+ reabsorbed = (GFR x [P]Ca2+) - Ca2+ reabsorbed: calcium – reabsorbed – nephron" ;
                                                                      wpp:record_number 143 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R143-ReferenceField-1> ;
                                                                      wpp:signal_field "plasma Ca²⁺" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -14438,7 +14438,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R144-InteractionField-3> ;
                                                                      wpp:process_field "Approximately 85–90% of plasma phosphate is freely filtered at the glomerulus:" ;
                                                                      wpp:record_number 144 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R144-ReferenceField-1> ;
                                                                      wpp:time_scale_field "Hours–days" .
 
@@ -14578,7 +14578,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R145-InteractionField-3> ;
                                                                      wpp:process_field "the kidney reabsorbs approximately 80% of the filtered phosphate load:" ;
                                                                      wpp:record_number 145 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R145-ReferenceField-1> ;
                                                                      wpp:time_scale_field "Hours–days" .
 
@@ -14716,7 +14716,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R146-InteractionField-2> ;
                                                                      wpp:process_field "PCT absorb 80%,Distal Tubule & Collecting Duct Minor phosphate reabsorption, the remaining 15% is secreted: proximal tubule – reabsorbs – filtered solute" ;
                                                                      wpp:record_number 146 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R146-ReferenceField-1> ;
                                                                      wpp:time_scale_field "Hours–days" .
 
@@ -14843,7 +14843,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R147-InteractionField-2> ;
                                                                      wpp:process_field "PCT absorb 80%,Distal Tubule & Collecting Duct Minor phosphate reabsorption, the remaining 15% is secreted: proximal tubule – reabsorbs – filtered solute" ;
                                                                      wpp:record_number 147 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R147-ReferenceField-1> ;
                                                                      wpp:signal_field "LOW PH" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
@@ -14973,7 +14973,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R148-InteractionField-2> ;
                                                                      wpp:process_field "PCT absorb 80%,Distal Tubule & Collecting Duct Minor phosphate reabsorption, the remaining 15% is secreted: proximal tubule – reabsorbs – filtered solute" ;
                                                                      wpp:record_number 148 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R148-ReferenceField-1> ;
                                                                      wpp:signal_field "PTH" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -15113,7 +15113,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R149-InteractionField-2> ;
                                                                      wpp:process_field "PCT absorb 80%,Distal Tubule & Collecting Duct Minor phosphate reabsorption, the remaining 15% is secreted: proximal tubule – reabsorbs – filtered solute" ;
                                                                      wpp:record_number 149 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R149-ReferenceField-1> ;
                                                                      wpp:signal_field "Vitamin D" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -15254,7 +15254,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R15-InteractionField-2> ;
                                                                     wpp:process_field "α-IC: H⁺ secretion (H⁺-ATPase, H⁺/K⁺-ATPase): α-IC secretes H⁺ via H⁺-ATPase and H⁺/K⁺-ATPase" ;
                                                                     wpp:record_number 15 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R15-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -15403,7 +15403,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R150-InteractionField-2> ;
                                                                      wpp:process_field "PCT absorb 80%,Distal Tubule & Collecting Duct Minor phosphate reabsorption, the remaining 15% is secreted: proximal tubule – reabsorbs – filtered solute" ;
                                                                      wpp:record_number 150 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R150-ReferenceField-1> ;
                                                                      wpp:signal_field "FGF23" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -15542,7 +15542,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R151-InteractionField-2> ;
                                                                      wpp:process_field "PCT absorb 80%,Distal Tubule & Collecting Duct Minor phosphate reabsorption, the remaining 15% is secreted: proximal tubule – reabsorbs – filtered solute" ;
                                                                      wpp:record_number 151 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R151-ReferenceField-1> ;
                                                                      wpp:signal_field "plasma Ca²⁺" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -15671,7 +15671,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R152-InteractionField-2> ;
                                                                      wpp:process_field "PCT absorb 80%,Distal Tubule & Collecting Duct Minor phosphate reabsorption, the remaining 15% is secreted: proximal tubule – reabsorbs – filtered solute" ;
                                                                      wpp:record_number 152 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R152-ReferenceField-1> ;
                                                                      wpp:signal_field "Mg²⁺ deficiency" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -15801,7 +15801,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R153-InteractionField-1> ;
                                                                      wpp:process_field "PCT absorb 80%,Distal Tubule & Collecting Duct Minor phosphate reabsorption, the remaining 15% is secreted: tubular system – secretes – remaining solutes" ;
                                                                      wpp:record_number 153 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R153-ReferenceField-1> ;
                                                                      wpp:signal_field "blood flow into glomerulus" ;
                                                                      wpp:signal_scale_field "Circulatory" ;
@@ -15920,7 +15920,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R154-InteractionField-2> ;
                                                                      wpp:process_field "angiotensinogen, is converted to angiotensin I and angiotensin II by angiotensin- converting enzyme (ACE).: Angiotensinogen → Renin → Ang I → ACE → Ang II" ;
                                                                      wpp:record_number 154 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R154-ReferenceField-1> ;
                                                                      wpp:signal_field "Angiotensinogen" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -16052,7 +16052,7 @@ wpp:ReferenceField rdf:type owl:Class .
  including pressor effects and aldosterone release mediated
  through angiotensin: AT1 mediates classical RAAS effects""" ;
                                                                      wpp:record_number 155 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R155-ReferenceField-1> ;
                                                                      wpp:signal_field "AT1 activity" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -16164,7 +16164,7 @@ wpp:ReferenceField rdf:type owl:Class .
  including pressor effects and aldosterone release mediated
  through angiotensin: AT2 opposes AT1""" ;
                                                                      wpp:record_number 156 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R156-ReferenceField-1> ;
                                                                      wpp:signal_field "AT2 activity" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -16276,7 +16276,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R157-InteractionField-2> ;
                                                                      wpp:process_field "Rhythmic contraction and diastole of the smooth muscle of the ureter propels urine from the renal pelvis to the bladder: Ureteral peristalsis propels urine from renal pelvis to bladder" ;
                                                                      wpp:record_number 157 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R157-ReferenceField-1> ;
                                                                      wpp:time_scale_field "minutes" .
 
@@ -16394,7 +16394,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R158-InteractionField-2> ;
                                                                      wpp:process_field "urine flow adjustment: urinary tract – adjusts – urine flow" ;
                                                                      wpp:record_number 158 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R158-ReferenceField-1> ;
                                                                      wpp:time_scale_field "hours" .
 
@@ -16511,7 +16511,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R159-InteractionField-1> ;
                                                                      wpp:process_field "Structural adaptation of urinary tract tissues: Bladder wall stretch triggers micturition reflex" ;
                                                                      wpp:record_number 159 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R159-ReferenceField-1> ;
                                                                      wpp:time_scale_field "days" .
 
@@ -16621,7 +16621,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R16-InteractionField-2> ;
                                                                     wpp:process_field "β-IC: HCO₃⁻ secretion: β-IC secretes HCO₃⁻" ;
                                                                     wpp:record_number 16 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R16-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -16770,7 +16770,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R160-InteractionField-2> ;
                                                                      wpp:process_field "Sympathetic inhibition of detrusor, contraction of internal sphincter: Sympathetic inhibits detrusor" ;
                                                                      wpp:record_number 160 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R160-ReferenceField-1> ;
                                                                      wpp:signal_field "Sympathetic β₂/β₃" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -16911,7 +16911,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R161-InteractionField-2> ;
                                                                      wpp:process_field "Sympathetic contracts internal sphincter: Sympathetic contracts internal sphincter" ;
                                                                      wpp:record_number 161 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R161-ReferenceField-1> ;
                                                                      wpp:signal_field "Sympathetic α₁" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -17052,7 +17052,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R162-InteractionField-2> ;
                                                                      wpp:process_field "Parasympathetic → detrusor contraction, sphincter relaxation: Parasympathetic leads to detrusor contraction" ;
                                                                      wpp:record_number 162 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R162-ReferenceField-1> ;
                                                                      wpp:signal_field "Parasympathetic+Voluntary control" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -17193,7 +17193,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R163-InteractionField-2> ;
                                                                      wpp:process_field "Parasympathetic → detrusor contraction, sphincter relaxation: Parasympathetic leads to sphincter relaxation" ;
                                                                      wpp:record_number 163 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R163-ReferenceField-1> ;
                                                                      wpp:signal_field "Parasympathetic +Voluntary control" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -17334,7 +17334,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                            <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R164-InteractionField-2> ;
                                                                      wpp:process_field "Somatic (pudendal) innervation maintains continence: Pudendal nerve maintains external urethral sphincter tone" ;
                                                                      wpp:record_number 164 ;
-                                                                     wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R164-ReferenceField-1> ;
                                                                      wpp:signal_field "Pudendal nerve" ;
                                                                      wpp:signal_scale_field "Systemic" ;
@@ -17477,7 +17477,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R17-InteractionField-2> ;
                                                                     wpp:process_field "H⁺ binds filtered HPO₄²⁻ → H₂PO₄⁻: H⁺ + HPO₄²⁻ forms H₂PO₄⁻" ;
                                                                     wpp:record_number 17 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R17-ReferenceField-1> ;
                                                                     wpp:signal_field "HPO₄²⁻" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -17639,7 +17639,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R18-InteractionField-2> ;
                                                                     wpp:process_field "Glutamine metabolism in PT generates NH₄⁺ and new HCO₃⁻: Glutamine metabolism in PT generates NH₄⁺" ;
                                                                     wpp:record_number 18 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R18-ReferenceField-1> ;
                                                                     wpp:signal_field "glutamine" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -17792,7 +17792,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R19-InteractionField-2> ;
                                                                     wpp:process_field "Glutamine metabolism in PT generates NH₄⁺ and new HCO₃⁻: Glutamine metabolism in PT generates new HCO₃⁻" ;
                                                                     wpp:record_number 19 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R19-ReferenceField-1> ;
                                                                     wpp:signal_field "glutamine" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -17945,7 +17945,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R20-InteractionField-2> ;
                                                                     wpp:process_field "New HCO₃⁻ generated via NH₄⁺ excretion: NH₄⁺ excretion generates new HCO₃⁻" ;
                                                                     wpp:record_number 20 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R20-ReferenceField-1> ;
                                                                     wpp:signal_field "NH₄⁺" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -18097,7 +18097,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R21-InteractionField-2> ;
                                                                     wpp:process_field "Macula densa NaCl sensing; JG cell renin release: Macula densa senses NaCl" ;
                                                                     wpp:record_number 21 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R21-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -18249,7 +18249,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R22-InteractionField-2> ;
                                                                     wpp:process_field "Macula densa NaCl sensing; JG cell renin release: JG cell releases renin" ;
                                                                     wpp:record_number 22 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R22-ReferenceField-1> ;
                                                                     wpp:signal_field "NaCl" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -18403,7 +18403,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R23-InteractionField-2> ;
                                                                     wpp:process_field "NAE = NH₄⁺ + TA − HCO₃⁻ excreted: NH₄⁺ contributes to NAE" ;
                                                                     wpp:record_number 23 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R23-ReferenceField-1> ;
                                                                     wpp:signal_field "NH₄⁺" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -18554,7 +18554,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R24-InteractionField-2> ;
                                                                     wpp:process_field "NAE = NH₄⁺ + TA − HCO₃⁻ excreted: TA (titratable acid) contributes to NAE" ;
                                                                     wpp:record_number 24 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R24-ReferenceField-1> ;
                                                                     wpp:signal_field "TA (titratable acid)" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -18705,7 +18705,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R25-InteractionField-2> ;
                                                                     wpp:process_field "NAE = NH₄⁺ + TA − HCO₃⁻ excreted: HCO₃⁻ reduces NAE" ;
                                                                     wpp:record_number 25 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R25-ReferenceField-1> ;
                                                                     wpp:signal_field "HCO₃⁻" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -18855,7 +18855,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R26-InteractionField-2> ;
                                                                     wpp:process_field "α cells secrete H⁺, β cells secrete HCO₃⁻: α-IC secretes H⁺" ;
                                                                     wpp:record_number 26 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R26-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes–hours" .
 
@@ -18993,7 +18993,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R27-InteractionField-2> ;
                                                                     wpp:process_field "α cells secrete H⁺, β cells secrete HCO₃⁻: β-IC secretes HCO₃⁻" ;
                                                                     wpp:record_number 27 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R27-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes–hours" .
 
@@ -19133,7 +19133,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R28-InteractionField-2> ;
                                                                     wpp:process_field "Paracellular in PT, NKCC2 in TAL, NaCl cotransporter in DCT: Paracellular pathway mediates transport in PT" ;
                                                                     wpp:record_number 28 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R28-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -19283,7 +19283,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R29-InteractionField-2> ;
                                                                     wpp:process_field "Paracellular in PT, NKCC2 in TAL, NaCl cotransporter in DCT: NKCC2 mediates ion reabsorption in TAL" ;
                                                                     wpp:record_number 29 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R29-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -19433,7 +19433,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R30-InteractionField-2> ;
                                                                     wpp:process_field "Paracellular in PT, NKCC2 in TAL, NaCl cotransporter in DCT: NaCl cotransporter mediates NaCl reabsorption in DCT" ;
                                                                     wpp:record_number 30 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R30-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -19583,7 +19583,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R31-InteractionField-2> ;
                                                                     wpp:process_field "Low ADH; high DTL/TAL flow washes out gradient (diuresis): Low ADH reduces water reabsorption" ;
                                                                     wpp:record_number 31 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R31-ReferenceField-1> ;
                                                                     wpp:signal_field "ADH" ;
                                                                     wpp:signal_scale_field "Systemic" ;
@@ -19735,7 +19735,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R32-InteractionField-2> ;
                                                                     wpp:process_field "Low ADH; high DTL/TAL flow washes out gradient (diuresis): High DTL flow washes out medullary gradient" ;
                                                                     wpp:record_number 32 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R32-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -19884,7 +19884,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R33-InteractionField-2> ;
                                                                     wpp:process_field "Low ADH; high DTL/TAL flow washes out gradient (diuresis): High TAL flow washes out medullary gradient" ;
                                                                     wpp:record_number 33 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R33-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -20035,7 +20035,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R34-InteractionField-2> ;
                                                                     wpp:process_field "Na⁺/H⁺ exchange and Na⁺-solute cotransport; water follows osmotically: Na⁺/H⁺ exchanger exchanges ions" ;
                                                                     wpp:record_number 34 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R34-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -20187,7 +20187,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R35-InteractionField-2> ;
                                                                     wpp:process_field "Na⁺/H⁺ exchange and Na⁺-solute cotransport; water follows osmotically: Na⁺-solute cotransporter cotransports solutes" ;
                                                                     wpp:record_number 35 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R35-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -20339,7 +20339,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R36-InteractionField-2> ;
                                                                     wpp:process_field "Na⁺/H⁺ exchange and Na⁺-solute cotransport; water follows osmotically: Water follows osmotic gradient" ;
                                                                     wpp:record_number 36 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R36-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -20491,7 +20491,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R37-InteractionField-2> ;
                                                                     wpp:process_field "α-IC cells secrete H⁺ while reabsorbing K⁺: α-IC cell secretes H⁺" ;
                                                                     wpp:record_number 37 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R37-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -20642,7 +20642,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R38-InteractionField-2> ;
                                                                     wpp:process_field "α-IC cells secrete H⁺ while reabsorbing K⁺: α-IC cell reabsorbs K⁺" ;
                                                                     wpp:record_number 38 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R38-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -20790,7 +20790,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R39-InteractionField-1> ;
                                                                     wpp:process_field "PAH, oxalate, sulfate secreted in PT: PAH is secreted by PT" ;
                                                                     wpp:record_number 39 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R39-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -20908,7 +20908,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R40-InteractionField-1> ;
                                                                     wpp:process_field "PAH, oxalate, sulfate secreted in PT: PAH is secreted by PT" ;
                                                                     wpp:record_number 40 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R40-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -21027,7 +21027,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R41-InteractionField-2> ;
                                                                     wpp:process_field "PAH, oxalate, sulfate secreted in PT: Oxalate is secreted by PT" ;
                                                                     wpp:record_number 41 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R41-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -21154,7 +21154,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R42-FunctionField-4> ;
                                                                     wpp:process_field "PAH, oxalate, sulfate secreted in PT: Oxalate is secreted by PT" ;
                                                                     wpp:record_number 42 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R42-ReferenceField-1> ;
                                                                     wpp:signal_field "α-ketoglutarate gradient" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -21262,7 +21262,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R43-FunctionField-4> ;
                                                                     wpp:process_field "PAH, oxalate, sulfate secreted in PT: Sulfate is secreted by PT" ;
                                                                     wpp:record_number 43 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R43-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -21368,7 +21368,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R44-FunctionField-4> ;
                                                                     wpp:process_field "PAH, oxalate, sulfate secreted in PT: Sulfate is secreted by PT" ;
                                                                     wpp:record_number 44 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R44-ReferenceField-1> ;
                                                                     wpp:signal_field "Na⁺ gradient" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -21478,7 +21478,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R45-InteractionField-2> ;
                                                                     wpp:process_field "Dopamine promotes natriuresis in PT/CD: Dopamine promotes natriuresis in PT/CD" ;
                                                                     wpp:record_number 45 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R45-ReferenceField-1> ;
                                                                     wpp:signal_field "Dopamine" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -21618,7 +21618,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R46-InteractionField-2> ;
                                                                     wpp:process_field "K⁺ recycling drives lumen +ve voltage: K⁺ recycling drives lumen +ve voltage" ;
                                                                     wpp:record_number 46 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R46-ReferenceField-1> ;
                                                                     wpp:signal_field "K⁺" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -21759,7 +21759,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R47-InteractionField-2> ;
                                                                     wpp:process_field "Thiazide-sensitive NaCl cotransporter mediates NaCl reabsorption: Thiazide-sensitive NaCl cotransporter mediates NaCl reabsorption" ;
                                                                     wpp:record_number 47 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R47-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -21909,7 +21909,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R48-InteractionField-2> ;
                                                                     wpp:process_field "Proximal tubule 1α-hydroxylase converts 25(OH)D→1,25(OH)₂D: Proximal tubule converts 25(OH)D – leads to – 1,25(OH)₂D" ;
                                                                     wpp:record_number 48 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R48-ReferenceField-1> ;
                                                                     wpp:time_scale_field "days" .
 
@@ -22058,7 +22058,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R49-InteractionField-2> ;
                                                                     wpp:process_field "Cortical interstitial fibroblasts produce EPO under hypoxia: Cortical interstitial fibroblasts – produce – EPO" ;
                                                                     wpp:record_number 49 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R49-ReferenceField-1> ;
                                                                     wpp:time_scale_field "days" .
 
@@ -22207,7 +22207,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R50-InteractionField-2> ;
                                                                     wpp:process_field "Cortical interstitial fibroblasts produce EPO under hypoxia: Hypoxia – stimulates – EPO production" ;
                                                                     wpp:record_number 50 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R50-ReferenceField-1> ;
                                                                     wpp:signal_field "Hypoxia" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -22358,7 +22358,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R51-InteractionField-2> ;
                                                                     wpp:process_field "ANP dilates afferent, constricts efferent → ↑ GFR & Na⁺ excretion: ANP dilates afferent– leads to – ↑ GFR & Na⁺ excretion" ;
                                                                     wpp:record_number 51 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R51-ReferenceField-1> ;
                                                                     wpp:signal_field "ANP" ;
                                                                     wpp:signal_scale_field "Systemic" ;
@@ -22509,7 +22509,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R52-InteractionField-2> ;
                                                                     wpp:process_field "ANP dilates afferent, constricts efferent → ↑ GFR & Na⁺ excretion: ANP constricts efferent – leads to – ↑ GFR & Na⁺ excretion" ;
                                                                     wpp:record_number 52 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R52-ReferenceField-1> ;
                                                                     wpp:signal_field "ANP" ;
                                                                     wpp:signal_scale_field "Systemic" ;
@@ -22660,7 +22660,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R53-InteractionField-2> ;
                                                                     wpp:process_field "ANP dilates afferent, constricts efferent → ↑ GFR & Na⁺ excretion: ANP dilates afferent– leads to – ↑ GFR & Na⁺ excretion" ;
                                                                     wpp:record_number 53 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R53-ReferenceField-1> ;
                                                                     wpp:signal_field "ANP" ;
                                                                     wpp:signal_scale_field "Systemic" ;
@@ -22812,7 +22812,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R54-InteractionField-2> ;
                                                                     wpp:process_field "ANP dilates afferent, constricts efferent → ↑ GFR & Na⁺ excretion: ANP constricts efferent – leads to – ↑ GFR & Na⁺ excretion" ;
                                                                     wpp:record_number 54 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R54-ReferenceField-1> ;
                                                                     wpp:signal_field "ANP" ;
                                                                     wpp:signal_scale_field "Systemic" ;
@@ -22964,7 +22964,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R55-InteractionField-2> ;
                                                                     wpp:process_field "Afferent arteriole constricts when pressure ↑: Afferent arteriole – constricts – in response to pressure ↑" ;
                                                                     wpp:record_number 55 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R55-ReferenceField-1> ;
                                                                     wpp:signal_field "pressure" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -23127,7 +23127,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R56-InteractionField-2> ;
                                                                     wpp:process_field "Macula densa senses NaCl, adjusts afferent tone: Macula densa – senses – NaCl" ;
                                                                     wpp:record_number 56 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R56-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds–minutes" .
 
@@ -23279,7 +23279,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R57-InteractionField-2> ;
                                                                     wpp:process_field "Macula densa senses NaCl, adjusts afferent tone: Macula densa – adjusts – afferent tone" ;
                                                                     wpp:record_number 57 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R57-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds–minutes" .
 
@@ -23426,7 +23426,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R58-FunctionField-4> ;
                                                                     wpp:process_field "Alters surface area available for filtration: Mesangial cells – alter – filtration surface area" ;
                                                                     wpp:record_number 58 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R58-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds–minutes" .
 
@@ -23524,7 +23524,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R59-FunctionField-4> ;
                                                                     wpp:process_field "Glomerulotubular Balance: GTB Sense filtered load change" ;
                                                                     wpp:record_number 59 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R59-ReferenceField-1> ;
                                                                     wpp:signal_field "↑Filtered load (↑GFR)" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -23644,7 +23644,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R60-FunctionField-4> ;
                                                                     wpp:process_field "Acute saline expansion blunts GTB: GTB Increase gradient for reabsorption" ;
                                                                     wpp:record_number 60 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R60-ReferenceField-1> ;
                                                                     wpp:signal_field "↓Plasma protein" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -23764,7 +23764,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R61-FunctionField-4> ;
                                                                     wpp:process_field "Iso-oncotic expansion: GTB Favor fluid reuptake to capillaries" ;
                                                                     wpp:record_number 61 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R61-ReferenceField-1> ;
                                                                     wpp:signal_field "↑Pc" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -23885,7 +23885,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R62-InteractionField-1> ;
                                                                     wpp:process_field "Hyperoncotic expansion: GTB Drive water & Na⁺ back into blood" ;
                                                                     wpp:record_number 62 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R62-ReferenceField-1> ;
                                                                     wpp:signal_field "↑πc" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -24015,7 +24015,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R63-FunctionField-4> ;
                                                                     wpp:process_field "Interstitial pressure ↑: GTB Increase passive Na⁺ & water return" ;
                                                                     wpp:record_number 63 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R63-ReferenceField-1> ;
                                                                     wpp:signal_field "↑Pi" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -24133,7 +24133,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R64-FunctionField-4> ;
                                                                     wpp:process_field "Paracellular transport modulation: GTB Maintain constant proportion reabsorption" ;
                                                                     wpp:record_number 64 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R64-ReferenceField-1> ;
                                                                     wpp:signal_field "Starling force changes" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -24234,7 +24234,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R65-FunctionField-4> ;
                                                                     wpp:process_field "Carrier-mediated glucose transport in proximal tubule; limited by saturation (Transport Maximum, Tm): Carrier-mediated transporter limited glucose transport by saturation" ;
                                                                     wpp:record_number 65 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R65-ReferenceField-1> ;
                                                                     wpp:signal_field "transport maximum" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
@@ -24348,7 +24348,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R66-InteractionField-2> ;
                                                                     wpp:process_field "Size- and charge-selective filtration of plasma water/solutes into Bowman’s space: Glomerular filtration barrier – filters – plasma water/solutes" ;
                                                                     wpp:record_number 66 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R66-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds" .
 
@@ -24500,7 +24500,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R67-InteractionField-2> ;
                                                                     wpp:process_field "Size- and charge-selective filtration of plasma water/solutes into Bowman’s space: Filtration – selective for – size and charge" ;
                                                                     wpp:record_number 67 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R67-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds" .
 
@@ -24655,7 +24655,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R68-InteractionField-2> ;
                                                                     wpp:process_field "Balance of P_gc, P_bs, π_gc determines GFR: P_gc determine GFR" ;
                                                                     wpp:record_number 68 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R68-ReferenceField-1> ;
                                                                     wpp:signal_field "Glomerular capillary hydrostatic pressure" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -24821,7 +24821,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R69-InteractionField-2> ;
                                                                     wpp:process_field "Balance of P_gc, P_bs, π_gc determines GFR: P_bs determine GFR" ;
                                                                     wpp:record_number 69 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R69-ReferenceField-1> ;
                                                                     wpp:signal_field "Bowman’s space hydrostatic pressure" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -24987,7 +24987,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R70-InteractionField-2> ;
                                                                     wpp:process_field "Balance of P_gc, P_bs, π_gc determines GFR: π_gc determine GFR" ;
                                                                     wpp:record_number 70 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R70-ReferenceField-1> ;
                                                                     wpp:signal_field "Glomerular capillary oncotic (colloid osmotic) pressure" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -25151,7 +25151,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R71-InteractionField-2> ;
                                                                     wpp:process_field "Fraction of RPF filtered (∼20%) = GFR/RPF: filtered fraction= GFR/RPF" ;
                                                                     wpp:record_number 71 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R71-ReferenceField-1> ;
                                                                     wpp:signal_field "Renal plasma flow" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -25305,7 +25305,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R72-InteractionField-2> ;
                                                                     wpp:process_field "Fraction of RPF filtered (∼20%) = GFR/RPF: GFR – equals – 20% of RPF" ;
                                                                     wpp:record_number 72 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R72-ReferenceField-1> ;
                                                                     wpp:signal_field "filtrarion fractions" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -25459,7 +25459,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R73-InteractionField-2> ;
                                                                     wpp:process_field "Clearance of PAH approximates eRPF: PAH clearance – approximates – effective renal plasma flow (eRPF)" ;
                                                                     wpp:record_number 73 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R73-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -25609,7 +25609,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R74-InteractionField-2> ;
                                                                     wpp:process_field "Afferent constriction ↓GFR; efferent constriction ↑GFR: Afferent arteriole – constriction – decreases GFR" ;
                                                                     wpp:record_number 74 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R74-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds" .
 
@@ -25748,7 +25748,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R75-InteractionField-2> ;
                                                                     wpp:process_field "Afferent constriction ↓GFR; efferent constriction ↑GFR: Efferent arteriole – constriction – increases GFR" ;
                                                                     wpp:record_number 75 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R75-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds" .
 
@@ -25887,7 +25887,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R76-InteractionField-2> ;
                                                                     wpp:process_field "Increases ENaC, Na⁺ reabs, K⁺ secretion: Aldosterone – increases – ENaC activity" ;
                                                                     wpp:record_number 76 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R76-ReferenceField-1> ;
                                                                     wpp:signal_field "Aldosterone" ;
                                                                     wpp:signal_scale_field "Systemic" ;
@@ -26039,7 +26039,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R77-InteractionField-2> ;
                                                                     wpp:process_field "Increases ENaC, Na⁺ reabs, K⁺ secretion: Aldosterone – increases – ENaC activity" ;
                                                                     wpp:record_number 77 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R77-ReferenceField-1> ;
                                                                     wpp:signal_field "Aldosterone" ;
                                                                     wpp:signal_scale_field "Systemic" ;
@@ -26190,7 +26190,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R78-InteractionField-2> ;
                                                                     wpp:process_field "Lung regulates CO₂, kidney regulates HCO₃⁻: kidney regulates HCO₃⁻" ;
                                                                     wpp:record_number 78 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R78-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours–days" .
 
@@ -26329,7 +26329,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R79-InteractionField-2> ;
                                                                     wpp:process_field "TAL paracellular; DCT via TRPM6: TAL – paracellular transport – ions (Na⁺, Mg²⁺, Ca²⁺)" ;
                                                                     wpp:record_number 79 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R79-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -26478,7 +26478,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R80-InteractionField-2> ;
                                                                     wpp:process_field "Renal cortex generates glucose from substrates (esp. fasting): DCT – TRPM6 – Mg²⁺ reabsorption" ;
                                                                     wpp:record_number 80 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R80-ReferenceField-1> ;
                                                                     wpp:signal_field "TRPM6 activity" ;
                                                                     wpp:signal_scale_field "Autocrine" ;
@@ -26629,7 +26629,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R81-InteractionField-2> ;
                                                                     wpp:process_field "Renal cortex produces glucose (fasting): Renal cortex – generates – glucose from substrates (esp. fasting)" ;
                                                                     wpp:record_number 81 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R81-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -26777,7 +26777,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R82-InteractionField-2> ;
                                                                     wpp:process_field "Lymphatic drainage maintains interstitial volume & immune surveillance: Lymphatic system – drains – interstitial fluid & supports immune surveillance" ;
                                                                     wpp:record_number 82 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R82-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours–days" .
 
@@ -26916,7 +26916,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R83-InteractionField-2> ;
                                                                     wpp:process_field "Filtered, partially reabsorbed & secreted: Substance – filtered, partially reabsorbed & secreted – renal tubule" ;
                                                                     wpp:record_number 83 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R83-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -27066,7 +27066,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R84-InteractionField-2> ;
                                                                     wpp:process_field "Endogenous marker approximating GFR: Endogenous marker – approximates – GFR" ;
                                                                     wpp:record_number 84 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R84-ReferenceField-1> ;
                                                                     wpp:signal_field "Endogenous marker clearance" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
@@ -27219,7 +27219,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R85-InteractionField-2> ;
                                                                     wpp:process_field "SGLT2 (S1/S2) and SGLT1 (S3); basolateral GLUT2: SGLT2 (S1/S2) and SGLT1 (S3) – reabsorb – glucose" ;
                                                                     wpp:record_number 85 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R85-ReferenceField-1> ;
                                                                     wpp:signal_field "SGLT2/SGLT1 activity" ;
                                                                     wpp:signal_scale_field "Autocrine" ;
@@ -27371,7 +27371,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R86-InteractionField-2> ;
                                                                     wpp:process_field "SGLT2 (S1/S2) and SGLT1 (S3); basolateral GLUT2: GLUT2 – transports – glucose to interstitium" ;
                                                                     wpp:record_number 86 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R86-ReferenceField-1> ;
                                                                     wpp:signal_field "GLUT2 activity" ;
                                                                     wpp:signal_scale_field "Autocrine" ;
@@ -27522,7 +27522,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R87-InteractionField-2> ;
                                                                     wpp:process_field "Proximal tubule cotransporters reclaim nearly all amino acids: Proximal tubule cotransporters – reclaim – amino acids" ;
                                                                     wpp:record_number 87 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R87-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -27661,7 +27661,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R88-InteractionField-2> ;
                                                                     wpp:process_field "Lactate reclaimed with H⁺ and Na⁺ in PT: Lactate – reabsorbed – with H⁺ and Na⁺ in proximal tubule" ;
                                                                     wpp:record_number 88 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R88-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -27801,7 +27801,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R89-InteractionField-2> ;
                                                                     wpp:process_field "~10% of creatinine secreted in PT: Creatinine – secreted – in proximal tubule" ;
                                                                     wpp:record_number 89 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R89-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -27951,7 +27951,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R90-InteractionField-2> ;
                                                                     wpp:process_field "OCTs secrete cations into PT lumen: Organic cation transporters (OCTs) – secrete – cations into proximal tubule lumen" ;
                                                                     wpp:record_number 90 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R90-ReferenceField-1> ;
                                                                     wpp:signal_field "OCTs activity" ;
                                                                     wpp:signal_scale_field "Autocrine" ;
@@ -28093,7 +28093,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R91-InteractionField-2> ;
                                                                     wpp:process_field "PAH, creatinine, penicillin secreted to lumen: PAH, creatinine, penicillin – secreted – into proximal tubule lumen" ;
                                                                     wpp:record_number 91 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R91-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -28242,7 +28242,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R92-InteractionField-2> ;
                                                                     wpp:process_field "Megalin/cubilin endocytosis of filtered peptides: Megalin/cubilin – mediate – endocytosis of filtered peptides" ;
                                                                     wpp:record_number 92 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R92-ReferenceField-1> ;
                                                                     wpp:signal_field "Megalin/cubilin activity" ;
                                                                     wpp:signal_scale_field "Autocrine" ;
@@ -28383,7 +28383,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R93-InteractionField-2> ;
                                                                     wpp:process_field "Descending limb water-permeable; thick ascending limb solute export (NKCC2): Descending limb – permeable – to water" ;
                                                                     wpp:record_number 93 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R93-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -28534,7 +28534,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R94-InteractionField-2> ;
                                                                     wpp:process_field "Water only via AQP1, no solute transport: Thick ascending limb – exports – solutes via NKCC2" ;
                                                                     wpp:record_number 94 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R94-ReferenceField-1> ;
                                                                     wpp:signal_field "NKCC2 activity" ;
                                                                     wpp:signal_scale_field "Autocrine" ;
@@ -28677,7 +28677,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R95-InteractionField-2> ;
                                                                     wpp:process_field "Passive NaCl reabsorption, impermeable to water: Thin ascending limb – reabsorbs – NaCl passively" ;
                                                                     wpp:record_number 95 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R95-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -28816,7 +28816,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R96-InteractionField-2> ;
                                                                     wpp:process_field "Passive NaCl reabsorption, impermeable to water: Thin ascending limb is impermeable – to water" ;
                                                                     wpp:record_number 96 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R96-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -28956,7 +28956,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R97-InteractionField-2> ;
                                                                     wpp:process_field "PTH reduces proximal Na⁺-Pi cotransporters: PTH – reduces – Na⁺-Pi cotransporters in proximal tubule" ;
                                                                     wpp:record_number 97 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R97-ReferenceField-1> ;
                                                                     wpp:signal_field "PTH" ;
                                                                     wpp:signal_scale_field "Systemic" ;
@@ -29108,7 +29108,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                           <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R98-InteractionField-2> ;
                                                                     wpp:process_field "PT paracellular (solvent drag/diffusion); TAL via NKCC2 cycle: Proximal tubule – reabsorbs – solutes via paracellular transport" ;
                                                                     wpp:record_number 98 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R98-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -29253,7 +29253,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                        <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R99-FunctionField-4> ;
                                                                     wpp:process_field "PT paracellular (solvent drag/diffusion); TAL via NKCC2 cycle: Thick ascending limb – reabsorbs – solutes via NKCC2" ;
                                                                     wpp:record_number 99 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R99-ReferenceField-1> ;
                                                                     wpp:signal_field "NKCC2" ;
                                                                     wpp:signal_scale_field "Autocrine" ;

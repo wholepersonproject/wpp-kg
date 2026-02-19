@@ -83,10 +83,10 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the digestive system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/dateCreated> "2025-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:Be039f8424c49f22e3f621e50faced9f6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:Be039f8424c49f22e3f621e50faced9f6 <http://schema.org/award> "1U24AT013504-01" .
-_:Be039f8424c49f22e3f621e50faced9f6 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/funding> _:Be039f8424c49f22e3f621e50faced9f6 .
+_:Bc6474bc6c2f0c1c6f5381e7360c1fb78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Bc6474bc6c2f0c1c6f5381e7360c1fb78 <http://schema.org/award> "1U24AT013504-01" .
+_:Bc6474bc6c2f0c1c6f5381e7360c1fb78 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/funding> _:Bc6474bc6c2f0c1c6f5381e7360c1fb78 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-6988-4102> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
@@ -106,9 +106,9 @@ _:Be039f8424c49f22e3f621e50faced9f6 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B9d562870e7b07017a4e9562982616bac <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B9d562870e7b07017a4e9562982616bac <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B9d562870e7b07017a4e9562982616bac <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B9d562870e7b07017a4e9562982616bac .
+_:B88a07a9b5d8d135bbb807542c7521510 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B88a07a9b5d8d135bbb807542c7521510 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B88a07a9b5d8d135bbb807542c7521510 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B88a07a9b5d8d135bbb807542c7521510 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .

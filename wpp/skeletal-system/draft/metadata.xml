@@ -69,6 +69,11 @@
     <rdfs:label>Graph data distribution skeletal-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft">
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#json"/>
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the skeletal system dataset.</rdfs:comment>
@@ -114,11 +119,6 @@
     <dct:title>Graph data distribution skeletal-system (draft) in RDF/XML format</dct:title>
     <rdfs:label>Graph data distribution skeletal-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A1">
     <schema1:funder>National Institutes of Health</schema1:funder>

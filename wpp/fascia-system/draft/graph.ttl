@@ -5065,7 +5065,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R100-InteractionField-1> ;
                                                                     wpp:process_field "ECM resists external loads while fibroblasts sense stiffness via integrins and discoidin receptors, adapting ECM production and degradation in response to load" ;
                                                                     wpp:record_number 100 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R100-ReferenceField-1> ;
                                                                     wpp:time_scale_field "days" .
 
@@ -5195,7 +5195,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R101-InteractionField-1> ;
                                                                     wpp:process_field "Loss of ECM architecture activate fibroblasts into myofibroblasts that produce collagens I and III and stress fibers, forming mechanoresistant scar tissue" ;
                                                                     wpp:record_number 101 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R101-ReferenceField-1> ;
                                                                     wpp:signal_field "Loss of ECM architecture" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -5326,7 +5326,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R102-InteractionField-1> ;
                                                                     wpp:process_field "Loss of ECM architecture activate fibroblasts into myofibroblasts that produce collagens I and III and stress fibers, forming mechanoresistant scar tissue" ;
                                                                     wpp:record_number 102 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R102-ReferenceField-1> ;
                                                                     wpp:signal_field "Loss of ECM architecture" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -5456,7 +5456,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R103-InteractionField-1> ;
                                                                     wpp:process_field "Loss of ECM architecture activate fibroblasts into myofibroblasts that produce collagens I and III and stress fibers, forming mechanoresistant scar tissue" ;
                                                                     wpp:record_number 103 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R103-ReferenceField-1> ;
                                                                     wpp:signal_field "Loss of ECM architecture" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -5587,7 +5587,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R104-InteractionField-1> ;
                                                                     wpp:process_field "high ECM external load activate fibroblasts into myofibroblasts that produce collagens I and III and stress fibers, forming mechanoresistant scar tissue" ;
                                                                     wpp:record_number 104 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R104-ReferenceField-1> ;
                                                                     wpp:signal_field "high ECM external load" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -5718,7 +5718,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R105-InteractionField-1> ;
                                                                     wpp:process_field "high ECM external load activate fibroblasts into myofibroblasts that produce collagens I and III and stress fibers, forming mechanoresistant scar tissue" ;
                                                                     wpp:record_number 105 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R105-ReferenceField-1> ;
                                                                     wpp:signal_field "high ECM external load" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -5848,7 +5848,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R106-InteractionField-1> ;
                                                                     wpp:process_field "high ECM external load activate fibroblasts into myofibroblasts that produce collagens I and III and stress fibers, forming mechanoresistant scar tissue" ;
                                                                     wpp:record_number 106 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R106-ReferenceField-1> ;
                                                                     wpp:signal_field "high ECM external load" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -5978,7 +5978,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R107-InteractionField-1> ;
                                                                     wpp:process_field "Persistent damage maintains myofibroblasts, which progressively replace functional organ tissue with stiff fibrotic ECM" ;
                                                                     wpp:record_number 107 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R107-ReferenceField-1> ;
                                                                     wpp:signal_field "Persistent damage" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -6097,7 +6097,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R108-InteractionField-1> ;
                                                                     wpp:process_field "inadequate repair maintains myofibroblasts, which progressively replace functional organ tissue with stiff fibrotic ECM" ;
                                                                     wpp:record_number 108 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R108-ReferenceField-1> ;
                                                                     wpp:signal_field "inadequate repair" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -6215,7 +6215,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R109-InteractionField-1> ;
                                                                     wpp:process_field "Superficial fascia superfused with lactic-acid Krebs solution (pH 6.6) shows increased adenosine- or mepyramine-induced myofibroblast contraction; alkalosis has no effect" ;
                                                                     wpp:record_number 109 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R109-ReferenceField-1> ;
                                                                     wpp:signal_field "acidification" ;
                                                                     wpp:signal_scale_field "microenvironment" ;
@@ -6334,7 +6334,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R110-InteractionField-1> ;
                                                                     wpp:process_field "Inflammation with local tissue acidification upregulates substance P–positive nociceptive fibers in thoracolumbar fascia" ;
                                                                     wpp:record_number 110 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R110-ReferenceField-1> ;
                                                                     wpp:signal_field "acidification" ;
                                                                     wpp:signal_scale_field "microenvironment" ;
@@ -6453,7 +6453,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R111-InteractionField-1> ;
                                                                     wpp:process_field "Mechanical loading induces expression of TGF-β1, CTGF, and IGF-I, which auto/paracrinely increase collagen I and III expression in fibroblasts" ;
                                                                     wpp:record_number 111 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R111-ReferenceField-1> ;
                                                                     wpp:signal_field "Mechanical loading" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -6573,7 +6573,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R112-InteractionField-1> ;
                                                                     wpp:process_field "Mechanical loading induces expression of TGF-β1, CTGF, and IGF-I, which auto/paracrinely increase collagen I and III expression in fibroblasts" ;
                                                                     wpp:record_number 112 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R112-ReferenceField-1> ;
                                                                     wpp:signal_field "TGF-β1, CTGF, and IGF-I" ;
                                                                     wpp:signal_scale_field "autocrine" ;
@@ -6693,7 +6693,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R113-InteractionField-1> ;
                                                                     wpp:process_field "Mechanical loading induces expression of TGF-β1, CTGF, and IGF-I, which auto/paracrinely increase collagen I and III expression in fibroblasts" ;
                                                                     wpp:record_number 113 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R113-ReferenceField-1> ;
                                                                     wpp:signal_field "TGF-β1, CTGF, and IGF-I" ;
                                                                     wpp:signal_scale_field "paracrine" ;
@@ -6812,7 +6812,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R114-InteractionField-1> ;
                                                                     wpp:process_field "Hindlimb suspension for 14 days causes marked soleus muscle atrophy but minimal changes in tendon mass and collagen I/III, TGF-β1, and CTGF expression" ;
                                                                     wpp:record_number 114 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R114-ReferenceField-1> ;
                                                                     wpp:signal_field "Hindlimb suspension" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -6932,7 +6932,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R115-InteractionField-1> ;
                                                                     wpp:process_field "Estrogen receptors in fascia, synovium, and ACL; physiological estradiol reduces collagen synthesis and fibroblast proliferation and may increase risk of ligament injury and myofascial pain" ;
                                                                     wpp:record_number 115 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R115-ReferenceField-1> ;
                                                                     wpp:signal_field "Estradiol" ;
                                                                     wpp:signal_scale_field "systemic" ;
@@ -7062,7 +7062,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R116-InteractionField-1> ;
                                                                     wpp:process_field "Estrogen receptors in fascia, synovium, and ACL; physiological estradiol reduces collagen synthesis and fibroblast proliferation and may increase risk of ligament injury and myofascial pain" ;
                                                                     wpp:record_number 116 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R116-ReferenceField-1> ;
                                                                     wpp:signal_field "Estradiol" ;
                                                                     wpp:signal_scale_field "systemic" ;
@@ -7192,7 +7192,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R117-InteractionField-1> ;
                                                                     wpp:process_field "Relaxin via RXFP1 promotes collagen breakdown and protects against fibrosis" ;
                                                                     wpp:record_number 117 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R117-ReferenceField-1> ;
                                                                     wpp:signal_field "Relaxin (H2 relaxin)" ;
                                                                     wpp:signal_scale_field "systemic" ;
@@ -7322,7 +7322,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R118-InteractionField-1> ;
                                                                     wpp:process_field "Lactate increases collagen promoter activity and procollagen mRNA, stimulating collagen synthesis in fibroblasts" ;
                                                                     wpp:record_number 118 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R118-ReferenceField-1> ;
                                                                     wpp:signal_field "Lactate" ;
                                                                     wpp:signal_scale_field "microenvironment" ;
@@ -7443,7 +7443,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R119-InteractionField-1> ;
                                                                     wpp:process_field "Lactate stimulates VEGF production in macrophages, enhancing angiogenesis in wounds" ;
                                                                     wpp:record_number 119 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R119-ReferenceField-1> ;
                                                                     wpp:signal_field "Lactate" ;
                                                                     wpp:signal_scale_field "microenvironment" ;
@@ -7573,7 +7573,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R12-InteractionField-1> ;
                                                                    wpp:process_field "Fibroblasts under traction synthesize predominantly type I collagen with minimal ground substance" ;
                                                                    wpp:record_number 12 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R12-ReferenceField-1> ;
                                                                    wpp:signal_field "traction" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -7693,7 +7693,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R120-InteractionField-1> ;
                                                                     wpp:process_field "Lactate stimulates VEGF production in macrophages, enhancing angiogenesis in wounds" ;
                                                                     wpp:record_number 120 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R120-ReferenceField-1> ;
                                                                     wpp:signal_field "Lactate" ;
                                                                     wpp:signal_scale_field "microenvironment" ;
@@ -7823,7 +7823,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R121-InteractionField-1> ;
                                                                     wpp:process_field "Hydrogen bonds in water continuously break and reform, allowing transitions between low-density and high-density icosahedral states and formation of structured or liquid-crystalline water at interfaces" ;
                                                                     wpp:record_number 121 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R121-ReferenceField-1> ;
                                                                     wpp:time_scale_field "milliseconds" .
 
@@ -7941,7 +7941,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R122-InteractionField-1> ;
                                                                     wpp:process_field "Water exists as helix-bound, surface-bound, and free populations around collagen triple helices and matrix GAGs, shaping transport and mechanics" ;
                                                                     wpp:record_number 122 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R122-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds" .
 
@@ -8058,7 +8058,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R123-InteractionField-1> ;
                                                                     wpp:process_field "Polarized water chains along collagen fibrils enable proton “jumping” and polarization waves that can propagate faster than neural conduction" ;
                                                                     wpp:record_number 123 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R123-ReferenceField-1> ;
                                                                     wpp:signal_field "Polarized water chains" ;
                                                                     wpp:signal_scale_field "microenvironment" ;
@@ -8178,7 +8178,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R124-InteractionField-1> ;
                                                                     wpp:process_field "Collagen tensegrity, water dipoles, ionic charges, and liquid-crystalline water together support mechanical, electrical, chemical, and energetic communication in ECM" ;
                                                                     wpp:record_number 124 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R124-ReferenceField-1> ;
                                                                     wpp:time_scale_field "seconds" .
 
@@ -8296,7 +8296,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R125-InteractionField-1> ;
                                                                     wpp:process_field "Fibroblasts exert tensile forces through integrins on collagen fibers, squeezing ground substance; relaxing tension allows ECM to imbibe fluid and swell" ;
                                                                     wpp:record_number 125 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R125-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -8413,7 +8413,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R126-InteractionField-1> ;
                                                                     wpp:process_field "Fibroblasts exert tensile forces through integrins on collagen fibers, squeezing ground substance; relaxing tension allows ECM to imbibe fluid and swell" ;
                                                                     wpp:record_number 126 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R126-ReferenceField-1> ;
                                                                     wpp:signal_field "relaxing fibroblast tension" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -8534,7 +8534,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R127-InteractionField-1> ;
                                                                     wpp:process_field "Proinflammatory mediators such as PGE₁, IL-1, IL-6, and TNF-α lower interstitial fluid pressure and promote swelling of the HA-rich interstitial matrix" ;
                                                                     wpp:record_number 127 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R127-ReferenceField-1> ;
                                                                     wpp:signal_field "Proinflammatory mediators such as PGE₁, IL-1, IL-6, and TNF-α" ;
                                                                     wpp:signal_scale_field "paracrine" ;
@@ -8664,7 +8664,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R128-InteractionField-1> ;
                                                                     wpp:process_field "Mediators like prostaglandin F₂α and vitamin C increase interstitial fluid pressure, counterbalancing edema formation" ;
                                                                     wpp:record_number 128 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R128-ReferenceField-1> ;
                                                                     wpp:signal_field "Mediators like prostaglandin F₂α and vitamin C" ;
                                                                     wpp:signal_scale_field "paracrine" ;
@@ -8784,7 +8784,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R129-InteractionField-1> ;
                                                                     wpp:process_field "Dynamic stresses and pressure gradients drive slow, multidirectional interstitial flow through high-resistance ECM" ;
                                                                     wpp:record_number 129 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R129-ReferenceField-1> ;
                                                                     wpp:signal_field "Dynamic stresses and pressure gradients" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -8903,7 +8903,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R13-InteractionField-1> ;
                                                                    wpp:process_field "Chondroblasts under pressure synthesize abundant ground substance with thin type II collagen" ;
                                                                    wpp:record_number 13 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R13-ReferenceField-1> ;
                                                                    wpp:signal_field "pressure" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -9022,7 +9022,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R130-InteractionField-1> ;
                                                                     wpp:process_field "Decelerated interstitial flow triggers increased lymphatic vasomotion with higher frequency and amplitude of active lymph pump" ;
                                                                     wpp:record_number 130 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R130-ReferenceField-1> ;
                                                                     wpp:signal_field "Decelerated interstitial flow" ;
                                                                     wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -9141,7 +9141,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R131-InteractionField-1> ;
                                                                     wpp:process_field "Vascular endothelial cells detect presence or absence of interstitial flow and respond by secreting chemokines and cytokines" ;
                                                                     wpp:record_number 131 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R131-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -9258,7 +9258,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R132-InteractionField-1> ;
                                                                     wpp:process_field "Vascular endothelial cells detect presence or absence of interstitial flow and respond by secreting chemokines and cytokines" ;
                                                                     wpp:record_number 132 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R132-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -9376,7 +9376,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R133-InteractionField-1> ;
                                                                     wpp:process_field "Because proteins are too large to simply diffuse, interstitial flow is required to transport proteins between blood and cells" ;
                                                                     wpp:record_number 133 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R133-ReferenceField-1> ;
                                                                     wpp:time_scale_field "hours" .
 
@@ -9493,7 +9493,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R134-InteractionField-1> ;
                                                                     wpp:process_field "New capillary organization of endothelial cells occurs primarily in the presence of VEGF together with interstitial flow" ;
                                                                     wpp:record_number 134 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R134-ReferenceField-1> ;
                                                                     wpp:signal_field "VEGF and interstitial flow" ;
                                                                     wpp:signal_scale_field "paracrine" ;
@@ -9613,7 +9613,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R135-InteractionField-1> ;
                                                                     wpp:process_field "Stretching, compression, and shear in manual therapy extrude water and solutes like a sponge, then allow refilling, aiming to wash out waste and proinflammatory substances" ;
                                                                     wpp:record_number 135 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R135-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -9730,7 +9730,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R136-InteractionField-1> ;
                                                                     wpp:process_field "Stretching, compression, and shear in manual therapy extrude water and solutes like a sponge, then allow refilling, aiming to wash out waste and proinflammatory substances" ;
                                                                     wpp:record_number 136 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R136-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -9847,7 +9847,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R137-InteractionField-1> ;
                                                                     wpp:process_field "Stretching, compression, and shear in manual therapy extrude water and solutes like a sponge, then allow refilling, aiming to wash out waste and proinflammatory substances" ;
                                                                     wpp:record_number 137 ;
-                                                                    wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                    wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R137-ReferenceField-1> ;
                                                                     wpp:time_scale_field "minutes" .
 
@@ -9964,7 +9964,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R14-InteractionField-1> ;
                                                                    wpp:process_field "Gradually increased painless extension stimulates realignment and stabilization of capsular collagen" ;
                                                                    wpp:record_number 14 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R14-ReferenceField-1> ;
                                                                    wpp:signal_field "physiological stretching" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -10083,7 +10083,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R15-InteractionField-1> ;
                                                                    wpp:process_field "Repeated axial loading and unloading provides physiological compression–relief cycles to injured cartilage" ;
                                                                    wpp:record_number 15 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R15-ReferenceField-1> ;
                                                                    wpp:signal_field "Repeated axial loading and unloading" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -10202,7 +10202,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R16-InteractionField-1> ;
                                                                    wpp:process_field "Knee flexion with rotation applies traction to the collagen-rich meniscus" ;
                                                                    wpp:record_number 16 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R16-ReferenceField-1> ;
                                                                    wpp:signal_field "Knee flexion with rotation" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -10320,7 +10320,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R17-InteractionField-1> ;
                                                                    wpp:process_field "Initial bleeding triggers mediator release and recruitment of mobile fibroblasts (myofibroblasts) into injury site" ;
                                                                    wpp:record_number 17 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R17-ReferenceField-1> ;
                                                                    wpp:signal_field "bleeding" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -10428,7 +10428,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R18-InteractionField-1> ;
                                                                    wpp:process_field "Fibroblasts intensify synthesis of a fine type III collagen network to close the wound" ;
                                                                    wpp:record_number 18 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R18-ReferenceField-1> ;
                                                                    wpp:time_scale_field "weeks" .
 
@@ -10536,7 +10536,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R19-InteractionField-1> ;
                                                                    wpp:process_field "Progressive loading promotes conversion of unstable type III collagen into stable type I collagen and reorients fibers" ;
                                                                    wpp:record_number 19 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R19-ReferenceField-1> ;
                                                                    wpp:signal_field "progressive mechanical loading" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -10655,7 +10655,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R20-InteractionField-1> ;
                                                                    wpp:process_field "Acid-forming animal protein lowers interstitial pH below 6.5, hindering fibroblast synthesis and promoting degeneration" ;
                                                                    wpp:record_number 20 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R20-ReferenceField-1> ;
                                                                    wpp:signal_field "acidification" ;
                                                                    wpp:signal_scale_field "microenvironment" ;
@@ -10775,7 +10775,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R21-InteractionField-1> ;
                                                                    wpp:process_field "Persistent high blood glucose from excess short-chain carbohydrates overstrains pancreas and impairs healing and regeneration" ;
                                                                    wpp:record_number 21 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R21-ReferenceField-1> ;
                                                                    wpp:signal_field "Glucose" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -10897,7 +10897,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R22-InteractionField-1> ;
                                                                    wpp:process_field "Omega-6 fatty acids produce prostaglandin 2, while omega-3 fatty acids support prostaglandins 1 and 3 that counteract inflammation" ;
                                                                    wpp:record_number 22 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R22-ReferenceField-1> ;
                                                                    wpp:signal_field "Omega-6 fatty acids" ;
                                                                    wpp:signal_scale_field "circulatory" ;
@@ -11017,7 +11017,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R23-InteractionField-1> ;
                                                                    wpp:process_field "Omega-6 fatty acids produce prostaglandin 2, while omega-3 fatty acids support prostaglandins 1 and 3 that counteract inflammation" ;
                                                                    wpp:record_number 23 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R23-ReferenceField-1> ;
                                                                    wpp:signal_field "Omega-3 fatty acids" ;
                                                                    wpp:signal_scale_field "circulatory" ;
@@ -11137,7 +11137,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R24-InteractionField-1> ;
                                                                    wpp:process_field "Omega-6 fatty acids produce prostaglandin 2, while omega-3 fatty acids support prostaglandins 1 and 3 that counteract inflammation" ;
                                                                    wpp:record_number 24 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R24-ReferenceField-1> ;
                                                                    wpp:signal_field "Omega-3 fatty acids" ;
                                                                    wpp:signal_scale_field "circulatory" ;
@@ -11259,7 +11259,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R25-InteractionField-1> ;
                                                                    wpp:process_field "Immune weakness or loss of lymphoid organs leads to autoimmune reactions, chronic inflammation, and poor regeneration" ;
                                                                    wpp:record_number 25 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R25-ReferenceField-1> ;
                                                                    wpp:signal_field "Immune weakness or loss of lymphoid organs" ;
                                                                    wpp:signal_scale_field "Systemic" ;
@@ -11402,7 +11402,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R26-InteractionField-1> ;
                                                                    wpp:process_field "Smoking and atherosclerosis reduce tissue perfusion and thereby worsen healing prognosis" ;
                                                                    wpp:record_number 26 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R26-ReferenceField-1> ;
                                                                    wpp:signal_field "Nicotine and atherosclerosis" ;
                                                                    wpp:signal_scale_field "circulatory" ;
@@ -11522,7 +11522,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R27-InteractionField-1> ;
                                                                    wpp:process_field "Nociceptive input alters neuroendocrine activity, autonomic tone, muscle tone, sleep–wake rhythm, and behavior" ;
                                                                    wpp:record_number 27 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R27-ReferenceField-1> ;
                                                                    wpp:time_scale_field "seconds" .
 
@@ -11651,7 +11651,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R28-InteractionField-1> ;
                                                                    wpp:process_field "Visceral afferent activity from pelvic and abdominal organs produces segmental changes in skin, fascia, muscle, and joints around T10–L2" ;
                                                                    wpp:record_number 28 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R28-ReferenceField-1> ;
                                                                    wpp:time_scale_field "seconds" .
 
@@ -11759,7 +11759,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R29-InteractionField-1> ;
                                                                    wpp:process_field "Psychological stress elevates cortisol levels, which inhibit collagen synthesis and increase sympathetic activity" ;
                                                                    wpp:record_number 29 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R29-ReferenceField-1> ;
                                                                    wpp:signal_field "Psychological stress" ;
                                                                    wpp:signal_scale_field "circulatory" ;
@@ -11879,7 +11879,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R30-InteractionField-1> ;
                                                                    wpp:process_field "Psychological stress elevates cortisol levels, which inhibit collagen synthesis and increase sympathetic activity" ;
                                                                    wpp:record_number 30 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R30-ReferenceField-1> ;
                                                                    wpp:signal_field "Psychological stress" ;
                                                                    wpp:signal_scale_field "Systemic" ;
@@ -11997,7 +11997,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R31-InteractionField-1> ;
                                                                    wpp:process_field "Fibroblasts synthesize ECM components and ECM-degrading enzymes over months, continuously rebuilding fascial matrix" ;
                                                                    wpp:record_number 31 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R31-ReferenceField-1> ;
                                                                    wpp:time_scale_field "months" .
 
@@ -12104,7 +12104,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R32-InteractionField-1> ;
                                                                    wpp:process_field "Mast cells degranulate, releasing histamine and heparin into ground substance, enhancing blood flow and immune defense" ;
                                                                    wpp:record_number 32 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R32-ReferenceField-1> ;
                                                                    wpp:time_scale_field "seconds" .
 
@@ -12220,7 +12220,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R33-InteractionField-1> ;
                                                                    wpp:process_field "Macrophages patrol fascial spaces, perform phagocytosis, and secrete TGF-β1 to influence repair" ;
                                                                    wpp:record_number 33 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R33-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -12326,7 +12326,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R34-InteractionField-1> ;
                                                                    wpp:process_field "Macrophages patrol fascial spaces, perform phagocytosis, and secrete TGF-β1 to influence repair" ;
                                                                    wpp:record_number 34 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R34-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -12431,7 +12431,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R35-InteractionField-1> ;
                                                                    wpp:process_field "Fibroblasts generate deformation fields; macrophages sense matrix deformations and migrate to fibroblasts, secreting growth factors that induce myofibroblast differentiation" ;
                                                                    wpp:record_number 35 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R35-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -12536,7 +12536,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R36-InteractionField-1> ;
                                                                    wpp:process_field "Fibroblasts generate deformation fields; macrophages sense matrix deformations and migrate to fibroblasts, secreting growth factors that induce myofibroblast differentiation" ;
                                                                    wpp:record_number 36 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R36-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -12642,7 +12642,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R37-InteractionField-1> ;
                                                                    wpp:process_field "Fibroblasts generate deformation fields; macrophages sense matrix deformations and migrate to fibroblasts, secreting growth factors that induce myofibroblast differentiation" ;
                                                                    wpp:record_number 37 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R37-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -12747,7 +12747,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R38-InteractionField-1> ;
                                                                    wpp:process_field "Fibroblasts generate deformation fields; macrophages sense matrix deformations and migrate to fibroblasts, secreting growth factors that induce myofibroblast differentiation" ;
                                                                    wpp:record_number 38 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R38-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -12852,7 +12852,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R39-InteractionField-1> ;
                                                                    wpp:process_field "Fibroblasts generate deformation fields; macrophages sense matrix deformations and migrate to fibroblasts, secreting growth factors that induce myofibroblast differentiation" ;
                                                                    wpp:record_number 39 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R39-ReferenceField-1> ;
                                                                    wpp:signal_field "Growth factors" ;
                                                                    wpp:signal_scale_field "paracrine" ;
@@ -12959,7 +12959,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R40-InteractionField-1> ;
                                                                    wpp:process_field "Interstitial fluid-filled ECM spaces act as conduits where mobile cells move and communicate during protection and renewal" ;
                                                                    wpp:record_number 40 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R40-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -13066,7 +13066,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R41-InteractionField-1> ;
                                                                    wpp:process_field "Adipocytes secrete estrogen, peptides, and cytokines including TGF-β1, influencing appetite, insulin–glucose regulation, angiogenesis, vasoconstriction, coagulation, and proinflammatory states; obesity amplifies these signals" ;
                                                                    wpp:record_number 41 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R41-ReferenceField-1> ;
                                                                    wpp:time_scale_field "years" .
 
@@ -13196,7 +13196,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R42-InteractionField-1> ;
                                                                    wpp:process_field "Well-vascularized fascial fat carries vascular, lymphatic, and neural tracts that distribute signaling molecules" ;
                                                                    wpp:record_number 42 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R42-ReferenceField-1> ;
                                                                    wpp:time_scale_field "minutes" .
 
@@ -13301,7 +13301,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R43-InteractionField-1> ;
                                                                    wpp:process_field "Telocytes with long telopodes form 3D networks, releasing extracellular vesicles and handling Ca²⁺ via caveolae-rich regions for intercellular communication" ;
                                                                    wpp:record_number 43 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R43-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -13408,7 +13408,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R44-InteractionField-1> ;
                                                                    wpp:process_field "Telocytes with long telopodes form 3D networks, releasing extracellular vesicles and handling Ca²⁺ via caveolae-rich regions for intercellular communication" ;
                                                                    wpp:record_number 44 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R44-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -13515,7 +13515,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R45-InteractionField-1> ;
                                                                    wpp:process_field "Telocytes with long telopodes form 3D networks, releasing extracellular vesicles and handling Ca²⁺ via caveolae-rich regions for intercellular communication" ;
                                                                    wpp:record_number 45 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R45-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -13623,7 +13623,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R46-InteractionField-1> ;
                                                                    wpp:process_field "Telocytes with long telopodes form 3D networks, releasing extracellular vesicles and handling Ca²⁺ via caveolae-rich regions for intercellular communication" ;
                                                                    wpp:record_number 46 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R46-ReferenceField-1> ;
                                                                    wpp:signal_field "Ca²⁺" ;
                                                                    wpp:signal_scale_field "juxtacrine" ;
@@ -13733,7 +13733,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R47-InteractionField-1> ;
                                                                    wpp:process_field "Fasciacytes at loose–dense fascia transitions produce hyaluronan; regions experiencing high shear show up to 10-fold higher hyaluronan, altering water binding and friction" ;
                                                                    wpp:record_number 47 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R47-ReferenceField-1> ;
                                                                    wpp:signal_field "Mechanical shear stress" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -13842,7 +13842,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R48-InteractionField-1> ;
                                                                    wpp:process_field "ECM stores cytokines and growth factors such as TGF-β1, which supports interleukin production; depletion of TGF-β1 causes lethal immunopathology in models" ;
                                                                    wpp:record_number 48 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R48-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -13971,7 +13971,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R49-InteractionField-1> ;
                                                                    wpp:process_field "ECM stores cytokines and growth factors such as TGF-β1, which supports interleukin production; depletion of TGF-β1 causes lethal immunopathology in models" ;
                                                                    wpp:record_number 49 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R49-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -14099,7 +14099,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R50-InteractionField-1> ;
                                                                    wpp:process_field "Fascial sheets act as barriers to infection but can support rapid spread of necrotizing fasciitis along fascial planes after trauma" ;
                                                                    wpp:record_number 50 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R50-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -14216,7 +14216,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R51-InteractionField-1> ;
                                                                    wpp:process_field "Myofibroblasts with α-SMA stress fibers generate smooth muscle–like contractions within lumbar fascia and perimysium, contributing to resting stiffness and possible contracture" ;
                                                                    wpp:record_number 51 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R51-ReferenceField-1> ;
                                                                    wpp:time_scale_field "minutes" .
 
@@ -14342,7 +14342,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R52-InteractionField-1> ;
                                                                    wpp:process_field "Mechanical strain and cytokines including TGF-β1 drive fibroblasts → protomyofibroblasts → differentiated myofibroblasts expressing α-SMA and large adhesion complexes" ;
                                                                    wpp:record_number 52 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R52-ReferenceField-1> ;
                                                                    wpp:signal_field "Mechanical strain" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -14462,7 +14462,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R53-InteractionField-1> ;
                                                                    wpp:process_field "Mechanical strain and cytokines including TGF-β1 drive fibroblasts → protomyofibroblasts → differentiated myofibroblasts expressing α-SMA and large adhesion complexes" ;
                                                                    wpp:record_number 53 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R53-ReferenceField-1> ;
                                                                    wpp:signal_field "TGF-β1" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -14581,7 +14581,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R54-InteractionField-1> ;
                                                                    wpp:process_field "Thromboxane raises intracellular Ca²⁺ via PLC/IP3 in myofibroblasts, inducing measurable fascial contraction" ;
                                                                    wpp:record_number 54 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R54-ReferenceField-1> ;
                                                                    wpp:signal_field "Thromboxane" ;
                                                                    wpp:signal_scale_field "paracrine" ;
@@ -14701,7 +14701,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R55-InteractionField-1> ;
                                                                    wpp:process_field "Thromboxane raises intracellular Ca²⁺ via PLC/IP3 in myofibroblasts, inducing measurable fascial contraction" ;
                                                                    wpp:record_number 55 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R55-ReferenceField-1> ;
                                                                    wpp:signal_field "intracellular Ca²⁺ elevation" ;
                                                                    wpp:signal_scale_field "intracellular" ;
@@ -14813,7 +14813,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R56-InteractionField-1> ;
                                                                    wpp:process_field "Repeated small myofibroblast contractions over hours and days remodel collagen networks, stabilizing shortened matrix and generating chronic tissue contracture" ;
                                                                    wpp:record_number 56 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R56-ReferenceField-1> ;
                                                                    wpp:time_scale_field "years" .
 
@@ -14941,7 +14941,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R57-InteractionField-1> ;
                                                                    wpp:process_field "Migrating fibroblasts pull on 3D collagen lattices, leaving behind regions of denser collagen" ;
                                                                    wpp:record_number 57 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R57-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -15058,7 +15058,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R58-InteractionField-1> ;
                                                                    wpp:process_field "Proinflammatory biochemical conditions, including chronic arachidonic acid pathway activation, enhance myofibroblast activity and raise fascial stiffness" ;
                                                                    wpp:record_number 58 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R58-ReferenceField-1> ;
                                                                    wpp:signal_field "Proinflammatory cytokines and  arachidonic acid pathway activation" ;
                                                                    wpp:signal_scale_field "paracrine" ;
@@ -15176,7 +15176,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R59-InteractionField-1> ;
                                                                    wpp:process_field "Proinflammatory biochemical conditions, including chronic arachidonic acid pathway activation, enhance myofibroblast activity and raise fascial stiffness" ;
                                                                    wpp:record_number 59 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R59-ReferenceField-1> ;
                                                                    wpp:signal_field "Proinflammatory cytokines and  arachidonic acid pathway activation" ;
                                                                    wpp:signal_scale_field "paracrine" ;
@@ -15294,7 +15294,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R60-InteractionField-1> ;
                                                                    wpp:process_field "Nitric oxide, produced from arginine, relaxes smooth muscle and is proposed to similarly reduce myofibroblast contractility and fascial stiffness" ;
                                                                    wpp:record_number 60 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R60-ReferenceField-1> ;
                                                                    wpp:signal_field "Nitric oxide" ;
                                                                    wpp:signal_scale_field "paracrine" ;
@@ -15412,7 +15412,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R61-InteractionField-1> ;
                                                                    wpp:process_field "Nitric oxide, produced from arginine, relaxes smooth muscle and is proposed to similarly reduce myofibroblast contractility and fascial stiffness" ;
                                                                    wpp:record_number 61 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R61-ReferenceField-1> ;
                                                                    wpp:signal_field "Nitric oxide" ;
                                                                    wpp:signal_scale_field "paracrine" ;
@@ -15532,7 +15532,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R62-InteractionField-1> ;
                                                                    wpp:process_field "Sympathetic activation modifies TGF-β1 expression, which stimulates myofibroblast contraction and increases fascial stiffness" ;
                                                                    wpp:record_number 62 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R62-ReferenceField-1> ;
                                                                    wpp:signal_field "Sympathetic activation" ;
                                                                    wpp:signal_scale_field "systemic" ;
@@ -15662,7 +15662,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R63-InteractionField-1> ;
                                                                    wpp:process_field "Sympathetic shifts may also lower pH and enhance contraction" ;
                                                                    wpp:record_number 63 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R63-ReferenceField-1> ;
                                                                    wpp:signal_field "Sympathetic shifts" ;
                                                                    wpp:signal_scale_field "systemic" ;
@@ -15791,7 +15791,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R64-InteractionField-1> ;
                                                                    wpp:process_field "Decreased pH in the ground substance increases myofibroblast contractility and differentiation in fibrotic conditions" ;
                                                                    wpp:record_number 64 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R64-ReferenceField-1> ;
                                                                    wpp:signal_field "acidification" ;
                                                                    wpp:signal_scale_field "microenvironment" ;
@@ -15910,7 +15910,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R65-InteractionField-1> ;
                                                                    wpp:process_field "Stimulation of Ruffini endings and non-nociceptive free nerve endings by slow shear in fascia can inhibit sympathetic output and shift ANS balance" ;
                                                                    wpp:record_number 65 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R65-ReferenceField-1> ;
                                                                    wpp:signal_field "Mechanical shear input" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -16029,7 +16029,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R66-InteractionField-1> ;
                                                                    wpp:process_field "Stimulation of Ruffini endings and non-nociceptive free nerve endings by slow shear in fascia can inhibit sympathetic output and shift ANS balance" ;
                                                                    wpp:record_number 66 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R66-ReferenceField-1> ;
                                                                    wpp:signal_field "Mechanical shear input" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -16148,7 +16148,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R67-InteractionField-1> ;
                                                                    wpp:process_field "Myofibroblasts in collagen lattices show synchronized rhythmic Ca²⁺ oscillations (~99 s) coupled to periodic contractions via adherens junctions, leading to incremental matrix reorganization" ;
                                                                    wpp:record_number 67 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R67-ReferenceField-1> ;
                                                                    wpp:time_scale_field "minutes" .
 
@@ -16256,7 +16256,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R68-InteractionField-1> ;
                                                                    wpp:process_field "Myofibroblasts in collagen lattices show synchronized rhythmic Ca²⁺ oscillations (~99 s) coupled to periodic contractions via adherens junctions, leading to incremental matrix reorganization" ;
                                                                    wpp:record_number 68 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R68-ReferenceField-1> ;
                                                                    wpp:signal_field "Ca²⁺" ;
                                                                    wpp:signal_scale_field "microenvironment" ;
@@ -16366,7 +16366,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R69-InteractionField-1> ;
                                                                    wpp:process_field "Myofibroblasts in collagen lattices show synchronized rhythmic Ca²⁺ oscillations (~99 s) coupled to periodic contractions via adherens junctions, leading to incremental matrix reorganization" ;
                                                                    wpp:record_number 69 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R69-ReferenceField-1> ;
                                                                    wpp:signal_field "Ca²⁺" ;
                                                                    wpp:signal_scale_field "microenvironment" ;
@@ -16476,7 +16476,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R70-InteractionField-1> ;
                                                                    wpp:process_field "Myofibroblasts in collagen lattices show synchronized rhythmic Ca²⁺ oscillations (~99 s) coupled to periodic contractions via adherens junctions, leading to incremental matrix reorganization" ;
                                                                    wpp:record_number 70 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R70-ReferenceField-1> ;
                                                                    wpp:signal_field "Contractile pulses" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -16585,7 +16585,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R71-InteractionField-1> ;
                                                                    wpp:process_field "Telocytes use telopodes with caveolae, mitochondria, and endoplasmic reticulum to handle Ca²⁺ uptake and release, supporting vesicle-mediated communication" ;
                                                                    wpp:record_number 71 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R71-ReferenceField-1> ;
                                                                    wpp:time_scale_field "seconds" .
 
@@ -16691,7 +16691,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R72-InteractionField-1> ;
                                                                    wpp:process_field "Telocytes use telopodes with caveolae, mitochondria, and endoplasmic reticulum to handle Ca²⁺ uptake and release, supporting vesicle-mediated communication" ;
                                                                    wpp:record_number 72 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R72-ReferenceField-1> ;
                                                                    wpp:time_scale_field "seconds" .
 
@@ -16799,7 +16799,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R73-InteractionField-1> ;
                                                                    wpp:process_field "Core matrisome components (collagens, elastic fibers, fibronectin, GAGs, proteoglycans, matricellular proteins) form multi-domain networks that bind ECM proteins, growth factors, and cell receptors" ;
                                                                    wpp:record_number 73 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R73-ReferenceField-1> ;
                                                                    wpp:time_scale_field "years" .
 
@@ -16917,7 +16917,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R74-InteractionField-1> ;
                                                                    wpp:process_field "Core matrisome components (collagens, elastic fibers, fibronectin, GAGs, proteoglycans, matricellular proteins) form multi-domain networks that bind ECM proteins, growth factors, and cell receptors" ;
                                                                    wpp:record_number 74 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R74-ReferenceField-1> ;
                                                                    wpp:time_scale_field "years" .
 
@@ -17035,7 +17035,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R75-InteractionField-1> ;
                                                                    wpp:process_field "Proline residues in collagen α-helices are hydroxylated to 4-hydroxyproline by a vitamin C–dependent enzyme; deficiency leads to loss of collagen stability and tooth anchorage" ;
                                                                    wpp:record_number 75 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R75-ReferenceField-1> ;
                                                                    wpp:signal_field "Vitamin C" ;
                                                                    wpp:signal_scale_field "circulatory" ;
@@ -17154,7 +17154,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R76-InteractionField-1> ;
                                                                    wpp:process_field "Procollagens secreted into ECM are cleaved by ADAMTS, BMP-1, and meprin proteinases to release propeptides" ;
                                                                    wpp:record_number 76 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R76-ReferenceField-1> ;
                                                                    wpp:signal_field "Procollagens" ;
                                                                    wpp:signal_scale_field "microenvironment" ;
@@ -17273,7 +17273,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R77-InteractionField-1> ;
                                                                    wpp:process_field "Procollagens secreted into ECM are cleaved by ADAMTS, BMP-1, and meprin proteinases to enable staggered fibril assembly with D-banding" ;
                                                                    wpp:record_number 77 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R77-ReferenceField-1> ;
                                                                    wpp:signal_field "Procollagens" ;
                                                                    wpp:signal_scale_field "microenvironment" ;
@@ -17394,7 +17394,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R78-InteractionField-1> ;
                                                                    wpp:process_field "Fibrillar collagens I, II, III and minor fibrillar collagens assemble into fibers capable of sustaining stresses up to ~70 MPa in tendons" ;
                                                                    wpp:record_number 78 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R78-ReferenceField-1> ;
                                                                    wpp:time_scale_field "years" .
 
@@ -17513,7 +17513,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R79-InteractionField-1> ;
                                                                    wpp:process_field "Sulfated GAG chains attract positive cations, generating osmotic influx of water and swelling that fills ECM space" ;
                                                                    wpp:record_number 79 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R79-ReferenceField-1> ;
                                                                    wpp:signal_field "Sulfated GAG chains" ;
                                                                    wpp:signal_scale_field "microenvironment" ;
@@ -17643,7 +17643,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R80-InteractionField-1> ;
                                                                    wpp:process_field "Sulfated GAG chains attract positive cations, generating osmotic influx of water and swelling that resists compression" ;
                                                                    wpp:record_number 80 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R80-ReferenceField-1> ;
                                                                    wpp:signal_field "Sulfated GAG chains" ;
                                                                    wpp:signal_scale_field "microenvironment" ;
@@ -17774,7 +17774,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R81-InteractionField-1> ;
                                                                    wpp:process_field "Hyaluronan contributes to viscous lubrication in cartilage and synovial surfaces and binds receptors such as CD44 and TLR2/4 with size-dependent pro- or anti-inflammatory effects" ;
                                                                    wpp:record_number 81 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R81-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -17903,7 +17903,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R82-InteractionField-1> ;
                                                                    wpp:process_field "Hyaluronan contributes to viscous lubrication in cartilage and synovial surfaces and binds receptors such as CD44 and TLR2/4 with size-dependent pro- or anti-inflammatory effects" ;
                                                                    wpp:record_number 82 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R82-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -18031,7 +18031,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R83-InteractionField-1> ;
                                                                    wpp:process_field "Proteoglycans and SLRPs (decorin, biglycan, lumican, fibromodulin) regulate collagen fibrillogenesis" ;
                                                                    wpp:record_number 83 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R83-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -18149,7 +18149,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R84-InteractionField-1> ;
                                                                    wpp:process_field "Proteoglycans and SLRPs (decorin, biglycan, lumican, fibromodulin) bind/present growth factors in ECM" ;
                                                                    wpp:record_number 84 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R84-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -18269,7 +18269,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R85-InteractionField-1> ;
                                                                    wpp:process_field "Water in HA-rich ECM provides incompressibility for cartilage, flows out under compression and in during relaxation to transport solutes;" ;
                                                                    wpp:record_number 85 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R85-ReferenceField-1> ;
                                                                    wpp:time_scale_field "hours" .
 
@@ -18399,7 +18399,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R86-InteractionField-1> ;
                                                                    wpp:process_field "Water in HA-rich ECM provides incompressibility for cartilage, flows out under compression and in during relaxation to transport solutes; ~8 L/day of interstitial fluid drains via lymphatics" ;
                                                                    wpp:record_number 86 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R86-ReferenceField-1> ;
                                                                    wpp:signal_field "compression" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -18531,7 +18531,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R87-InteractionField-1> ;
                                                                    wpp:process_field "Water in HA-rich ECM provides incompressibility for cartilage, flows out under compression and in during relaxation to transport solutes; ~8 L/day of interstitial fluid drains via lymphatics" ;
                                                                    wpp:record_number 87 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R87-ReferenceField-1> ;
                                                                    wpp:signal_field "relaxation" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -18662,7 +18662,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R88-InteractionField-1> ;
                                                                    wpp:process_field "Tropoelastin self-assembles at plasma membrane into particles that coacervate, then associate with fibrillin microfibrils and are crosslinked to form mature elastic fibers" ;
                                                                    wpp:record_number 88 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R88-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -18790,7 +18790,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R89-InteractionField-1> ;
                                                                    wpp:process_field "Fibrillins and LTBPs form 20 nm microfibrils that bind latent TGF-β complexes" ;
                                                                    wpp:record_number 89 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R89-ReferenceField-1> ;
                                                                    wpp:time_scale_field "minutes" .
 
@@ -18919,7 +18919,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R90-InteractionField-1> ;
                                                                    wpp:process_field "Integrin-mediated cell pulling releases active TGF-β1 from ECM" ;
                                                                    wpp:record_number 90 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R90-ReferenceField-1> ;
                                                                    wpp:signal_field "Integrin-mediated cell pulling" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -19049,7 +19049,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R91-InteractionField-1> ;
                                                                    wpp:process_field "Fibronectin dimers polymerize into fibrils that bind growth factors, GAGs, LTBPs, collagens, and integrins, acting as a template for collagen and elastic fiber formation" ;
                                                                    wpp:record_number 91 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R91-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -19166,7 +19166,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R92-InteractionField-1> ;
                                                                    wpp:process_field "Fibronectin dimers polymerize into fibrils that bind growth factors, GAGs, LTBPs, collagens, and integrins, acting as a template for collagen and elastic fiber formation" ;
                                                                    wpp:record_number 92 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R92-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -19283,7 +19283,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R93-InteractionField-1> ;
                                                                    wpp:process_field "Fibronectin dimers polymerize into fibrils that bind growth factors, GAGs, LTBPs, collagens, and integrins, acting as a template for collagen and elastic fiber formation" ;
                                                                    wpp:record_number 93 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R93-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -19401,7 +19401,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R94-InteractionField-1> ;
                                                                    wpp:process_field "Mechanical forces and ED-A/ED-B splicing unfold fibronectin domains, exposing cryptic binding sites that alter cell signaling and fibrillogenesis" ;
                                                                    wpp:record_number 94 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R94-ReferenceField-1> ;
                                                                    wpp:signal_field "Mechanical forces" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -19521,7 +19521,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R95-InteractionField-1> ;
                                                                    wpp:process_field "Mechanical forces and ED-A/ED-B splicing unfold fibronectin domains, exposing cryptic binding sites that alter cell signaling and fibrillogenesis" ;
                                                                    wpp:record_number 95 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R95-ReferenceField-1> ;
                                                                    wpp:signal_field "ED-A/ED-B splicing" ;
                                                                    wpp:signal_scale_field "Celluar" ;
@@ -19641,7 +19641,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R96-InteractionField-1> ;
                                                                    wpp:process_field "Matricellular proteins (e.g., tenascin-C, thrombospondins, periostin, osteopontin, SPARC, CCN family) bind integrins, syndecans, CD44, and growth factor receptors to tune repair and inflammation" ;
                                                                    wpp:record_number 96 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R96-ReferenceField-1> ;
                                                                    wpp:signal_field "Matricellular proteins (e.g., tenascin-C, thrombospondins, periostin, osteopontin, SPARC, CCN family)" ;
                                                                    wpp:signal_scale_field "Intra-organ (Tissue)" ;
@@ -19761,7 +19761,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R97-InteractionField-1> ;
                                                                    wpp:process_field "Tenascin-C accumulates in immature ECM during early repair, creating an adhesive environment that supports cell migration and chemokinesis" ;
                                                                    wpp:record_number 97 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R97-ReferenceField-1> ;
                                                                    wpp:signal_field "Tenascin-C" ;
                                                                    wpp:signal_scale_field "paracrine" ;
@@ -19881,7 +19881,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R98-InteractionField-1> ;
                                                                    wpp:process_field "ECM resists external loads while fibroblasts sense stiffness via integrins and discoidin receptors, adapting ECM production and degradation in response to load" ;
                                                                    wpp:record_number 98 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R98-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 
@@ -20010,7 +20010,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                    wpp:interaction_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R99-InteractionField-1> ;
                                                                    wpp:process_field "ECM resists external loads while fibroblasts sense stiffness via integrins and discoidin receptors, adapting ECM production and degradation in response to load" ;
                                                                    wpp:record_number 99 ;
-                                                                   wpp:record_source "https://purl.wholepersonphysiome.org/wpp/fascia-system/draft" ;
+                                                                   wpp:record_source <https://purl.wholepersonphysiome.org/wpp/fascia-system> ;
                                                                    wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/fascia-system/draft#R99-ReferenceField-1> ;
                                                                    wpp:time_scale_field "days" .
 

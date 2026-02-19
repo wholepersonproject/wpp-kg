@@ -40,11 +40,6 @@
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-3321-6137">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Katy Börner</schema1:name>
@@ -91,6 +86,11 @@
     <rdfs:label>Graph data distribution urinary-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv">
     <dcat:mediaType>text/csv</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/assets/Urinary_System.csv</dcat:downloadURL>
@@ -116,20 +116,15 @@
     <rdfs:label>Graph data distribution urinary-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data">
     <dct:creator rdf:resource="https://orcid.org/0000-0002-1868-3896"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <rdfs:label>Whole Person Physiome (WPP) table for the urinary system</rdfs:label>
-    <schema1:funding rdf:nodeID="A1"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-23</schema1:dateCreated>
     <dct:title>Whole Person Physiome (WPP) table for the urinary system</dct:title>
@@ -142,5 +137,10 @@
     <dct:title>Graph data distribution urinary-system (draft) in JSON-LD format</dct:title>
     <rdfs:label>Graph data distribution urinary-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
 </rdf:RDF>
