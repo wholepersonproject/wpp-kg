@@ -1,0 +1,181 @@
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:schema1="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ccf="http://purl.org/ccf/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
+    <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
+    <schema1:version>0.10.0</schema1:version>
+    <schema1:targetProduct rdf:nodeID="A0"/>
+    <schema1:name>HRA Digital Object Processor</schema1:name>
+    <rdfs:label>HRA Digital Object Processor</rdfs:label>
+    <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml">
+    <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.xml</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml</dcat:accessURL>
+    <dct:title>Graph data distribution wpp (draft) in RDF/XML format</dct:title>
+    <rdfs:label>Graph data distribution wpp (draft) in RDF/XML format</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg">
+    <dcat:mediaType>image/svg+xml</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.svg</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg</dcat:accessURL>
+    <dct:title>Raw data distribution 'schema.svg' file</dct:title>
+    <rdfs:label>Raw data distribution 'schema.svg' file</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle">
+    <dcat:mediaType>text/turtle</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.ttl</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle</dcat:accessURL>
+    <dct:title>Graph data distribution wpp (draft) in Turtle format</dct:title>
+    <rdfs:label>Graph data distribution wpp (draft) in Turtle format</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples">
+    <dcat:mediaType>application/n-triples</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.nt</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples</dcat:accessURL>
+    <dct:title>Graph data distribution wpp (draft) in N-Triples format</dct:title>
+    <rdfs:label>Graph data distribution wpp (draft) in N-Triples format</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft">
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json"/>
+    <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples"/>
+    <schema1:version>draft</schema1:version>
+    <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data"/>
+    <schema1:additionalType>schema</schema1:additionalType>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle"/>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads"/>
+    <rdfs:comment>The graph representation of the wpp linkml schema dataset.</rdfs:comment>
+    <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml"/>
+    <schema1:name>wpp</schema1:name>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema1:dateCreated>
+    <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/schema/wpp/draft"/>
+    <rdfs:label>wpp (draft) graph data</rdfs:label>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld"/>
+    <dct:publisher>HuBMAP</dct:publisher>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:title>wpp (draft) graph data</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd">
+    <dcat:mediaType>application/vnd.chipnuts.karaoke-mmd</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.mmd</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd</dcat:accessURL>
+    <dct:title>Raw data distribution 'schema.mmd' file</dct:title>
+    <rdfs:label>Raw data distribution 'schema.mmd' file</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png">
+    <dcat:mediaType>image/png</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.png</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png</dcat:accessURL>
+    <dct:title>Raw data distribution 'schema.png' file</dct:title>
+    <rdfs:label>Raw data distribution 'schema.png' file</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0002-3321-6137">
+    <dcat:conforms_to>Person</dcat:conforms_to>
+    <schema1:name>Katy Börner</schema1:name>
+    <schema1:identifier>0000-0002-3321-6137</schema1:identifier>
+    <schema1:givenName>Katy</schema1:givenName>
+    <schema1:familyName>Börner</schema1:familyName>
+    <rdfs:label>Katy Börner</rdfs:label>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld">
+    <dcat:mediaType>application/ld+json</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.jsonld</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld</dcat:accessURL>
+    <dct:title>Graph data distribution wpp (draft) in JSON-LD format</dct:title>
+    <rdfs:label>Graph data distribution wpp (draft) in JSON-LD format</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads">
+    <dcat:mediaType>application/n-quads</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.nq</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads</dcat:accessURL>
+    <dct:title>Graph data distribution wpp (draft) in N-Quads format</dct:title>
+    <rdfs:label>Graph data distribution wpp (draft) in N-Quads format</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json">
+    <dcat:mediaType>application/json</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.json</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json</dcat:accessURL>
+    <dct:title>Raw data distribution 'schema.json' file</dct:title>
+    <rdfs:label>Raw data distribution 'schema.json' file</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json">
+    <dcat:mediaType>application/json</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.json</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json</dcat:accessURL>
+    <dct:title>Graph data distribution wpp (draft) in JSON format</dct:title>
+    <rdfs:label>Graph data distribution wpp (draft) in JSON format</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml">
+    <dcat:mediaType>text/yaml</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.yaml</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml</dcat:accessURL>
+    <dct:title>Raw data distribution 'schema.yaml' file</dct:title>
+    <rdfs:label>Raw data distribution 'schema.yaml' file</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data">
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-6703-7647"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema1:dateCreated>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:comment>This schema defines a data model for WPP (Whole Person Physiome) tables.</rdfs:comment>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd"/>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg"/>
+    <rdfs:label>wpp linkml schema</rdfs:label>
+    <schema1:funding rdf:nodeID="A1"/>
+    <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
+    <dct:title>wpp linkml schema</dct:title>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld"/>
+    <dct:publisher>HuBMAP</dct:publisher>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json"/>
+    <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml"/>
+    <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld">
+    <dcat:mediaType>application/ld+json</dcat:mediaType>
+    <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.context.jsonld</dcat:downloadURL>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld</dcat:accessURL>
+    <dct:title>Raw data distribution 'schema.context.jsonld' file</dct:title>
+    <rdfs:label>Raw data distribution 'schema.context.jsonld' file</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0002-6703-7647">
+    <dcat:conforms_to>Person</dcat:conforms_to>
+    <schema1:name>Bruce W. Herr II</schema1:name>
+    <schema1:identifier>0000-0002-6703-7647</schema1:identifier>
+    <schema1:givenName>Bruce</schema1:givenName>
+    <schema1:familyName>Herr</schema1:familyName>
+    <rdfs:label>Bruce W. Herr II</rdfs:label>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+</rdf:RDF>

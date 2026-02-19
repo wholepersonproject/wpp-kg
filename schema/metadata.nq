@@ -1,0 +1,8 @@
+<https://wholepersonproject.github.io/wpp-kg/schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/schema/> .
+<https://wholepersonproject.github.io/wpp-kg/schema> <http://purl.org/dc/terms/title> "https://wholepersonproject.github.io/wpp-kg/schema"@en <https://wholepersonproject.github.io/wpp-kg/schema/> .
+<https://wholepersonproject.github.io/wpp-kg/schema> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/schema/wpp> <https://wholepersonproject.github.io/wpp-kg/schema/> .
+<https://wholepersonproject.github.io/wpp-kg/schema> <http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata> <https://wholepersonproject.github.io/wpp-kg/schema/> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/schema/> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp> <http://purl.org/dc/terms/title> "wpp"@en <https://wholepersonproject.github.io/wpp-kg/schema/> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> <https://wholepersonproject.github.io/wpp-kg/schema/> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata> <http://purl.org/dc/terms/title> "wpp-metadata"@en <https://wholepersonproject.github.io/wpp-kg/schema/> .

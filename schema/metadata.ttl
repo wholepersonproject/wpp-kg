@@ -1,0 +1,11 @@
+
+<https://wholepersonproject.github.io/wpp-kg/schema> a <http://www.w3.org/ns/dcat#Catalog> ;
+	<http://purl.org/dc/terms/title> "https://wholepersonproject.github.io/wpp-kg/schema"@en ;
+	<http://www.w3.org/ns/dcat#catalog> <https://wholepersonproject.github.io/wpp-kg/schema/wpp>, <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata> .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp> a <http://www.w3.org/ns/dcat#Catalog> ;
+	<http://purl.org/dc/terms/title> "wpp"@en .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata> a <http://www.w3.org/ns/dcat#Catalog> ;
+	<http://purl.org/dc/terms/title> "wpp-metadata"@en .
+

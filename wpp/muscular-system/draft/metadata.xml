@@ -20,9 +20,9 @@
     <rdfs:label>Whole Person Physiome (WPP) table for the muscular system</rdfs:label>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <schema1:funding rdf:nodeID="A0"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-16</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#Muscular_System.csv"/>
-    <schema1:funding rdf:nodeID="A0"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0003-2700-1815"/>
     <dct:publisher>WPP</dct:publisher>
@@ -53,11 +53,6 @@
     <rdfs:label>Graph data distribution muscular-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft/graph.ttl</dcat:downloadURL>
@@ -74,6 +69,11 @@
     <schema1:familyName>Stedman</schema1:familyName>
     <rdfs:label>Hansell Stedman</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#Muscular_System.csv">
     <dcat:mediaType>text/csv</dcat:mediaType>
@@ -100,6 +100,11 @@
     <rdfs:label>Graph data distribution muscular-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft/graph.nt</dcat:downloadURL>
@@ -116,11 +121,6 @@
     <schema1:familyName>Scherba</schema1:familyName>
     <rdfs:label>Jacob C. Scherba</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft">
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#json"/>

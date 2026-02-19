@@ -1,0 +1,36 @@
+{
+    "@graph": [
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "wpp"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema",
+            "http://www.w3.org/ns/dcat#catalog": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp"
+                }
+            ],
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "wpp-metadata"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        }
+    ]
+}

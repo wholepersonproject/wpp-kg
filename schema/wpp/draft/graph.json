@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wholepersonproject.github.io/wpp-kg/schema/basic/latest/assets/schema.json",
+  "@context": "https://wholepersonproject.github.io/wpp-kg/schema/basic/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "iri": "https://purl.wholepersonphysiome.org/schema/wpp",
+  "data": [
+    "schema.yaml",
+    "schema.context.jsonld",
+    "schema.json",
+    "schema.mmd",
+    "schema.png",
+    "schema.svg"
+  ],
+  "metadata": {
+    "title": "wpp (draft) graph data",
+    "description": "The graph representation of the wpp linkml schema dataset.",
+    "created_by": [
+      "https://github.com/hubmapconsortium/hra-do-processor"
+    ],
+    "creation_date": "2026-02-19",
+    "version": "draft",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": "HuBMAP",
+    "see_also": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft",
+    "derived_from": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data"
+  }
+}

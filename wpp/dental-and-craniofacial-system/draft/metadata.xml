@@ -56,11 +56,6 @@
     <rdfs:label>Graph data distribution dental-and-craniofacial-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft">
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset.</rdfs:comment>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data"/>
@@ -82,6 +77,11 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#nquads"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-18</schema1:dateCreated>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-3321-6137">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Katy Börner</schema1:name>
@@ -93,6 +93,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data">
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0001-7392-8852"/>
     <dct:title>Whole Person Physiome (WPP) table for the craniofacial and dental system</dct:title>
@@ -100,7 +101,6 @@
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the craniofacial and dental system</rdfs:label>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv"/>
-    <schema1:funding rdf:nodeID="A1"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-09</schema1:dateCreated>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>

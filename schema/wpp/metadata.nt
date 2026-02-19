@@ -1,0 +1,5 @@
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp> <http://purl.org/dc/terms/title> "https://wholepersonproject.github.io/wpp-kg/schema/wpp"@en .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp> <http://www.w3.org/ns/dcat#dataset> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://purl.org/dc/terms/title> "draft"@en .

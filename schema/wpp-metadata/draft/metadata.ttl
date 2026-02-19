@@ -1,0 +1,156 @@
+@prefix ccf: <http://purl.org/ccf/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> a dcat:Dataset ;
+    rdfs:label "wpp-metadata (draft) graph data" ;
+    dct:creator <https://github.com/hubmapconsortium/hra-do-processor> ;
+    dct:license "https://creativecommons.org/licenses/by/4.0/" ;
+    dct:publisher "HuBMAP" ;
+    dct:title "wpp-metadata (draft) graph data" ;
+    schema1:additionalType "schema" ;
+    schema1:dateCreated "2026-02-19"^^xsd:date ;
+    schema1:name "wpp-metadata" ;
+    schema1:version "draft" ;
+    rdfs:comment "The graph representation of the wpp-metadata linkml schema dataset." ;
+    rdfs:seeAlso <https://purl.wholepersonphysiome.org/schema/wpp-metadata/draft> ;
+    dcat:distribution <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#json>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#jsonld>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#nquads>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#ntriples>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#rdfxml>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#turtle> ;
+    prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> .
+
+<https://orcid.org/0000-0002-3321-6137> a schema1:Person ;
+    rdfs:label "Katy Börner" ;
+    schema1:familyName "Börner" ;
+    schema1:givenName "Katy" ;
+    schema1:identifier "0000-0002-3321-6137" ;
+    schema1:name "Katy Börner" ;
+    dcat:conforms_to "Person" .
+
+<https://orcid.org/0000-0002-6703-7647> a schema1:Person ;
+    rdfs:label "Bruce W. Herr II" ;
+    schema1:familyName "Herr" ;
+    schema1:givenName "Bruce" ;
+    schema1:identifier "0000-0002-6703-7647" ;
+    schema1:name "Bruce W. Herr II" ;
+    dcat:conforms_to "Person" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#json> a dcat:Distribution ;
+    rdfs:label "Graph data distribution wpp-metadata (draft) in JSON format" ;
+    dct:title "Graph data distribution wpp-metadata (draft) in JSON format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#json"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.json"^^xsd:anyURI ;
+    dcat:mediaType "application/json" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#jsonld> a dcat:Distribution ;
+    rdfs:label "Graph data distribution wpp-metadata (draft) in JSON-LD format" ;
+    dct:title "Graph data distribution wpp-metadata (draft) in JSON-LD format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#jsonld"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.jsonld"^^xsd:anyURI ;
+    dcat:mediaType "application/ld+json" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#nquads> a dcat:Distribution ;
+    rdfs:label "Graph data distribution wpp-metadata (draft) in N-Quads format" ;
+    dct:title "Graph data distribution wpp-metadata (draft) in N-Quads format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#nquads"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.nq"^^xsd:anyURI ;
+    dcat:mediaType "application/n-quads" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#ntriples> a dcat:Distribution ;
+    rdfs:label "Graph data distribution wpp-metadata (draft) in N-Triples format" ;
+    dct:title "Graph data distribution wpp-metadata (draft) in N-Triples format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#ntriples"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.nt"^^xsd:anyURI ;
+    dcat:mediaType "application/n-triples" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> a dcat:Dataset ;
+    rdfs:label "wpp-metadata linkml schema" ;
+    ccf:project_lead <https://orcid.org/0000-0002-3321-6137> ;
+    dct:creator <https://orcid.org/0000-0002-6703-7647> ;
+    dct:license "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))" ;
+    dct:publisher "HuBMAP" ;
+    dct:title "wpp-metadata linkml schema" ;
+    schema1:dateCreated "2026-02-19"^^xsd:date ;
+    schema1:funding [ a schema1:Grant ;
+            schema1:award "1U24AT013504-01" ;
+            schema1:funder "National Institutes of Health" ] ;
+    rdfs:comment "LinkML Schema for wpp-metadata" ;
+    dcat:distribution <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.context.jsonld>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.mmd>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.png>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.svg>,
+        <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml> .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#rdfxml> a dcat:Distribution ;
+    rdfs:label "Graph data distribution wpp-metadata (draft) in RDF/XML format" ;
+    dct:title "Graph data distribution wpp-metadata (draft) in RDF/XML format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#rdfxml"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.xml"^^xsd:anyURI ;
+    dcat:mediaType "application/rdf+xml" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.context.jsonld> a dcat:Distribution ;
+    rdfs:label "Raw data distribution 'schema.context.jsonld' file" ;
+    dct:title "Raw data distribution 'schema.context.jsonld' file" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.context.jsonld"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.context.jsonld"^^xsd:anyURI ;
+    dcat:mediaType "application/ld+json" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json> a dcat:Distribution ;
+    rdfs:label "Raw data distribution 'schema.json' file" ;
+    dct:title "Raw data distribution 'schema.json' file" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.json"^^xsd:anyURI ;
+    dcat:mediaType "application/json" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.mmd> a dcat:Distribution ;
+    rdfs:label "Raw data distribution 'schema.mmd' file" ;
+    dct:title "Raw data distribution 'schema.mmd' file" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.mmd"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.mmd"^^xsd:anyURI ;
+    dcat:mediaType "application/vnd.chipnuts.karaoke-mmd" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.png> a dcat:Distribution ;
+    rdfs:label "Raw data distribution 'schema.png' file" ;
+    dct:title "Raw data distribution 'schema.png' file" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.png"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.png"^^xsd:anyURI ;
+    dcat:mediaType "image/png" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.svg> a dcat:Distribution ;
+    rdfs:label "Raw data distribution 'schema.svg' file" ;
+    dct:title "Raw data distribution 'schema.svg' file" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.svg"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.svg"^^xsd:anyURI ;
+    dcat:mediaType "image/svg+xml" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml> a dcat:Distribution ;
+    rdfs:label "Raw data distribution 'schema.yaml' file" ;
+    dct:title "Raw data distribution 'schema.yaml' file" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.yaml"^^xsd:anyURI ;
+    dcat:mediaType "text/yaml" .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#turtle> a dcat:Distribution ;
+    rdfs:label "Graph data distribution wpp-metadata (draft) in Turtle format" ;
+    dct:title "Graph data distribution wpp-metadata (draft) in Turtle format" ;
+    dcat:accessURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#turtle"^^xsd:anyURI ;
+    dcat:downloadURL "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.ttl"^^xsd:anyURI ;
+    dcat:mediaType "text/turtle" .
+
+<https://github.com/hubmapconsortium/hra-do-processor> a schema1:SoftwareApplication ;
+    rdfs:label "HRA Digital Object Processor" ;
+    schema1:name "HRA Digital Object Processor" ;
+    schema1:targetProduct [ a schema1:SoftwareSourceCode ;
+            schema1:codeRepository <https://github.com/hubmapconsortium/hra-do-processor> ;
+            rdfs:seeAlso <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> ] ;
+    schema1:version "0.10.0" ;
+    dcat:conforms_to "SoftwareApplication" .
+

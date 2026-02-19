@@ -41,12 +41,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#jsonld",
             "dcat:mediaType": "application/ld+json",
             "dcat:downloadURL": {
@@ -62,7 +56,17 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b1",
+            "@id": "https://orcid.org/0000-0002-1868-3896",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Minyan Zhu",
+            "schema1:identifier": "0000-0002-1868-3896",
+            "schema1:givenName": "Minyan",
+            "schema1:familyName": "Zhu",
+            "rdfs:label": "Minyan Zhu",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
             "rdfs:seeAlso": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
             },
@@ -76,21 +80,11 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b1"
+                "@id": "_:b0"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
             "@type": "schema1:SoftwareApplication"
-        },
-        {
-            "@id": "https://orcid.org/0000-0002-1868-3896",
-            "dcat:conforms_to": "Person",
-            "schema1:name": "Minyan Zhu",
-            "schema1:identifier": "0000-0002-1868-3896",
-            "schema1:givenName": "Minyan",
-            "schema1:familyName": "Zhu",
-            "rdfs:label": "Minyan Zhu",
-            "@type": "schema1:Person"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#json",
@@ -149,10 +143,10 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "@type": "dcat:Dataset",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dct:title": "Whole Person Physiome (WPP) table for the integumentary system",
             "schema1:reviewedBy": [
                 {
@@ -179,6 +173,12 @@
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#Integumentary_System.csv"
             }
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-1005-3726",

@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+
+dct:creator a owl:AnnotationProperty .
+
+dct:description a owl:AnnotationProperty .
+
+dct:license a owl:AnnotationProperty .
+
+dct:publisher a owl:AnnotationProperty .
+
+dct:title a owl:AnnotationProperty .
+
+schema1:dateCreated a owl:AnnotationProperty .
+
+schema1:version a owl:AnnotationProperty .
+
+prov:wasDerivedFrom a owl:AnnotationProperty .
+
+<https://purl.wholepersonphysiome.org/schema/wpp-metadata> a owl:Ontology ;
+    dct:creator <https://github.com/hubmapconsortium/hra-do-processor> ;
+    dct:description "The graph representation of the wpp-metadata linkml schema dataset." ;
+    dct:license "https://creativecommons.org/licenses/by/4.0/" ;
+    dct:publisher "HuBMAP" ;
+    dct:title "wpp-metadata (draft) graph data" ;
+    schema1:dateCreated "2026-02-19" ;
+    schema1:version "draft" ;
+    rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> ;
+    prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> .
+

@@ -210,6 +210,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-0883-9754",
             "dcat:conforms_to": "Person",
             "schema1:name": "Anne Cappola",
@@ -218,12 +224,6 @@
             "schema1:familyName": "Cappola",
             "rdfs:label": "Anne Cappola",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0001-8187-0507",

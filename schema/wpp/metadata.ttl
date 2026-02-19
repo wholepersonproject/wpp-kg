@@ -1,0 +1,8 @@
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp> a <http://www.w3.org/ns/dcat#Catalog> ;
+	<http://purl.org/dc/terms/title> "https://wholepersonproject.github.io/wpp-kg/schema/wpp"@en ;
+	<http://www.w3.org/ns/dcat#dataset> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> .
+
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> a <http://www.w3.org/ns/dcat#Dataset> ;
+	<http://purl.org/dc/terms/title> "draft"@en .
+

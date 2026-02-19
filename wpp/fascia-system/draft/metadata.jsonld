@@ -1,12 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-6988-4102",
             "dcat:conforms_to": "Person",
             "schema1:name": "Rebecca Wells",
@@ -144,6 +138,9 @@
                     "@id": "https://orcid.org/0000-0002-6988-4102"
                 }
             ],
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#Fascia_System.csv"
             },
@@ -151,9 +148,6 @@
                 "@id": "https://orcid.org/0000-0002-1868-3896"
             },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "dct:title": "Whole Person Physiome (WPP) table for the fascia system",
             "dct:publisher": "WPP",
             "rdfs:comment": "TODO: description",
@@ -216,14 +210,10 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-1005-3726",
@@ -249,6 +239,16 @@
             "dct:title": "Raw data distribution 'Fascia_System.csv' file",
             "rdfs:label": "Raw data distribution 'Fascia_System.csv' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

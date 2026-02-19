@@ -1,0 +1,327 @@
+{
+    "@graph": [
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b0"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#ntriples",
+            "dcat:mediaType": "application/n-triples",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.nt",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#ntriples",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp-metadata (draft) in N-Triples format",
+            "rdfs:label": "Graph data distribution wpp-metadata (draft) in N-Triples format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3321-6137",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Katy Börner",
+            "schema1:identifier": "0000-0002-3321-6137",
+            "schema1:givenName": "Katy",
+            "schema1:familyName": "Börner",
+            "rdfs:label": "Katy Börner",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft",
+            "rdfs:seeAlso": {
+                "@id": "https://purl.wholepersonphysiome.org/schema/wpp-metadata/draft"
+            },
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#ntriples"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#nquads"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#turtle"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#rdfxml"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#json"
+                }
+            ],
+            "prov:wasDerivedFrom": {
+                "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data"
+            },
+            "schema1:additionalType": "schema",
+            "dct:title": "wpp-metadata (draft) graph data",
+            "@type": "dcat:Dataset",
+            "rdfs:label": "wpp-metadata (draft) graph data",
+            "schema1:name": "wpp-metadata",
+            "dct:creator": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "schema1:dateCreated": {
+                "@value": "2026-02-19",
+                "@type": "xsd:date"
+            },
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "dct:publisher": "HuBMAP",
+            "rdfs:comment": "The graph representation of the wpp-metadata linkml schema dataset.",
+            "schema1:version": "draft"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp-metadata (draft) in JSON-LD format",
+            "rdfs:label": "Graph data distribution wpp-metadata (draft) in JSON-LD format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#nquads",
+            "dcat:mediaType": "application/n-quads",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.nq",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#nquads",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp-metadata (draft) in N-Quads format",
+            "rdfs:label": "Graph data distribution wpp-metadata (draft) in N-Quads format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data",
+            "dcat:distribution": [
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.context.jsonld"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.png"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.mmd"
+                },
+                {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.svg"
+                }
+            ],
+            "rdfs:label": "wpp-metadata linkml schema",
+            "ccf:project_lead": {
+                "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "schema1:dateCreated": {
+                "@value": "2026-02-19",
+                "@type": "xsd:date"
+            },
+            "dct:creator": {
+                "@id": "https://orcid.org/0000-0002-6703-7647"
+            },
+            "dct:publisher": "HuBMAP",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
+            "dct:title": "wpp-metadata linkml schema",
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+            "rdfs:comment": "LinkML Schema for wpp-metadata",
+            "@type": "dcat:Dataset"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#turtle",
+            "dcat:mediaType": "text/turtle",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.ttl",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#turtle",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp-metadata (draft) in Turtle format",
+            "rdfs:label": "Graph data distribution wpp-metadata (draft) in Turtle format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp-metadata (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution wpp-metadata (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution wpp-metadata (draft) in JSON format",
+            "rdfs:label": "Graph data distribution wpp-metadata (draft) in JSON format",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.context.jsonld",
+            "dcat:mediaType": "application/ld+json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.context.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.context.jsonld",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'schema.context.jsonld' file",
+            "rdfs:label": "Raw data distribution 'schema.context.jsonld' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.svg",
+            "dcat:mediaType": "image/svg+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.svg",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.svg",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'schema.svg' file",
+            "rdfs:label": "Raw data distribution 'schema.svg' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json",
+            "dcat:mediaType": "application/json",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.json",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'schema.json' file",
+            "rdfs:label": "Raw data distribution 'schema.json' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml",
+            "dcat:mediaType": "text/yaml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.yaml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'schema.yaml' file",
+            "rdfs:label": "Raw data distribution 'schema.yaml' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6703-7647",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Bruce W. Herr II",
+            "schema1:identifier": "0000-0002-6703-7647",
+            "schema1:givenName": "Bruce",
+            "schema1:familyName": "Herr",
+            "rdfs:label": "Bruce W. Herr II",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.png",
+            "dcat:mediaType": "image/png",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.png",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.png",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'schema.png' file",
+            "rdfs:label": "Raw data distribution 'schema.png' file",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.mmd",
+            "dcat:mediaType": "application/vnd.chipnuts.karaoke-mmd",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.mmd",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.mmd",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'schema.mmd' file",
+            "rdfs:label": "Raw data distribution 'schema.mmd' file",
+            "@type": "dcat:Distribution"
+        }
+    ],
+    "@context": {
+        "dct": "http://purl.org/dc/terms/",
+        "schema1": "http://schema.org/",
+        "ccf": "http://purl.org/ccf/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#"
+    }
+}

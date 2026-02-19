@@ -182,9 +182,6 @@
                     "@id": "https://orcid.org/0000-0002-6988-4102"
                 }
             ],
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
@@ -194,6 +191,9 @@
             "schema1:dateCreated": {
                 "@value": "2025-10-28",
                 "@type": "xsd:date"
+            },
+            "schema1:funding": {
+                "@id": "_:b0"
             },
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0002-1868-3896"
@@ -220,12 +220,6 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#Digestive_System.csv",
             "dcat:mediaType": "text/csv",
             "dcat:downloadURL": {
@@ -239,6 +233,12 @@
             "dct:title": "Raw data distribution 'Digestive_System.csv' file",
             "rdfs:label": "Raw data distribution 'Digestive_System.csv' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "_:b1",

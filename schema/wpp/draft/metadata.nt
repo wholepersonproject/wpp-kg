@@ -1,0 +1,133 @@
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/2000/01/rdf-schema#label> "wpp (draft) graph data" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://purl.org/dc/terms/creator> <https://github.com/hubmapconsortium/hra-do-processor> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://purl.org/dc/terms/title> "wpp (draft) graph data" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/additionalType> "schema" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/dateCreated> "2026-02-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/name> "wpp" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/version> "draft" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the wpp linkml schema dataset." .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://purl.wholepersonphysiome.org/schema/wpp/draft> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/2000/01/rdf-schema#label> "Katy Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/familyName> "Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/givenName> "Katy" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/identifier> "0000-0002-3321-6137" .
+<https://orcid.org/0000-0002-3321-6137> <http://schema.org/name> "Katy Börner" .
+<https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://orcid.org/0000-0002-6703-7647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0002-6703-7647> <http://www.w3.org/2000/01/rdf-schema#label> "Bruce W. Herr II" .
+<https://orcid.org/0000-0002-6703-7647> <http://schema.org/familyName> "Herr" .
+<https://orcid.org/0000-0002-6703-7647> <http://schema.org/givenName> "Bruce" .
+<https://orcid.org/0000-0002-6703-7647> <http://schema.org/identifier> "0000-0002-6703-7647" .
+<https://orcid.org/0000-0002-6703-7647> <http://schema.org/name> "Bruce W. Herr II" .
+<https://orcid.org/0000-0002-6703-7647> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution wpp (draft) in JSON format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json> <http://purl.org/dc/terms/title> "Graph data distribution wpp (draft) in JSON format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.json"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json> <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution wpp (draft) in JSON-LD format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld> <http://purl.org/dc/terms/title> "Graph data distribution wpp (draft) in JSON-LD format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.jsonld"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld> <http://www.w3.org/ns/dcat#mediaType> "application/ld+json" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution wpp (draft) in N-Quads format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads> <http://purl.org/dc/terms/title> "Graph data distribution wpp (draft) in N-Quads format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.nq"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads> <http://www.w3.org/ns/dcat#mediaType> "application/n-quads" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution wpp (draft) in N-Triples format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples> <http://purl.org/dc/terms/title> "Graph data distribution wpp (draft) in N-Triples format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.nt"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples> <http://www.w3.org/ns/dcat#mediaType> "application/n-triples" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#label> "wpp linkml schema" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://purl.org/ccf/project_lead> <https://orcid.org/0000-0002-3321-6137> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-6703-7647> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://purl.org/dc/terms/license> "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://purl.org/dc/terms/publisher> "HuBMAP" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://purl.org/dc/terms/title> "wpp linkml schema" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://schema.org/dateCreated> "2026-02-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:B94580cfce04d1ae1fd69bb2a83f3284e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B94580cfce04d1ae1fd69bb2a83f3284e <http://schema.org/award> "1U24AT013504-01" .
+_:B94580cfce04d1ae1fd69bb2a83f3284e <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://schema.org/funding> _:B94580cfce04d1ae1fd69bb2a83f3284e .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "This schema defines a data model for WPP (Whole Person Physiome) tables." .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution wpp (draft) in RDF/XML format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml> <http://purl.org/dc/terms/title> "Graph data distribution wpp (draft) in RDF/XML format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.xml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml> <http://www.w3.org/ns/dcat#mediaType> "application/rdf+xml" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'schema.context.jsonld' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld> <http://purl.org/dc/terms/title> "Raw data distribution 'schema.context.jsonld' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.context.jsonld"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld> <http://www.w3.org/ns/dcat#mediaType> "application/ld+json" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'schema.json' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json> <http://purl.org/dc/terms/title> "Raw data distribution 'schema.json' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.json"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json> <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'schema.mmd' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd> <http://purl.org/dc/terms/title> "Raw data distribution 'schema.mmd' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.mmd"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd> <http://www.w3.org/ns/dcat#mediaType> "application/vnd.chipnuts.karaoke-mmd" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'schema.png' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png> <http://purl.org/dc/terms/title> "Raw data distribution 'schema.png' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png> <http://www.w3.org/ns/dcat#mediaType> "image/png" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'schema.svg' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg> <http://purl.org/dc/terms/title> "Raw data distribution 'schema.svg' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.svg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg> <http://www.w3.org/ns/dcat#mediaType> "image/svg+xml" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'schema.yaml' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml> <http://purl.org/dc/terms/title> "Raw data distribution 'schema.yaml' file" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.yaml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml> <http://www.w3.org/ns/dcat#mediaType> "text/yaml" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle> <http://www.w3.org/2000/01/rdf-schema#label> "Graph data distribution wpp (draft) in Turtle format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle> <http://purl.org/dc/terms/title> "Graph data distribution wpp (draft) in Turtle format" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle> <http://www.w3.org/ns/dcat#accessURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle> <http://www.w3.org/ns/dcat#downloadURL> "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.ttl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle> <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
+_:Bb54721e25cc5120fa2558385ac04ae8e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bb54721e25cc5120fa2558385ac04ae8e <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bb54721e25cc5120fa2558385ac04ae8e <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bb54721e25cc5120fa2558385ac04ae8e .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .

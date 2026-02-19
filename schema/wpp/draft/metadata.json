@@ -1,0 +1,175 @@
+{
+  "$schema": "https://wholepersonproject.github.io/wpp-kg/schema/basic-metadata/latest/assets/schema.json",
+  "@context": "https://wholepersonproject.github.io/wpp-kg/schema/basic-metadata/latest/assets/schema.context.jsonld",
+  "@type": "Container",
+  "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft",
+  "title": "wpp (draft) graph data",
+  "description": "The graph representation of the wpp linkml schema dataset.",
+  "version": "draft",
+  "creators": [
+    {
+      "id": "https://github.com/hubmapconsortium/hra-do-processor",
+      "label": "HRA Digital Object Processor",
+      "conforms_to": "SoftwareApplication",
+      "name": "HRA Digital Object Processor",
+      "version": "0.10.0",
+      "target_product": {
+        "code_repository": "https://github.com/hubmapconsortium/hra-do-processor",
+        "see_also": "https://github.com/hubmapconsortium/hra-do-processor/commit/7974f9490d6d2421c27fa53f9a55a692397d23bb"
+      },
+      "type_of": [
+        "schema:SoftwareApplication"
+      ]
+    }
+  ],
+  "creation_date": "2026-02-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distributions": [
+    {
+      "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json",
+      "label": "Graph data distribution wpp (draft) in JSON format",
+      "title": "Graph data distribution wpp (draft) in JSON format",
+      "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.json",
+      "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json",
+      "mediaType": "application/json"
+    },
+    {
+      "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle",
+      "label": "Graph data distribution wpp (draft) in Turtle format",
+      "title": "Graph data distribution wpp (draft) in Turtle format",
+      "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.ttl",
+      "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle",
+      "mediaType": "text/turtle"
+    },
+    {
+      "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld",
+      "label": "Graph data distribution wpp (draft) in JSON-LD format",
+      "title": "Graph data distribution wpp (draft) in JSON-LD format",
+      "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.jsonld",
+      "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld",
+      "mediaType": "application/ld+json"
+    },
+    {
+      "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml",
+      "label": "Graph data distribution wpp (draft) in RDF/XML format",
+      "title": "Graph data distribution wpp (draft) in RDF/XML format",
+      "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.xml",
+      "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml",
+      "mediaType": "application/rdf+xml"
+    },
+    {
+      "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples",
+      "label": "Graph data distribution wpp (draft) in N-Triples format",
+      "title": "Graph data distribution wpp (draft) in N-Triples format",
+      "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.nt",
+      "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples",
+      "mediaType": "application/n-triples"
+    },
+    {
+      "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads",
+      "label": "Graph data distribution wpp (draft) in N-Quads format",
+      "title": "Graph data distribution wpp (draft) in N-Quads format",
+      "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.nq",
+      "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#nquads",
+      "mediaType": "application/n-quads"
+    }
+  ],
+  "label": "wpp (draft) graph data",
+  "name": "wpp",
+  "type": "schema",
+  "publisher": "HuBMAP",
+  "see_also": "https://purl.wholepersonphysiome.org/schema/wpp/draft",
+  "was_derived_from": {
+    "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data",
+    "label": "wpp linkml schema",
+    "title": "wpp linkml schema",
+    "description": "This schema defines a data model for WPP (Whole Person Physiome) tables.",
+    "creators": [
+      {
+        "id": "https://orcid.org/0000-0002-6703-7647",
+        "label": "Bruce W. Herr II",
+        "conforms_to": "Person",
+        "fullName": "Bruce W. Herr II",
+        "firstName": "Bruce",
+        "lastName": "Herr",
+        "orcid": "0000-0002-6703-7647",
+        "type_of": [
+          "schema:Person"
+        ]
+      }
+    ],
+    "creation_date": "2026-02-19",
+    "license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+    "publisher": "HuBMAP",
+    "funders": [
+      {
+        "funder": "National Institutes of Health",
+        "awardNumber": "1U24AT013504-01"
+      }
+    ],
+    "project_leads": [
+      {
+        "id": "https://orcid.org/0000-0002-3321-6137",
+        "label": "Katy Börner",
+        "conforms_to": "Person",
+        "fullName": "Katy Börner",
+        "firstName": "Katy",
+        "lastName": "Börner",
+        "orcid": "0000-0002-3321-6137",
+        "type_of": [
+          "schema:Person"
+        ]
+      }
+    ],
+    "distributions": [
+      {
+        "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml",
+        "label": "Raw data distribution 'schema.yaml' file",
+        "title": "Raw data distribution 'schema.yaml' file",
+        "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.yaml",
+        "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml",
+        "mediaType": "text/yaml"
+      },
+      {
+        "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld",
+        "label": "Raw data distribution 'schema.context.jsonld' file",
+        "title": "Raw data distribution 'schema.context.jsonld' file",
+        "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.context.jsonld",
+        "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld",
+        "mediaType": "application/ld+json"
+      },
+      {
+        "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json",
+        "label": "Raw data distribution 'schema.json' file",
+        "title": "Raw data distribution 'schema.json' file",
+        "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.json",
+        "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json",
+        "mediaType": "application/json"
+      },
+      {
+        "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd",
+        "label": "Raw data distribution 'schema.mmd' file",
+        "title": "Raw data distribution 'schema.mmd' file",
+        "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.mmd",
+        "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd",
+        "mediaType": "application/vnd.chipnuts.karaoke-mmd"
+      },
+      {
+        "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png",
+        "label": "Raw data distribution 'schema.png' file",
+        "title": "Raw data distribution 'schema.png' file",
+        "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.png",
+        "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png",
+        "mediaType": "image/png"
+      },
+      {
+        "id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg",
+        "label": "Raw data distribution 'schema.svg' file",
+        "title": "Raw data distribution 'schema.svg' file",
+        "downloadUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.svg",
+        "accessUrl": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg",
+        "mediaType": "image/svg+xml"
+      }
+    ]
+  }
+}

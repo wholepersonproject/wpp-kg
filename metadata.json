@@ -7,6 +7,9 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp"
                 },
                 {
+                    "@id": "https://wholepersonproject.github.io/wpp-kg/schema"
+                },
+                {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/collection"
                 }
             ],
@@ -21,6 +24,14 @@
             "http://purl.org/dc/terms/title": {
                 "@language": "en",
                 "@value": "wpp"
+            },
+            "@type": "http://www.w3.org/ns/dcat#Catalog"
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema",
+            "http://purl.org/dc/terms/title": {
+                "@language": "en",
+                "@value": "schema"
             },
             "@type": "http://www.w3.org/ns/dcat#Catalog"
         },
