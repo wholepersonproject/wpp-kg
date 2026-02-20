@@ -26,7 +26,7 @@
                                                                        dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                                        dct:publisher "HuBMAP" ;
                                                                        dct:title "female-reproductive-system (draft) graph data" ;
-                                                                       schema1:dateCreated "2026-02-19" ;
+                                                                       schema1:dateCreated "2026-02-20" ;
                                                                        schema1:version "draft" ;
                                                                        rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> ;
                                                                        prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> .
@@ -27135,7 +27135,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                 wpp:effect_scale_field "intra-organ" ;
                                                                                 wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R63-EffectorField> ;
                                                                                 wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R63-EffectorLocationField> ;
-                                                                                wpp:effector_scale_field "tisssue" ;
+                                                                                wpp:effector_scale_field "tissue" ;
                                                                                 wpp:function_field <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R63-FunctionField-1> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R63-FunctionField-2> ,
                                                                                                    <https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft#R63-FunctionField-3> ;

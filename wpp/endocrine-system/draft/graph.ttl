@@ -27,7 +27,7 @@
                                                              dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                              dct:publisher "HuBMAP" ;
                                                              dct:title "endocrine-system (draft) graph data" ;
-                                                             schema1:dateCreated "2026-02-19" ;
+                                                             schema1:dateCreated "2026-02-20" ;
                                                              schema1:version "draft" ;
                                                              rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> ;
                                                              prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> .
@@ -26912,7 +26912,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "paracrine, circulatory" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R188-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R188-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "organ system" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R188-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R188-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R188-FunctionField-3> ,
@@ -27325,7 +27325,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "paracrine, circulatory" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R190-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R190-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "organ system" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R190-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R190-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft#R190-FunctionField-3> ,

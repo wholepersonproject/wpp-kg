@@ -137,6 +137,9 @@
                 "@id": "https://orcid.org/0000-0001-8187-0507"
             },
             "@type": "dcat:Dataset",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0001-7392-8852"
             },
@@ -146,9 +149,6 @@
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "rdfs:label": "Whole Person Physiome (WPP) table for the craniofacial and dental system",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv"
             },
@@ -172,7 +172,7 @@
         {
             "@id": "_:b1",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
@@ -194,6 +194,10 @@
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data"
+            },
+            "schema1:dateCreated": {
+                "@value": "2026-02-20",
+                "@type": "xsd:date"
             },
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"
@@ -222,10 +226,6 @@
             "schema1:name": "dental-and-craniofacial-system",
             "rdfs:label": "dental-and-craniofacial-system (draft) graph data",
             "dct:publisher": "HuBMAP",
-            "schema1:dateCreated": {
-                "@value": "2026-02-19",
-                "@type": "xsd:date"
-            },
             "dct:title": "dental-and-craniofacial-system (draft) graph data",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"

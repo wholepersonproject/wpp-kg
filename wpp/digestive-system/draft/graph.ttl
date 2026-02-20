@@ -26,7 +26,7 @@
                                                              dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                              dct:publisher "HuBMAP" ;
                                                              dct:title "digestive-system (draft) graph data" ;
-                                                             schema1:dateCreated "2026-02-19" ;
+                                                             schema1:dateCreated "2026-02-20" ;
                                                              schema1:version "draft" ;
                                                              rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> ;
                                                              prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> .
@@ -9842,7 +9842,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R121-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R121-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R121-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R121-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R121-FunctionField-3> ,
@@ -9973,7 +9973,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R122-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R122-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R122-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R122-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R122-FunctionField-3> ,
@@ -10104,7 +10104,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R123-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R123-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R123-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R123-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R123-FunctionField-3> ,
@@ -10235,7 +10235,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R124-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R124-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R124-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R124-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R124-FunctionField-3> ,
@@ -10355,7 +10355,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R125-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R125-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R125-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R125-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R125-FunctionField-3> ,
@@ -10475,7 +10475,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R126-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R126-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R126-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R126-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R126-FunctionField-3> ,
@@ -10595,7 +10595,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R127-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R127-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R127-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R127-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R127-FunctionField-3> ,
@@ -10716,7 +10716,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R128-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R128-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R128-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R128-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R128-FunctionField-3> ,
@@ -10836,7 +10836,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R129-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R129-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R129-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R129-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R129-FunctionField-3> ,
@@ -11086,7 +11086,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R130-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R130-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R130-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R130-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R130-FunctionField-3> ,
@@ -11204,7 +11204,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R131-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R131-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R131-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R131-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R131-FunctionField-3> ,
@@ -11324,7 +11324,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R132-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R132-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R132-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R132-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R132-FunctionField-3> ,
@@ -16339,7 +16339,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R168-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R168-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R168-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R168-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R168-FunctionField-3> ;
@@ -16445,7 +16445,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R169-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R169-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R169-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R169-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R169-FunctionField-3> ;
@@ -16667,7 +16667,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Circulatory" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R170-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R170-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R170-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R170-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R170-FunctionField-3> ;
@@ -16773,7 +16773,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Cellular" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R171-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R171-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R171-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R171-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R171-FunctionField-3> ,
@@ -16891,7 +16891,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R172-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R172-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R172-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R172-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R172-FunctionField-3> ,
@@ -17009,7 +17009,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R173-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R173-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R173-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R173-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R173-FunctionField-3> ,
@@ -17257,7 +17257,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R175-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R175-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R175-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R175-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R175-FunctionField-3> ,
@@ -17386,7 +17386,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R176-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R176-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R176-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R176-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R176-FunctionField-3> ,
@@ -19565,7 +19565,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R192-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R192-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R192-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R192-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R192-FunctionField-3> ;
@@ -19682,7 +19682,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R193-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R193-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R193-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R193-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R193-FunctionField-3> ;
@@ -19799,7 +19799,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Cellular" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R194-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R194-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R194-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R194-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R194-FunctionField-3> ;
@@ -19916,7 +19916,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R195-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R195-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R195-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R195-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R195-FunctionField-3> ;
@@ -20033,7 +20033,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R196-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R196-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R196-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R196-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R196-FunctionField-3> ;
@@ -20150,7 +20150,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Cellular" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R197-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R197-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R197-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R197-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R197-FunctionField-3> ;
@@ -20267,7 +20267,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R198-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R198-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R198-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R198-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R198-FunctionField-3> ;
@@ -20384,7 +20384,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Cellular" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R199-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R199-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R199-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R199-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R199-FunctionField-3> ;
@@ -20607,7 +20607,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (circulatory)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R200-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R200-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R200-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R200-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R200-FunctionField-3> ;
@@ -20725,7 +20725,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R201-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R201-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R201-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R201-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R201-FunctionField-3> ,
@@ -20868,7 +20868,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R202-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R202-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R202-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R202-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R202-FunctionField-3> ,
@@ -21013,7 +21013,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R203-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R203-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R203-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R203-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R203-FunctionField-3> ,
@@ -21158,7 +21158,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Segmental (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R204-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R204-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R204-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R204-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R204-FunctionField-3> ,
@@ -21298,7 +21298,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R205-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R205-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R205-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R205-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R205-FunctionField-3> ,
@@ -21440,7 +21440,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R206-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R206-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R206-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R206-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R206-FunctionField-3> ,
@@ -21712,7 +21712,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R208-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R208-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R208-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R208-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R208-FunctionField-3> ,
@@ -21843,7 +21843,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R209-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R209-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R209-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R209-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R209-FunctionField-3> ,
@@ -22090,7 +22090,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R210-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R210-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R210-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R210-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R210-FunctionField-3> ,
@@ -22221,7 +22221,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R211-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R211-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R211-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R211-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R211-FunctionField-3> ,
@@ -22351,7 +22351,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R212-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R212-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R212-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R212-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R212-FunctionField-3> ,
@@ -26197,7 +26197,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                        wpp:effect_scale_field "Systemic" ;
                                                                        wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R243-EffectorField> ;
                                                                        wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R243-EffectorLocationField> ;
-                                                                       wpp:effector_scale_field "Organ System" ;
+                                                                       wpp:effector_scale_field "Organ system" ;
                                                                        wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R243-FunctionField-1> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R243-FunctionField-2> ,
                                                                                           <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R243-FunctionField-3> ;
@@ -27264,7 +27264,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Segmental (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R33-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R33-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R33-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R33-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R33-FunctionField-3> ;
@@ -27358,7 +27358,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Segmental (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R34-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R34-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R34-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R34-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R34-FunctionField-3> ;
@@ -27472,7 +27472,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Segmental (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R35-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R35-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R35-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R35-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R35-FunctionField-3> ;
@@ -27565,7 +27565,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Segmental (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R36-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R36-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R36-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R36-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R36-FunctionField-3> ;
@@ -27658,7 +27658,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Segmental (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R37-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R37-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R37-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R37-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R37-FunctionField-3> ;
@@ -27751,7 +27751,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Segmental (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R38-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R38-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R38-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R38-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R38-FunctionField-3> ;
@@ -27844,7 +27844,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Segmental (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R39-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R39-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R39-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R39-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R39-FunctionField-3> ;
@@ -27940,7 +27940,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Systemic" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R40-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R40-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R40-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R40-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R40-FunctionField-3> ;
@@ -28057,7 +28057,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Systemic" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R41-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R41-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R41-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R41-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R41-FunctionField-3> ;
@@ -31740,7 +31740,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Systemic" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R72-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R72-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R72-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R72-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R72-FunctionField-3> ;
@@ -33817,7 +33817,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R88-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R88-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R88-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R88-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R88-FunctionField-3> ,
@@ -33959,7 +33959,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R89-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R89-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R89-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R89-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R89-FunctionField-3> ,
@@ -34103,7 +34103,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                       wpp:effect_scale_field "Organ (intra-organ)" ;
                                                                       wpp:effector_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R90-EffectorField> ;
                                                                       wpp:effector_location_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R90-EffectorLocationField> ;
-                                                                      wpp:effector_scale_field "Organ System" ;
+                                                                      wpp:effector_scale_field "Organ system" ;
                                                                       wpp:function_field <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R90-FunctionField-1> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R90-FunctionField-2> ,
                                                                                          <https://purl.wholepersonphysiome.org/wpp/digestive-system/draft#R90-FunctionField-3> ,

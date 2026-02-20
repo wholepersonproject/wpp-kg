@@ -1,15 +1,19 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "https://orcid.org/0000-0002-3321-6137",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Katy Börner",
+            "schema1:identifier": "0000-0002-3321-6137",
+            "schema1:givenName": "Katy",
+            "schema1:familyName": "Börner",
+            "rdfs:label": "Katy Börner",
+            "@type": "schema1:Person"
         },
         {
-            "@id": "_:b1",
+            "@id": "_:b0",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
@@ -21,21 +25,11 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b1"
+                "@id": "_:b0"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
             "@type": "schema1:SoftwareApplication"
-        },
-        {
-            "@id": "https://orcid.org/0000-0002-3321-6137",
-            "dcat:conforms_to": "Person",
-            "schema1:name": "Katy Börner",
-            "schema1:identifier": "0000-0002-3321-6137",
-            "schema1:givenName": "Katy",
-            "schema1:familyName": "Börner",
-            "rdfs:label": "Katy Börner",
-            "@type": "schema1:Person"
         },
         {
             "@id": "https://orcid.org/0000-0002-1868-3896",
@@ -52,13 +46,16 @@
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#Immune_and_Lymphatic_System.csv"
             },
-            "dct:publisher": "WPP",
             "schema1:dateCreated": {
                 "@value": "2026-01-05",
                 "@type": "xsd:date"
             },
+            "dct:publisher": "WPP",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
+            },
+            "schema1:funding": {
+                "@id": "_:b1"
             },
             "@type": "dcat:Dataset",
             "dct:title": "Whole Person Physiome (WPP) table for the immune and lymphatic system",
@@ -72,9 +69,6 @@
             ],
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0002-1868-3896"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "rdfs:label": "Whole Person Physiome (WPP) table for the immune and lymphatic system",
             "rdfs:comment": "TODO: description",
@@ -94,6 +88,12 @@
             "dct:title": "Raw data distribution 'Immune_and_Lymphatic_System.csv' file",
             "rdfs:label": "Raw data distribution 'Immune_and_Lymphatic_System.csv' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0001-9286-4268",
@@ -131,21 +131,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#rdfxml",
-            "dcat:mediaType": "application/rdf+xml",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/graph.xml",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#rdfxml",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in RDF/XML format",
-            "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in RDF/XML format",
-            "@type": "dcat:Distribution"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft",
             "dcat:distribution": [
                 {
@@ -180,15 +165,30 @@
             },
             "dct:title": "immune-and-lymphatic-system (draft) graph data",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema1:additionalType": "wpp",
             "schema1:dateCreated": {
-                "@value": "2026-02-19",
+                "@value": "2026-02-20",
                 "@type": "xsd:date"
             },
-            "schema1:additionalType": "wpp",
             "@type": "dcat:Dataset",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data"
             }
+        },
+        {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution immune-and-lymphatic-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution immune-and-lymphatic-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#json",

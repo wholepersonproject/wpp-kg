@@ -21,6 +21,12 @@
             "@type": "schema1:Person"
         },
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#nquads",
             "dcat:mediaType": "application/n-quads",
             "dcat:downloadURL": {
@@ -34,6 +40,27 @@
             "dct:title": "Graph data distribution male-reproductive-system (draft) in N-Quads format",
             "rdfs:label": "Graph data distribution male-reproductive-system (draft) in N-Quads format",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#ntriples",
@@ -67,6 +94,9 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "@type": "dcat:Dataset",
             "dct:title": "Whole Person Physiome (WPP) table for the male reproductive system",
@@ -81,9 +111,6 @@
             "schema1:dateCreated": {
                 "@value": "2025-11-05",
                 "@type": "xsd:date"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
@@ -102,12 +129,6 @@
             "schema1:familyName": "Scherba",
             "rdfs:label": "Jacob C. Scherba",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#rdfxml",
@@ -155,27 +176,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#turtle",
             "dcat:mediaType": "text/turtle",
             "dcat:downloadURL": {
@@ -212,16 +212,16 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#nquads"
                 }
             ],
+            "schema1:dateCreated": {
+                "@value": "2026-02-20",
+                "@type": "xsd:date"
+            },
             "dct:title": "male-reproductive-system (draft) graph data",
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"
             },
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "schema1:dateCreated": {
-                "@value": "2026-02-19",
-                "@type": "xsd:date"
             },
             "schema1:name": "male-reproductive-system",
             "dct:publisher": "HuBMAP",

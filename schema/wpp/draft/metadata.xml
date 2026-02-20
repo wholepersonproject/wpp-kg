@@ -7,6 +7,11 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:ccf="http://purl.org/ccf/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
@@ -14,6 +19,11 @@
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml">
     <dcat:mediaType>application/rdf+xml</dcat:mediaType>
@@ -47,12 +57,8 @@
     <rdfs:label>Graph data distribution wpp (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/56a23360bde885fcf300f05a09d9168e8ecc69c6"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft">
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-20</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#ntriples"/>
@@ -65,7 +71,6 @@
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml"/>
     <schema1:name>wpp</schema1:name>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema1:dateCreated>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/schema/wpp/draft"/>
     <rdfs:label>wpp (draft) graph data</rdfs:label>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld"/>
@@ -122,11 +127,6 @@
     <rdfs:label>Raw data distribution 'schema.json' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/graph.json</dcat:downloadURL>
@@ -149,10 +149,10 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:comment>This schema defines a data model for WPP (Whole Person Physiome) tables.</rdfs:comment>
-    <schema1:funding rdf:nodeID="A1"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg"/>
     <rdfs:label>wpp linkml schema</rdfs:label>
+    <schema1:funding rdf:nodeID="A1"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dct:title>wpp linkml schema</dct:title>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld"/>

@@ -663,6 +663,18 @@ slots:
     slot_uri: wpp:source_concept
     range: WppConcept
     required: true
+  record_source:
+    name: record_source
+    annotations:
+      owl:
+        tag: owl
+        value: AnnotationAssertion, AnnotationProperty
+    description: A reference to the PURL of the source of the records
+    title: record source
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    slot_uri: wpp:record_source
+    range: Named
+    required: true
   record_number:
     name: record_number
     annotations:
@@ -1240,6 +1252,7 @@ classes:
     - Named
     - Instance
     slots:
+    - record_source
     - record_number
     - behavior
     - behavior_x

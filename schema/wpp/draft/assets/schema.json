@@ -758,6 +758,11 @@
                     "title": "record number",
                     "type": "integer"
                 },
+                "record_source": {
+                    "description": "A reference to the PURL of the source of the records",
+                    "title": "record source",
+                    "type": "string"
+                },
                 "reference_list": {
                     "description": "List of reference instances related to WPP records.",
                     "items": {
@@ -806,6 +811,7 @@
                 }
             },
             "required": [
+                "record_source",
                 "record_number",
                 "id"
             ],
