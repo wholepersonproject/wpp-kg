@@ -239,12 +239,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -273,6 +267,12 @@
             "dct:title": "Raw data distribution 'schema.yaml' file",
             "rdfs:label": "Raw data distribution 'schema.yaml' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-6703-7647",

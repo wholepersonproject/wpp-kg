@@ -31,12 +31,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle",
             "dcat:mediaType": "text/turtle",
             "dcat:downloadURL": {
@@ -126,7 +120,7 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b1"
+                "@id": "_:b0"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
@@ -144,10 +138,10 @@
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-0883-9754"
             },
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "@type": "dcat:Dataset",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv"
             },
@@ -206,6 +200,16 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-0883-9754",
             "dcat:conforms_to": "Person",
             "schema1:name": "Anne Cappola",
@@ -217,13 +221,9 @@
         },
         {
             "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0001-8187-0507",

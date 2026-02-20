@@ -145,12 +145,12 @@
                 "@id": "https://orcid.org/0000-0002-1868-3896"
             },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dct:title": "Whole Person Physiome (WPP) table for the fascia system",
             "dct:publisher": "WPP",
             "rdfs:comment": "TODO: description",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "@type": "dcat:Dataset",
             "rdfs:label": "Whole Person Physiome (WPP) table for the fascia system",
             "schema1:dateCreated": {
@@ -163,7 +163,7 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b1"
+                "@id": "_:b0"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
@@ -210,12 +210,6 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-1005-3726",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katalin Susztak",
@@ -226,7 +220,7 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b1",
+            "@id": "_:b0",
             "rdfs:seeAlso": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
             },
@@ -249,6 +243,12 @@
             "dct:title": "Raw data distribution 'Fascia_System.csv' file",
             "rdfs:label": "Raw data distribution 'Fascia_System.csv' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         }
     ],
     "@context": {

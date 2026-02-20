@@ -151,12 +151,12 @@
                 "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml"
             },
             "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "rdfs:label": "Whole Person Physiome (WPP)",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
-            },
-            "schema1:funding": {
-                "@id": "_:b1"
             },
             "dct:title": "Whole Person Physiome (WPP)",
             "@type": "dcat:Dataset",

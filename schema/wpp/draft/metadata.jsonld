@@ -122,6 +122,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#jsonld",
             "dcat:mediaType": "application/ld+json",
             "dcat:downloadURL": {
@@ -227,15 +233,15 @@
             ],
             "@type": "dcat:Dataset",
             "rdfs:comment": "This schema defines a data model for WPP (Whole Person Physiome) tables.",
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "rdfs:label": "wpp linkml schema",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "dct:title": "wpp linkml schema",
             "dct:publisher": "HuBMAP",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
         },
         {
@@ -277,12 +283,6 @@
             "schema1:familyName": "Herr",
             "rdfs:label": "Bruce W. Herr II",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json",

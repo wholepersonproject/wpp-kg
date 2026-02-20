@@ -57,12 +57,12 @@
             "rdfs:comment": "TODO: description",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "rdfs:label": "Whole Person Physiome (WPP) table for the skeletal system",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "@type": "dcat:Dataset",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             }
         },
         {
@@ -74,6 +74,12 @@
             "schema1:familyName": "Scherba",
             "rdfs:label": "Jacob C. Scherba",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv",
@@ -89,12 +95,6 @@
             "dct:title": "Raw data distribution 'Skeletal_System.csv' file",
             "rdfs:label": "Raw data distribution 'Skeletal_System.csv' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle",

@@ -140,7 +140,7 @@
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
             "schema1:targetProduct": {
-                "@id": "_:b1"
+                "@id": "_:b0"
             },
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
@@ -175,7 +175,7 @@
                 "@type": "xsd:date"
             },
             "schema1:funding": {
-                "@id": "_:b0"
+                "@id": "_:b1"
             },
             "dct:title": "Whole Person Physiome (WPP) table for the pulmonary system",
             "rdfs:comment": "TODO: description",
@@ -225,6 +225,22 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-1005-3726",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katalin Susztak",
@@ -233,22 +249,6 @@
             "schema1:familyName": "Susztak",
             "rdfs:label": "Katalin Susztak",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

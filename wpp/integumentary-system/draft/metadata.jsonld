@@ -144,6 +144,9 @@
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data",
             "@type": "dcat:Dataset",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dct:title": "Whole Person Physiome (WPP) table for the integumentary system",
             "schema1:reviewedBy": [
                 {
@@ -167,12 +170,15 @@
                 "@value": "2025-12-04",
                 "@type": "xsd:date"
             },
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#Integumentary_System.csv"
             }
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-1005-3726",
@@ -183,12 +189,6 @@
             "schema1:familyName": "Susztak",
             "rdfs:label": "Katalin Susztak",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#Integumentary_System.csv",

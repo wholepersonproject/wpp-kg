@@ -7,11 +7,6 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:ccf="http://purl.org/ccf/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
     <schema1:version>0.10.0</schema1:version>
@@ -19,11 +14,6 @@
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#rdfxml">
     <dcat:mediaType>application/rdf+xml</dcat:mediaType>
@@ -56,6 +46,11 @@
     <dct:title>Graph data distribution wpp (draft) in N-Triples format</dct:title>
     <rdfs:label>Graph data distribution wpp (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft">
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-20</schema1:dateCreated>
@@ -149,10 +144,10 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:comment>This schema defines a data model for WPP (Whole Person Physiome) tables.</rdfs:comment>
+    <schema1:funding rdf:nodeID="A1"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.svg"/>
     <rdfs:label>wpp linkml schema</rdfs:label>
-    <schema1:funding rdf:nodeID="A1"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dct:title>wpp linkml schema</dct:title>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld"/>
@@ -177,5 +172,10 @@
     <schema1:familyName>Herr</schema1:familyName>
     <rdfs:label>Bruce W. Herr II</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
 </rdf:RDF>
