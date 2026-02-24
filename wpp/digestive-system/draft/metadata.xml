@@ -61,6 +61,11 @@
     <schema1:award>1U24AT013504-01</schema1:award>
     <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data">
     <dct:title>Whole Person Physiome (WPP) table for the digestive system</dct:title>
     <rdfs:label>Whole Person Physiome (WPP) table for the digestive system</rdfs:label>
@@ -68,13 +73,13 @@
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:publisher>WPP</dct:publisher>
-    <schema1:funding rdf:nodeID="A1"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-6988-4102"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#Digestive_System.csv"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-28</schema1:dateCreated>
     <dct:creator rdf:resource="https://orcid.org/0000-0002-1868-3896"/>
+    <schema1:funding rdf:nodeID="A1"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-3321-6137">
     <dcat:conforms_to>Person</dcat:conforms_to>
@@ -93,7 +98,7 @@
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#nquads"/>
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the digestive system dataset.</rdfs:comment>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-20</schema1:dateCreated>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#turtle"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#json"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#ntriples"/>
@@ -122,11 +127,6 @@
     <schema1:familyName>Zhu</schema1:familyName>
     <rdfs:label>Minyan Zhu</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-6988-4102">
     <dcat:conforms_to>Person</dcat:conforms_to>

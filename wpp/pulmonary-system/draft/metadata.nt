@@ -5,7 +5,7 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://purl.org/dc/terms/title> "pulmonary-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/name> "pulmonary-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the pulmonary system dataset." .
@@ -83,10 +83,10 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the pulmonary system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/dateCreated> "2025-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B831b148baded94076f97a5af2cf72cd9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B831b148baded94076f97a5af2cf72cd9 <http://schema.org/award> "1U24AT013504-01" .
-_:B831b148baded94076f97a5af2cf72cd9 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/funding> _:B831b148baded94076f97a5af2cf72cd9 .
+_:Be97cb82a7e8450ccf2a37878c7468dd5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Be97cb82a7e8450ccf2a37878c7468dd5 <http://schema.org/award> "1U24AT013504-01" .
+_:Be97cb82a7e8450ccf2a37878c7468dd5 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/funding> _:Be97cb82a7e8450ccf2a37878c7468dd5 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0003-4716-1285> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
@@ -106,9 +106,9 @@ _:B831b148baded94076f97a5af2cf72cd9 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B526fab2440ee851fdc16122931885ab6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B526fab2440ee851fdc16122931885ab6 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B526fab2440ee851fdc16122931885ab6 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B526fab2440ee851fdc16122931885ab6 .
+_:B67cdb535bde913be4388635bce5f7577 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B67cdb535bde913be4388635bce5f7577 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B67cdb535bde913be4388635bce5f7577 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B67cdb535bde913be4388635bce5f7577 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .

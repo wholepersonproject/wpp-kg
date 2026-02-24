@@ -35,13 +35,13 @@
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data"
             },
+            "schema1:dateCreated": {
+                "@value": "2026-02-24",
+                "@type": "xsd:date"
+            },
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "schema1:name": "cardiovascular-system",
             "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the cardiovascular system dataset.",
-            "schema1:dateCreated": {
-                "@value": "2026-02-20",
-                "@type": "xsd:date"
-            },
             "dct:publisher": "HuBMAP",
             "@type": "dcat:Dataset"
         },
@@ -155,6 +155,9 @@
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-1979-044X"
             },
@@ -165,9 +168,6 @@
             "@type": "dcat:Dataset",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "schema1:dateCreated": {
                 "@value": "2025-11-13",
@@ -195,6 +195,12 @@
             "@type": "schema1:Person"
         },
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-1979-044X",
             "dcat:conforms_to": "Person",
             "schema1:name": "Rajan Jain",
@@ -218,12 +224,6 @@
             "dct:title": "Raw data distribution 'Cardiovascular_System.csv' file",
             "rdfs:label": "Raw data distribution 'Cardiovascular_System.csv' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "_:b1",

@@ -37,6 +37,11 @@
     <rdfs:label>Katy Börner</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft">
     <schema1:additionalType>collection</schema1:additionalType>
     <rdfs:label>wpp (draft) graph data</rdfs:label>
@@ -56,15 +61,15 @@
     <dct:publisher>HuBMAP</dct:publisher>
     <dct:title>wpp (draft) graph data</dct:title>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#turtle"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/muscular-system/draft"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#ntriples"/>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"/>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#rdfxml"/>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/endocrine-system/draft"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-20</schema1:dateCreated>
-    <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <schema1:name>wpp</schema1:name>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <prov:hadMember rdf:resource="https://purl.wholepersonphysiome.org/wpp/urinary-system/draft"/>
@@ -79,11 +84,6 @@
     <dct:title>Graph data distribution wpp (draft) in Turtle format</dct:title>
     <rdfs:label>Graph data distribution wpp (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#jsonld">
     <dcat:mediaType>application/ld+json</dcat:mediaType>
@@ -105,10 +105,10 @@
     <rdfs:comment>TODO: description</rdfs:comment>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml"/>
     <dct:publisher>WPP</dct:publisher>
-    <schema1:funding rdf:nodeID="A1"/>
     <rdfs:label>Whole Person Physiome (WPP)</rdfs:label>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dct:title>Whole Person Physiome (WPP)</dct:title>
+    <schema1:funding rdf:nodeID="A1"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-12</schema1:dateCreated>

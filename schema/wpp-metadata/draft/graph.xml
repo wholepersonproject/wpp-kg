@@ -17,12 +17,12 @@
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/schema/wpp-metadata">
     <schema1:version>draft</schema1:version>
     <dct:title>wpp-metadata (draft) graph data</dct:title>
+    <schema1:dateCreated>2026-02-24</schema1:dateCreated>
     <dct:description>The graph representation of the wpp-metadata linkml schema dataset.</dct:description>
     <dct:publisher>HuBMAP</dct:publisher>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <schema1:dateCreated>2026-02-20</schema1:dateCreated>
-    <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
+    <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data"/>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
   </rdf:Description>

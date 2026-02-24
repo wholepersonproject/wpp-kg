@@ -16,16 +16,16 @@
             "@id": "https://purl.wholepersonphysiome.org/schema/wpp-metadata",
             "schema1:version": "draft",
             "dct:title": "wpp-metadata (draft) graph data",
+            "schema1:dateCreated": "2026-02-24",
             "dct:description": "The graph representation of the wpp-metadata linkml schema dataset.",
             "dct:publisher": "HuBMAP",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
-            "schema1:dateCreated": "2026-02-20",
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data"
             },
-            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "rdfs:seeAlso": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft"
             },

@@ -77,11 +77,11 @@
             "@type": "dcat:Dataset",
             "dct:title": "Whole Person Physiome (WPP) table for the male reproductive system",
             "dct:publisher": "WPP",
-            "dct:creator": {
-                "@id": "https://orcid.org/0000-0001-8187-0507"
-            },
             "schema1:funding": {
                 "@id": "_:b0"
+            },
+            "dct:creator": {
+                "@id": "https://orcid.org/0000-0001-8187-0507"
             },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-5604-2651"
@@ -192,6 +192,10 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft",
+            "schema1:dateCreated": {
+                "@value": "2026-02-24",
+                "@type": "xsd:date"
+            },
             "dcat:distribution": [
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#ntriples"
@@ -212,10 +216,6 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#nquads"
                 }
             ],
-            "schema1:dateCreated": {
-                "@value": "2026-02-20",
-                "@type": "xsd:date"
-            },
             "dct:title": "male-reproductive-system (draft) graph data",
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"

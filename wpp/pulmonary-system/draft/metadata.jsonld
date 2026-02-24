@@ -1,6 +1,12 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0003-4716-1285",
             "dcat:conforms_to": "Person",
             "schema1:name": "Maria Basil",
@@ -66,6 +72,27 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-1868-3896",
             "dcat:conforms_to": "Person",
             "schema1:name": "Minyan Zhu",
@@ -123,28 +150,17 @@
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
+            "schema1:dateCreated": {
+                "@value": "2026-02-24",
+                "@type": "xsd:date"
+            },
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft"
             },
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data"
             },
-            "schema1:dateCreated": {
-                "@value": "2026-02-20",
-                "@type": "xsd:date"
-            },
             "schema1:additionalType": "wpp"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b0"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads",
@@ -174,14 +190,14 @@
                 "@value": "2025-10-28",
                 "@type": "xsd:date"
             },
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "dct:title": "Whole Person Physiome (WPP) table for the pulmonary system",
             "rdfs:comment": "TODO: description",
             "rdfs:label": "Whole Person Physiome (WPP) table for the pulmonary system",
             "dct:publisher": "WPP",
             "@type": "dcat:Dataset",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:reviewedBy": [
                 {
                     "@id": "https://orcid.org/0000-0002-1005-3726"
@@ -223,22 +239,6 @@
             "dct:title": "Graph data distribution pulmonary-system (draft) in N-Triples format",
             "rdfs:label": "Graph data distribution pulmonary-system (draft) in N-Triples format",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b0",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-1005-3726",

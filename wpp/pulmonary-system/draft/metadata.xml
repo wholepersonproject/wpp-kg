@@ -48,20 +48,15 @@
     <rdfs:label>Graph data distribution pulmonary-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data">
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <dct:creator rdf:resource="https://orcid.org/0000-0002-1868-3896"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-28</schema1:dateCreated>
+    <schema1:funding rdf:nodeID="A1"/>
     <dct:title>Whole Person Physiome (WPP) table for the pulmonary system</dct:title>
     <rdfs:comment>TODO: description</rdfs:comment>
     <rdfs:label>Whole Person Physiome (WPP) table for the pulmonary system</rdfs:label>
-    <schema1:funding rdf:nodeID="A1"/>
     <dct:publisher>WPP</dct:publisher>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
@@ -101,6 +96,11 @@
     <rdfs:label>Katy Börner</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0003-4716-1285">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Maria Basil</schema1:name>
@@ -110,6 +110,11 @@
     <rdfs:label>Maria Basil</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-1868-3896">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Minyan Zhu</schema1:name>
@@ -118,11 +123,6 @@
     <schema1:familyName>Zhu</schema1:familyName>
     <rdfs:label>Minyan Zhu</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv">
     <dcat:mediaType>text/csv</dcat:mediaType>
@@ -144,12 +144,12 @@
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the pulmonary system dataset.</rdfs:comment>
     <dct:publisher>HuBMAP</dct:publisher>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#rdfxml"/>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/pulmonary-system/draft"/>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-20</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples"/>
     <schema1:additionalType>wpp</schema1:additionalType>
   </rdf:Description>

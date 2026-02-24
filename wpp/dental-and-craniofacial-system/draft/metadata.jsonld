@@ -11,10 +11,19 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#jsonld",
@@ -29,21 +38,6 @@
             },
             "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in JSON-LD format",
             "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in JSON-LD format",
-            "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#rdfxml",
-            "dcat:mediaType": "application/rdf+xml",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.xml",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#rdfxml",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution dental-and-craniofacial-system (draft) in RDF/XML format",
-            "rdfs:label": "Graph data distribution dental-and-craniofacial-system (draft) in RDF/XML format",
             "@type": "dcat:Distribution"
         },
         {
@@ -92,6 +86,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv",
             "dcat:mediaType": "text/csv",
             "dcat:downloadURL": {
@@ -137,6 +137,9 @@
                 "@id": "https://orcid.org/0000-0001-8187-0507"
             },
             "@type": "dcat:Dataset",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0001-7392-8852"
             },
@@ -148,9 +151,6 @@
             "rdfs:label": "Whole Person Physiome (WPP) table for the craniofacial and dental system",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "schema1:dateCreated": {
                 "@value": "2026-01-09",
@@ -195,10 +195,6 @@
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data"
             },
-            "schema1:dateCreated": {
-                "@value": "2026-02-20",
-                "@type": "xsd:date"
-            },
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft"
             },
@@ -226,6 +222,10 @@
             "schema1:name": "dental-and-craniofacial-system",
             "rdfs:label": "dental-and-craniofacial-system (draft) graph data",
             "dct:publisher": "HuBMAP",
+            "schema1:dateCreated": {
+                "@value": "2026-02-24",
+                "@type": "xsd:date"
+            },
             "dct:title": "dental-and-craniofacial-system (draft) graph data",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"

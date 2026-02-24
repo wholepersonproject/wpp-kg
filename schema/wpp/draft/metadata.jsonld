@@ -144,10 +144,6 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft",
-            "schema1:dateCreated": {
-                "@value": "2026-02-20",
-                "@type": "xsd:date"
-            },
             "dcat:distribution": [
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json"
@@ -174,6 +170,10 @@
                 "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data"
             },
             "schema1:additionalType": "schema",
+            "schema1:dateCreated": {
+                "@value": "2026-02-24",
+                "@type": "xsd:date"
+            },
             "rdfs:comment": "The graph representation of the wpp linkml schema dataset.",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
@@ -239,10 +239,10 @@
             },
             "dct:title": "wpp linkml schema",
             "dct:publisher": "HuBMAP",
+            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "schema1:funding": {
                 "@id": "_:b1"
-            },
-            "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
+            }
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#turtle",

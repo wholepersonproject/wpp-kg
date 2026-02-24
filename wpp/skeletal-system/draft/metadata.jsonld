@@ -51,15 +51,15 @@
             },
             "dct:title": "Whole Person Physiome (WPP) table for the skeletal system",
             "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "rdfs:comment": "TODO: description",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "rdfs:label": "Whole Person Physiome (WPP) table for the skeletal system",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "@type": "dcat:Dataset",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"
@@ -127,6 +127,27 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft",
             "dcat:distribution": [
                 {
@@ -160,27 +181,16 @@
             },
             "dct:title": "skeletal-system (draft) graph data",
             "schema1:name": "skeletal-system",
+            "schema1:dateCreated": {
+                "@value": "2026-02-24",
+                "@type": "xsd:date"
+            },
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft"
             },
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
-            "schema1:dateCreated": {
-                "@value": "2026-02-20",
-                "@type": "xsd:date"
-            },
             "schema1:version": "draft",
             "@type": "dcat:Dataset"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml",
@@ -211,16 +221,6 @@
             "dct:title": "Graph data distribution skeletal-system (draft) in N-Triples format",
             "rdfs:label": "Graph data distribution skeletal-system (draft) in N-Triples format",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {

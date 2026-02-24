@@ -71,10 +71,6 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#json"
                 }
             ],
-            "schema1:dateCreated": {
-                "@value": "2026-02-20",
-                "@type": "xsd:date"
-            },
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data"
             },
@@ -83,6 +79,10 @@
             "@type": "dcat:Dataset",
             "rdfs:label": "wpp-metadata (draft) graph data",
             "schema1:name": "wpp-metadata",
+            "schema1:dateCreated": {
+                "@value": "2026-02-24",
+                "@type": "xsd:date"
+            },
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
@@ -143,12 +143,12 @@
                     "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.svg"
                 }
             ],
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "rdfs:label": "wpp-metadata linkml schema",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
-            },
-            "schema1:funding": {
-                "@id": "_:b1"
             },
             "schema1:dateCreated": {
                 "@value": "2026-02-19",

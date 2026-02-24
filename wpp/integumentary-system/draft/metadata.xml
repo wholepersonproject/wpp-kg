@@ -65,11 +65,6 @@
     <rdfs:label>Raw data distribution 'Integumentary_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="A1">
     <schema1:funder>National Institutes of Health</schema1:funder>
     <schema1:award>1U24AT013504-01</schema1:award>
@@ -82,6 +77,11 @@
     <dct:title>Graph data distribution integumentary-system (draft) in JSON-LD format</dct:title>
     <rdfs:label>Graph data distribution integumentary-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -133,7 +133,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft">
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-20</schema1:dateCreated>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <dct:publisher>HuBMAP</dct:publisher>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#jsonld"/>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/integumentary-system/draft"/>

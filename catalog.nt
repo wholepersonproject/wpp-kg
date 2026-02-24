@@ -5,7 +5,7 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://purl.org/dc/terms/title> "pulmonary-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/name> "pulmonary-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the pulmonary system dataset." .
@@ -83,10 +83,10 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the pulmonary system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/dateCreated> "2025-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:Bb53cdfb61e1916566c9f217916bf2b7b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:Bb53cdfb61e1916566c9f217916bf2b7b <http://schema.org/award> "1U24AT013504-01" .
-_:Bb53cdfb61e1916566c9f217916bf2b7b <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/funding> _:Bb53cdfb61e1916566c9f217916bf2b7b .
+_:B65be711eff969017ca7c2b91d3639286 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B65be711eff969017ca7c2b91d3639286 <http://schema.org/award> "1U24AT013504-01" .
+_:B65be711eff969017ca7c2b91d3639286 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/funding> _:B65be711eff969017ca7c2b91d3639286 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0003-4716-1285> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
@@ -106,10 +106,10 @@ _:Bb53cdfb61e1916566c9f217916bf2b7b <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Bc18c6c6012cfdca57ecd095641502e27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Bc18c6c6012cfdca57ecd095641502e27 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Bc18c6c6012cfdca57ecd095641502e27 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bc18c6c6012cfdca57ecd095641502e27 .
+_:Bd230963542cca89440163662f30fcae3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bd230963542cca89440163662f30fcae3 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bd230963542cca89440163662f30fcae3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bd230963542cca89440163662f30fcae3 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -124,7 +124,7 @@ _:Bc18c6c6012cfdca57ecd095641502e27 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> <http://purl.org/dc/terms/title> "nervous-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> <http://schema.org/name> "nervous-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the nervous system dataset." .
@@ -188,10 +188,10 @@ _:Bc18c6c6012cfdca57ecd095641502e27 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the nervous system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://schema.org/dateCreated> "2026-01-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B009ba7144cfcac37b21ed84f1a397fe9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B009ba7144cfcac37b21ed84f1a397fe9 <http://schema.org/award> "1U24AT013504-01" .
-_:B009ba7144cfcac37b21ed84f1a397fe9 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://schema.org/funding> _:B009ba7144cfcac37b21ed84f1a397fe9 .
+_:Bb17732d9b8621ce5b026baf36be56d40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Bb17732d9b8621ce5b026baf36be56d40 <http://schema.org/award> "1U24AT013504-01" .
+_:Bb17732d9b8621ce5b026baf36be56d40 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://schema.org/funding> _:Bb17732d9b8621ce5b026baf36be56d40 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#rdfxml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
@@ -209,10 +209,10 @@ _:B009ba7144cfcac37b21ed84f1a397fe9 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B7989943626b2443e35b90f255da71c8b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B7989943626b2443e35b90f255da71c8b <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B7989943626b2443e35b90f255da71c8b <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B7989943626b2443e35b90f255da71c8b .
+_:Bdcd5738b1b91186aeaaf4ea4d763c11e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bdcd5738b1b91186aeaaf4ea4d763c11e <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bdcd5738b1b91186aeaaf4ea4d763c11e <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bdcd5738b1b91186aeaaf4ea4d763c11e .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -227,7 +227,7 @@ _:B7989943626b2443e35b90f255da71c8b <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> <http://purl.org/dc/terms/title> "muscular-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> <http://schema.org/name> "muscular-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the muscular system dataset." .
@@ -298,10 +298,10 @@ _:B7989943626b2443e35b90f255da71c8b <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the muscular system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> <http://schema.org/dateCreated> "2025-10-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:Bc8c041f0ef2c76b826840edbf300fe47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:Bc8c041f0ef2c76b826840edbf300fe47 <http://schema.org/award> "1U24AT013504-01" .
-_:Bc8c041f0ef2c76b826840edbf300fe47 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> <http://schema.org/funding> _:Bc8c041f0ef2c76b826840edbf300fe47 .
+_:Be8a929e5173e8699cfa02779eab3ceaa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Be8a929e5173e8699cfa02779eab3ceaa <http://schema.org/award> "1U24AT013504-01" .
+_:Be8a929e5173e8699cfa02779eab3ceaa <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> <http://schema.org/funding> _:Be8a929e5173e8699cfa02779eab3ceaa .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0003-2700-1815> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#Muscular_System.csv> .
@@ -320,10 +320,10 @@ _:Bc8c041f0ef2c76b826840edbf300fe47 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B65d1182309c07281e2d9ee819d431520 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B65d1182309c07281e2d9ee819d431520 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B65d1182309c07281e2d9ee819d431520 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B65d1182309c07281e2d9ee819d431520 .
+_:Bdb5af898e85cde794d172319e584a06a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bdb5af898e85cde794d172319e584a06a <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bdb5af898e85cde794d172319e584a06a <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bdb5af898e85cde794d172319e584a06a .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -338,7 +338,7 @@ _:B65d1182309c07281e2d9ee819d431520 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> <http://purl.org/dc/terms/title> "male-reproductive-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> <http://schema.org/name> "male-reproductive-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the male reproductive system dataset." .
@@ -409,10 +409,10 @@ _:B65d1182309c07281e2d9ee819d431520 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the male reproductive system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> <http://schema.org/dateCreated> "2025-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B5ece08269b24acf2446e2d204eeecbbb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B5ece08269b24acf2446e2d204eeecbbb <http://schema.org/award> "1U24AT013504-01" .
-_:B5ece08269b24acf2446e2d204eeecbbb <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> <http://schema.org/funding> _:B5ece08269b24acf2446e2d204eeecbbb .
+_:B2553a4cfea6416b2417f72f798351505 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B2553a4cfea6416b2417f72f798351505 <http://schema.org/award> "1U24AT013504-01" .
+_:B2553a4cfea6416b2417f72f798351505 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> <http://schema.org/funding> _:B2553a4cfea6416b2417f72f798351505 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-5604-2651> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#Male_Reproductive_System.csv> .
@@ -431,10 +431,10 @@ _:B5ece08269b24acf2446e2d204eeecbbb <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B667ccaad98d513f8037d76515c5bf229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B667ccaad98d513f8037d76515c5bf229 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B667ccaad98d513f8037d76515c5bf229 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B667ccaad98d513f8037d76515c5bf229 .
+_:B1715ed045dd04ca4a58b8068026c3863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B1715ed045dd04ca4a58b8068026c3863 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B1715ed045dd04ca4a58b8068026c3863 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B1715ed045dd04ca4a58b8068026c3863 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -449,7 +449,7 @@ _:B667ccaad98d513f8037d76515c5bf229 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft> <http://purl.org/dc/terms/title> "integumentary-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft> <http://schema.org/name> "integumentary-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the integumentary system dataset." .
@@ -527,10 +527,10 @@ _:B667ccaad98d513f8037d76515c5bf229 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the integumentary system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data> <http://schema.org/dateCreated> "2025-12-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B76d5b3f360dfe7b64b399b0cae496a60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B76d5b3f360dfe7b64b399b0cae496a60 <http://schema.org/award> "1U24AT013504-01" .
-_:B76d5b3f360dfe7b64b399b0cae496a60 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data> <http://schema.org/funding> _:B76d5b3f360dfe7b64b399b0cae496a60 .
+_:B3a341fcffaf199daa9025026a8556302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B3a341fcffaf199daa9025026a8556302 <http://schema.org/award> "1U24AT013504-01" .
+_:B3a341fcffaf199daa9025026a8556302 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data> <http://schema.org/funding> _:B3a341fcffaf199daa9025026a8556302 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-7036-8359> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
@@ -550,10 +550,10 @@ _:B76d5b3f360dfe7b64b399b0cae496a60 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Bc196c4ef8b5fd7e2a56066e8eb3d1133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Bc196c4ef8b5fd7e2a56066e8eb3d1133 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Bc196c4ef8b5fd7e2a56066e8eb3d1133 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bc196c4ef8b5fd7e2a56066e8eb3d1133 .
+_:B5a3064e71e14ec42780cb1c97baa5892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B5a3064e71e14ec42780cb1c97baa5892 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B5a3064e71e14ec42780cb1c97baa5892 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B5a3064e71e14ec42780cb1c97baa5892 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -568,7 +568,7 @@ _:Bc196c4ef8b5fd7e2a56066e8eb3d1133 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft> <http://purl.org/dc/terms/title> "immune-and-lymphatic-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft> <http://schema.org/name> "immune-and-lymphatic-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the immune and lymphatic system dataset." .
@@ -646,10 +646,10 @@ _:Bc196c4ef8b5fd7e2a56066e8eb3d1133 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the immune and lymphatic system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data> <http://schema.org/dateCreated> "2026-01-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B6a0b50c499c2eac4a3500737d90b8c36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B6a0b50c499c2eac4a3500737d90b8c36 <http://schema.org/award> "1U24AT013504-01" .
-_:B6a0b50c499c2eac4a3500737d90b8c36 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data> <http://schema.org/funding> _:B6a0b50c499c2eac4a3500737d90b8c36 .
+_:B5d3541ae7ccf3041c2d34d9bc49e2d59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B5d3541ae7ccf3041c2d34d9bc49e2d59 <http://schema.org/award> "1U24AT013504-01" .
+_:B5d3541ae7ccf3041c2d34d9bc49e2d59 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data> <http://schema.org/funding> _:B5d3541ae7ccf3041c2d34d9bc49e2d59 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0001-9286-4268> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
@@ -669,10 +669,10 @@ _:B6a0b50c499c2eac4a3500737d90b8c36 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Ba48adaee981b3ee7be2058a941b007b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Ba48adaee981b3ee7be2058a941b007b5 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Ba48adaee981b3ee7be2058a941b007b5 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Ba48adaee981b3ee7be2058a941b007b5 .
+_:B3381631e752dec5ca1d0907af545b72d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B3381631e752dec5ca1d0907af545b72d <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B3381631e752dec5ca1d0907af545b72d <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B3381631e752dec5ca1d0907af545b72d .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -687,7 +687,7 @@ _:Ba48adaee981b3ee7be2058a941b007b5 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> <http://purl.org/dc/terms/title> "female-reproductive-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> <http://schema.org/name> "female-reproductive-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the female reproductive system dataset." .
@@ -758,10 +758,10 @@ _:Ba48adaee981b3ee7be2058a941b007b5 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the female reproductive system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> <http://schema.org/dateCreated> "2025-10-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:Bbdc254a088d803e8e9f5b5a7b2cf05a3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:Bbdc254a088d803e8e9f5b5a7b2cf05a3 <http://schema.org/award> "1U24AT013504-01" .
-_:Bbdc254a088d803e8e9f5b5a7b2cf05a3 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> <http://schema.org/funding> _:Bbdc254a088d803e8e9f5b5a7b2cf05a3 .
+_:Bc0ade5f54170c5246b3ea4ff00d640e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Bc0ade5f54170c5246b3ea4ff00d640e5 <http://schema.org/award> "1U24AT013504-01" .
+_:Bc0ade5f54170c5246b3ea4ff00d640e5 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> <http://schema.org/funding> _:Bc0ade5f54170c5246b3ea4ff00d640e5 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0003-1980-6840> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#Female_Reproductive_System.csv> .
@@ -780,10 +780,10 @@ _:Bbdc254a088d803e8e9f5b5a7b2cf05a3 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Ba8e97324936f41757939322dec29f3d6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Ba8e97324936f41757939322dec29f3d6 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Ba8e97324936f41757939322dec29f3d6 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Ba8e97324936f41757939322dec29f3d6 .
+_:B00edf7851f95c05211a02da85cb09d98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B00edf7851f95c05211a02da85cb09d98 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B00edf7851f95c05211a02da85cb09d98 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B00edf7851f95c05211a02da85cb09d98 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -798,7 +798,7 @@ _:Ba8e97324936f41757939322dec29f3d6 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft> <http://purl.org/dc/terms/title> "fascia-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft> <http://schema.org/name> "fascia-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the fascia system dataset." .
@@ -876,10 +876,10 @@ _:Ba8e97324936f41757939322dec29f3d6 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the fascia system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data> <http://schema.org/dateCreated> "2025-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B899de32ec6f46dd7e9eb9e312c08b887 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B899de32ec6f46dd7e9eb9e312c08b887 <http://schema.org/award> "1U24AT013504-01" .
-_:B899de32ec6f46dd7e9eb9e312c08b887 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data> <http://schema.org/funding> _:B899de32ec6f46dd7e9eb9e312c08b887 .
+_:Bfaf0c3168bfb1196fe74ef25c3a34f5a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Bfaf0c3168bfb1196fe74ef25c3a34f5a <http://schema.org/award> "1U24AT013504-01" .
+_:Bfaf0c3168bfb1196fe74ef25c3a34f5a <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data> <http://schema.org/funding> _:Bfaf0c3168bfb1196fe74ef25c3a34f5a .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-6988-4102> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
@@ -899,10 +899,10 @@ _:B899de32ec6f46dd7e9eb9e312c08b887 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B451d4565a04680c18154e651641ae65f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B451d4565a04680c18154e651641ae65f <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B451d4565a04680c18154e651641ae65f <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B451d4565a04680c18154e651641ae65f .
+_:B288d260194cc3f9917b1cc6fe2ce6624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B288d260194cc3f9917b1cc6fe2ce6624 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B288d260194cc3f9917b1cc6fe2ce6624 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B288d260194cc3f9917b1cc6fe2ce6624 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -917,7 +917,7 @@ _:B451d4565a04680c18154e651641ae65f <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://purl.org/dc/terms/title> "endocrine-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/name> "endocrine-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the endocrine system dataset." .
@@ -988,10 +988,10 @@ _:B451d4565a04680c18154e651641ae65f <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the endocrine system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://schema.org/dateCreated> "2025-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B20fe99edf6544f51525f175fb412a9d4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B20fe99edf6544f51525f175fb412a9d4 <http://schema.org/award> "1U24AT013504-01" .
-_:B20fe99edf6544f51525f175fb412a9d4 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://schema.org/funding> _:B20fe99edf6544f51525f175fb412a9d4 .
+_:B7aec152e572282f6ee24ad70896588c1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B7aec152e572282f6ee24ad70896588c1 <http://schema.org/award> "1U24AT013504-01" .
+_:B7aec152e572282f6ee24ad70896588c1 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://schema.org/funding> _:B7aec152e572282f6ee24ad70896588c1 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-0883-9754> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv> .
@@ -1010,10 +1010,10 @@ _:B20fe99edf6544f51525f175fb412a9d4 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B8eedef3178106d266e222473d2d1aba9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B8eedef3178106d266e222473d2d1aba9 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B8eedef3178106d266e222473d2d1aba9 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B8eedef3178106d266e222473d2d1aba9 .
+_:Ba29e2f564ef9a140194c2c2519a98372 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Ba29e2f564ef9a140194c2c2519a98372 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Ba29e2f564ef9a140194c2c2519a98372 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Ba29e2f564ef9a140194c2c2519a98372 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -1028,7 +1028,7 @@ _:B8eedef3178106d266e222473d2d1aba9 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> <http://purl.org/dc/terms/title> "digestive-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> <http://schema.org/name> "digestive-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the digestive system dataset." .
@@ -1106,10 +1106,10 @@ _:B8eedef3178106d266e222473d2d1aba9 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the digestive system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/dateCreated> "2025-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B5e9278e390d6ef0667e87e07cfdb15b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B5e9278e390d6ef0667e87e07cfdb15b0 <http://schema.org/award> "1U24AT013504-01" .
-_:B5e9278e390d6ef0667e87e07cfdb15b0 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/funding> _:B5e9278e390d6ef0667e87e07cfdb15b0 .
+_:B3e63c2d68e4e6f75e68b5769018ec05e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B3e63c2d68e4e6f75e68b5769018ec05e <http://schema.org/award> "1U24AT013504-01" .
+_:B3e63c2d68e4e6f75e68b5769018ec05e <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/funding> _:B3e63c2d68e4e6f75e68b5769018ec05e .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-6988-4102> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
@@ -1129,10 +1129,10 @@ _:B5e9278e390d6ef0667e87e07cfdb15b0 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B9460253613f3fa882b5c6f77d89847a8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B9460253613f3fa882b5c6f77d89847a8 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B9460253613f3fa882b5c6f77d89847a8 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B9460253613f3fa882b5c6f77d89847a8 .
+_:Bfaa7d8324b262552afdcf0617f48f1ea <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bfaa7d8324b262552afdcf0617f48f1ea <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bfaa7d8324b262552afdcf0617f48f1ea <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bfaa7d8324b262552afdcf0617f48f1ea .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -1147,7 +1147,7 @@ _:B9460253613f3fa882b5c6f77d89847a8 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> <http://purl.org/dc/terms/title> "dental-and-craniofacial-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> <http://schema.org/name> "dental-and-craniofacial-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the craniofacial and dental system dataset." .
@@ -1218,10 +1218,10 @@ _:B9460253613f3fa882b5c6f77d89847a8 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the craniofacial and dental system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://schema.org/dateCreated> "2026-01-09"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B166a64585aaf65edf585ac7e6f120926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B166a64585aaf65edf585ac7e6f120926 <http://schema.org/award> "1U24AT013504-01" .
-_:B166a64585aaf65edf585ac7e6f120926 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://schema.org/funding> _:B166a64585aaf65edf585ac7e6f120926 .
+_:B8d1fa1475214ec327f5bdcff0874dbe8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B8d1fa1475214ec327f5bdcff0874dbe8 <http://schema.org/award> "1U24AT013504-01" .
+_:B8d1fa1475214ec327f5bdcff0874dbe8 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://schema.org/funding> _:B8d1fa1475214ec327f5bdcff0874dbe8 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0001-7392-8852> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv> .
@@ -1240,10 +1240,10 @@ _:B166a64585aaf65edf585ac7e6f120926 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B75aa11d57ee0690d2acbff4bcf42bdb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B75aa11d57ee0690d2acbff4bcf42bdb8 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B75aa11d57ee0690d2acbff4bcf42bdb8 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B75aa11d57ee0690d2acbff4bcf42bdb8 .
+_:B58f1a9a23b13bbf4e04ad4c7ca29a3b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B58f1a9a23b13bbf4e04ad4c7ca29a3b1 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B58f1a9a23b13bbf4e04ad4c7ca29a3b1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B58f1a9a23b13bbf4e04ad4c7ca29a3b1 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -1302,7 +1302,7 @@ _:B75aa11d57ee0690d2acbff4bcf42bdb8 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> <http://purl.org/dc/terms/title> "cardiovascular-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> <http://schema.org/name> "cardiovascular-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the cardiovascular system dataset." .
@@ -1373,10 +1373,10 @@ _:B75aa11d57ee0690d2acbff4bcf42bdb8 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the cardiovascular system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> <http://schema.org/dateCreated> "2025-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B0f765909abadc8e5a304dce342698710 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B0f765909abadc8e5a304dce342698710 <http://schema.org/award> "1U24AT013504-01" .
-_:B0f765909abadc8e5a304dce342698710 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> <http://schema.org/funding> _:B0f765909abadc8e5a304dce342698710 .
+_:Bbc6aacd898b78f598cad883b1c67db69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Bbc6aacd898b78f598cad883b1c67db69 <http://schema.org/award> "1U24AT013504-01" .
+_:Bbc6aacd898b78f598cad883b1c67db69 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> <http://schema.org/funding> _:Bbc6aacd898b78f598cad883b1c67db69 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1979-044X> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#Cardiovascular_System.csv> .
@@ -1395,10 +1395,10 @@ _:B0f765909abadc8e5a304dce342698710 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Be0a3c771fb7036fbeab7adc29eb6b5ff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Be0a3c771fb7036fbeab7adc29eb6b5ff <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Be0a3c771fb7036fbeab7adc29eb6b5ff <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Be0a3c771fb7036fbeab7adc29eb6b5ff .
+_:B1f4642c942698fd19abc2db860b73d47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B1f4642c942698fd19abc2db860b73d47 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B1f4642c942698fd19abc2db860b73d47 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B1f4642c942698fd19abc2db860b73d47 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -1413,7 +1413,7 @@ _:Be0a3c771fb7036fbeab7adc29eb6b5ff <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> <http://purl.org/dc/terms/title> "skeletal-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> <http://schema.org/name> "skeletal-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the skeletal system dataset." .
@@ -1477,10 +1477,10 @@ _:Be0a3c771fb7036fbeab7adc29eb6b5ff <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the skeletal system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://schema.org/dateCreated> "2025-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B6ccabe1280db7ee164202de02fae6e8b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B6ccabe1280db7ee164202de02fae6e8b <http://schema.org/award> "1U24AT013504-01" .
-_:B6ccabe1280db7ee164202de02fae6e8b <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://schema.org/funding> _:B6ccabe1280db7ee164202de02fae6e8b .
+_:B34bbf308c6acb7359bdaacf62efcbe25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B34bbf308c6acb7359bdaacf62efcbe25 <http://schema.org/award> "1U24AT013504-01" .
+_:B34bbf308c6acb7359bdaacf62efcbe25 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://schema.org/funding> _:B34bbf308c6acb7359bdaacf62efcbe25 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
@@ -1498,10 +1498,10 @@ _:B6ccabe1280db7ee164202de02fae6e8b <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Bd6eb95b3c1f930efc5d79840af69d7e9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Bd6eb95b3c1f930efc5d79840af69d7e9 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Bd6eb95b3c1f930efc5d79840af69d7e9 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bd6eb95b3c1f930efc5d79840af69d7e9 .
+_:Bb9223e84d0edecb49e8b593895e4fa91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bb9223e84d0edecb49e8b593895e4fa91 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bb9223e84d0edecb49e8b593895e4fa91 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bb9223e84d0edecb49e8b593895e4fa91 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -1516,7 +1516,7 @@ _:Bd6eb95b3c1f930efc5d79840af69d7e9 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <http://purl.org/dc/terms/title> "urinary-system (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <http://schema.org/additionalType> "wpp" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <http://schema.org/name> "urinary-system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) table for the urinary system dataset." .
@@ -1587,10 +1587,10 @@ _:Bd6eb95b3c1f930efc5d79840af69d7e9 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the urinary system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://schema.org/dateCreated> "2025-09-23"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B74f22f2873b3361544df930008a483b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B74f22f2873b3361544df930008a483b6 <http://schema.org/award> "1U24AT013504-01" .
-_:B74f22f2873b3361544df930008a483b6 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://schema.org/funding> _:B74f22f2873b3361544df930008a483b6 .
+_:B395fe6a7e68136f566a5901e88261461 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B395fe6a7e68136f566a5901e88261461 <http://schema.org/award> "1U24AT013504-01" .
+_:B395fe6a7e68136f566a5901e88261461 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://schema.org/funding> _:B395fe6a7e68136f566a5901e88261461 .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv> .
@@ -1609,10 +1609,10 @@ _:B74f22f2873b3361544df930008a483b6 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Bd66c74541ff14f95daee38e844fd0ae4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Bd66c74541ff14f95daee38e844fd0ae4 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Bd66c74541ff14f95daee38e844fd0ae4 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bd66c74541ff14f95daee38e844fd0ae4 .
+_:B87720344a9c8e6d9f1107ceac13e37d2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B87720344a9c8e6d9f1107ceac13e37d2 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B87720344a9c8e6d9f1107ceac13e37d2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B87720344a9c8e6d9f1107ceac13e37d2 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -1627,7 +1627,7 @@ _:Bd66c74541ff14f95daee38e844fd0ae4 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft> <http://purl.org/dc/terms/title> "wpp (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft> <http://schema.org/additionalType> "collection" .
-<https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft> <http://schema.org/name> "wpp" .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the Whole Person Physiome (WPP) dataset." .
@@ -1697,10 +1697,10 @@ _:Bd66c74541ff14f95daee38e844fd0ae4 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP)" .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data> <http://schema.org/dateCreated> "2026-02-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B750118bad6431e8b6fcbdc12443e2a55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B750118bad6431e8b6fcbdc12443e2a55 <http://schema.org/award> "1U24AT013504-01" .
-_:B750118bad6431e8b6fcbdc12443e2a55 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data> <http://schema.org/funding> _:B750118bad6431e8b6fcbdc12443e2a55 .
+_:Bb263d7344b3f23e932dd32f351611b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Bb263d7344b3f23e932dd32f351611b51 <http://schema.org/award> "1U24AT013504-01" .
+_:Bb263d7344b3f23e932dd32f351611b51 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data> <http://schema.org/funding> _:Bb263d7344b3f23e932dd32f351611b51 .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml> .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#rdfxml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
@@ -1718,10 +1718,10 @@ _:B750118bad6431e8b6fcbdc12443e2a55 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Bc845a4b812e0b04d96bcbb3c43471696 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Bc845a4b812e0b04d96bcbb3c43471696 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Bc845a4b812e0b04d96bcbb3c43471696 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bc845a4b812e0b04d96bcbb3c43471696 .
+_:B7c4ba080aa8705d094272b8d3cacf317 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B7c4ba080aa8705d094272b8d3cacf317 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B7c4ba080aa8705d094272b8d3cacf317 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B7c4ba080aa8705d094272b8d3cacf317 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/collection/wpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -1752,7 +1752,7 @@ _:Bc845a4b812e0b04d96bcbb3c43471696 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://purl.org/dc/terms/title> "wpp (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/additionalType> "schema" .
-<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/name> "wpp" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the wpp linkml schema dataset." .
@@ -1810,10 +1810,10 @@ _:Bc845a4b812e0b04d96bcbb3c43471696 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://purl.org/dc/terms/title> "wpp linkml schema" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://schema.org/dateCreated> "2026-02-19"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B92c9f34ad7983b59b750534bb3341fc2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B92c9f34ad7983b59b750534bb3341fc2 <http://schema.org/award> "1U24AT013504-01" .
-_:B92c9f34ad7983b59b750534bb3341fc2 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://schema.org/funding> _:B92c9f34ad7983b59b750534bb3341fc2 .
+_:B6fe29fc0abf141a520de9925a96c9da2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B6fe29fc0abf141a520de9925a96c9da2 <http://schema.org/award> "1U24AT013504-01" .
+_:B6fe29fc0abf141a520de9925a96c9da2 <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://schema.org/funding> _:B6fe29fc0abf141a520de9925a96c9da2 .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "This schema defines a data model for WPP (Whole Person Physiome) tables." .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld> .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json> .
@@ -1872,10 +1872,10 @@ _:B92c9f34ad7983b59b750534bb3341fc2 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B8be751be43cab20380e86cd65b4f0806 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B8be751be43cab20380e86cd65b4f0806 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B8be751be43cab20380e86cd65b4f0806 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B8be751be43cab20380e86cd65b4f0806 .
+_:Bc4384ea1f6be73b12505662eac190dbe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bc4384ea1f6be73b12505662eac190dbe <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bc4384ea1f6be73b12505662eac190dbe <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bc4384ea1f6be73b12505662eac190dbe .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -1890,7 +1890,7 @@ _:B8be751be43cab20380e86cd65b4f0806 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> <http://purl.org/dc/terms/title> "wpp-metadata (draft) graph data" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> <http://schema.org/additionalType> "schema" .
-<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> <http://schema.org/dateCreated> "2026-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> <http://schema.org/dateCreated> "2026-02-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> <http://schema.org/name> "wpp-metadata" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> <http://schema.org/version> "draft" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "The graph representation of the wpp-metadata linkml schema dataset." .
@@ -1948,10 +1948,10 @@ _:B8be751be43cab20380e86cd65b4f0806 <http://www.w3.org/2000/01/rdf-schema#seeAls
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> <http://purl.org/dc/terms/publisher> "HuBMAP" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> <http://purl.org/dc/terms/title> "wpp-metadata linkml schema" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> <http://schema.org/dateCreated> "2026-02-19"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B3049fce392b007b8f22927f572a5f2ec <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B3049fce392b007b8f22927f572a5f2ec <http://schema.org/award> "1U24AT013504-01" .
-_:B3049fce392b007b8f22927f572a5f2ec <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> <http://schema.org/funding> _:B3049fce392b007b8f22927f572a5f2ec .
+_:Be55b944c748b317131158ca11abbf8ff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:Be55b944c748b317131158ca11abbf8ff <http://schema.org/award> "1U24AT013504-01" .
+_:Be55b944c748b317131158ca11abbf8ff <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> <http://schema.org/funding> _:Be55b944c748b317131158ca11abbf8ff .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "LinkML Schema for wpp-metadata" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.context.jsonld> .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json> .
@@ -2010,10 +2010,10 @@ _:B3049fce392b007b8f22927f572a5f2ec <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:B4f7d10b776e09bcecc63ee253634301a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:B4f7d10b776e09bcecc63ee253634301a <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:B4f7d10b776e09bcecc63ee253634301a <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B4f7d10b776e09bcecc63ee253634301a .
+_:B63e2f25e464e07827c13bb35252160c0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:B63e2f25e464e07827c13bb35252160c0 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:B63e2f25e464e07827c13bb35252160c0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:B63e2f25e464e07827c13bb35252160c0 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .
 <https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .

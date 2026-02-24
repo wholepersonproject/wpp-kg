@@ -60,7 +60,7 @@
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data"/>
     <schema1:version>draft</schema1:version>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#nquads"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-20</schema1:dateCreated>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the urinary system dataset.</rdfs:comment>
@@ -83,6 +83,11 @@
     <rdfs:label>Graph data distribution urinary-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.nt</dcat:downloadURL>
@@ -90,11 +95,6 @@
     <dct:title>Graph data distribution urinary-system (draft) in N-Triples format</dct:title>
     <rdfs:label>Graph data distribution urinary-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv">
     <dcat:mediaType>text/csv</dcat:mediaType>
@@ -129,8 +129,8 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <rdfs:label>Whole Person Physiome (WPP) table for the urinary system</rdfs:label>
-    <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <schema1:funding rdf:nodeID="A0"/>
+    <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-23</schema1:dateCreated>
     <dct:title>Whole Person Physiome (WPP) table for the urinary system</dct:title>
     <dct:publisher>WPP</dct:publisher>
