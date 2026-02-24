@@ -9,7 +9,7 @@
     "created_by": [
       "https://github.com/hubmapconsortium/hra-do-processor"
     ],
-    "creation_date": "2026-02-20",
+    "creation_date": "2026-02-24",
     "version": "draft",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "publisher": "HuBMAP",
@@ -1233,7 +1233,7 @@
         ],
         "signal": "glutamine",
         "signal_scale": "Intra-organ",
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -1407,7 +1407,7 @@
         ],
         "signal": "glutamine",
         "signal_scale": "Intra-organ",
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -1580,7 +1580,7 @@
         ],
         "signal": "NH₄⁺",
         "signal_scale": "Intra-organ",
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -2100,7 +2100,7 @@
         ],
         "signal": "NH₄⁺",
         "signal_scale": "Intra-organ",
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -2272,7 +2272,7 @@
         ],
         "signal": "TA (titratable acid)",
         "signal_scale": "Intra-organ",
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -2444,7 +2444,7 @@
         ],
         "signal": "HCO₃⁻",
         "signal_scale": "Intra-organ",
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -2602,7 +2602,7 @@
             "chapter": "21"
           }
         ],
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2760,7 +2760,7 @@
             "chapter": "21"
           }
         ],
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5598,7 +5598,7 @@
         ],
         "signal": "Dopamine",
         "signal_scale": "Intra-organ",
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5758,7 +5758,7 @@
         ],
         "signal": "K⁺",
         "signal_scale": "Intra-organ",
-        "time_scale": "seconds–minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -6613,7 +6613,7 @@
         ],
         "signal": "ANP",
         "signal_scale": "Systemic",
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6785,7 +6785,7 @@
         ],
         "signal": "ANP",
         "signal_scale": "Systemic",
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6957,7 +6957,7 @@
         ],
         "signal": "ANP",
         "signal_scale": "Systemic",
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -7130,7 +7130,7 @@
         ],
         "signal": "ANP",
         "signal_scale": "Systemic",
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -7489,7 +7489,7 @@
             "chapter": "17"
           }
         ],
-        "time_scale": "seconds–minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -7662,7 +7662,7 @@
             "chapter": "17"
           }
         ],
-        "time_scale": "seconds–minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -7770,7 +7770,7 @@
             "chapter": "17"
           }
         ],
-        "time_scale": "seconds–minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -8042,7 +8042,7 @@
         ],
         "signal": "↓Plasma protein",
         "signal_scale": "Circulatory",
-        "time_scale": "Seconds",
+        "time_scale": "seconds",
         "type_of": [
           "Record"
         ]
@@ -8178,7 +8178,7 @@
         ],
         "signal": "↑Pc",
         "signal_scale": "Circulatory",
-        "time_scale": "Seconds",
+        "time_scale": "seconds",
         "type_of": [
           "Record"
         ]
@@ -8328,7 +8328,7 @@
         ],
         "signal": "↑πc",
         "signal_scale": "Circulatory",
-        "time_scale": "Seconds–Minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -8464,7 +8464,7 @@
         ],
         "signal": "↑Pi",
         "signal_scale": "Circulatory",
-        "time_scale": "Minutes",
+        "time_scale": "minutes",
         "type_of": [
           "Record"
         ]
@@ -8574,7 +8574,7 @@
         ],
         "signal": "Starling force changes",
         "signal_scale": "Circulatory",
-        "time_scale": "Minutes",
+        "time_scale": "minutes",
         "type_of": [
           "Record"
         ]
@@ -8700,7 +8700,7 @@
         ],
         "signal": "transport maximum",
         "signal_scale": "Intra-organ",
-        "time_scale": "minutes – hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -10955,7 +10955,7 @@
             "chapter": "21"
           }
         ],
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -11297,7 +11297,7 @@
         ],
         "signal": "TRPM6 activity",
         "signal_scale": "Autocrine",
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -11625,7 +11625,7 @@
             "chapter": "17"
           }
         ],
-        "time_scale": "hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -11969,7 +11969,7 @@
         ],
         "signal": "Endogenous marker clearance",
         "signal_scale": "Circulatory",
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -13633,7 +13633,7 @@
         ],
         "signal": "NKCC2 activity",
         "signal_scale": "Autocrine",
-        "time_scale": "seconds–minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -14894,7 +14894,7 @@
             "chapter": "19"
           }
         ],
-        "time_scale": "minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -16267,7 +16267,7 @@
             "chapter": "19"
           }
         ],
-        "time_scale": "seconds–minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -16876,7 +16876,7 @@
         ],
         "signal": "solute transport",
         "signal_scale": "Intra-organ",
-        "time_scale": "seconds–minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -17035,7 +17035,7 @@
             "chapter": "16"
           }
         ],
-        "time_scale": "minutes – hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -17193,7 +17193,7 @@
             "chapter": "17"
           }
         ],
-        "time_scale": "minutes – hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -17513,7 +17513,7 @@
             "chapter": "17"
           }
         ],
-        "time_scale": "seconds–minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -18327,7 +18327,7 @@
             "chapter": "19"
           }
         ],
-        "time_scale": "Minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -18498,7 +18498,7 @@
             "chapter": "20"
           }
         ],
-        "time_scale": "Minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -18671,7 +18671,7 @@
         ],
         "signal": "Na⁺",
         "signal_scale": "Intra-organ",
-        "time_scale": "Minutes-hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -18844,7 +18844,7 @@
         ],
         "signal": "Na⁺",
         "signal_scale": "Intra-organ",
-        "time_scale": "Minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -19018,7 +19018,7 @@
         ],
         "signal": "ADH",
         "signal_scale": "Systemic",
-        "time_scale": "Minutes–hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -19203,7 +19203,7 @@
         ],
         "signal": "ANP",
         "signal_scale": "Systemic",
-        "time_scale": "Minutes-hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -19377,7 +19377,7 @@
         ],
         "signal": "ADH",
         "signal_scale": "Systemic",
-        "time_scale": "Minutes-hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -19869,7 +19869,7 @@
         ],
         "signal": "ENaC/Na⁺-K⁺ ATPase activity",
         "signal_scale": "Autocrine",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -20029,7 +20029,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -20201,7 +20201,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -20457,7 +20457,7 @@
             "chapter": "24"
           }
         ],
-        "time_scale": "minutes – hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -20604,7 +20604,7 @@
             "chapter": "24"
           }
         ],
-        "time_scale": "minutes – hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -20751,7 +20751,7 @@
             "chapter": "18"
           }
         ],
-        "time_scale": "minutes – hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -21207,7 +21207,7 @@
         ],
         "signal": "Vitamin D",
         "signal_scale": "Systemic",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -21650,7 +21650,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -21810,7 +21810,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -21957,7 +21957,7 @@
             "chapter": "24"
           }
         ],
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -22105,7 +22105,7 @@
         ],
         "signal": "LOW PH",
         "signal_scale": "Intra-organ",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -22265,7 +22265,7 @@
         ],
         "signal": "PTH",
         "signal_scale": "Systemic",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -22425,7 +22425,7 @@
         ],
         "signal": "Vitamin D",
         "signal_scale": "Systemic",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -22585,7 +22585,7 @@
         ],
         "signal": "FGF23",
         "signal_scale": "Systemic",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -22733,7 +22733,7 @@
         ],
         "signal": "plasma Ca²⁺",
         "signal_scale": "Systemic",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -22881,7 +22881,7 @@
         ],
         "signal": "Mg²⁺ deficiency",
         "signal_scale": "Systemic",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -23019,7 +23019,7 @@
         ],
         "signal": "blood flow into glomerulus",
         "signal_scale": "Circulatory",
-        "time_scale": "Hours–days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]

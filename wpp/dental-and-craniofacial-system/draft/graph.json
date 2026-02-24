@@ -9,7 +9,7 @@
     "created_by": [
       "https://github.com/hubmapconsortium/hra-do-processor"
     ],
-    "creation_date": "2026-02-20",
+    "creation_date": "2026-02-24",
     "version": "draft",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "publisher": "HuBMAP",
@@ -1228,7 +1228,7 @@
             "chapter": "49"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[8.6, 10.2]",
         "type_of": [
           "Record"
@@ -7134,7 +7134,7 @@
             ]
           }
         ],
-        "time_scale": "hours, days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]

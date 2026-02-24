@@ -26,7 +26,7 @@
                                                                      dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                                      dct:publisher "HuBMAP" ;
                                                                      dct:title "male-reproductive-system (draft) graph data" ;
-                                                                     schema1:dateCreated "2026-02-20" ;
+                                                                     schema1:dateCreated "2026-02-24" ;
                                                                      schema1:version "draft" ;
                                                                      rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft> ;
                                                                      prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data> .
@@ -101,7 +101,9 @@ obo:IAO_0000233 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000112 "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"@en ;
                 obo:IAO_0000115 "An IRI or similar locator for a request or discussion of an ontology term."@en ;
                 oboInOwl:hasDbXref "IAO:0000233" ;
+                oboInOwl:hasOBONamespace "external" ;
                 oboInOwl:id "term_tracker_item" ;
+                oboInOwl:is_class_level "true"^^xsd:boolean ;
                 oboInOwl:is_metadata_tag "true"^^xsd:boolean ;
                 oboInOwl:shorthand "term_tracker_item" ;
                 rdfs:comment "The 'tracker item' can associate a tracker with a specific ontology term."@en ;
@@ -461,8 +463,14 @@ schema1:dateCreated rdf:type owl:AnnotationProperty .
 schema1:version rdf:type owl:AnnotationProperty .
 
 
+###  http://www.geneontology.org/formats/oboInOwl#created_by
+oboInOwl:created_by rdf:type owl:AnnotationProperty ;
+                    rdfs:label "created by" .
+
+
 ###  http://www.geneontology.org/formats/oboInOwl#creation_date
-oboInOwl:creation_date rdf:type owl:AnnotationProperty .
+oboInOwl:creation_date rdf:type owl:AnnotationProperty ;
+                       rdfs:label "creation date" .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#date_retrieved
@@ -521,6 +529,11 @@ oboInOwl:hasNarrowSynonym rdf:type owl:AnnotationProperty ;
                           rdfs:label "has narrow synonym"@en ,
                                      "has_narrow_synonym" ;
                           rdfs:seeAlso "https://github.com/information-artifact-ontology/ontology-metadata/issues/19" .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+oboInOwl:hasOBONamespace rdf:type owl:AnnotationProperty ;
+                         rdfs:label "has_obo_namespace" .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
@@ -3000,6 +3013,2215 @@ obo:CL_4052002 rdf:type owl:Class ;
    owl:annotatedTarget "SC" ;
    oboInOwl:hasDbXref "PMID:9067520" ;
    oboInOwl:hasSynonymType obo:OMO_0003000
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002790
+obo:GO_0002790 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0015833 ,
+                               obo:GO_0046903 ;
+               obo:IAO_0000115 "The controlled release of a peptide from a cell or a tissue." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0002790" ;
+               rdfs:label "peptide secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002790 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The controlled release of a peptide from a cell or a tissue." ;
+   oboInOwl:hasDbXref "GOC:add"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003006
+obo:GO_0003006 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0022414 ,
+                               obo:GO_0032502 ;
+               obo:IAO_0000115 "A developmental process in which a progressive change in the state of some part of an organism, germline or somatic, specifically contributes to its ability to form offspring." ;
+               oboInOwl:hasNarrowSynonym "puberty" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "reproductive developmental process" ;
+               oboInOwl:id "GO:0003006" ;
+               rdfs:label "developmental process involved in reproduction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003006 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A developmental process in which a progressive change in the state of some part of an organism, germline or somatic, specifically contributes to its ability to form offspring." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003006 ;
+   owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+   owl:annotatedTarget "puberty" ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003006 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "reproductive developmental process" ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003008
+obo:GO_0003008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ;
+               obo:IAO_0000115 "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." ;
+               oboInOwl:hasExactSynonym "organ system process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003008" ;
+               rdfs:label "system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0005179
+obo:GO_0005179 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048018 ;
+               obo:IAO_0000115 "The action characteristic of a hormone, any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action. The term was originally applied to agents with a stimulatory physiological action in vertebrate animals (as opposed to a chalone, which has a depressant action). Usage is now extended to regulatory compounds in lower animals and plants, and to synthetic substances having comparable effects; all bind receptors and trigger some biological process." ;
+               oboInOwl:hasNarrowSynonym "cAMP generating peptide activity" ,
+                                         "glycopeptide hormone" ,
+                                         "lipopeptide hormone" ,
+                                         "peptide hormone" ;
+               oboInOwl:hasOBONamespace "molecular_function" ;
+               oboInOwl:id "GO:0005179" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_chembl> ;
+               rdfs:comment "Also consider annotating to 'receptor agonist activity ; GO:0048018'." ;
+               rdfs:label "hormone activity" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005179 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The action characteristic of a hormone, any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action. The term was originally applied to agents with a stimulatory physiological action in vertebrate animals (as opposed to a chalone, which has a depressant action). Usage is now extended to regulatory compounds in lower animals and plants, and to synthetic substances having comparable effects; all bind receptors and trigger some biological process." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:mah" ,
+                      "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0005183
+obo:GO_0005183 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0005179 ;
+               obo:IAO_0000115 "The action characteristic of gonadotropin hormone-releasing hormone (GnRH), any of a family of decapeptide amide hormones that are released by the hypothalamus in response to neural and/or chemical stimuli. In at least mammals, upon receptor binding, GnRH causes the release of follicle-stimulating hormone (FSH) and luteinizing hormone (LH) by the anterior pituitary." ;
+               oboInOwl:hasExactSynonym "GnRH activity" ,
+                                        "LH/FSH-RF" ,
+                                        "LHRH activity" ,
+                                        "gonadotrophin hormone-releasing hormone activity" ,
+                                        "luteinizing hormone-releasing factor activity" ,
+                                        "luteinizing hormone-releasing hormone activity" ,
+                                        "luteinizing hormone/follicle-stimulating hormone releasing factor activity" ;
+               oboInOwl:hasOBONamespace "molecular_function" ;
+               oboInOwl:id "GO:0005183" ;
+               rdfs:label "gonadotropin hormone-releasing hormone activity" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005183 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The action characteristic of gonadotropin hormone-releasing hormone (GnRH), any of a family of decapeptide amide hormones that are released by the hypothalamus in response to neural and/or chemical stimuli. In at least mammals, upon receptor binding, GnRH causes the release of follicle-stimulating hormone (FSH) and luteinizing hormone (LH) by the anterior pituitary." ;
+   oboInOwl:hasDbXref "ISBN:0198506732" ,
+                      "PMID:11026571" ,
+                      "Wikipedia:Gonadotropin-releasing_hormone"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005183 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "GnRH activity" ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005183 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "LH/FSH-RF" ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005183 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "LHRH activity" ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005183 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "gonadotrophin hormone-releasing hormone activity" ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005183 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "luteinizing hormone-releasing factor activity" ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005183 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "luteinizing hormone-releasing hormone activity" ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005183 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "luteinizing hormone/follicle-stimulating hormone releasing factor activity" ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0005575
+obo:GO_0005575 rdf:type owl:Class ;
+               obo:IAO_0000115 "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/17729"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0008372" ;
+               oboInOwl:hasDbXref "NIF_Subcellular:sao1337158144" ;
+               oboInOwl:hasExactSynonym "cell or subcellular entity" ,
+                                        "cellular component" ;
+               oboInOwl:hasOBONamespace "cellular_component" ;
+               oboInOwl:hasRelatedSynonym "subcellular entity" ;
+               oboInOwl:id "GO:0005575" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:comment "Note that, in addition to forming the root of the cellular component ontology, this term is recommended for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this." ;
+               rdfs:label "cellular_component" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005575 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." ;
+   oboInOwl:hasDbXref "GOC:pdt"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005575 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "subcellular entity" ;
+   oboInOwl:hasDbXref "NIF_Subcellular:nlx_subcell_100315"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006810
+obo:GO_0006810 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051234 ;
+               obo:IAO_0000115 "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/20292"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-13T16:25:32Z" ;
+               oboInOwl:hasAlternativeId "GO:0015457" ,
+                                         "GO:0015460" ,
+                                         "GO:0044765" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-382551" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism transport" ;
+               oboInOwl:id "GO:0006810" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that this term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term, for e.g. to transmembrane transport, to microtubule-based transport or to vesicle-mediated transport." ;
+               rdfs:label "transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006810 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein." ;
+   oboInOwl:hasDbXref "GOC:dos" ,
+                      "GOC:dph" ,
+                      "GOC:jl" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006810 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-382551" ;
+   rdfs:label "Transport of small molecules"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006869
+obo:GO_0006869 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of lipids into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Lipids are compounds soluble in an organic solvent but not, or sparingly, in an aqueous solvent." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-1369062" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006869" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:label "lipid transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006869 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of lipids into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Lipids are compounds soluble in an organic solvent but not, or sparingly, in an aqueous solvent." ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006869 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-1369062" ;
+   rdfs:label "ABC transporters in lipid homeostasis"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007276
+obo:GO_0007276 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048609 ;
+               obo:IAO_0000115 "The generation and maintenance of gametes in a multicellular organism. A gamete is a haploid reproductive cell." ;
+               oboInOwl:hasAlternativeId "GO:0009552" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "gametogenesis" ;
+               oboInOwl:id "GO:0007276" ;
+               rdfs:label "gamete generation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007276 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The generation and maintenance of gametes in a multicellular organism. A gamete is a haploid reproductive cell." ;
+   oboInOwl:hasDbXref "GOC:ems" ,
+                      "GOC:mtg_sensu"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007283
+obo:GO_0007283 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003006 ,
+                               obo:GO_0048232 ;
+               obo:IAO_0000115 "The developmental process by which male germ line stem cells self renew or give rise to successive cell types resulting in the development of a spermatozoa." ;
+               oboInOwl:hasDbXref "Wikipedia:Spermatogenesis" ;
+               oboInOwl:hasExactSynonym "generation of spermatozoa" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007283" ;
+               rdfs:label "spermatogenesis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007283 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The developmental process by which male germ line stem cells self renew or give rise to successive cell types resulting in the development of a spermatozoa." ;
+   oboInOwl:hasDbXref "GOC:jid" ,
+                      "ISBN:9780878933846" ,
+                      "PMID:28073824" ,
+                      "PMID:30990821"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007283 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "generation of spermatozoa" ;
+   oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/go#systematic_synonym>
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009605
+obo:GO_0009605 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050896 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an external stimulus." ;
+               oboInOwl:hasExactSynonym "response to environmental stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009605" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to external stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009605 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an external stimulus." ;
+   oboInOwl:hasDbXref "GOC:hb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009914
+obo:GO_0009914 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ,
+                               obo:GO_0010817 ;
+               obo:IAO_0000115 "The directed movement of hormones into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009914" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "hormone transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009914 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of hormones into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009987
+obo:GO_0009987 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-11T16:56:55Z" ;
+               oboInOwl:hasAlternativeId "GO:0008151" ,
+                                         "GO:0044763" ,
+                                         "GO:0050875" ;
+               oboInOwl:hasExactSynonym "cell physiology" ,
+                                        "cellular physiological process" ;
+               oboInOwl:hasNarrowSynonym "cell growth and/or maintenance" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism cellular process" ;
+               oboInOwl:id "GO:0009987" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "This term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term." ;
+               rdfs:label "cellular process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009987 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010817
+obo:GO_0010817 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065008 ;
+               obo:IAO_0000115 "Any process that modulates the levels of hormone within an organism or a tissue. A hormone is any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0010817" ;
+               rdfs:label "regulation of hormone levels" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0010817 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the levels of hormone within an organism or a tissue. A hormone is any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action." ;
+   oboInOwl:hasDbXref "GOC:BHF" ,
+                      "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0015833
+obo:GO_0015833 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of peptides, compounds of two or more amino acids where the alpha carboxyl group of one is bound to the alpha amino group of another, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0015833" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "peptide transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0015833 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of peptides, compounds of two or more amino acids where the alpha carboxyl group of one is bound to the alpha amino group of another, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0015850
+obo:GO_0015850 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of an organic hydroxy compound (organic alcohol) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. An organic hydroxy compound is an organic compound having at least one hydroxy group attached to a carbon atom." ;
+               oboInOwl:hasExactSynonym "organic alcohol transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0015850" ;
+               rdfs:label "organic hydroxy compound transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0015850 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of an organic hydroxy compound (organic alcohol) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. An organic hydroxy compound is an organic compound having at least one hydroxy group attached to a carbon atom." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0016202
+obo:GO_0016202 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048634 ,
+                               obo:GO_0065007 ,
+                               obo:GO_1901861 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of striated muscle development." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0016202" ;
+               rdfs:label "regulation of striated muscle tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0016202 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of striated muscle development." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0022414
+obo:GO_0022414 rdf:type owl:Class ;
+               obo:IAO_0000115 "A biological process that directly contributes to the process of producing new individuals by one or two organisms. The new individuals inherit some proportion of their genetic material from the parent or parents." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27054"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-09-19T15:56:06Z" ;
+               oboInOwl:hasAlternativeId "GO:0019952" ,
+                                         "GO:0044702" ,
+                                         "GO:0050876" ;
+               oboInOwl:hasDbXref "Wikipedia:Reproduction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single organism reproductive process" ;
+               oboInOwl:id "GO:0022414" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ;
+               rdfs:label "reproductive process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0022414 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A biological process that directly contributes to the process of producing new individuals by one or two organisms. The new individuals inherit some proportion of their genetic material from the parent or parents." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0023061
+obo:GO_0023061 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032940 ;
+               obo:IAO_0000115 "The process in which a signal is secreted or discharged into the extracellular medium from a cellular source." ;
+               oboInOwl:creation_date "2010-02-16T09:30:50Z" ;
+               oboInOwl:hasExactSynonym "signal secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0023061" ;
+               rdfs:label "signal release" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0023061 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which a signal is secreted or discharged into the extracellular medium from a cellular source." ;
+   oboInOwl:hasDbXref "GOC:mtg_signal"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0023061 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "signal secretion" ;
+   oboInOwl:hasDbXref "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030072
+obo:GO_0030072 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0002790 ,
+                               obo:GO_0046879 ,
+                               obo:GO_0071705 ;
+               obo:IAO_0000115 "The regulated release of a peptide hormone from a cell." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0030072" ;
+               rdfs:label "peptide hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030072 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of a peptide hormone from a cell." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030545
+obo:GO_0030545 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0098772 ;
+               obo:IAO_0000115 "Binds to and modulates the activity of a receptor." ;
+               oboInOwl:hasBroadSynonym "receptor regulator activity" ;
+               oboInOwl:hasOBONamespace "molecular_function" ;
+               oboInOwl:id "GO:0030545" ;
+               rdfs:label "signaling receptor regulator activity" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030545 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Binds to and modulates the activity of a receptor." ;
+   oboInOwl:hasDbXref "GOC:ceb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030546
+obo:GO_0030546 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0030545 ,
+                               obo:GO_0140677 ;
+               obo:IAO_0000115 "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is increased." ;
+               oboInOwl:hasBroadSynonym "receptor activator activity" ;
+               oboInOwl:hasExactSynonym "signalling receptor activator activity" ;
+               oboInOwl:hasOBONamespace "molecular_function" ;
+               oboInOwl:id "GO:0030546" ;
+               rdfs:label "signaling receptor activator activity" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030546 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is increased." ;
+   oboInOwl:hasDbXref "GOC:ceb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032274
+obo:GO_0032274 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0060986 ;
+               obo:IAO_0000115 "The regulated release of a gonadotropin, any hormone that stimulates the gonads, especially follicle-stimulating hormone and luteinizing hormone." ;
+               oboInOwl:hasExactSynonym "gonadotrophin secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0032274" ;
+               rdfs:label "gonadotropin secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032274 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of a gonadotropin, any hormone that stimulates the gonads, especially follicle-stimulating hormone and luteinizing hormone." ;
+   oboInOwl:hasDbXref "GOC:mah" ,
+                      "ISBN:0721662544"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032334
+obo:GO_0032334 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0060986 ;
+               obo:IAO_0000115 "The regulated release of an inhibin, either of two glycoproteins (designated A and B), secreted by the gonads and present in seminal plasma and follicular fluid, that inhibit pituitary production of follicle-stimulating hormone." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0032334" ;
+               rdfs:label "inhibin secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032334 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of an inhibin, either of two glycoproteins (designated A and B), secreted by the gonads and present in seminal plasma and follicular fluid, that inhibit pituitary production of follicle-stimulating hormone." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032501
+obo:GO_0032501 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any biological process, occurring at the level of a multicellular organism, pertinent to its function." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27189"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-09-19T16:07:47Z" ;
+               oboInOwl:hasAlternativeId "GO:0044707" ,
+                                         "GO:0050874" ;
+               oboInOwl:hasExactSynonym "organismal physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-multicellular organism process" ;
+               oboInOwl:id "GO:0032501" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032501 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process, occurring at the level of a multicellular organism, pertinent to its function." ;
+   oboInOwl:hasDbXref "GOC:curators" ,
+                      "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032502
+obo:GO_0032502 rdf:type owl:Class ;
+               obo:IAO_0000115 "A biological process whose specific outcome is the progression of an integrated living unit: an anatomical structure (which may be a subcellular structure, cell, tissue, or organ), or organism over time from an initial condition to a later condition." ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-19T12:21:31Z" ;
+               oboInOwl:hasAlternativeId "GO:0044767" ;
+               oboInOwl:hasNarrowSynonym "development" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism developmental process" ;
+               oboInOwl:id "GO:0032502" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "developmental process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032502 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A biological process whose specific outcome is the progression of an integrated living unit: an anatomical structure (which may be a subcellular structure, cell, tissue, or organ), or organism over time from an initial condition to a later condition." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032940
+obo:GO_0032940 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0046903 ,
+                               obo:GO_0140352 ;
+               obo:IAO_0000115 "The controlled release of a substance by a cell." ;
+               oboInOwl:hasDbXref "Wikipedia:Secretion" ;
+               oboInOwl:hasExactSynonym "cellular secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0032940" ;
+               rdfs:label "secretion by cell" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032940 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The controlled release of a substance by a cell." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0033574
+obo:GO_0033574 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0033993 ,
+                               obo:GO_1901654 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a testosterone stimulus." ;
+               oboInOwl:hasExactSynonym "response to testosterone stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0033574" ;
+               rdfs:label "response to testosterone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0033574 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a testosterone stimulus." ;
+   oboInOwl:hasDbXref "GOC:sl"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0033574 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to testosterone stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0033993
+obo:GO_0033993 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042221 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lipid stimulus." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0033993" ;
+               rdfs:label "response to lipid" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0033993 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lipid stimulus." ;
+   oboInOwl:hasDbXref "GOC:sl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035929
+obo:GO_0035929 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0060986 ,
+                               obo:GO_0140353 ;
+               obo:IAO_0000115 "The regulated release of any steroid that acts as a hormone into the circulatory system." ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2011-07-20T01:01:00Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035929" ;
+               rdfs:label "steroid hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035929 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of any steroid that acts as a hormone into the circulatory system." ;
+   oboInOwl:hasDbXref "GOC:sl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035935
+obo:GO_0035935 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0035929 ;
+               obo:IAO_0000115 "The regulated release of an androgen into the circulatory system. Androgens are steroid hormones that stimulate or control the development and maintenance of masculine characteristics in vertebrates." ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2011-07-20T01:11:31Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035935" ;
+               rdfs:label "androgen secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035935 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of an androgen into the circulatory system. Androgens are steroid hormones that stimulate or control the development and maintenance of masculine characteristics in vertebrates." ;
+   oboInOwl:hasDbXref "GOC:sl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035936
+obo:GO_0035936 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0015850 ,
+                               obo:GO_0046879 ,
+                               obo:GO_0140353 ;
+               obo:IAO_0000115 "The regulated release of testosterone into the circulatory system. Testosterone is an androgen having 17beta-hydroxy and 3-oxo groups, together with unsaturation at C-4-C-5." ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2011-07-20T01:13:13Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035936" ;
+               rdfs:label "testosterone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035936 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of testosterone into the circulatory system. Testosterone is an androgen having 17beta-hydroxy and 3-oxo groups, together with unsaturation at C-4-C-5." ;
+   oboInOwl:hasDbXref "GOC:sl" ,
+                      "PMID:12606499"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035941
+obo:GO_0035941 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0046879 ,
+                               obo:GO_0140353 ;
+               obo:IAO_0000115 "The regulated release of androstenedione (androst-4-ene-3,17-dione) into the circulatory system." ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2011-07-25T02:11:47Z" ;
+               oboInOwl:hasExactSynonym "androst-4-ene-3,17-dione secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035941" ;
+               rdfs:label "androstenedione secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035941 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of androstenedione (androst-4-ene-3,17-dione) into the circulatory system." ;
+   oboInOwl:hasDbXref "GOC:sl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0040007
+obo:GO_0040007 rdf:type owl:Class ;
+               obo:IAO_0000115 "The increase in size or mass of an entire organism, a part of an organism or a cell." ;
+               oboInOwl:hasAlternativeId "GO:0048590" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "growth pattern" ,
+                                          "non-developmental growth" ;
+               oboInOwl:id "GO:0040007" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "See also the biological process term 'cell growth ; GO:0016049'." ;
+               rdfs:label "growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0040007 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The increase in size or mass of an entire organism, a part of an organism or a cell." ;
+   oboInOwl:hasDbXref "GOC:bf" ,
+                      "GOC:ma"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0040007 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "non-developmental growth" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0040008
+obo:GO_0040008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of the growth of all or part of an organism so that it occurs at its proper speed, either globally or in a specific part of the organism's development." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0040008" ;
+               rdfs:label "regulation of growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0040008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of the growth of all or part of an organism so that it occurs at its proper speed, either globally or in a specific part of the organism's development." ;
+   oboInOwl:hasDbXref "GOC:ems" ,
+                      "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042221
+obo:GO_0042221 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050896 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a chemical stimulus." ;
+               oboInOwl:hasExactSynonym "response to chemical stimulus" ,
+                                        "response to chemical substance" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0042221" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to chemical" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042221 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a chemical stimulus." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042221 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to chemical stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042592
+obo:GO_0042592 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any biological process involved in the maintenance of an internal steady state. Homeostasis allows cells and organisms to maintain stable internal conditions despite varying external conditions." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/31175"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0032844" ,
+                                         "GO:0032845" ,
+                                         "GO:0032846" ;
+               oboInOwl:hasExactSynonym "homeostasis" ;
+               oboInOwl:hasNarrowSynonym "activation of homeostatic process" ,
+                                         "inhibition of homeostatic process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "negative regulation of homeostatic process" ,
+                                          "positive regulation of homeostatic process" ,
+                                          "regulation of homeostatic process" ;
+               oboInOwl:id "GO:0042592" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ;
+               rdfs:label "homeostatic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042592 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process involved in the maintenance of an internal steady state. Homeostasis allows cells and organisms to maintain stable internal conditions despite varying external conditions." ;
+   oboInOwl:hasDbXref "PMID:26265027"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042713
+obo:GO_0042713 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048609 ;
+               obo:IAO_0000115 "The expulsion of seminal fluid, thick white fluid containing spermatozoa, from the male genital tract." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0042713" ;
+               rdfs:label "sperm ejaculation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042713 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The expulsion of seminal fluid, thick white fluid containing spermatozoa, from the male genital tract." ;
+   oboInOwl:hasDbXref "GOC:jl" ,
+                      "PMID:26385403"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0043084
+obo:GO_0043084 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048609 ;
+               obo:IAO_0000115 "The hardening, enlarging and rising of the penis which often occurs in the sexually aroused male and enables sexual intercourse. Achieved by increased inflow of blood into the vessels of erectile tissue, and decreased outflow." ;
+               oboInOwl:hasDbXref "Wikipedia:Erection#Penile_erection" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0043084" ;
+               rdfs:label "penile erection" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0043084 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The hardening, enlarging and rising of the penis which often occurs in the sexually aroused male and enables sexual intercourse. Achieved by increased inflow of blood into the vessels of erectile tissue, and decreased outflow." ;
+   oboInOwl:hasDbXref "GOC:jl" ,
+                      "Wikipedia:Penile_erection"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0044057
+obo:GO_0044057 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051239 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a system process, a multicellular organismal process carried out by any of the organs or tissues in an organ system." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0044057" ;
+               rdfs:label "regulation of system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0044057 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a system process, a multicellular organismal process carried out by any of the organs or tissues in an organ system." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0044060
+obo:GO_0044060 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0044057 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of an endocrine process, a process involving the secretion of or response to endocrine hormones. An endocrine hormone is a hormone released into the circulatory system." ;
+               oboInOwl:hasExactSynonym "regulation of endocrine system process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0044060" ;
+               rdfs:label "regulation of endocrine process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0044060 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of an endocrine process, a process involving the secretion of or response to endocrine hormones. An endocrine hormone is a hormone released into the circulatory system." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0044703
+obo:GO_0044703 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0022414 ;
+               obo:IAO_0000115 "A biological process that directly contributes to the process of producing new individuals, involving another organism." ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-09-19T15:56:30Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0044703" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_drosophila> ;
+               rdfs:label "multi-organism reproductive process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0044703 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A biological process that directly contributes to the process of producing new individuals, involving another organism." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0044706
+obo:GO_0044706 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ;
+               obo:IAO_0000115 "A multicellular organism process which involves another multicellular organism of the same or different species." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/21459"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-09-19T16:06:16Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0044706" ;
+               rdfs:label "multi-multicellular organism process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0044706 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A multicellular organism process which involves another multicellular organism of the same or different species." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0045136
+obo:GO_0045136 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003006 ;
+               obo:IAO_0000115 "The process whose specific outcome is the progression of the secondary sexual characteristics over time, from their formation to the mature structures. In humans, these include growth of axillary, chest, and pubic hair, voice changes, testicular/penile enlargement, breast development and menstrual periods. Development occurs in response to sex hormone secretion." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0045136" ;
+               rdfs:label "development of secondary sexual characteristics" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0045136 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process whose specific outcome is the progression of the secondary sexual characteristics over time, from their formation to the mature structures. In humans, these include growth of axillary, chest, and pubic hair, voice changes, testicular/penile enlargement, breast development and menstrual periods. Development occurs in response to sex hormone secretion." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0045137
+obo:GO_0045137 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003006 ;
+               obo:IAO_0000115 "The process whose specific outcome is the progression of the primary sexual characteristics over time, from their formation to the mature structures. The primary sexual characteristics are the testes in males and the ovaries in females and they develop in response to sex hormone secretion." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0045137" ;
+               rdfs:label "development of primary sexual characteristics" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0045137 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process whose specific outcome is the progression of the primary sexual characteristics over time, from their formation to the mature structures. The primary sexual characteristics are the testes in males and the ovaries in females and they develop in response to sex hormone secretion." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0045844
+obo:GO_0045844 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0016202 ,
+                               obo:GO_0048636 ,
+                               obo:GO_0065007 ,
+                               obo:GO_1901863 ;
+               obo:IAO_0000115 "Any process that activates or increases the frequency, rate or extent of striated muscle development." ;
+               oboInOwl:hasExactSynonym "up regulation of striated muscle development" ,
+                                        "up-regulation of striated muscle development" ,
+                                        "upregulation of striated muscle development" ;
+               oboInOwl:hasNarrowSynonym "activation of striated muscle development" ,
+                                         "stimulation of striated muscle development" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0045844" ;
+               rdfs:label "positive regulation of striated muscle tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0045844 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates or increases the frequency, rate or extent of striated muscle development." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0045927
+obo:GO_0045927 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0040008 ,
+                               obo:GO_0048518 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that activates or increases the rate or extent of growth, the increase in size or mass of all or part of an organism." ;
+               oboInOwl:hasExactSynonym "up regulation of growth" ,
+                                        "up-regulation of growth" ,
+                                        "upregulation of growth" ;
+               oboInOwl:hasNarrowSynonym "activation of growth" ,
+                                         "stimulation of growth" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0045927" ;
+               rdfs:label "positive regulation of growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0045927 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates or increases the rate or extent of growth, the increase in size or mass of all or part of an organism." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046544
+obo:GO_0046544 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0045136 ;
+               obo:IAO_0000115 "The process whose specific outcome is the progression of the secondary male sexual characteristics over time, from their formation to the mature structures. In male humans, these include growth of axillary, chest, and pubic hair, voice changes, and testicular/penile enlargement. Development occurs in response to sex hormone secretion." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046544" ;
+               rdfs:label "development of secondary male sexual characteristics" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046544 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process whose specific outcome is the progression of the secondary male sexual characteristics over time, from their formation to the mature structures. In male humans, these include growth of axillary, chest, and pubic hair, voice changes, and testicular/penile enlargement. Development occurs in response to sex hormone secretion." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046546
+obo:GO_0046546 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0045137 ;
+               obo:IAO_0000115 "The process whose specific outcome is the progression of the primary male sexual characteristics over time, from their formation to the mature structures. The primary male sexual characteristics are the testes, and they develop in response to sex hormone secretion." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046546" ;
+               rdfs:label "development of primary male sexual characteristics" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046546 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process whose specific outcome is the progression of the primary male sexual characteristics over time, from their formation to the mature structures. The primary male sexual characteristics are the testes, and they develop in response to sex hormone secretion." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046692
+obo:GO_0046692 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0044703 ,
+                               obo:GO_0044706 ,
+                               obo:GO_0048609 ;
+               obo:IAO_0000115 "Any process that contributes to the success of sperm fertilization in multiply-mated females." ;
+               oboInOwl:hasDbXref "Wikipedia:Sperm_competition" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046692" ;
+               rdfs:label "sperm competition" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046692 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that contributes to the success of sperm fertilization in multiply-mated females." ;
+   oboInOwl:hasDbXref "PMID:10885514"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046693
+obo:GO_0046693 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0046692 ;
+               obo:IAO_0000115 "The retention of sperm by a female following mating." ;
+               oboInOwl:hasExactSynonym "retention of sperm" ,
+                                        "sequestering of sperm" ,
+                                        "sequestration of sperm" ,
+                                        "sperm retention" ,
+                                        "sperm sequestering" ,
+                                        "sperm sequestration" ,
+                                        "storage of sperm" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046693" ;
+               rdfs:label "sperm storage" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046693 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The retention of sperm by a female following mating." ;
+   oboInOwl:hasDbXref "PMID:10885514"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046879
+obo:GO_0046879 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009914 ,
+                               obo:GO_0023061 ;
+               obo:IAO_0000115 "The regulated release of hormones, substances with a specific regulatory effect on a particular organ or group of cells." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046879" ;
+               rdfs:label "hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046879 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of hormones, substances with a specific regulatory effect on a particular organ or group of cells." ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046884
+obo:GO_0046884 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032274 ;
+               obo:IAO_0000115 "The regulated release of follicle-stimulating hormone, a gonadotropic glycoprotein hormone secreted by the anterior pituitary." ;
+               oboInOwl:hasExactSynonym "FSH secretion" ,
+                                        "follicle stimulating hormone secretion" ,
+                                        "follitropin secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046884" ;
+               rdfs:label "follicle-stimulating hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046884 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of follicle-stimulating hormone, a gonadotropic glycoprotein hormone secreted by the anterior pituitary." ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046903
+obo:GO_0046903 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The controlled release of a substance by a cell or a tissue." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046903" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046903 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The controlled release of a substance by a cell or a tissue." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048018
+obo:GO_0048018 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0030546 ;
+               obo:IAO_0000115 "The activity of a gene product that interacts with a receptor to effect a change in the activity of the receptor. Ligands may be produced by the same cell that expresses the receptor. Ligands may also be expressed at the plasma membrane of an adjacent cell (e.g. Notch ligands) or be secreted and diffuse extracellularly from their point of origin to the receiving cell (e.g. interleukins)." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/14220"^^xsd:anyURI ,
+                               "https://github.com/geneontology/go-ontology/issues/27076"^^xsd:anyURI ,
+                               "https://github.com/geneontology/go-ontology/issues/31015"^^xsd:anyURI ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-09-13T04:51:59Z" ;
+               oboInOwl:hasAlternativeId "GO:0071884" ;
+               oboInOwl:hasBroadSynonym "agonist" ,
+                                        "signaling molecule" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-163625" ,
+                                  "Reactome:R-HSA-381612" ;
+               oboInOwl:hasExactSynonym "signaling receptor ligand activity" ;
+               oboInOwl:hasOBONamespace "molecular_function" ;
+               oboInOwl:hasRelatedSynonym "receptor agonist activity" ;
+               oboInOwl:id "GO:0048018" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ;
+               rdfs:label "receptor ligand activity" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048018 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The activity of a gene product that interacts with a receptor to effect a change in the activity of the receptor. Ligands may be produced by the same cell that expresses the receptor. Ligands may also be expressed at the plasma membrane of an adjacent cell (e.g. Notch ligands) or be secreted and diffuse extracellularly from their point of origin to the receiving cell (e.g. interleukins)." ;
+   oboInOwl:hasDbXref "GOC:kv" ,
+                      "GOC:molecular_function_refactoring" ,
+                      "GOC:pdt"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048018 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-163625" ;
+   rdfs:label "Glucagon binds to Glucagon receptor"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048018 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-381612" ;
+   rdfs:label "GLP1R binds GLP1"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048018 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "receptor agonist activity" ;
+   oboInOwl:hasDbXref "GOC:molecular_function_refactoring"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048232
+obo:GO_0048232 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007276 ;
+               obo:IAO_0000115 "Generation of the male gamete; specialised haploid cells produced by meiosis and along with a female gamete takes part in sexual reproduction." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048232" ;
+               rdfs:label "male gamete generation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048232 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Generation of the male gamete; specialised haploid cells produced by meiosis and along with a female gamete takes part in sexual reproduction." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:jid"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048518
+obo:GO_0048518 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that activates or increases the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+               oboInOwl:hasAlternativeId "GO:0043119" ;
+               oboInOwl:hasExactSynonym "positive regulation of physiological process" ,
+                                        "up regulation of biological process" ,
+                                        "up-regulation of biological process" ,
+                                        "upregulation of biological process" ;
+               oboInOwl:hasNarrowSynonym "activation of biological process" ,
+                                         "stimulation of biological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048518" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ;
+               rdfs:label "positive regulation of biological process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048518 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates or increases the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+   oboInOwl:hasDbXref "GOC:jid"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048589
+obo:GO_0048589 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0040007 ;
+               obo:IAO_0000115 "The increase in size or mass of an entire organism, a part of an organism or a cell, where the increase in size or mass has the specific outcome of the progression of the organism over time from one condition to another." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048589" ;
+               rdfs:label "developmental growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048589 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The increase in size or mass of an entire organism, a part of an organism or a cell, where the increase in size or mass has the specific outcome of the progression of the organism over time from one condition to another." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048609
+obo:GO_0048609 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0022414 ;
+               obo:IAO_0000115 "The process, occurring above the cellular level, that is pertinent to the reproductive function of a multicellular organism. This includes the integrated processes at the level of tissues and organs." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27054"^^xsd:anyURI ;
+               oboInOwl:hasBroadSynonym "organismal reproductive process" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-1474165" ;
+               oboInOwl:hasExactSynonym "reproductive process in a multicellular organism" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048609" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_drosophila> ;
+               rdfs:label "multicellular organismal reproductive process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048609 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process, occurring above the cellular level, that is pertinent to the reproductive function of a multicellular organism. This includes the integrated processes at the level of tissues and organs." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:jid" ,
+                      "GOC:tb"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048609 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-1474165" ;
+   rdfs:label "Reproduction"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048631
+obo:GO_0048631 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048638 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of skeletal muscle growth." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048631" ;
+               rdfs:label "regulation of skeletal muscle tissue growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048631 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of skeletal muscle growth." ;
+   oboInOwl:hasDbXref "GOC:lm" ,
+                      "PMID:15726494" ,
+                      "PMID:15907921"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048633
+obo:GO_0048633 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048631 ,
+                               obo:GO_0048639 ,
+                               obo:GO_0048643 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that activates, maintains or increases the rate of skeletal muscle growth." ;
+               oboInOwl:hasExactSynonym "up regulation of skeletal muscle growth" ,
+                                        "up-regulation of skeletal muscle growth" ,
+                                        "upregulation of skeletal muscle growth" ;
+               oboInOwl:hasNarrowSynonym "activation of skeletal muscle growth" ,
+                                         "stimulation of skeletal muscle growth" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048633" ;
+               rdfs:label "positive regulation of skeletal muscle tissue growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048633 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates, maintains or increases the rate of skeletal muscle growth." ;
+   oboInOwl:hasDbXref "GOC:lm" ,
+                      "PMID:15726494" ,
+                      "PMID:15907921"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048634
+obo:GO_0048634 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050793 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of muscle development." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048634" ;
+               rdfs:label "regulation of muscle organ development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048634 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of muscle development." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048636
+obo:GO_0048636 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048634 ,
+                               obo:GO_0051094 ,
+                               obo:GO_0051240 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that activates, maintains or increases the rate of muscle development." ;
+               oboInOwl:hasExactSynonym "up regulation of muscle development" ,
+                                        "up-regulation of muscle development" ,
+                                        "upregulation of muscle development" ;
+               oboInOwl:hasNarrowSynonym "activation of muscle development" ,
+                                         "stimulation of muscle development" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048636" ;
+               rdfs:label "positive regulation of muscle organ development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048636 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates, maintains or increases the rate of muscle development." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048638
+obo:GO_0048638 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0040008 ,
+                               obo:GO_0050793 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of developmental growth." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048638" ;
+               rdfs:label "regulation of developmental growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048638 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of developmental growth." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048639
+obo:GO_0048639 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0045927 ,
+                               obo:GO_0048638 ,
+                               obo:GO_0051094 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that activates, maintains or increases the rate of developmental growth." ;
+               oboInOwl:hasExactSynonym "up regulation of developmental growth" ,
+                                        "up-regulation of developmental growth" ,
+                                        "upregulation of developmental growth" ;
+               oboInOwl:hasNarrowSynonym "activation of developmental growth" ,
+                                         "stimulation of developmental growth" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048639" ;
+               rdfs:label "positive regulation of developmental growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048639 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates, maintains or increases the rate of developmental growth." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048641
+obo:GO_0048641 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0016202 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of skeletal muscle tissue development." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048641" ;
+               rdfs:label "regulation of skeletal muscle tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048641 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of skeletal muscle tissue development." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048643
+obo:GO_0048643 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0045844 ,
+                               obo:GO_0048641 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that activates, maintains or increases the rate of skeletal muscle tissue development." ;
+               oboInOwl:hasExactSynonym "up regulation of skeletal muscle development" ,
+                                        "up-regulation of skeletal muscle development" ,
+                                        "upregulation of skeletal muscle development" ;
+               oboInOwl:hasNarrowSynonym "activation of skeletal muscle development" ,
+                                         "stimulation of skeletal muscle development" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048643" ;
+               rdfs:label "positive regulation of skeletal muscle tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048643 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates, maintains or increases the rate of skeletal muscle tissue development." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050789
+obo:GO_0050789 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+               oboInOwl:hasAlternativeId "GO:0050791" ;
+               oboInOwl:hasExactSynonym "regulation of physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050789" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of biological process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050789 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050793
+obo:GO_0050793 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of development, the biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote, or a young adult) to a later condition (e.g. a multicellular animal or an aged adult)." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050793" ;
+               rdfs:label "regulation of developmental process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050793 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of development, the biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote, or a young adult) to a later condition (e.g. a multicellular animal or an aged adult)." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050877
+obo:GO_0050877 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "An organ system process carried out by any of the organs or tissues of the neurological system." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/13824"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "neurological system process" ,
+                                        "neurophysiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "pan-neural process" ;
+               oboInOwl:id "GO:0050877" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "nervous system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050877 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An organ system process carried out by any of the organs or tissues of the neurological system." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050879
+obo:GO_0050879 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ;
+               obo:IAO_0000115 "Any physiological process involved in changing the position of a multicellular organism or an anatomical part of a multicellular organism." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050879" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "multicellular organismal movement" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050879 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any physiological process involved in changing the position of a multicellular organism or an anatomical part of a multicellular organism." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:mtg_muscle" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050881
+obo:GO_0050881 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050879 ,
+                               obo:GO_0050905 ;
+               obo:IAO_0000115 "The movement of an organism or part of an organism using mechanoreceptors, the nervous system, striated muscle and/or the skeletal system." ;
+               obo:RO_0002175 obo:NCBITaxon_7227 ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050881" ;
+               rdfs:label "musculoskeletal movement" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050881 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The movement of an organism or part of an organism using mechanoreceptors, the nervous system, striated muscle and/or the skeletal system." ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050883
+obo:GO_0050883 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050881 ,
+                               obo:GO_0060004 ;
+               obo:IAO_0000115 "Involuntary movement caused by the application of a stimulus to an organism and a subsequent movement. The signal processing of this movement takes place in the spinal cord." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050883" ;
+               rdfs:label "musculoskeletal movement, spinal reflex action" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050883 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Involuntary movement caused by the application of a stimulus to an organism and a subsequent movement. The signal processing of this movement takes place in the spinal cord." ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050890
+obo:GO_0050890 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050877 ;
+               obo:IAO_0000115 "The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory." ;
+               oboInOwl:hasDbXref "Wikipedia:Cognition" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050890" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ;
+               rdfs:label "cognition" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050890 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory." ;
+   oboInOwl:hasDbXref "ISBN:0721619908"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050893
+obo:GO_0050893 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050890 ;
+               obo:IAO_0000115 "Any neural process required for an organism to sense and interpret the dimensions of a sensory experience: modality, location, intensity and affect." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050893" ;
+               rdfs:label "sensory processing" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050893 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any neural process required for an organism to sense and interpret the dimensions of a sensory experience: modality, location, intensity and affect." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "ISBN:0721662544"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050896
+obo:GO_0050896 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism." ;
+               oboInOwl:hasAlternativeId "GO:0051869" ;
+               oboInOwl:hasExactSynonym "physiological response to stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050896" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050896 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050905
+obo:GO_0050905 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050877 ;
+               obo:IAO_0000115 "Any process pertaining to the functions of the nervous and muscular systems of an organism." ;
+               oboInOwl:hasExactSynonym "neuromotor process" ,
+                                        "neuromuscular physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050905" ;
+               rdfs:label "neuromuscular process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050905 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process pertaining to the functions of the nervous and muscular systems of an organism." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051094
+obo:GO_0051094 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048518 ,
+                               obo:GO_0050793 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that activates or increases the rate or extent of development, the biological process whose specific outcome is the progression of an organism over time from an initial condition (e.g. a zygote, or a young adult) to a later condition (e.g. a multicellular animal or an aged adult)." ;
+               oboInOwl:hasExactSynonym "up regulation of developmental process" ,
+                                        "up-regulation of developmental process" ,
+                                        "upregulation of developmental process" ;
+               oboInOwl:hasNarrowSynonym "activation of developmental process" ,
+                                         "stimulation of developmental process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051094" ;
+               rdfs:label "positive regulation of developmental process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051094 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates or increases the rate or extent of development, the biological process whose specific outcome is the progression of an organism over time from an initial condition (e.g. a zygote, or a young adult) to a later condition (e.g. a multicellular animal or an aged adult)." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051179
+obo:GO_0051179 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27052"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2013-12-18T13:51:04Z" ;
+               oboInOwl:hasAlternativeId "GO:1902578" ;
+               oboInOwl:hasExactSynonym "establishment and maintenance of localization" ,
+                                        "establishment and maintenance of position" ,
+                                        "localisation" ;
+               oboInOwl:hasNarrowSynonym "establishment and maintenance of cellular component location" ,
+                                         "establishment and maintenance of substance location" ,
+                                         "establishment and maintenance of substrate location" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single organism localization" ,
+                                          "single-organism localization" ;
+               oboInOwl:id "GO:0051179" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "localization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dos"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "localisation" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "single organism localization" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051234
+obo:GO_0051234 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051179 ;
+               obo:IAO_0000115 "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24200"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "establishment of localisation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051234" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "establishment of localization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051234 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dos"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051234 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "establishment of localisation" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051239
+obo:GO_0051239 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051239" ;
+               rdfs:label "regulation of multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051239 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051240
+obo:GO_0051240 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048518 ,
+                               obo:GO_0051239 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that activates or increases the frequency, rate or extent of an organismal process, any of the processes pertinent to the function of an organism above the cellular level; includes the integrated processes of tissues and organs." ;
+               oboInOwl:hasExactSynonym "up regulation of multicellular organismal process" ,
+                                        "up-regulation of multicellular organismal process" ,
+                                        "upregulation of multicellular organismal process" ;
+               oboInOwl:hasNarrowSynonym "activation of multicellular organismal process" ,
+                                         "stimulation of multicellular organismal process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051240" ;
+               rdfs:label "positive regulation of multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051240 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates or increases the frequency, rate or extent of an organismal process, any of the processes pertinent to the function of an organism above the cellular level; includes the integrated processes of tissues and organs." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060004
+obo:GO_0060004 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009605 ;
+               obo:IAO_0000115 "An automatic response to a stimulus beginning with a nerve impulse from a receptor and ending with the action of an effector such as a gland or a muscle. Signaling never reaches a level of consciousness." ;
+               oboInOwl:hasDbXref "Wikipedia:Reflex" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0060004" ;
+               rdfs:label "reflex" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0060004 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An automatic response to a stimulus beginning with a nerve impulse from a receptor and ending with the action of an effector such as a gland or a muscle. Signaling never reaches a level of consciousness." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "ISBN:0877797099"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060384
+obo:GO_0060384 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ;
+               obo:IAO_0000115 "The process in which a nerve invades a tissue and makes functional synaptic connection within the tissue." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0060384" ;
+               rdfs:label "innervation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0060384 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which a nerve invades a tissue and makes functional synaptic connection within the tissue." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:sart"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060986
+obo:GO_0060986 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0046879 ;
+               obo:IAO_0000115 "The regulated release of a hormone into the circulatory system." ;
+               oboInOwl:created_by "dph" ;
+               oboInOwl:creation_date "2010-01-11T09:03:48Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0060986" ;
+               rdfs:label "endocrine hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0060986 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of a hormone into the circulatory system." ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0065007
+obo:GO_0065007 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that modulates a measurable attribute of any biological process, quality or function." ;
+               oboInOwl:hasBroadSynonym "regulation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0065007" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "biological regulation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0065007 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates a measurable attribute of any biological process, quality or function." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:mah" ,
+                      "GOC:pr" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0065008
+obo:GO_0065008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates a qualitative or quantitative trait of a biological quality. A biological quality is a measurable attribute of an organism or part of an organism, such as size, mass, shape, color, etc." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/30599"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "regulation of biological attribute" ,
+                                        "regulation of biological characteristic" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0065008" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of biological quality" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0065008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates a qualitative or quantitative trait of a biological quality. A biological quality is a measurable attribute of an organism or part of an organism, such as size, mass, shape, color, etc." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:mah" ,
+                      "GOC:pr" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0070253
+obo:GO_0070253 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0030072 ;
+               obo:IAO_0000115 "The regulated release of somatostatin from secretory granules in the D cells of the pancreas." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0070253" ;
+               rdfs:label "somatostatin secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070253 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of somatostatin from secretory granules in the D cells of the pancreas." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0071705
+obo:GO_0071705 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of nitrogen-containing compounds into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-03-08T03:56:28Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0071705" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate> ;
+               rdfs:label "nitrogen compound transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071705 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of nitrogen-containing compounds into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0098772
+obo:GO_0098772 rdf:type owl:Class ;
+               obo:IAO_0000115 "A molecular function regulator regulates the activity of its target via non-covalent binding that does not result in covalent modification to the target. Examples of molecular function regulators include regulatory subunits of multimeric enzymes and channels. Mechanisms of regulation include allosteric changes in the target and competitive inhibition." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/20854"^^xsd:anyURI ,
+                               "https://github.com/geneontology/go-ontology/issues/20862"^^xsd:anyURI ,
+                               "https://github.com/geneontology/go-ontology/issues/25165"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "molecular function regulator" ;
+               oboInOwl:hasOBONamespace "molecular_function" ;
+               oboInOwl:id "GO:0098772" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_euk_cellular_processes_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification." ;
+               rdfs:label "molecular function regulator activity" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0098772 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A molecular function regulator regulates the activity of its target via non-covalent binding that does not result in covalent modification to the target. Examples of molecular function regulators include regulatory subunits of multimeric enzymes and channels. Mechanisms of regulation include allosteric changes in the target and competitive inhibition." ;
+   oboInOwl:hasDbXref "GOC:dos" ,
+                      "GOC:pt"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0140352
+obo:GO_0140352 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ,
+                               obo:GO_0009987 ;
+               obo:IAO_0000115 "The directed movement of some substance from a cell, into the extracellular region. This may occur via transport across the plasma membrane or via exocytosis." ;
+               oboInOwl:created_by "pg" ;
+               oboInOwl:creation_date "2019-05-22T11:20:45Z" ;
+               oboInOwl:hasBroadSynonym "efflux" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0140352" ;
+               rdfs:label "export from cell" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0140352 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of some substance from a cell, into the extracellular region. This may occur via transport across the plasma membrane or via exocytosis." ;
+   oboInOwl:hasDbXref "GOC:pg"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0140353
+obo:GO_0140353 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006869 ,
+                               obo:GO_0140352 ;
+               obo:IAO_0000115 "The directed movement of a lipid from a cell, into the extracellular region." ;
+               oboInOwl:created_by "pg" ;
+               oboInOwl:creation_date "2019-05-22T11:33:07Z" ;
+               oboInOwl:hasBroadSynonym "lipid efflux" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0140353" ;
+               rdfs:label "lipid export from cell" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0140353 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of a lipid from a cell, into the extracellular region." ;
+   oboInOwl:hasDbXref "GOC:pg"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0140677
+obo:GO_0140677 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0098772 ;
+               obo:IAO_0000115 "A molecular function regulator that activates or increases the activity of its target via non-covalent binding that does not result in covalent modification to the target." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/21782"^^xsd:anyURI ,
+                               "https://github.com/geneontology/go-ontology/issues/25165"^^xsd:anyURI ;
+               oboInOwl:created_by "pg" ;
+               oboInOwl:creation_date "2021-07-07T07:24:16Z" ;
+               oboInOwl:hasOBONamespace "molecular_function" ;
+               oboInOwl:id "GO:0140677" ;
+               rdfs:comment "This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification." ;
+               rdfs:label "molecular function activator activity" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0140677 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A molecular function regulator that activates or increases the activity of its target via non-covalent binding that does not result in covalent modification to the target." ;
+   oboInOwl:hasDbXref "GOC:curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1901654
+obo:GO_1901654 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_1901700 ;
+               obo:IAO_0000115 "A response that results in a state of tolerance to ketone." ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2012-11-20T10:55:47Z" ;
+               oboInOwl:hasAlternativeId "GO:1990369" ;
+               oboInOwl:hasNarrowSynonym "process resulting in tolerance to ketone" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1901654" ;
+               rdfs:label "response to ketone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901654 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A response that results in a state of tolerance to ketone." ;
+   oboInOwl:hasDbXref "GOC:mengo_curators" ,
+                      "PMID:23356676"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1901700
+obo:GO_1901700 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042221 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an oxygen-containing compound stimulus." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27194"^^xsd:anyURI ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2012-12-13T15:11:37Z" ;
+               oboInOwl:hasExactSynonym "response to oxygen molecular entity" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1901700" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to oxygen-containing compound" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901700 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an oxygen-containing compound stimulus." ;
+   oboInOwl:hasDbXref "GOC:TermGenie" ,
+                      "GOC:pr"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1901861
+obo:GO_1901861 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050793 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of muscle tissue development." ;
+               oboInOwl:created_by "yaf" ;
+               oboInOwl:creation_date "2013-02-01T10:30:47Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1901861" ;
+               rdfs:label "regulation of muscle tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901861 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of muscle tissue development." ;
+   oboInOwl:hasDbXref "GOC:TermGenie" ,
+                      "GOC:yaf" ,
+                      "PMID:23150719"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1901863
+obo:GO_1901863 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051094 ,
+                               obo:GO_0065007 ,
+                               obo:GO_1901861 ;
+               obo:IAO_0000115 "Any process that activates or increases the frequency, rate or extent of muscle tissue development." ;
+               oboInOwl:created_by "yaf" ;
+               oboInOwl:creation_date "2013-02-01T10:30:57Z" ;
+               oboInOwl:hasExactSynonym "up regulation of muscle tissue development" ,
+                                        "up-regulation of muscle tissue development" ,
+                                        "upregulation of muscle tissue development" ;
+               oboInOwl:hasNarrowSynonym "activation of muscle tissue development" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1901863" ;
+               rdfs:label "positive regulation of muscle tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901863 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that activates or increases the frequency, rate or extent of muscle tissue development." ;
+   oboInOwl:hasDbXref "GOC:TermGenie" ,
+                      "GOC:yaf" ,
+                      "PMID:23150719"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901863 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "up regulation of muscle tissue development" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901863 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "up-regulation of muscle tissue development" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901863 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "upregulation of muscle tissue development" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901863 ;
+   owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+   owl:annotatedTarget "activation of muscle tissue development" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
  ] .
 
 
@@ -14952,7 +17174,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R15-ReferenceField-1> ;
                                                                               wpp:signal_field "somatostatin" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R15-EffectorField
@@ -15048,7 +17270,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R16-ReferenceField-1> ;
                                                                               wpp:signal_field "dopamine" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R16-EffectorField
@@ -15143,7 +17365,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 17 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R17-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "seconds, minutes" ;
+                                                                              wpp:time_scale_field "seconds-minutes" ;
                                                                               wpp:x_target_field "[0.5, 4]" .
 
 
@@ -15240,7 +17462,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R18-ReferenceField-1> ;
                                                                               wpp:signal_field "somatostatin" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R18-EffectorField
@@ -15336,7 +17558,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R19-ReferenceField-1> ;
                                                                               wpp:signal_field "dopamine" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R19-EffectorField
@@ -15431,7 +17653,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 20 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R20-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "seconds, minutes" ;
+                                                                              wpp:time_scale_field "seconds-minutes" ;
                                                                               wpp:x_target_field "[10, 60]" .
 
 
@@ -15528,7 +17750,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R21-ReferenceField-1> ;
                                                                               wpp:signal_field "somatostatin" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R21-EffectorField
@@ -15624,7 +17846,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R22-ReferenceField-1> ;
                                                                               wpp:signal_field "dopamine" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R22-EffectorField
@@ -15719,7 +17941,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 23 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R23-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "seconds, minutes" ;
+                                                                              wpp:time_scale_field "seconds-minutes" ;
                                                                               wpp:x_target_field "[1, 7]" .
 
 
@@ -15816,7 +18038,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R24-ReferenceField-1> ;
                                                                               wpp:signal_field "somatostatin" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R24-EffectorField
@@ -15912,7 +18134,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R25-ReferenceField-1> ;
                                                                               wpp:signal_field "dopamine" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R25-EffectorField
@@ -16007,7 +18229,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 26 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R26-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "seconds, minutes" ;
+                                                                              wpp:time_scale_field "seconds-minutes" ;
                                                                               wpp:x_target_field "[2, 9]" .
 
 
@@ -16104,7 +18326,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R27-ReferenceField-1> ;
                                                                               wpp:signal_field "somatostatin" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R27-EffectorField
@@ -16200,7 +18422,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R28-ReferenceField-1> ;
                                                                               wpp:signal_field "dopamine" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R28-EffectorField
@@ -16295,7 +18517,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 29 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R29-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "seconds, minutes" ;
+                                                                              wpp:time_scale_field "seconds-minutes" ;
                                                                               wpp:x_target_field "[0,20]" .
 
 
@@ -16392,7 +18614,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R30-ReferenceField-1> ;
                                                                               wpp:signal_field "somatostatin" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R30-EffectorField
@@ -16488,7 +18710,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R31-ReferenceField-1> ;
                                                                               wpp:signal_field "dopamine" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "minutes, hours" .
+                                                                              wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R31-EffectorField
@@ -16971,7 +19193,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R37-ReferenceField-1> ;
                                                                               wpp:signal_field "gonadotropin releasing hormone, continuous" ;
                                                                               wpp:signal_scale_field "circulatory" ;
-                                                                              wpp:time_scale_field "seconds, minutes" .
+                                                                              wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R37-EffectorField
@@ -17044,7 +19266,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R38-ReferenceField-1> ;
                                                                               wpp:signal_field "gonadotropin releasing hormone, continuous" ;
                                                                               wpp:signal_scale_field "circulatory" ;
-                                                                              wpp:time_scale_field "seconds, minutes" .
+                                                                              wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R38-EffectorField
@@ -17601,7 +19823,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R44-ReferenceField-1> ;
                                                                               wpp:signal_scale_field "autocrine, paracrine, circulatory" ;
-                                                                              wpp:time_scale_field "weeks, months" .
+                                                                              wpp:time_scale_field "weeks-months" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R44-ClinicalMeasureField-1
@@ -17718,7 +19940,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R45-ReferenceField-1> ;
                                                                               wpp:signal_scale_field "autocrine, paracrine, circulatory" ;
-                                                                              wpp:time_scale_field "weeks, months" .
+                                                                              wpp:time_scale_field "weeks-months" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R45-ClinicalMeasureField-1
@@ -17836,7 +20058,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R46-ReferenceField-1> ;
                                                                               wpp:signal_field "testosterone" ;
                                                                               wpp:signal_scale_field "autocrine, paracrine, circulatory" ;
-                                                                              wpp:time_scale_field "weeks, months" .
+                                                                              wpp:time_scale_field "weeks-months" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R46-ClinicalMeasureField-1
@@ -17954,7 +20176,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R47-ReferenceField-1> ;
                                                                               wpp:signal_field "testosterone" ;
                                                                               wpp:signal_scale_field "autocrine, paracrine, circulatory" ;
-                                                                              wpp:time_scale_field "weeks, months" .
+                                                                              wpp:time_scale_field "weeks-months" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R47-ClinicalMeasureField-1
@@ -18070,7 +20292,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 48 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R48-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "hours, days" .
+                                                                              wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R48-ClinicalMeasureField-1
@@ -18188,7 +20410,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R49-ReferenceField-1> ;
                                                                               wpp:signal_field "testosterone" ;
                                                                               wpp:signal_scale_field "paracrine" ;
-                                                                              wpp:time_scale_field "hours, days" .
+                                                                              wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R49-ClinicalMeasureField-1
@@ -18304,7 +20526,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 50 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R50-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "days, weeks" .
+                                                                              wpp:time_scale_field "days-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R50-ClinicalMeasureField-1
@@ -18422,7 +20644,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R51-ReferenceField-1> ;
                                                                               wpp:signal_field "testosterone" ;
                                                                               wpp:signal_scale_field "circulatory" ;
-                                                                              wpp:time_scale_field "days, weeks" .
+                                                                              wpp:time_scale_field "days-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R51-ClinicalMeasureField-1
@@ -18540,7 +20762,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R52-ReferenceField-1> ;
                                                                               wpp:signal_field "testosterone" ;
                                                                               wpp:signal_scale_field "circulatory" ;
-                                                                              wpp:time_scale_field "days, weeks" .
+                                                                              wpp:time_scale_field "days-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R52-ClinicalMeasureField-1
@@ -18656,7 +20878,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 53 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R53-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "seconds, minutes" .
+                                                                              wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R53-ClinicalMeasureField-1
@@ -18760,7 +20982,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                               wpp:record_number 54 ;
                                                                               wpp:record_source <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system> ;
                                                                               wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R54-ReferenceField-1> ;
-                                                                              wpp:time_scale_field "seconds, minutes" .
+                                                                              wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft#R54-ClinicalMeasureField-1

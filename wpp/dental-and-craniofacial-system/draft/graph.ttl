@@ -26,7 +26,7 @@
                                                                            dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                                            dct:publisher "HuBMAP" ;
                                                                            dct:title "dental-and-craniofacial-system (draft) graph data" ;
-                                                                           schema1:dateCreated "2026-02-20" ;
+                                                                           schema1:dateCreated "2026-02-24" ;
                                                                            schema1:version "draft" ;
                                                                            rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft> ;
                                                                            prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data> .
@@ -101,7 +101,9 @@ obo:IAO_0000233 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000112 "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"@en ;
                 obo:IAO_0000115 "An IRI or similar locator for a request or discussion of an ontology term."@en ;
                 oboInOwl:hasDbXref "IAO:0000233" ;
+                oboInOwl:hasOBONamespace "external" ;
                 oboInOwl:id "term_tracker_item" ;
+                oboInOwl:is_class_level "true"^^xsd:boolean ;
                 oboInOwl:is_metadata_tag "true"^^xsd:boolean ;
                 oboInOwl:shorthand "term_tracker_item" ;
                 rdfs:comment "The 'tracker item' can associate a tracker with a specific ontology term."@en ;
@@ -520,6 +522,11 @@ schema1:dateCreated rdf:type owl:AnnotationProperty .
 schema1:version rdf:type owl:AnnotationProperty .
 
 
+###  http://www.geneontology.org/formats/oboInOwl#created_by
+oboInOwl:created_by rdf:type owl:AnnotationProperty ;
+                    rdfs:label "created by" .
+
+
 ###  http://www.geneontology.org/formats/oboInOwl#creation_date
 oboInOwl:creation_date rdf:type owl:AnnotationProperty ;
                        rdfs:label "creation date" .
@@ -577,6 +584,11 @@ oboInOwl:hasNarrowSynonym rdf:type owl:AnnotationProperty ;
                           rdfs:label "has narrow synonym"@en ,
                                      "has_narrow_synonym" ;
                           rdfs:seeAlso "https://github.com/information-artifact-ontology/ontology-metadata/issues/19" .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+oboInOwl:hasOBONamespace rdf:type owl:AnnotationProperty ;
+                         rdfs:label "has_obo_namespace" .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
@@ -2757,6 +2769,1881 @@ obo:CL_1100001 rdf:type owl:Class ;
    owl:annotatedProperty obo:IAO_0000115 ;
    owl:annotatedTarget "An epithelial cell that is specialised for the synthesis and secretion of specific biomolecules." ;
    oboInOwl:hasDbXref <https://orcid.org/0000-0002-7073-9172>
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002262
+obo:GO_0002262 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0002376 ,
+                               obo:GO_0048872 ;
+               obo:IAO_0000115 "The process of regulating the proliferation and elimination of myeloid cells such that the total number of myeloid cells within a whole or part of an organism is stable over time in the absence of an outside stimulus." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0002262" ;
+               rdfs:label "myeloid cell homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002262 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process of regulating the proliferation and elimination of myeloid cells such that the total number of myeloid cells within a whole or part of an organism is stable over time in the absence of an outside stimulus." ;
+   oboInOwl:hasDbXref "CL:0000763" ,
+                      "GOC:add"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002376
+obo:GO_0002376 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process involved in the development or functioning of the immune system, an organismal system for calibrated responses to potential internal or invasive threats." ;
+               oboInOwl:hasDbXref "Wikipedia:Immune_system" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0002376" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:comment "Note that this term is a direct child of 'biological_process ; GO:0008150' because some immune system processes are types of cellular process (GO:0009987), whereas others are types of multicellular organism process (GO:0032501)." ;
+               rdfs:label "immune system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002376 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the development or functioning of the immune system, an organismal system for calibrated responses to potential internal or invasive threats." ;
+   oboInOwl:hasDbXref "GOC:add" ,
+                      "GO_REF:0000022"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002790
+obo:GO_0002790 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0015833 ,
+                               obo:GO_0046903 ;
+               obo:IAO_0000115 "The controlled release of a peptide from a cell or a tissue." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0002790" ;
+               rdfs:label "peptide secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002790 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The controlled release of a peptide from a cell or a tissue." ;
+   oboInOwl:hasDbXref "GOC:add"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003008
+obo:GO_0003008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ;
+               obo:IAO_0000115 "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." ;
+               oboInOwl:hasExactSynonym "organ system process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003008" ;
+               rdfs:label "system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003009
+obo:GO_0003009 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006941 ;
+               obo:IAO_0000115 "A process in which force is generated within skeletal muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. In the skeletal muscle, the muscle contraction takes advantage of an ordered sarcomeric structure and in most cases it is under voluntary control." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003009" ;
+               rdfs:label "skeletal muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003009 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within skeletal muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. In the skeletal muscle, the muscle contraction takes advantage of an ordered sarcomeric structure and in most cases it is under voluntary control." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio" ,
+                      "GOC:mtg_muscle"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003012
+obo:GO_0003012 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "An organ system process carried out at the level of a muscle. Muscle tissue is composed of contractile cells or fibers." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "muscle physiological process" ;
+               oboInOwl:id "GO:0003012" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ;
+               rdfs:label "muscle system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003012 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An organ system process carried out at the level of a muscle. Muscle tissue is composed of contractile cells or fibers." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0005575
+obo:GO_0005575 rdf:type owl:Class ;
+               obo:IAO_0000115 "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/17729"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0008372" ;
+               oboInOwl:hasDbXref "NIF_Subcellular:sao1337158144" ;
+               oboInOwl:hasExactSynonym "cell or subcellular entity" ,
+                                        "cellular component" ;
+               oboInOwl:hasOBONamespace "cellular_component" ;
+               oboInOwl:hasRelatedSynonym "subcellular entity" ;
+               oboInOwl:id "GO:0005575" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:comment "Note that, in addition to forming the root of the cellular component ontology, this term is recommended for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this." ;
+               rdfs:label "cellular_component" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005575 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." ;
+   oboInOwl:hasDbXref "GOC:pdt"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005575 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "subcellular entity" ;
+   oboInOwl:hasDbXref "NIF_Subcellular:nlx_subcell_100315"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006810
+obo:GO_0006810 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051234 ;
+               obo:IAO_0000115 "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/20292"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-13T16:25:32Z" ;
+               oboInOwl:hasAlternativeId "GO:0015457" ,
+                                         "GO:0015460" ,
+                                         "GO:0044765" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-382551" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism transport" ;
+               oboInOwl:id "GO:0006810" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that this term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term, for e.g. to transmembrane transport, to microtubule-based transport or to vesicle-mediated transport." ;
+               rdfs:label "transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006810 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein." ;
+   oboInOwl:hasDbXref "GOC:dos" ,
+                      "GOC:dph" ,
+                      "GOC:jl" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006810 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-382551" ;
+   rdfs:label "Transport of small molecules"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006936
+obo:GO_0006936 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003012 ;
+               obo:IAO_0000115 "A process in which force is generated within muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-445355" ,
+                                  "Wikipedia:Muscle_contraction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006936" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006936 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis." ;
+   oboInOwl:hasDbXref "GOC:ef" ,
+                      "GOC:mtg_muscle" ,
+                      "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006936 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-445355" ;
+   rdfs:label "Smooth Muscle Contraction"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006939
+obo:GO_0006939 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006936 ;
+               obo:IAO_0000115 "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." ;
+               oboInOwl:hasExactSynonym "visceral muscle contraction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006939" ;
+               rdfs:label "smooth muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006939 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." ;
+   oboInOwl:hasDbXref "GOC:ef" ,
+                      "GOC:jl" ,
+                      "GOC:mtg_muscle" ,
+                      "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006941
+obo:GO_0006941 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006936 ;
+               obo:IAO_0000115 "A process in which force is generated within striated muscle tissue, resulting in the shortening of the muscle. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Striated muscle is a type of muscle in which the repeating units (sarcomeres) of the contractile myofibrils are arranged in registry throughout the cell, resulting in transverse or oblique striations observable at the level of the light microscope." ;
+               oboInOwl:hasExactSynonym "sarcomeric muscle contraction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006941" ;
+               rdfs:label "striated muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006941 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within striated muscle tissue, resulting in the shortening of the muscle. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Striated muscle is a type of muscle in which the repeating units (sarcomeres) of the contractile myofibrils are arranged in registry throughout the cell, resulting in transverse or oblique striations observable at the level of the light microscope." ;
+   oboInOwl:hasDbXref "GOC:jl" ,
+                      "GOC:mtg_muscle" ,
+                      "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007165
+obo:GO_0007165 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009987 ,
+                               obo:GO_0050794 ;
+               obo:IAO_0000115 "The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell." ;
+               oboInOwl:hasAlternativeId "GO:0023014" ,
+                                         "GO:0023015" ,
+                                         "GO:0023016" ,
+                                         "GO:0023033" ,
+                                         "GO:0023045" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-212718" ,
+                                  "Wikipedia:Signal_transduction" ;
+               oboInOwl:hasNarrowSynonym "signaling cascade" ,
+                                         "signalling cascade" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "signaling pathway" ,
+                                          "signalling pathway" ;
+               oboInOwl:id "GO:0007165" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ;
+               rdfs:comment "Note that signal transduction is defined broadly to include a ligand interacting with a receptor, downstream signaling steps and a response being triggered. A change in form of the signal in every step is not necessary. Note that in many cases the end of this process is regulation of the initiation of transcription. Note that specific transcription factors may be annotated to this term, but core/general transcription machinery such as RNA polymerase should not." ;
+               rdfs:label "signal transduction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007165 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "GOC:mtg_signaling_feb11"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007165 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-212718" ;
+   rdfs:label "EGFR interacts with phospholipase C-gamma"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007589
+obo:GO_0007589 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0046903 ,
+                               obo:GO_0050878 ;
+               obo:IAO_0000115 "The controlled release of a fluid by a cell or tissue in an animal." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007589" ;
+               rdfs:label "body fluid secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007589 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The controlled release of a fluid by a cell or tissue in an animal." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dph" ,
+                      "GOC:mah" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007600
+obo:GO_0007600 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050877 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive a sensory stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-9709957" ,
+                                  "Wikipedia:Perception" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007600" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ;
+               rdfs:label "sensory perception" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007600 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive a sensory stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dph"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007600 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-9709957" ;
+   rdfs:label "Sensory Perception"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007601
+obo:GO_0007601 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050953 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive a visual stimulus, convert it to a molecular signal, and recognize and characterize the signal. Visual stimuli are detected in the form of photons and are processed to form an image." ;
+               oboInOwl:hasDbXref "Wikipedia:Visual_perception" ;
+               oboInOwl:hasExactSynonym "sense of sight" ,
+                                        "sensory visual perception" ,
+                                        "vision" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007601" ;
+               rdfs:label "visual perception" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007601 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive a visual stimulus, convert it to a molecular signal, and recognize and characterize the signal. Visual stimuli are detected in the form of photons and are processed to form an image." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007602
+obo:GO_0007602 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007165 ,
+                               obo:GO_0009583 ;
+               obo:IAO_0000115 "The sequence of reactions within a cell required to convert absorbed photons into a molecular signal." ;
+               oboInOwl:hasDbXref "Wikipedia:Visual_phototransduction" ;
+               oboInOwl:hasNarrowSynonym "phototransduction, visible light, light adaptation" ,
+                                         "phototrophin mediated phototransduction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "opsin" ;
+               oboInOwl:id "GO:0007602" ;
+               rdfs:label "phototransduction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007602 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The sequence of reactions within a cell required to convert absorbed photons into a molecular signal." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007605
+obo:GO_0007605 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050954 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive an auditory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Sonic stimuli are detected in the form of vibrations and are processed to form a sound." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-9659379" ,
+                                  "Wikipedia:Hearing_(sense)" ;
+               oboInOwl:hasExactSynonym "hearing" ,
+                                        "perception of sound" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007605" ;
+               rdfs:label "sensory perception of sound" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007605 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive an auditory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Sonic stimuli are detected in the form of vibrations and are processed to form a sound." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007605 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-9659379" ;
+   rdfs:label "Sensory processing of sound"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007606
+obo:GO_0007606 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007600 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive a sensory chemical stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." ;
+               oboInOwl:hasExactSynonym "chemosensory perception" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007606" ;
+               rdfs:label "sensory perception of chemical stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007606 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive a sensory chemical stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007608
+obo:GO_0007608 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007606 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive an olfactory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Olfaction involves the detection of chemical composition of an organism's ambient medium by chemoreceptors. This is a neurological process." ;
+               oboInOwl:hasDbXref "Wikipedia:Olfaction" ;
+               oboInOwl:hasExactSynonym "olfaction" ,
+                                        "scent perception" ,
+                                        "sense of smell" ,
+                                        "smell perception" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007608" ;
+               rdfs:label "sensory perception of smell" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007608 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive an olfactory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Olfaction involves the detection of chemical composition of an organism's ambient medium by chemoreceptors. This is a neurological process." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009314
+obo:GO_0009314 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009628 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an electromagnetic radiation stimulus. Electromagnetic radiation is a propagating wave in space with electric and magnetic components. These components oscillate at right angles to each other and to the direction of propagation." ;
+               oboInOwl:hasExactSynonym "response to electromagnetic radiation stimulus" ,
+                                        "response to radiation stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009314" ;
+               rdfs:comment "Note that 'radiation' refers to electromagnetic radiation of any wavelength." ;
+               rdfs:label "response to radiation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009314 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an electromagnetic radiation stimulus. Electromagnetic radiation is a propagating wave in space with electric and magnetic components. These components oscillate at right angles to each other and to the direction of propagation." ;
+   oboInOwl:hasDbXref "GOC:jl" ,
+                      "Wikipedia:Electromagnetic_radiation"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009416
+obo:GO_0009416 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009314 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009416" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:label "response to light stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009416 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "ISBN:0582227089"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009581
+obo:GO_0009581 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009605 ,
+                               obo:GO_0051606 ;
+               obo:IAO_0000115 "The series of events in which an external stimulus is received by a cell and converted into a molecular signal." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "perception of external stimulus" ;
+               oboInOwl:id "GO:0009581" ;
+               rdfs:label "detection of external stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009581 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events in which an external stimulus is received by a cell and converted into a molecular signal." ;
+   oboInOwl:hasDbXref "GOC:hb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009582
+obo:GO_0009582 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009628 ,
+                               obo:GO_0051606 ;
+               obo:IAO_0000115 "The series of events in which an (non-living) abiotic stimulus is received by a cell and converted into a molecular signal." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "perception of abiotic stimulus" ;
+               oboInOwl:id "GO:0009582" ;
+               rdfs:label "detection of abiotic stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009582 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events in which an (non-living) abiotic stimulus is received by a cell and converted into a molecular signal." ;
+   oboInOwl:hasDbXref "GOC:hb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009583
+obo:GO_0009583 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009416 ,
+                               obo:GO_0009581 ,
+                               obo:GO_0009582 ;
+               obo:IAO_0000115 "The series of events in which a light stimulus (in the form of photons) is received and converted into a molecular signal." ;
+               oboInOwl:hasExactSynonym "detection of light" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "perception of light" ;
+               oboInOwl:id "GO:0009583" ;
+               rdfs:label "detection of light stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009583 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events in which a light stimulus (in the form of photons) is received and converted into a molecular signal." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009605
+obo:GO_0009605 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050896 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an external stimulus." ;
+               oboInOwl:hasExactSynonym "response to environmental stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009605" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to external stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009605 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an external stimulus." ;
+   oboInOwl:hasDbXref "GOC:hb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009628
+obo:GO_0009628 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050896 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an abiotic (not derived from living organisms) stimulus." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/16572"^^xsd:anyURI ;
+               oboInOwl:hasNarrowSynonym "response to abiotic stress" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009628" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to abiotic stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009628 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an abiotic (not derived from living organisms) stimulus." ;
+   oboInOwl:hasDbXref "GOC:hb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009888
+obo:GO_0009888 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048856 ;
+               obo:IAO_0000115 "The process whose specific outcome is the progression of a tissue over time, from its formation to the mature structure." ;
+               oboInOwl:hasBroadSynonym "histogenesis and organogenesis" ;
+               oboInOwl:hasDbXref "Wikipedia:Histogenesis" ;
+               oboInOwl:hasExactSynonym "histogenesis" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009888" ;
+               rdfs:label "tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009888 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process whose specific outcome is the progression of a tissue over time, from its formation to the mature structure." ;
+   oboInOwl:hasDbXref "ISBN:0471245208"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009914
+obo:GO_0009914 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ,
+                               obo:GO_0010817 ;
+               obo:IAO_0000115 "The directed movement of hormones into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009914" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "hormone transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009914 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of hormones into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009987
+obo:GO_0009987 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-11T16:56:55Z" ;
+               oboInOwl:hasAlternativeId "GO:0008151" ,
+                                         "GO:0044763" ,
+                                         "GO:0050875" ;
+               oboInOwl:hasExactSynonym "cell physiology" ,
+                                        "cellular physiological process" ;
+               oboInOwl:hasNarrowSynonym "cell growth and/or maintenance" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism cellular process" ;
+               oboInOwl:id "GO:0009987" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "This term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term." ;
+               rdfs:label "cellular process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009987 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0010817
+obo:GO_0010817 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065008 ;
+               obo:IAO_0000115 "Any process that modulates the levels of hormone within an organism or a tissue. A hormone is any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0010817" ;
+               rdfs:label "regulation of hormone levels" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0010817 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the levels of hormone within an organism or a tissue. A hormone is any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action." ;
+   oboInOwl:hasDbXref "GOC:BHF" ,
+                      "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0015833
+obo:GO_0015833 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of peptides, compounds of two or more amino acids where the alpha carboxyl group of one is bound to the alpha amino group of another, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0015833" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "peptide transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0015833 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of peptides, compounds of two or more amino acids where the alpha carboxyl group of one is bound to the alpha amino group of another, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0019233
+obo:GO_0019233 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007600 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive a painful stimulus, convert it to a molecular signal, and recognize and characterize the signal. A painful stimulus is any physical or chemical event that has the potential to cause tissue damage (actual or perceived) and activates the nociceptive system." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/29807"^^xsd:anyURI ;
+               oboInOwl:hasDbXref "Wikipedia:Nociception" ;
+               oboInOwl:hasNarrowSynonym "perception of physiological pain" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "nociception" ;
+               oboInOwl:id "GO:0019233" ;
+               rdfs:label "sensory perception of pain" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0019233 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive a painful stimulus, convert it to a molecular signal, and recognize and characterize the signal. A painful stimulus is any physical or chemical event that has the potential to cause tissue damage (actual or perceived) and activates the nociceptive system." ;
+   oboInOwl:hasDbXref "GOC:curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0022600
+obo:GO_0022600 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "A physical, chemical, or biochemical process carried out by living organisms to break down ingested nutrients into components that may be easily absorbed and directed into metabolism." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0022600" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_generic> ;
+               rdfs:label "digestive system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0022600 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A physical, chemical, or biochemical process carried out by living organisms to break down ingested nutrients into components that may be easily absorbed and directed into metabolism." ;
+   oboInOwl:hasDbXref "GOC:isa_complete" ,
+                      "GOC:jid" ,
+                      "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0023061
+obo:GO_0023061 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032940 ;
+               obo:IAO_0000115 "The process in which a signal is secreted or discharged into the extracellular medium from a cellular source." ;
+               oboInOwl:creation_date "2010-02-16T09:30:50Z" ;
+               oboInOwl:hasExactSynonym "signal secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0023061" ;
+               rdfs:label "signal release" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0023061 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which a signal is secreted or discharged into the extracellular medium from a cellular source." ;
+   oboInOwl:hasDbXref "GOC:mtg_signal"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0023061 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "signal secretion" ;
+   oboInOwl:hasDbXref "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030072
+obo:GO_0030072 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0002790 ,
+                               obo:GO_0046879 ,
+                               obo:GO_0071705 ;
+               obo:IAO_0000115 "The regulated release of a peptide hormone from a cell." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0030072" ;
+               rdfs:label "peptide hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030072 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of a peptide hormone from a cell." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030278
+obo:GO_0030278 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051239 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of ossification, the formation of bone or of a bony substance or the conversion of fibrous tissue or of cartilage into bone or a bony substance." ;
+               oboInOwl:hasExactSynonym "regulation of bone biosynthesis" ,
+                                        "regulation of bone formation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0030278" ;
+               rdfs:label "regulation of ossification" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030278 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of ossification, the formation of bone or of a bony substance or the conversion of fibrous tissue or of cartilage into bone or a bony substance." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030500
+obo:GO_0030500 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0030278 ,
+                               obo:GO_0065007 ,
+                               obo:GO_0070167 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of bone mineralization." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0030500" ;
+               rdfs:label "regulation of bone mineralization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030500 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of bone mineralization." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0031214
+obo:GO_0031214 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009888 ;
+               obo:IAO_0000115 "Formation of hard tissues that consist mainly of inorganic compounds, and also contain a small amounts of organic matrices that are believed to play important roles in their formation." ;
+               oboInOwl:hasDbXref "Wikipedia:Biomineralization" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0031214" ;
+               rdfs:label "biomineral tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0031214 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Formation of hard tissues that consist mainly of inorganic compounds, and also contain a small amounts of organic matrices that are believed to play important roles in their formation." ;
+   oboInOwl:hasDbXref "PMID:15132736"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032501
+obo:GO_0032501 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any biological process, occurring at the level of a multicellular organism, pertinent to its function." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27189"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-09-19T16:07:47Z" ;
+               oboInOwl:hasAlternativeId "GO:0044707" ,
+                                         "GO:0050874" ;
+               oboInOwl:hasExactSynonym "organismal physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-multicellular organism process" ;
+               oboInOwl:id "GO:0032501" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032501 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process, occurring at the level of a multicellular organism, pertinent to its function." ;
+   oboInOwl:hasDbXref "GOC:curators" ,
+                      "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032502
+obo:GO_0032502 rdf:type owl:Class ;
+               obo:IAO_0000115 "A biological process whose specific outcome is the progression of an integrated living unit: an anatomical structure (which may be a subcellular structure, cell, tissue, or organ), or organism over time from an initial condition to a later condition." ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-19T12:21:31Z" ;
+               oboInOwl:hasAlternativeId "GO:0044767" ;
+               oboInOwl:hasNarrowSynonym "development" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism developmental process" ;
+               oboInOwl:id "GO:0032502" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "developmental process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032502 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A biological process whose specific outcome is the progression of an integrated living unit: an anatomical structure (which may be a subcellular structure, cell, tissue, or organ), or organism over time from an initial condition to a later condition." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032940
+obo:GO_0032940 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0046903 ,
+                               obo:GO_0140352 ;
+               obo:IAO_0000115 "The controlled release of a substance by a cell." ;
+               oboInOwl:hasDbXref "Wikipedia:Secretion" ;
+               oboInOwl:hasExactSynonym "cellular secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0032940" ;
+               rdfs:label "secretion by cell" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032940 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The controlled release of a substance by a cell." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032941
+obo:GO_0032941 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ,
+                               obo:GO_0046903 ;
+               obo:IAO_0000115 "The controlled release of a substance by a tissue." ;
+               oboInOwl:hasExactSynonym "tissue secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "expulsion of gland contents" ;
+               oboInOwl:id "GO:0032941" ;
+               rdfs:label "secretion by tissue" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032941 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The controlled release of a substance by a tissue." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032941 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "expulsion of gland contents" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0034101
+obo:GO_0034101 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0002262 ;
+               obo:IAO_0000115 "Any process of regulating the production and elimination of erythrocytes within an organism." ;
+               oboInOwl:hasExactSynonym "RBC homeostasis" ,
+                                        "red blood cell homeostasis" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0034101" ;
+               rdfs:label "erythrocyte homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0034101 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process of regulating the production and elimination of erythrocytes within an organism." ;
+   oboInOwl:hasDbXref "GOC:add" ,
+                      "PMID:10694114" ,
+                      "PMID:14754397"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0034101 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "RBC homeostasis" ;
+   oboInOwl:hasDbXref "CL:0000232"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0034101 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "red blood cell homeostasis" ;
+   oboInOwl:hasDbXref "CL:0000232"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0034103
+obo:GO_0034103 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051239 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate, or extent of tissue remodeling." ;
+               oboInOwl:hasExactSynonym "regulation of tissue remodelling" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0034103" ;
+               rdfs:label "regulation of tissue remodeling" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0034103 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate, or extent of tissue remodeling." ;
+   oboInOwl:hasDbXref "GOC:add"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0034505
+obo:GO_0034505 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0031214 ;
+               obo:IAO_0000115 "The process in which calcium salts are deposited into calcareous tooth structures such as dental enamel, dentin and cementum." ;
+               oboInOwl:hasExactSynonym "tooth calcification" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0034505" ;
+               rdfs:label "tooth mineralization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0034505 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which calcium salts are deposited into calcareous tooth structures such as dental enamel, dentin and cementum." ;
+   oboInOwl:hasDbXref "GOC:mah" ,
+                      "MP:0002817" ,
+                      "MSH:D014074"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035898
+obo:GO_0035898 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0060986 ;
+               obo:IAO_0000115 "The regulated release of parathyroid hormone into the circulatory system." ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2011-06-22T09:28:54Z" ;
+               oboInOwl:hasExactSynonym "PTH secretion" ,
+                                        "parathormone secretion" ,
+                                        "parathyrin secretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035898" ;
+               rdfs:label "parathyroid hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035898 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of parathyroid hormone into the circulatory system." ;
+   oboInOwl:hasDbXref "GOC:cjm" ,
+                      "PMID:12171519" ,
+                      "PMID:21164021"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035898 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "PTH secretion" ;
+   oboInOwl:hasDbXref "PMID:12171519" ,
+                      "PR:000013429"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035898 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "parathormone secretion" ;
+   oboInOwl:hasDbXref "PR:000013429"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035898 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "parathyrin secretion" ;
+   oboInOwl:hasDbXref "PR:000013429"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0036161
+obo:GO_0036161 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0030072 ;
+               obo:IAO_0000115 "The regulated release of calcitonin, a peptide hormone that participates in calcium and phosphorus metabolism, from a cell." ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2012-03-26T01:30:32Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0036161" ;
+               rdfs:label "calcitonin secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0036161 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of calcitonin, a peptide hormone that participates in calcium and phosphorus metabolism, from a cell." ;
+   oboInOwl:hasDbXref "GOC:cjm"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042592
+obo:GO_0042592 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any biological process involved in the maintenance of an internal steady state. Homeostasis allows cells and organisms to maintain stable internal conditions despite varying external conditions." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/31175"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0032844" ,
+                                         "GO:0032845" ,
+                                         "GO:0032846" ;
+               oboInOwl:hasExactSynonym "homeostasis" ;
+               oboInOwl:hasNarrowSynonym "activation of homeostatic process" ,
+                                         "inhibition of homeostatic process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "negative regulation of homeostatic process" ,
+                                          "positive regulation of homeostatic process" ,
+                                          "regulation of homeostatic process" ;
+               oboInOwl:id "GO:0042592" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ;
+               rdfs:label "homeostatic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042592 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process involved in the maintenance of an internal steady state. Homeostasis allows cells and organisms to maintain stable internal conditions despite varying external conditions." ;
+   oboInOwl:hasDbXref "PMID:26265027"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046541
+obo:GO_0046541 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007589 ,
+                               obo:GO_0022600 ,
+                               obo:GO_0032941 ;
+               obo:IAO_0000115 "The regulated release of saliva from the salivary glands. In man, the saliva is a turbid and slightly viscous fluid, generally of an alkaline reaction, and is secreted by the parotid, submaxillary, and sublingual glands. In the mouth the saliva is mixed with the secretion from the buccal glands. In man and many animals, saliva is an important digestive fluid on account of the presence of the peculiar enzyme, ptyalin." ;
+               oboInOwl:hasDbXref "Wikipedia:Salivation" ;
+               oboInOwl:hasExactSynonym "salivation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046541" ;
+               rdfs:label "saliva secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046541 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of saliva from the salivary glands. In man, the saliva is a turbid and slightly viscous fluid, generally of an alkaline reaction, and is secreted by the parotid, submaxillary, and sublingual glands. In the mouth the saliva is mixed with the secretion from the buccal glands. In man and many animals, saliva is an important digestive fluid on account of the presence of the peculiar enzyme, ptyalin." ;
+   oboInOwl:hasDbXref "GOC:curators" ,
+                      "UBERON:0001836"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046850
+obo:GO_0046850 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0034103 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of bone remodeling, the processes of bone formation and resorption that combine to maintain skeletal integrity." ;
+               oboInOwl:hasExactSynonym "regulation of bone remodelling" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046850" ;
+               rdfs:label "regulation of bone remodeling" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046850 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of bone remodeling, the processes of bone formation and resorption that combine to maintain skeletal integrity." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046879
+obo:GO_0046879 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009914 ,
+                               obo:GO_0023061 ;
+               obo:IAO_0000115 "The regulated release of hormones, substances with a specific regulatory effect on a particular organ or group of cells." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046879" ;
+               rdfs:label "hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046879 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of hormones, substances with a specific regulatory effect on a particular organ or group of cells." ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0046903
+obo:GO_0046903 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The controlled release of a substance by a cell or a tissue." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0046903" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0046903 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The controlled release of a substance by a cell or a tissue." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048856
+obo:GO_0048856 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032502 ;
+               obo:IAO_0000115 "The biological process whose specific outcome is the progression of an anatomical structure from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure, whatever form that may be including its natural destruction. An anatomical structure is any biological entity that occupies space and is distinguished from its surroundings. Anatomical structures can be macroscopic such as a carpel, or microscopic such as an acrosome." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/26424"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "development of an anatomical structure" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048856" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ;
+               rdfs:label "anatomical structure development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048856 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The biological process whose specific outcome is the progression of an anatomical structure from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure, whatever form that may be including its natural destruction. An anatomical structure is any biological entity that occupies space and is distinguished from its surroundings. Anatomical structures can be macroscopic such as a carpel, or microscopic such as an acrosome." ;
+   oboInOwl:hasDbXref "GO_REF:0000021"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048871
+obo:GO_0048871 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ,
+                               obo:GO_0042592 ;
+               obo:IAO_0000115 "Any process involved in the maintenance of an internal steady state at the level of the multicellular organism." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048871" ;
+               rdfs:label "multicellular organismal-level homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048871 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the maintenance of an internal steady state at the level of the multicellular organism." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048872
+obo:GO_0048872 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048871 ;
+               obo:IAO_0000115 "Any biological process involved in the maintenance of the steady-state number of cells within a population of cells." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24218"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "cell population homeostasis" ,
+                                        "homeostasis of cell number" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048872" ;
+               rdfs:label "homeostasis of number of cells" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048872 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process involved in the maintenance of the steady-state number of cells within a population of cells." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048872 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "homeostasis of cell number" ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048878
+obo:GO_0048878 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042592 ;
+               obo:IAO_0000115 "Any biological process involved in the maintenance of an internal steady state of a chemical." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048878" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ;
+               rdfs:label "chemical homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048878 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process involved in the maintenance of an internal steady state of a chemical." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050789
+obo:GO_0050789 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+               oboInOwl:hasAlternativeId "GO:0050791" ;
+               oboInOwl:hasExactSynonym "regulation of physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050789" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of biological process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050789 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050793
+obo:GO_0050793 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of development, the biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote, or a young adult) to a later condition (e.g. a multicellular animal or an aged adult)." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050793" ;
+               rdfs:label "regulation of developmental process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050793 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of development, the biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote, or a young adult) to a later condition (e.g. a multicellular animal or an aged adult)." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050794
+obo:GO_0050794 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+               oboInOwl:hasAlternativeId "GO:0051244" ;
+               oboInOwl:hasExactSynonym "regulation of cellular physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050794" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ;
+               rdfs:label "regulation of cellular process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050794 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050801
+obo:GO_0050801 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048878 ;
+               obo:IAO_0000115 "Any process involved in the maintenance of an internal steady state of monoatomic ions within an organism or cell. Monatomic ions (also called simple ions) are ions consisting of exactly one atom." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24455"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:2000021" ;
+               oboInOwl:hasBroadSynonym "ion homeostasis" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "electrolyte homeostasis" ,
+                                          "negative regulation of crystal formation" ,
+                                          "regulation of ion homeostasis" ;
+               oboInOwl:id "GO:0050801" ;
+               rdfs:label "monoatomic ion homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050801 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the maintenance of an internal steady state of monoatomic ions within an organism or cell. Monatomic ions (also called simple ions) are ions consisting of exactly one atom." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050877
+obo:GO_0050877 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "An organ system process carried out by any of the organs or tissues of the neurological system." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/13824"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "neurological system process" ,
+                                        "neurophysiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "pan-neural process" ;
+               oboInOwl:id "GO:0050877" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "nervous system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050877 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An organ system process carried out by any of the organs or tissues of the neurological system." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050878
+obo:GO_0050878 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065008 ;
+               obo:IAO_0000115 "Any process that modulates the levels of body fluids." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050878" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of body fluid levels" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050878 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the levels of body fluids." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050896
+obo:GO_0050896 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism." ;
+               oboInOwl:hasAlternativeId "GO:0051869" ;
+               oboInOwl:hasExactSynonym "physiological response to stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050896" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050896 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050909
+obo:GO_0050909 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007606 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive a gustatory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Gustation involves the direct detection of chemical composition, usually through contact with chemoreceptor cells. This is a neurological process." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-9717189" ,
+                                  "Wikipedia:Taste" ;
+               oboInOwl:hasExactSynonym "gustation" ,
+                                        "sense of taste" ,
+                                        "taste" ,
+                                        "taste perception" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050909" ;
+               rdfs:label "sensory perception of taste" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050909 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive a gustatory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Gustation involves the direct detection of chemical composition, usually through contact with chemoreceptor cells. This is a neurological process." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050909 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-9717189" ;
+   rdfs:label "Sensory perception of taste"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050953
+obo:GO_0050953 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007600 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive a sensory light stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050953" ;
+               rdfs:label "sensory perception of light stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050953 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive a sensory light stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050954
+obo:GO_0050954 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007600 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive a sensory mechanical stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." ;
+               oboInOwl:hasExactSynonym "mechanosensory perception" ,
+                                        "perception of mechanical stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "chemi-mechanical coupling" ;
+               oboInOwl:id "GO:0050954" ;
+               rdfs:label "sensory perception of mechanical stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050954 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive a sensory mechanical stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050957
+obo:GO_0050957 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007600 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive an orientational stimulus, convert it to a molecular signal, and recognize and characterize the signal. Equilibrioception refers to a combination of processes by which an organism can perceive its orientation with respect to gravity. In animals, stimuli come from labyrinth system of the inner ears, monitoring the direction of motion; visual stimuli, with information on orientation and motion; pressure receptors, which tell the organism which body surfaces are in contact with the ground; and proprioceptive cues, which report which parts of the body are in motion." ;
+               oboInOwl:hasDbXref "Wikipedia:Equilibrioception" ;
+               oboInOwl:hasExactSynonym "sensory perception of orientation with respect to gravity" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050957" ;
+               rdfs:label "equilibrioception" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050957 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive an orientational stimulus, convert it to a molecular signal, and recognize and characterize the signal. Equilibrioception refers to a combination of processes by which an organism can perceive its orientation with respect to gravity. In animals, stimuli come from labyrinth system of the inner ears, monitoring the direction of motion; visual stimuli, with information on orientation and motion; pressure receptors, which tell the organism which body surfaces are in contact with the ground; and proprioceptive cues, which report which parts of the body are in motion." ;
+   oboInOwl:hasDbXref "PMID:29303967"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050975
+obo:GO_0050975 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050954 ;
+               obo:IAO_0000115 "The series of events required for an organism to receive a touch stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process. The perception of touch in animals is mediated by mechanoreceptors in the skin and mucous membranes and is the sense by which contact with objects gives evidence as to certain of their qualities. Different types of touch can be perceived (for example, light, coarse, pressure and tickling) and the stimulus may be external or internal (e.g. the feeling of a full stomach)." ;
+               oboInOwl:hasDbXref "Wikipedia:Touch" ;
+               oboInOwl:hasExactSynonym "perception of touch" ,
+                                        "tactile sense" ,
+                                        "taction" ,
+                                        "tactition" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050975" ;
+               rdfs:label "sensory perception of touch" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050975 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events required for an organism to receive a touch stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process. The perception of touch in animals is mediated by mechanoreceptors in the skin and mucous membranes and is the sense by which contact with objects gives evidence as to certain of their qualities. Different types of touch can be perceived (for example, light, coarse, pressure and tickling) and the stimulus may be external or internal (e.g. the feeling of a full stomach)." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051179
+obo:GO_0051179 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27052"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2013-12-18T13:51:04Z" ;
+               oboInOwl:hasAlternativeId "GO:1902578" ;
+               oboInOwl:hasExactSynonym "establishment and maintenance of localization" ,
+                                        "establishment and maintenance of position" ,
+                                        "localisation" ;
+               oboInOwl:hasNarrowSynonym "establishment and maintenance of cellular component location" ,
+                                         "establishment and maintenance of substance location" ,
+                                         "establishment and maintenance of substrate location" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single organism localization" ,
+                                          "single-organism localization" ;
+               oboInOwl:id "GO:0051179" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "localization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dos"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "localisation" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "single organism localization" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051234
+obo:GO_0051234 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051179 ;
+               obo:IAO_0000115 "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24200"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "establishment of localisation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051234" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "establishment of localization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051234 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dos"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051234 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "establishment of localisation" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051239
+obo:GO_0051239 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051239" ;
+               rdfs:label "regulation of multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051239 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051606
+obo:GO_0051606 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050896 ;
+               obo:IAO_0000115 "The series of events in which a stimulus is received by a cell or organism and converted into a molecular signal." ;
+               oboInOwl:hasExactSynonym "stimulus detection" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "perception of stimulus" ,
+                                          "stimulus sensing" ;
+               oboInOwl:id "GO:0051606" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "detection of stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051606 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of events in which a stimulus is received by a cell or organism and converted into a molecular signal." ;
+   oboInOwl:hasDbXref "GOC:add" ,
+                      "GOC:ai" ,
+                      "GOC:dph" ,
+                      "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0055074
+obo:GO_0055074 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0055080 ,
+                               obo:GO_0098771 ;
+               obo:IAO_0000115 "Any process involved in the maintenance of an internal steady state of calcium ions within an organism or cell." ;
+               oboInOwl:hasExactSynonym "regulation of calcium ion concentration" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0055074" ;
+               rdfs:label "calcium ion homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0055074 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the maintenance of an internal steady state of calcium ions within an organism or cell." ;
+   oboInOwl:hasDbXref "GOC:ceb" ,
+                      "GOC:jid" ,
+                      "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0055080
+obo:GO_0055080 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050801 ;
+               obo:IAO_0000115 "Any process involved in the maintenance of an internal steady state of monoatomic cations within an organism or cell. Monatomic cations (also called simple cations) are cations consisting of exactly one atom." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24455"^^xsd:anyURI ;
+               oboInOwl:hasBroadSynonym "cation homeostasis" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0055080" ;
+               rdfs:label "monoatomic cation homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0055080 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the maintenance of an internal steady state of monoatomic cations within an organism or cell. Monatomic cations (also called simple cations) are cations consisting of exactly one atom." ;
+   oboInOwl:hasDbXref "GOC:ceb" ,
+                      "GOC:jid" ,
+                      "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060986
+obo:GO_0060986 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0046879 ;
+               obo:IAO_0000115 "The regulated release of a hormone into the circulatory system." ;
+               oboInOwl:created_by "dph" ;
+               oboInOwl:creation_date "2010-01-11T09:03:48Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0060986" ;
+               rdfs:label "endocrine hormone secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0060986 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of a hormone into the circulatory system." ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0065007
+obo:GO_0065007 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that modulates a measurable attribute of any biological process, quality or function." ;
+               oboInOwl:hasBroadSynonym "regulation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0065007" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "biological regulation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0065007 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates a measurable attribute of any biological process, quality or function." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:mah" ,
+                      "GOC:pr" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0065008
+obo:GO_0065008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates a qualitative or quantitative trait of a biological quality. A biological quality is a measurable attribute of an organism or part of an organism, such as size, mass, shape, color, etc." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/30599"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "regulation of biological attribute" ,
+                                        "regulation of biological characteristic" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0065008" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of biological quality" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0065008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates a qualitative or quantitative trait of a biological quality. A biological quality is a measurable attribute of an organism or part of an organism, such as size, mass, shape, color, etc." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:mah" ,
+                      "GOC:pr" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0070075
+obo:GO_0070075 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007589 ,
+                               obo:GO_0032941 ;
+               obo:IAO_0000115 "The regulated release of the aqueous layer of the tear film from the lacrimal glands. Tears are the liquid product of a process of lacrimation to clean and lubricate the eyes. Tear fluid contains water, mucin, lipids, lysozyme, lactoferrin, lipocalin, lacritin, immunoglobulins, glucose, urea, sodium, and potassium." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0070075" ;
+               rdfs:label "tear secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070075 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulated release of the aqueous layer of the tear film from the lacrimal glands. Tears are the liquid product of a process of lacrimation to clean and lubricate the eyes. Tear fluid contains water, mucin, lipids, lysozyme, lactoferrin, lipocalin, lacritin, immunoglobulins, glucose, urea, sodium, and potassium." ;
+   oboInOwl:hasDbXref "GOC:rph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0070167
+obo:GO_0070167 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ,
+                               obo:GO_2000026 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of biomineral tissue development, the formation of hard tissues that consist mainly of inorganic compounds." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0070167" ;
+               rdfs:label "regulation of biomineral tissue development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070167 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of biomineral tissue development, the formation of hard tissues that consist mainly of inorganic compounds." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0071626
+obo:GO_0071626 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0022600 ;
+               obo:IAO_0000115 "The process of biting and mashing food with the teeth prior to swallowing." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-02-10T11:19:48Z" ;
+               oboInOwl:hasExactSynonym "chewing" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0071626" ;
+               rdfs:label "mastication" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071626 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process of biting and mashing food with the teeth prior to swallowing." ;
+   oboInOwl:hasDbXref "GOC:gvg"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071626 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "chewing" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0071705
+obo:GO_0071705 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of nitrogen-containing compounds into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-03-08T03:56:28Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0071705" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate> ;
+               rdfs:label "nitrogen compound transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071705 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of nitrogen-containing compounds into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0097188
+obo:GO_0097188 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0034505 ;
+               obo:IAO_0000115 "The process in which calcium salts are deposited into the calcareous tooth structure known as dentin." ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2011-11-21T09:05:43Z" ;
+               oboInOwl:hasExactSynonym "dentine mineralization" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0097188" ;
+               rdfs:label "dentin mineralization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0097188 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which calcium salts are deposited into the calcareous tooth structure known as dentin." ;
+   oboInOwl:hasDbXref "GOC:sl" ,
+                      "PMID:10206335" ,
+                      "PMID:21196346"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0098771
+obo:GO_0098771 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048878 ;
+               obo:IAO_0000115 "Any process involved in the maintenance of an internal steady state of inorganic ions within an organism or cell." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24455"^^xsd:anyURI ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0098771" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pombe> ;
+               rdfs:label "inorganic ion homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0098771 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the maintenance of an internal steady state of inorganic ions within an organism or cell." ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0140352
+obo:GO_0140352 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ,
+                               obo:GO_0009987 ;
+               obo:IAO_0000115 "The directed movement of some substance from a cell, into the extracellular region. This may occur via transport across the plasma membrane or via exocytosis." ;
+               oboInOwl:created_by "pg" ;
+               oboInOwl:creation_date "2019-05-22T11:20:45Z" ;
+               oboInOwl:hasBroadSynonym "efflux" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0140352" ;
+               rdfs:label "export from cell" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0140352 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of some substance from a cell, into the extracellular region. This may occur via transport across the plasma membrane or via exocytosis." ;
+   oboInOwl:hasDbXref "GOC:pg"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_2000026
+obo:GO_2000026 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050793 ,
+                               obo:GO_0051239 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of multicellular organismal development." ;
+               oboInOwl:created_by "tb" ;
+               oboInOwl:creation_date "2010-08-05T11:25:59Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:2000026" ;
+               rdfs:label "regulation of multicellular organismal development" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_2000026 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of multicellular organismal development." ;
+   oboInOwl:hasDbXref "GOC:obol"
  ] .
 
 
@@ -12587,6 +14474,15 @@ obo:UBERON_0002530 rdf:type owl:Class ;
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource obo:UBERON_0002530 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "glandula" ;
+   oboInOwl:hasDbXref "BTO:0000522" ,
+                      "Wikipedia:Gland" ;
+   oboInOwl:hasSynonymType obo:OMO_0003011
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:UBERON_0002530 ;
    owl:annotatedProperty obo:IAO_0000115 ;
    owl:annotatedTarget "An organ that functions as a secretory or excretory organ." ;
    oboInOwl:hasDbXref "MGI:csmith" ,
@@ -12619,15 +14515,6 @@ obo:UBERON_0002530 rdf:type owl:Class ;
    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
    owl:annotatedTarget "Druese" ;
    oboInOwl:hasDbXref "BTO:0000522"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:UBERON_0002530 ;
-   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
-   owl:annotatedTarget "glandula" ;
-   oboInOwl:hasDbXref "BTO:0000522" ,
-                      "Wikipedia:Gland" ;
-   oboInOwl:hasSynonymType obo:OMO_0003011
  ] .
 
 
@@ -27064,7 +28951,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                     wpp:record_number 19 ;
                                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system> ;
                                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft#R19-ReferenceField-1> ;
-                                                                                    wpp:time_scale_field "minutes, hours" ;
+                                                                                    wpp:time_scale_field "minutes-hours" ;
                                                                                     wpp:x_target_field "[8.6, 10.2]" .
 
 
@@ -39476,7 +41363,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                                                        <https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft#R66-FunctionField-3> ;
                                                                                     wpp:record_number 66 ;
                                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system> ;
-                                                                                    wpp:time_scale_field "hours, days" .
+                                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/dental-and-craniofacial-system/draft#R66-EffectorField

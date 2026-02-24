@@ -26,7 +26,7 @@
                                                                   dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                                   dct:publisher "HuBMAP" ;
                                                                   dct:title "cardiovascular-system (draft) graph data" ;
-                                                                  schema1:dateCreated "2026-02-20" ;
+                                                                  schema1:dateCreated "2026-02-24" ;
                                                                   schema1:version "draft" ;
                                                                   rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft> ;
                                                                   prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data> .
@@ -101,7 +101,9 @@ obo:IAO_0000233 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000112 "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"@en ;
                 obo:IAO_0000115 "An IRI or similar locator for a request or discussion of an ontology term."@en ;
                 oboInOwl:hasDbXref "IAO:0000233" ;
+                oboInOwl:hasOBONamespace "external" ;
                 oboInOwl:id "term_tracker_item" ;
+                oboInOwl:is_class_level "true"^^xsd:boolean ;
                 oboInOwl:is_metadata_tag "true"^^xsd:boolean ;
                 oboInOwl:shorthand "term_tracker_item" ;
                 rdfs:comment "The 'tracker item' can associate a tracker with a specific ontology term."@en ;
@@ -501,6 +503,11 @@ oboInOwl:hasNarrowSynonym rdf:type owl:AnnotationProperty ;
                           rdfs:label "has narrow synonym"@en ,
                                      "has_narrow_synonym" ;
                           rdfs:seeAlso "https://github.com/information-artifact-ontology/ontology-metadata/issues/19" .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+oboInOwl:hasOBONamespace rdf:type owl:AnnotationProperty ;
+                         rdfs:label "has_obo_namespace" .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
@@ -2030,6 +2037,1843 @@ obo:CL_4028001 rdf:type owl:Class ;
                rdfs:label "pulmonary capillary endothelial cell" .
 
 
+###  http://purl.obolibrary.org/obo/GO_0002015
+obo:GO_0002015 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003015 ;
+               obo:IAO_0000115 "A process that controls blood pressure by sensing the amount of stretch occurring in the atria." ;
+               oboInOwl:hasExactSynonym "atrial baroreceptor regulation of systemic arterial blood pressure" ,
+                                        "atrial low pressure baroreceptor regulation of blood pressure" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "atrial control of blood pressure" ,
+                                          "atrial reflex" ;
+               oboInOwl:id "GO:0002015" ;
+               rdfs:label "regulation of systemic arterial blood pressure by atrial baroreceptor feedback" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002015 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "atrial reflex" ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002015 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process that controls blood pressure by sensing the amount of stretch occurring in the atria." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002015 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "atrial baroreceptor regulation of systemic arterial blood pressure" ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002015 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "atrial low pressure baroreceptor regulation of blood pressure" ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003008
+obo:GO_0003008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ;
+               obo:IAO_0000115 "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." ;
+               oboInOwl:hasExactSynonym "organ system process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003008" ;
+               rdfs:label "system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003012
+obo:GO_0003012 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "An organ system process carried out at the level of a muscle. Muscle tissue is composed of contractile cells or fibers." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "muscle physiological process" ;
+               oboInOwl:id "GO:0003012" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ;
+               rdfs:label "muscle system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003012 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An organ system process carried out at the level of a muscle. Muscle tissue is composed of contractile cells or fibers." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003013
+obo:GO_0003013 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "An organ system process carried out by any of the organs or tissues of the circulatory system. The circulatory system is an organ system that moves extracellular fluids to and from tissue within a multicellular organism." ;
+               oboInOwl:hasDbXref "Wikipedia:Circulatory_system" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003013" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ;
+               rdfs:label "circulatory system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003013 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An organ system process carried out by any of the organs or tissues of the circulatory system. The circulatory system is an organ system that moves extracellular fluids to and from tissue within a multicellular organism." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003015
+obo:GO_0003015 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003013 ;
+               obo:IAO_0000115 "A circulatory system process carried out by the heart. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "cardiac process" ;
+               oboInOwl:id "GO:0003015" ;
+               rdfs:label "heart process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003015 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A circulatory system process carried out by the heart. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003018
+obo:GO_0003018 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003013 ;
+               obo:IAO_0000115 "A circulatory process that occurs at the level of the vasculature." ;
+               oboInOwl:hasExactSynonym "vasculature process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003018" ;
+               rdfs:label "vascular process in circulatory system" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003018 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A circulatory process that occurs at the level of the vasculature." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0005575
+obo:GO_0005575 rdf:type owl:Class ;
+               obo:IAO_0000115 "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/17729"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0008372" ;
+               oboInOwl:hasDbXref "NIF_Subcellular:sao1337158144" ;
+               oboInOwl:hasExactSynonym "cell or subcellular entity" ,
+                                        "cellular component" ;
+               oboInOwl:hasOBONamespace "cellular_component" ;
+               oboInOwl:hasRelatedSynonym "subcellular entity" ;
+               oboInOwl:id "GO:0005575" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:comment "Note that, in addition to forming the root of the cellular component ontology, this term is recommended for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this." ;
+               rdfs:label "cellular_component" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005575 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." ;
+   oboInOwl:hasDbXref "GOC:pdt"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005575 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "subcellular entity" ;
+   oboInOwl:hasDbXref "NIF_Subcellular:nlx_subcell_100315"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006810
+obo:GO_0006810 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051234 ;
+               obo:IAO_0000115 "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/20292"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-13T16:25:32Z" ;
+               oboInOwl:hasAlternativeId "GO:0015457" ,
+                                         "GO:0015460" ,
+                                         "GO:0044765" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-382551" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism transport" ;
+               oboInOwl:id "GO:0006810" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that this term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term, for e.g. to transmembrane transport, to microtubule-based transport or to vesicle-mediated transport." ;
+               rdfs:label "transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006810 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein." ;
+   oboInOwl:hasDbXref "GOC:dos" ,
+                      "GOC:dph" ,
+                      "GOC:jl" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006810 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-382551" ;
+   rdfs:label "Transport of small molecules"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006811
+obo:GO_0006811 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of a monoatomic ion into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic ions (also called simple ions) are ions consisting of exactly one atom." ;
+               oboInOwl:hasBroadSynonym "ion transport" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-425393" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006811" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:label "monoatomic ion transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006811 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of a monoatomic ion into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic ions (also called simple ions) are ions consisting of exactly one atom." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006811 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-425393" ;
+   rdfs:label "Transport of inorganic cations/anions and amino acids/oligopeptides"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006812
+obo:GO_0006812 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006811 ;
+               obo:IAO_0000115 "The directed movement of a monoatomic cation, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic cations (also called simple cations) are positively charged ions consisting of exactly one atom." ;
+               oboInOwl:hasAlternativeId "GO:0006819" ,
+                                         "GO:0015674" ,
+                                         "GO:0072512" ;
+               oboInOwl:hasBroadSynonym "cation transport" ;
+               oboInOwl:hasNarrowSynonym "di-, tri-valent inorganic cation transport" ,
+                                         "trivalent inorganic cation transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006812" ;
+               rdfs:label "monoatomic cation transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006812 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of a monoatomic cation, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic cations (also called simple cations) are positively charged ions consisting of exactly one atom." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006812 ;
+   owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+   owl:annotatedTarget "di-, tri-valent inorganic cation transport" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006816
+obo:GO_0006816 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0030001 ;
+               obo:IAO_0000115 "The directed movement of calcium (Ca) ions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:hasExactSynonym "calcium transport" ;
+               oboInOwl:hasNarrowSynonym "mitochondrial sodium/calcium ion exchange" ,
+                                         "sodium:calcium exchange" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006816" ;
+               rdfs:label "calcium ion transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006816 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of calcium (Ca) ions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006936
+obo:GO_0006936 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003012 ;
+               obo:IAO_0000115 "A process in which force is generated within muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-445355" ,
+                                  "Wikipedia:Muscle_contraction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006936" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006936 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis." ;
+   oboInOwl:hasDbXref "GOC:ef" ,
+                      "GOC:mtg_muscle" ,
+                      "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006936 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-445355" ;
+   rdfs:label "Smooth Muscle Contraction"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006939
+obo:GO_0006939 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006936 ;
+               obo:IAO_0000115 "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." ;
+               oboInOwl:hasExactSynonym "visceral muscle contraction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006939" ;
+               rdfs:label "smooth muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006939 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." ;
+   oboInOwl:hasDbXref "GOC:ef" ,
+                      "GOC:jl" ,
+                      "GOC:mtg_muscle" ,
+                      "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0008015
+obo:GO_0008015 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003013 ;
+               obo:IAO_0000115 "The flow of blood through the body of an animal, enabling the transport of nutrients to the tissues and the removal of waste products." ;
+               oboInOwl:hasAlternativeId "GO:0070261" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "hemolymph circulation" ;
+               oboInOwl:id "GO:0008015" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "blood circulation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0008015 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The flow of blood through the body of an animal, enabling the transport of nutrients to the tissues and the removal of waste products." ;
+   oboInOwl:hasDbXref "GOC:mtg_heart" ,
+                      "ISBN:0192800825"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0008016
+obo:GO_0008016 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ,
+                               obo:GO_1903522 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of heart contraction. Heart contraction is the process in which the heart decreases in volume in a characteristic way to propel blood through the body." ;
+               oboInOwl:hasExactSynonym "regulation of cardiac contraction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0008016" ;
+               rdfs:label "regulation of heart contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0008016 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of heart contraction. Heart contraction is the process in which the heart decreases in volume in a characteristic way to propel blood through the body." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:go_curators" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009719
+obo:GO_0009719 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050896 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus arising within the organism." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0009719" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to endogenous stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009719 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus arising within the organism." ;
+   oboInOwl:hasDbXref "GOC:sm"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009725
+obo:GO_0009725 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009719 ,
+                               obo:GO_0042221 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a hormone stimulus." ;
+               oboInOwl:hasExactSynonym "response to hormone stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "growth regulator" ;
+               oboInOwl:id "GO:0009725" ;
+               rdfs:label "response to hormone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009725 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a hormone stimulus." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009725 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to hormone stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009987
+obo:GO_0009987 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-11T16:56:55Z" ;
+               oboInOwl:hasAlternativeId "GO:0008151" ,
+                                         "GO:0044763" ,
+                                         "GO:0050875" ;
+               oboInOwl:hasExactSynonym "cell physiology" ,
+                                        "cellular physiological process" ;
+               oboInOwl:hasNarrowSynonym "cell growth and/or maintenance" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism cellular process" ;
+               oboInOwl:id "GO:0009987" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "This term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term." ;
+               rdfs:label "cellular process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009987 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0014074
+obo:GO_0014074 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_1901698 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a purine-containing compound stimulus." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "response to purine" ;
+               oboInOwl:id "GO:0014074" ;
+               rdfs:label "response to purine-containing compound" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0014074 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a purine-containing compound stimulus." ;
+   oboInOwl:hasDbXref "GOC:ef"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0014896
+obo:GO_0014896 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003012 ;
+               obo:IAO_0000115 "The muscle system process that results in enlargement or overgrowth of all or part of a muscle organ due to an increase in the size of its muscle cells. Physiological hypertrophy is a normal process during development (it stops in cardiac muscle after adolescence) and can also be brought on in response to demand. In athletes cardiac and skeletal muscles undergo hypertrophy stimulated by increasing muscle activity on exercise. Smooth muscle cells in the uterus undergo hypertrophy during pregnancy." ;
+               oboInOwl:hasDbXref "Wikipedia:Muscle_hypertrophy" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0014896" ;
+               rdfs:label "muscle hypertrophy" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0014896 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The muscle system process that results in enlargement or overgrowth of all or part of a muscle organ due to an increase in the size of its muscle cells. Physiological hypertrophy is a normal process during development (it stops in cardiac muscle after adolescence) and can also be brought on in response to demand. In athletes cardiac and skeletal muscles undergo hypertrophy stimulated by increasing muscle activity on exercise. Smooth muscle cells in the uterus undergo hypertrophy during pregnancy." ;
+   oboInOwl:hasDbXref "GOC:mtg_muscle"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030001
+obo:GO_0030001 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006812 ;
+               obo:IAO_0000115 "The directed movement of metal ions, any metal ion with an electric charge, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/23033"^^xsd:anyURI ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2009-07-31T01:07:46Z" ;
+               oboInOwl:hasAlternativeId "GO:0070838" ,
+                                         "GO:0070839" ;
+               oboInOwl:hasNarrowSynonym "divalent metal ion export" ,
+                                         "divalent metal ion transport" ,
+                                         "heavy metal ion transport" ,
+                                         "metal ion export" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0030001" ;
+               rdfs:label "metal ion transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030001 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of metal ions, any metal ion with an electric charge, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0031000
+obo:GO_0031000 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0014074 ,
+                               obo:GO_0043279 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a caffeine stimulus. Caffeine is an alkaloid found in numerous plant species, where it acts as a natural pesticide that paralyzes and kills certain insects feeding upon them." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0031000" ;
+               rdfs:label "response to caffeine" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0031000 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a caffeine stimulus. Caffeine is an alkaloid found in numerous plant species, where it acts as a natural pesticide that paralyzes and kills certain insects feeding upon them." ;
+   oboInOwl:hasDbXref "GOC:ef" ,
+                      "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032501
+obo:GO_0032501 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any biological process, occurring at the level of a multicellular organism, pertinent to its function." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27189"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-09-19T16:07:47Z" ;
+               oboInOwl:hasAlternativeId "GO:0044707" ,
+                                         "GO:0050874" ;
+               oboInOwl:hasExactSynonym "organismal physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-multicellular organism process" ;
+               oboInOwl:id "GO:0032501" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032501 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process, occurring at the level of a multicellular organism, pertinent to its function." ;
+   oboInOwl:hasDbXref "GOC:curators" ,
+                      "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032868
+obo:GO_0032868 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0043434 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an insulin stimulus. Insulin is a polypeptide hormone produced by the islets of Langerhans of the pancreas in mammals, and by the homologous organs of other organisms." ;
+               oboInOwl:hasExactSynonym "response to insulin stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0032868" ;
+               rdfs:label "response to insulin" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032868 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an insulin stimulus. Insulin is a polypeptide hormone produced by the islets of Langerhans of the pancreas in mammals, and by the homologous organs of other organisms." ;
+   oboInOwl:hasDbXref "GOC:mah" ,
+                      "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032868 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to insulin stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0033500
+obo:GO_0033500 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048878 ;
+               obo:IAO_0000115 "A homeostatic process involved in the maintenance of an internal steady state of a carbohydrate within an organism or cell." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0033500" ;
+               rdfs:label "carbohydrate homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0033500 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A homeostatic process involved in the maintenance of an internal steady state of a carbohydrate within an organism or cell." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0033574
+obo:GO_0033574 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0033993 ,
+                               obo:GO_1901654 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a testosterone stimulus." ;
+               oboInOwl:hasExactSynonym "response to testosterone stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0033574" ;
+               rdfs:label "response to testosterone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0033574 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a testosterone stimulus." ;
+   oboInOwl:hasDbXref "GOC:sl"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0033574 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to testosterone stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0033993
+obo:GO_0033993 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042221 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lipid stimulus." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0033993" ;
+               rdfs:label "response to lipid" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0033993 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lipid stimulus." ;
+   oboInOwl:hasDbXref "GOC:sl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0034220
+obo:GO_0034220 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006811 ,
+                               obo:GO_0055085 ;
+               obo:IAO_0000115 "A process in which a monoatomic ion is transported across a membrane. Monatomic ions (also called simple ions) are ions consisting of exactly one atom." ;
+               oboInOwl:hasAlternativeId "GO:0099131" ;
+               oboInOwl:hasBroadSynonym "ion transmembrane transport" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-983712" ;
+               oboInOwl:hasExactSynonym "ion membrane transport" ,
+                                        "transmembrane ion transport" ;
+               oboInOwl:hasNarrowSynonym "ATP hydrolysis coupled ion transmembrane transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0034220" ;
+               rdfs:comment "Note that this term is not intended for use in annotating lateral movement within membranes." ;
+               rdfs:label "monoatomic ion transmembrane transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0034220 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which a monoatomic ion is transported across a membrane. Monatomic ions (also called simple ions) are ions consisting of exactly one atom." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0034220 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-983712" ;
+   rdfs:label "Ion channel transport"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0034220 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "transmembrane ion transport" ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035150
+obo:GO_0035150 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0090066 ;
+               obo:IAO_0000115 "Ensuring that a tube is of the correct length and diameter. Tube size must be maintained not only during tube formation, but also throughout development and in some physiological processes." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035150" ;
+               rdfs:label "regulation of tube size" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035150 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Ensuring that a tube is of the correct length and diameter. Tube size must be maintained not only during tube formation, but also throughout development and in some physiological processes." ;
+   oboInOwl:hasDbXref "PMID:10887083"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035296
+obo:GO_0035296 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0035150 ;
+               obo:IAO_0000115 "Any process that modulates the diameter of a tube." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035296" ;
+               rdfs:label "regulation of tube diameter" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035296 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the diameter of a tube." ;
+   oboInOwl:hasDbXref "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0040007
+obo:GO_0040007 rdf:type owl:Class ;
+               obo:IAO_0000115 "The increase in size or mass of an entire organism, a part of an organism or a cell." ;
+               oboInOwl:hasAlternativeId "GO:0048590" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "growth pattern" ,
+                                          "non-developmental growth" ;
+               oboInOwl:id "GO:0040007" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "See also the biological process term 'cell growth ; GO:0016049'." ;
+               rdfs:label "growth" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0040007 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The increase in size or mass of an entire organism, a part of an organism or a cell." ;
+   oboInOwl:hasDbXref "GOC:bf" ,
+                      "GOC:ma"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0040007 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "non-developmental growth" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042221
+obo:GO_0042221 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050896 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a chemical stimulus." ;
+               oboInOwl:hasExactSynonym "response to chemical stimulus" ,
+                                        "response to chemical substance" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0042221" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to chemical" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042221 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a chemical stimulus." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042221 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to chemical stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042310
+obo:GO_0042310 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0097746 ;
+               obo:IAO_0000115 "A decrease in the diameter of blood vessels, especially arteries, due to constriction of smooth muscle cells that line the vessels, and usually causing an increase in blood pressure." ;
+               oboInOwl:hasAlternativeId "GO:0045908" ;
+               oboInOwl:hasDbXref "Wikipedia:Vasoconstriction" ;
+               oboInOwl:hasExactSynonym "negative regulation of blood vessel size" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0042310" ;
+               rdfs:label "vasoconstriction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042310 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A decrease in the diameter of blood vessels, especially arteries, due to constriction of smooth muscle cells that line the vessels, and usually causing an increase in blood pressure." ;
+   oboInOwl:hasDbXref "GOC:pr" ,
+                      "ISBN:0192800752"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042311
+obo:GO_0042311 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0097746 ;
+               obo:IAO_0000115 "An increase in the internal diameter of blood vessels, especially arterioles or capillaries, due to relaxation of smooth muscle cells that line the vessels, and usually resulting in a decrease in blood pressure." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/12253"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0045909" ;
+               oboInOwl:hasDbXref "Wikipedia:Vasodilation" ;
+               oboInOwl:hasExactSynonym "positive regulation of blood vessel size" ,
+                                        "vasodilatation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0042311" ;
+               rdfs:label "vasodilation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042311 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An increase in the internal diameter of blood vessels, especially arterioles or capillaries, due to relaxation of smooth muscle cells that line the vessels, and usually resulting in a decrease in blood pressure." ;
+   oboInOwl:hasDbXref "GOC:pr" ,
+                      "ISBN:0192800981"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042592
+obo:GO_0042592 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any biological process involved in the maintenance of an internal steady state. Homeostasis allows cells and organisms to maintain stable internal conditions despite varying external conditions." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/31175"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0032844" ,
+                                         "GO:0032845" ,
+                                         "GO:0032846" ;
+               oboInOwl:hasExactSynonym "homeostasis" ;
+               oboInOwl:hasNarrowSynonym "activation of homeostatic process" ,
+                                         "inhibition of homeostatic process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "negative regulation of homeostatic process" ,
+                                          "positive regulation of homeostatic process" ,
+                                          "regulation of homeostatic process" ;
+               oboInOwl:id "GO:0042592" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ;
+               rdfs:label "homeostatic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042592 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process involved in the maintenance of an internal steady state. Homeostasis allows cells and organisms to maintain stable internal conditions despite varying external conditions." ;
+   oboInOwl:hasDbXref "PMID:26265027"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042593
+obo:GO_0042593 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0033500 ;
+               obo:IAO_0000115 "Any process involved in the maintenance of an internal steady state of glucose within an organism or cell." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0042593" ;
+               rdfs:label "glucose homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042593 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the maintenance of an internal steady state of glucose within an organism or cell." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0043279
+obo:GO_0043279 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_1901698 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an alkaloid stimulus. Alkaloids are a large group of nitrogenous substances found in naturally in plants, many of which have extracts that are pharmacologically active." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0043279" ;
+               rdfs:label "response to alkaloid" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0043279 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an alkaloid stimulus. Alkaloids are a large group of nitrogenous substances found in naturally in plants, many of which have extracts that are pharmacologically active." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0043434
+obo:GO_0043434 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009725 ,
+                               obo:GO_1901698 ,
+                               obo:GO_1901700 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a peptide hormone stimulus. A peptide hormone is any of a class of peptides that are secreted into the blood stream and have endocrine functions in living animals." ;
+               oboInOwl:hasExactSynonym "response to peptide hormone stimulus" ,
+                                        "response to polypeptide hormone stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0043434" ;
+               rdfs:label "response to peptide hormone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0043434 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a peptide hormone stimulus. A peptide hormone is any of a class of peptides that are secreted into the blood stream and have endocrine functions in living animals." ;
+   oboInOwl:hasDbXref "PMID:11027914" ,
+                      "PMID:15134857" ,
+                      "Wikipedia:Peptide_hormone"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0043434 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to peptide hormone stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0043627
+obo:GO_0043627 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009725 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of stimulus by an estrogen, C18 steroid hormones that can stimulate the development of female sexual characteristics." ;
+               oboInOwl:hasExactSynonym "response to estrogen stimulus" ,
+                                        "response to oestrogen stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "response to 17alpha-ethynylestradiol" ;
+               oboInOwl:id "GO:0043627" ;
+               rdfs:label "response to estrogen" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0043627 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of stimulus by an estrogen, C18 steroid hormones that can stimulate the development of female sexual characteristics." ;
+   oboInOwl:hasDbXref "GOC:jl" ,
+                      "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0043627 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to estrogen stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0044057
+obo:GO_0044057 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051239 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a system process, a multicellular organismal process carried out by any of the organs or tissues in an organ system." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0044057" ;
+               rdfs:label "regulation of system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0044057 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a system process, a multicellular organismal process carried out by any of the organs or tissues in an organ system." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0044557
+obo:GO_0044557 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0090075 ;
+               obo:IAO_0000115 "A process in which the extent of smooth muscle contraction is reduced. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-04-05T02:42:28Z" ;
+               oboInOwl:hasExactSynonym "smooth muscle relaxation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0044557" ;
+               rdfs:label "relaxation of smooth muscle" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0044557 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which the extent of smooth muscle contraction is reduced. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048545
+obo:GO_0048545 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009725 ,
+                               obo:GO_0033993 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a steroid hormone stimulus." ;
+               oboInOwl:hasExactSynonym "response to steroid hormone stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048545" ;
+               rdfs:label "response to steroid hormone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048545 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a steroid hormone stimulus." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048545 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to steroid hormone stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048871
+obo:GO_0048871 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ,
+                               obo:GO_0042592 ;
+               obo:IAO_0000115 "Any process involved in the maintenance of an internal steady state at the level of the multicellular organism." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048871" ;
+               rdfs:label "multicellular organismal-level homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048871 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the maintenance of an internal steady state at the level of the multicellular organism." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048878
+obo:GO_0048878 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042592 ;
+               obo:IAO_0000115 "Any biological process involved in the maintenance of an internal steady state of a chemical." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048878" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ;
+               rdfs:label "chemical homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048878 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process involved in the maintenance of an internal steady state of a chemical." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050789
+obo:GO_0050789 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+               oboInOwl:hasAlternativeId "GO:0050791" ;
+               oboInOwl:hasExactSynonym "regulation of physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050789" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of biological process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050789 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050896
+obo:GO_0050896 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism." ;
+               oboInOwl:hasAlternativeId "GO:0051869" ;
+               oboInOwl:hasExactSynonym "physiological response to stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050896" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050896 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051179
+obo:GO_0051179 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27052"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2013-12-18T13:51:04Z" ;
+               oboInOwl:hasAlternativeId "GO:1902578" ;
+               oboInOwl:hasExactSynonym "establishment and maintenance of localization" ,
+                                        "establishment and maintenance of position" ,
+                                        "localisation" ;
+               oboInOwl:hasNarrowSynonym "establishment and maintenance of cellular component location" ,
+                                         "establishment and maintenance of substance location" ,
+                                         "establishment and maintenance of substrate location" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single organism localization" ,
+                                          "single-organism localization" ;
+               oboInOwl:id "GO:0051179" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "localization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dos"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "localisation" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "single organism localization" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051234
+obo:GO_0051234 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051179 ;
+               obo:IAO_0000115 "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24200"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "establishment of localisation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051234" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "establishment of localization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051234 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dos"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051234 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "establishment of localisation" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051239
+obo:GO_0051239 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051239" ;
+               rdfs:label "regulation of multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051239 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0055085
+obo:GO_0055085 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ,
+                               obo:GO_0009987 ;
+               obo:IAO_0000115 "The process in which a solute is transported across a lipid bilayer, from one side of a membrane to the other." ;
+               oboInOwl:created_by "tb" ;
+               oboInOwl:creation_date "2015-10-21T13:22:47Z" ;
+               oboInOwl:hasAlternativeId "GO:0090662" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-382556" ,
+                                  "Reactome:R-HSA-425407" ,
+                                  "Reactome:R-HSA-5223345" ;
+               oboInOwl:hasExactSynonym "membrane transport" ;
+               oboInOwl:hasNarrowSynonym "ATP hydrolysis coupled transmembrane transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0055085" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_euk_cellular_processes_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pombe> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:comment "Transmembrane transport is the transport of a solute across a lipid bilayer. Note that transport through the nuclear pore complex is not transmembrane because the nuclear membrane is a double membrane and is not traversed. For transport through the nuclear pore, consider instead the term 'nucleocytoplasmic transport ; GO:0006913' and its children. Note also that this term is not intended for use in annotating lateral movement within membranes." ;
+               rdfs:label "transmembrane transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0055085 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which a solute is transported across a lipid bilayer, from one side of a membrane to the other." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:jid"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0055085 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-382556" ;
+   rdfs:label "ABC-family proteins mediated transport"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0055085 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-425407" ;
+   rdfs:label "SLC-mediated transmembrane transport"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0055085 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-5223345" ;
+   rdfs:label "Miscellaneous transport and binding events"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060416
+obo:GO_0060416 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0043434 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a growth hormone stimulus. Growth hormone is a peptide hormone that binds to the growth hormone receptor and stimulates growth." ;
+               oboInOwl:hasExactSynonym "response to growth hormone stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0060416" ;
+               rdfs:label "response to growth hormone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0060416 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a growth hormone stimulus. Growth hormone is a peptide hormone that binds to the growth hormone receptor and stimulates growth." ;
+   oboInOwl:hasDbXref "GOC:BHF" ,
+                      "GOC:dph"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0060416 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to growth hormone stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0061337
+obo:GO_0061337 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0008016 ;
+               obo:IAO_0000115 "Transfer of an organized electrical impulse across the heart to coordinate the contraction of cardiac muscles. The process begins with generation of an action potential (in the sinoatrial node (SA) in humans) and ends with a change in the rate, frequency, or extent of the contraction of the heart muscles." ;
+               oboInOwl:created_by "dph" ;
+               oboInOwl:creation_date "2010-09-29T08:46:05Z" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-5576891" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0061337" ;
+               rdfs:label "cardiac conduction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0061337 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Transfer of an organized electrical impulse across the heart to coordinate the contraction of cardiac muscles. The process begins with generation of an action potential (in the sinoatrial node (SA) in humans) and ends with a change in the rate, frequency, or extent of the contraction of the heart muscles." ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0061337 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-5576891" ;
+   rdfs:label "Cardiac conduction"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0065007
+obo:GO_0065007 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that modulates a measurable attribute of any biological process, quality or function." ;
+               oboInOwl:hasBroadSynonym "regulation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0065007" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "biological regulation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0065007 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates a measurable attribute of any biological process, quality or function." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:mah" ,
+                      "GOC:pr" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0065008
+obo:GO_0065008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates a qualitative or quantitative trait of a biological quality. A biological quality is a measurable attribute of an organism or part of an organism, such as size, mass, shape, color, etc." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/30599"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "regulation of biological attribute" ,
+                                        "regulation of biological characteristic" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0065008" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of biological quality" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0065008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates a qualitative or quantitative trait of a biological quality. A biological quality is a measurable attribute of an organism or part of an organism, such as size, mass, shape, color, etc." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:mah" ,
+                      "GOC:pr" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0070509
+obo:GO_0070509 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006816 ;
+               obo:IAO_0000115 "The directed movement of calcium ions into a cell or organelle." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/23015"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "calcium ion uptake" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "transmembrane calcium influx" ;
+               oboInOwl:id "GO:0070509" ;
+               rdfs:label "calcium ion import" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070509 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of calcium ions into a cell or organelle." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070509 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "calcium ion uptake" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070509 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "transmembrane calcium influx" ;
+   oboInOwl:hasDbXref "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0070588
+obo:GO_0070588 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006816 ,
+                               obo:GO_0098655 ;
+               obo:IAO_0000115 "A process in which a calcium ion is transported from one side of a membrane to the other by means of some agent such as a transporter or pore." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2009-04-28T10:44:09Z" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-3295583" ;
+               oboInOwl:hasExactSynonym "calcium ion membrane transport" ,
+                                        "transmembrane calcium transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0070588" ;
+               rdfs:comment "Note that this term is not intended for use in annotating lateral movement within membranes." ;
+               rdfs:label "calcium ion transmembrane transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070588 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which a calcium ion is transported from one side of a membrane to the other by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070588 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-3295583" ;
+   rdfs:label "TRP channels"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070588 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "transmembrane calcium transport" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0071867
+obo:GO_0071867 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_1901698 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a monoamine stimulus. A monoamine is any of a group of molecular messengers that contain one amino group that is connected to an aromatic ring by ethylene group (-CH2-CH2-). Monoamines are derived from the aromatic amino acids phenylalanine, tyrosine, histidine and tryptophan." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-09-13T02:36:37Z" ;
+               oboInOwl:hasExactSynonym "response to monoamine stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0071867" ;
+               rdfs:label "response to monoamine" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071867 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a monoamine stimulus. A monoamine is any of a group of molecular messengers that contain one amino group that is connected to an aromatic ring by ethylene group (-CH2-CH2-). Monoamines are derived from the aromatic amino acids phenylalanine, tyrosine, histidine and tryptophan." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071867 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to monoamine stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0071869
+obo:GO_0071869 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0071867 ,
+                               obo:GO_1901700 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a catecholamine stimulus. A catecholamine is any of a group of biogenic amines that includes 4-(2-aminoethyl)pyrocatechol [4-(2-aminoethyl)benzene-1,2-diol] and derivatives formed by substitution." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-09-13T02:51:13Z" ;
+               oboInOwl:hasExactSynonym "response to catecholamine stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0071869" ;
+               rdfs:label "response to catecholamine" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071869 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a catecholamine stimulus. A catecholamine is any of a group of biogenic amines that includes 4-(2-aminoethyl)pyrocatechol [4-(2-aminoethyl)benzene-1,2-diol] and derivatives formed by substitution." ;
+   oboInOwl:hasDbXref "GOC:BHF" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071869 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to catecholamine stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0071871
+obo:GO_0071871 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042221 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an epinephrine stimulus. Epinephrine is a catecholamine that has the formula C9H13NO3; it is secreted by the adrenal medulla to act as a hormone, and released by certain neurons to act as a neurotransmitter active in the central nervous system." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-09-13T03:27:48Z" ;
+               oboInOwl:hasExactSynonym "response to adrenaline stimulus" ,
+                                        "response to epinephrine stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0071871" ;
+               rdfs:comment "Note that epinephrine and norepinephrine are ligands for the same receptors, and there are multiple adrenergic receptors." ;
+               rdfs:label "response to epinephrine" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071871 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an epinephrine stimulus. Epinephrine is a catecholamine that has the formula C9H13NO3; it is secreted by the adrenal medulla to act as a hormone, and released by certain neurons to act as a neurotransmitter active in the central nervous system." ;
+   oboInOwl:hasDbXref "GOC:BHF" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071871 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to adrenaline stimulus" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071871 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to epinephrine stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0071873
+obo:GO_0071873 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0071869 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a norepinephrine stimulus. Norepinephrine is a catecholamine that has the formula C8H11NO3; it acts as a hormone, and as a neurotransmitter in most of the sympathetic nervous system." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-09-13T03:31:53Z" ;
+               oboInOwl:hasExactSynonym "response to noradrenaline stimulus" ,
+                                        "response to norepinephrine stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0071873" ;
+               rdfs:comment "Note that epinephrine and norepinephrine are ligands for the same receptors, and there are multiple adrenergic receptors." ;
+               rdfs:label "response to norepinephrine" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071873 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a norepinephrine stimulus. Norepinephrine is a catecholamine that has the formula C8H11NO3; it acts as a hormone, and as a neurotransmitter in most of the sympathetic nervous system." ;
+   oboInOwl:hasDbXref "GOC:BHF" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071873 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to noradrenaline stimulus" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0071873 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to norepinephrine stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0090066
+obo:GO_0090066 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065008 ;
+               obo:IAO_0000115 "Any process that modulates the size of an anatomical structure." ;
+               oboInOwl:created_by "tb" ;
+               oboInOwl:creation_date "2009-09-02T11:00:08Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0090066" ;
+               rdfs:label "regulation of anatomical structure size" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0090066 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the size of an anatomical structure." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0090075
+obo:GO_0090075 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003012 ;
+               obo:IAO_0000115 "A process in which the extent of muscle contraction is reduced. Muscle relaxation can involve a number of processes including the removal of calcium from the cytoplasm to the sarcoplasmic reticulum lumen through the action of Ca2+ ATPases. In some muscles, calcium-independent pathways also play a role in muscle relaxation by decreasing the phosphorylation state of myosin light chain." ;
+               oboInOwl:created_by "tb" ;
+               oboInOwl:creation_date "2009-09-11T11:43:38Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0090075" ;
+               rdfs:label "relaxation of muscle" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0090075 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which the extent of muscle contraction is reduced. Muscle relaxation can involve a number of processes including the removal of calcium from the cytoplasm to the sarcoplasmic reticulum lumen through the action of Ca2+ ATPases. In some muscles, calcium-independent pathways also play a role in muscle relaxation by decreasing the phosphorylation state of myosin light chain." ;
+   oboInOwl:hasDbXref "GOC:BHF" ,
+                      "GOC:rl" ,
+                      "PMID:19996365"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0097009
+obo:GO_0097009 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048871 ;
+               obo:IAO_0000115 "Any process involved in the balance between food intake (energy input) and energy expenditure." ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2011-03-21T10:52:44Z" ;
+               oboInOwl:hasAlternativeId "GO:2000505" ,
+                                         "GO:2000506" ,
+                                         "GO:2000507" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "negative regulation of energy homeostasis" ,
+                                          "positive regulation of energy homeostasis" ,
+                                          "regulation of energy homeostasis" ;
+               oboInOwl:id "GO:0097009" ;
+               rdfs:label "energy homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0097009 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the balance between food intake (energy input) and energy expenditure." ;
+   oboInOwl:hasDbXref "GOC:yaf" ,
+                      "PMID:15919751"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0097066
+obo:GO_0097066 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009725 ;
+               obo:IAO_0000115 "A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a thyroid hormone stimulus." ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2011-06-14T05:01:18Z" ;
+               oboInOwl:hasExactSynonym "response to thyroid hormone stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0097066" ;
+               rdfs:label "response to thyroid hormone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0097066 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a thyroid hormone stimulus." ;
+   oboInOwl:hasDbXref "GOC:sjw" ,
+                      "PMID:9916872"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0097066 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "response to thyroid hormone stimulus" ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0097746
+obo:GO_0097746 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003018 ,
+                               obo:GO_0035296 ;
+               obo:IAO_0000115 "Any process that modulates the diameter of blood vessels." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/12253"^^xsd:anyURI ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2016-11-24T15:45:05Z" ;
+               oboInOwl:hasAlternativeId "GO:0042312" ,
+                                         "GO:0050880" ;
+               oboInOwl:hasExactSynonym "blood vessel diameter homeostasis" ,
+                                        "regulation of blood vessel diameter" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "regulation of blood vessel size" ,
+                                          "regulation of vasodilatation" ,
+                                          "regulation of vasodilation" ;
+               oboInOwl:id "GO:0097746" ;
+               rdfs:label "blood vessel diameter maintenance" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0097746 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the diameter of blood vessels." ;
+   oboInOwl:hasDbXref "GOC:pr"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0098655
+obo:GO_0098655 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006812 ,
+                               obo:GO_0034220 ;
+               obo:IAO_0000115 "The process in which a monoatomic cation is transported across a membrane. Monatomic cations (also called simple cations) are positively charged ions consisting of exactly one atom." ;
+               oboInOwl:hasAlternativeId "GO:0099132" ;
+               oboInOwl:hasBroadSynonym "cation transmembrane transport" ;
+               oboInOwl:hasNarrowSynonym "ATP hydrolysis coupled cation transmembrane transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0098655" ;
+               rdfs:label "monoatomic cation transmembrane transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0098655 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which a monoatomic cation is transported across a membrane. Monatomic cations (also called simple cations) are positively charged ions consisting of exactly one atom." ;
+   oboInOwl:hasDbXref "GOC:dos" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0140115
+obo:GO_0140115 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0055085 ,
+                               obo:GO_0140352 ;
+               obo:IAO_0000115 "The directed movement of some substance from inside of a cell, across the plasma membrane and into the extracellular region." ;
+               oboInOwl:created_by "pg" ;
+               oboInOwl:creation_date "2017-10-24T14:38:16Z" ;
+               oboInOwl:hasBroadSynonym "efflux" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0140115" ;
+               rdfs:label "export across plasma membrane" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0140115 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of some substance from inside of a cell, across the plasma membrane and into the extracellular region." ;
+   oboInOwl:hasDbXref "GOC:pg"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0140352
+obo:GO_0140352 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ,
+                               obo:GO_0009987 ;
+               obo:IAO_0000115 "The directed movement of some substance from a cell, into the extracellular region. This may occur via transport across the plasma membrane or via exocytosis." ;
+               oboInOwl:created_by "pg" ;
+               oboInOwl:creation_date "2019-05-22T11:20:45Z" ;
+               oboInOwl:hasBroadSynonym "efflux" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0140352" ;
+               rdfs:label "export from cell" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0140352 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of some substance from a cell, into the extracellular region. This may occur via transport across the plasma membrane or via exocytosis." ;
+   oboInOwl:hasDbXref "GOC:pg"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1901654
+obo:GO_1901654 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_1901700 ;
+               obo:IAO_0000115 "A response that results in a state of tolerance to ketone." ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2012-11-20T10:55:47Z" ;
+               oboInOwl:hasAlternativeId "GO:1990369" ;
+               oboInOwl:hasNarrowSynonym "process resulting in tolerance to ketone" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1901654" ;
+               rdfs:label "response to ketone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901654 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A response that results in a state of tolerance to ketone." ;
+   oboInOwl:hasDbXref "GOC:mengo_curators" ,
+                      "PMID:23356676"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1901698
+obo:GO_1901698 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042221 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a nitrogen compound stimulus." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27194"^^xsd:anyURI ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2012-12-13T15:06:08Z" ;
+               oboInOwl:hasExactSynonym "response to nitrogen molecular entity" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1901698" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to nitrogen compound" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901698 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a nitrogen compound stimulus." ;
+   oboInOwl:hasDbXref "GOC:TermGenie" ,
+                      "GOC:pr"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1901700
+obo:GO_1901700 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042221 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an oxygen-containing compound stimulus." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27194"^^xsd:anyURI ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2012-12-13T15:11:37Z" ;
+               oboInOwl:hasExactSynonym "response to oxygen molecular entity" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1901700" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to oxygen-containing compound" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1901700 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an oxygen-containing compound stimulus." ;
+   oboInOwl:hasDbXref "GOC:TermGenie" ,
+                      "GOC:pr"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1903522
+obo:GO_1903522 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0044057 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of blood circulation." ;
+               oboInOwl:created_by "mr" ;
+               oboInOwl:creation_date "2014-10-06T18:38:56Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "regulation of hemolymph circulation" ;
+               oboInOwl:id "GO:1903522" ;
+               rdfs:label "regulation of blood circulation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1903522 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of blood circulation." ;
+   oboInOwl:hasDbXref "GOC:TermGenie" ,
+                      "GOC:mr" ,
+                      "GO_REF:0000058" ,
+                      "PMID:10659969"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1903522 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "regulation of hemolymph circulation" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1990034
+obo:GO_1990034 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0070588 ,
+                               obo:GO_0140115 ;
+               obo:IAO_0000115 "The directed movement of calcium ions from inside of a cell, across the plasma membrane and into the extracellular region." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2013-02-07T13:01:29Z" ;
+               oboInOwl:hasExactSynonym "calcium ion efflux from cell" ,
+                                        "calcium ion export from cell" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1990034" ;
+               rdfs:label "calcium ion export across plasma membrane" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1990034 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of calcium ions from inside of a cell, across the plasma membrane and into the extracellular region." ;
+   oboInOwl:hasDbXref "GOC:mah" ,
+                      "PMID:2145281"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1990034 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "calcium ion efflux from cell" ;
+   oboInOwl:hasDbXref "GOC:vw" ,
+                      "PMID:2145281"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_1990418
+obo:GO_1990418 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009725 ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an insulin-like growth factor stimulus." ;
+               oboInOwl:created_by "sl" ;
+               oboInOwl:creation_date "2014-07-14T22:47:59Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:1990418" ;
+               rdfs:label "response to insulin-like growth factor stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_1990418 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an insulin-like growth factor stimulus." ;
+   oboInOwl:hasDbXref "PMID:21932665"
+ ] .
+
+
 ###  http://purl.obolibrary.org/obo/UBERON_0000025
 obo:UBERON_0000025 rdf:type owl:Class ;
                    rdfs:subClassOf obo:UBERON_0004111 ;
@@ -2114,6 +3958,13 @@ obo:UBERON_0000061 rdf:type owl:Class ;
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource obo:UBERON_0000061 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome." ;
+   oboInOwl:hasDbXref "CARO:0000003"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:UBERON_0000061 ;
    owl:annotatedProperty oboInOwl:hasDbXref ;
    owl:annotatedTarget "FBbt:00007001" ;
    sssom:mapping_justification <https://w3id.org/semapv/vocab/ManualMappingCuration>
@@ -2123,13 +3974,6 @@ obo:UBERON_0000061 rdf:type owl:Class ;
    owl:annotatedSource obo:UBERON_0000061 ;
    owl:annotatedProperty oboInOwl:hasExactSynonym ;
    owl:annotatedTarget "connected biological structure" ;
-   oboInOwl:hasDbXref "CARO:0000003"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:UBERON_0000061 ;
-   owl:annotatedProperty obo:IAO_0000115 ;
-   owl:annotatedTarget "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome." ;
    oboInOwl:hasDbXref "CARO:0000003"
  ] .
 
@@ -13713,20 +15557,6 @@ obo:UBERON_0012451 rdf:type owl:Class ;
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource obo:UBERON_0012451 ;
-   owl:annotatedProperty oboInOwl:hasExactSynonym ;
-   owl:annotatedTarget "peripheral ending of sensory neuron" ;
-   oboInOwl:hasDbXref "FMA:84650"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:UBERON_0012451 ;
-   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
-   owl:annotatedTarget "sensory nerve ending" ;
-   oboInOwl:hasDbXref "MESH:A08.800.550.700"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:UBERON_0012451 ;
    owl:annotatedProperty obo:IAO_0000115 ;
    owl:annotatedTarget "A sensory nerve ending that responds to a stimulus in the internal or external environment of an organism. In response to stimuli the sensory receptor initiates sensory transduction by creating graded potentials or action potentials in the same cell or in an adjacent one." ;
    oboInOwl:hasDbXref "Wikipedia:Sensory_receptor"
@@ -13737,6 +15567,20 @@ obo:UBERON_0012451 rdf:type owl:Class ;
    owl:annotatedProperty oboInOwl:hasDbXref ;
    owl:annotatedTarget "UMLS:C0682664" ;
    oboInOwl:source "ncithesaurus:Somatosensory_Receptor"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:UBERON_0012451 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "peripheral ending of sensory neuron" ;
+   oboInOwl:hasDbXref "FMA:84650"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:UBERON_0012451 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "sensory nerve ending" ;
+   oboInOwl:hasDbXref "MESH:A08.800.550.700"
  ] .
 
 
@@ -29437,7 +31281,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:record_number 41 ;
                                                                            wpp:record_source <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system> ;
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R41-ReferenceField-1> ;
-                                                                           wpp:time_scale_field "hours, days" .
+                                                                           wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R41-EffectorField
@@ -29523,7 +31367,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R42-ReferenceField-1> ;
                                                                            wpp:signal_field "testosterone" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "hours, days, weeks" .
+                                                                           wpp:time_scale_field "hours-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R42-EffectorField
@@ -29620,7 +31464,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R43-ReferenceField-1> ;
                                                                            wpp:signal_field "growth hormone" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "hours, days, weeks" .
+                                                                           wpp:time_scale_field "hours-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R43-EffectorField
@@ -29717,7 +31561,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R44-ReferenceField-1> ;
                                                                            wpp:signal_field "t3" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "hours, days, weeks" .
+                                                                           wpp:time_scale_field "hours-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R44-EffectorField
@@ -29814,7 +31658,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R45-ReferenceField-1> ;
                                                                            wpp:signal_field "insulin" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "hours, days, weeks" .
+                                                                           wpp:time_scale_field "hours-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R45-EffectorField
@@ -29911,7 +31755,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R46-ReferenceField-1> ;
                                                                            wpp:signal_field "estrogen" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "hours, days, weeks" .
+                                                                           wpp:time_scale_field "hours-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R46-EffectorField
@@ -30008,7 +31852,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R47-ReferenceField-1> ;
                                                                            wpp:signal_field "insulin-like growth factor" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "hours, days, weeks" .
+                                                                           wpp:time_scale_field "hours-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R47-EffectorField
@@ -30105,7 +31949,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R48-ReferenceField-1> ;
                                                                            wpp:signal_field "cortisol" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "hours, days, weeks" .
+                                                                           wpp:time_scale_field "hours-weeks" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R48-EffectorField
@@ -30200,7 +32044,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R49-ReferenceField-1> ;
                                                                            wpp:signal_field "t3" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R49-EffectorField
@@ -30285,7 +32129,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R50-ReferenceField-1> ;
                                                                            wpp:signal_field "t3" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R50-EffectorField
@@ -30370,7 +32214,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R51-ReferenceField-1> ;
                                                                            wpp:signal_field "t3" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R51-EffectorField
@@ -30454,7 +32298,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R52-ReferenceField-1> ;
                                                                            wpp:signal_field "norepinephrine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R52-EffectorField
@@ -30539,7 +32383,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R53-ReferenceField-1> ;
                                                                            wpp:signal_field "norepinephrine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R53-EffectorField
@@ -30624,7 +32468,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R54-ReferenceField-1> ;
                                                                            wpp:signal_field "norepinephrine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R54-EffectorField
@@ -30708,7 +32552,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R55-ReferenceField-1> ;
                                                                            wpp:signal_field "epinephrine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R55-EffectorField
@@ -30793,7 +32637,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R56-ReferenceField-1> ;
                                                                            wpp:signal_field "epinephrine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R56-EffectorField
@@ -30878,7 +32722,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R57-ReferenceField-1> ;
                                                                            wpp:signal_field "epinephrine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R57-EffectorField
@@ -30962,7 +32806,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R58-ReferenceField-1> ;
                                                                            wpp:signal_field "caffeine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R58-EffectorField
@@ -31047,7 +32891,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R59-ReferenceField-1> ;
                                                                            wpp:signal_field "caffeine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R59-EffectorField
@@ -31132,7 +32976,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R60-ReferenceField-1> ;
                                                                            wpp:signal_field "caffeine" ;
                                                                            wpp:signal_scale_field "circulatory" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R60-EffectorField
@@ -31217,7 +33061,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:record_number 61 ;
                                                                            wpp:record_source <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system> ;
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R61-ReferenceField-1> ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R61-EffectorField
@@ -31324,7 +33168,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                            wpp:record_source <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system> ;
                                                                            wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R62-ReferenceField-1> ;
                                                                            wpp:signal_field "insulin" ;
-                                                                           wpp:time_scale_field "seconds, minutes" .
+                                                                           wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/cardiovascular-system/draft#R62-EffectorField

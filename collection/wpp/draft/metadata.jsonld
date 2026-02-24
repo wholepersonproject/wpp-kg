@@ -1,6 +1,12 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#rdfxml",
             "dcat:mediaType": "application/rdf+xml",
             "dcat:downloadURL": {
@@ -155,11 +161,11 @@
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
+            "dct:title": "Whole Person Physiome (WPP)",
+            "@type": "dcat:Dataset",
             "schema1:funding": {
                 "@id": "_:b0"
             },
-            "dct:title": "Whole Person Physiome (WPP)",
-            "@type": "dcat:Dataset",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "schema1:dateCreated": {
                 "@value": "2026-02-12",
@@ -236,12 +242,6 @@
             "dct:title": "Raw data distribution 'digital-objects.yaml' file",
             "rdfs:label": "Raw data distribution 'digital-objects.yaml' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "_:b1",

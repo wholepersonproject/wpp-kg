@@ -76,10 +76,10 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the urinary system" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://schema.org/dateCreated> "2025-09-23"^^<http://www.w3.org/2001/XMLSchema#date> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
-_:B3f54f700074c599cec642b61403885cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
-_:B3f54f700074c599cec642b61403885cf <http://schema.org/award> "1U24AT013504-01" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
-_:B3f54f700074c599cec642b61403885cf <http://schema.org/funder> "National Institutes of Health" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
-<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://schema.org/funding> _:B3f54f700074c599cec642b61403885cf <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+_:Bdeac6312c77b9653dfa910c821ca29c8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+_:Bdeac6312c77b9653dfa910c821ca29c8 <http://schema.org/award> "1U24AT013504-01" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+_:Bdeac6312c77b9653dfa910c821ca29c8 <http://schema.org/funder> "National Institutes of Health" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://schema.org/funding> _:Bdeac6312c77b9653dfa910c821ca29c8 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0002-1005-3726> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
@@ -98,9 +98,9 @@ _:B3f54f700074c599cec642b61403885cf <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
-_:Beac24549534d3204bd5e9f7e59fd0149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
-_:Beac24549534d3204bd5e9f7e59fd0149 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
-_:Beac24549534d3204bd5e9f7e59fd0149 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Beac24549534d3204bd5e9f7e59fd0149 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+_:Be22bfc4344ac3145715671deb29fd3b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+_:Be22bfc4344ac3145715671deb29fd3b8 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+_:Be22bfc4344ac3145715671deb29fd3b8 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/a4a99af218d5460121b796e79c9f41a44e766da6> <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Be22bfc4344ac3145715671deb29fd3b8 <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> .

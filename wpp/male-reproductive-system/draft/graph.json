@@ -9,7 +9,7 @@
     "created_by": [
       "https://github.com/hubmapconsortium/hra-do-processor"
     ],
-    "creation_date": "2026-02-20",
+    "creation_date": "2026-02-24",
     "version": "draft",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "publisher": "HuBMAP",
@@ -485,7 +485,7 @@
         ],
         "signal": "somatostatin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -593,7 +593,7 @@
         ],
         "signal": "dopamine",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -700,7 +700,7 @@
             "chapter": "2"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "x_target": "[0.5, 4]",
         "type_of": [
           "Record"
@@ -809,7 +809,7 @@
         ],
         "signal": "somatostatin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -917,7 +917,7 @@
         ],
         "signal": "dopamine",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1024,7 +1024,7 @@
             "chapter": "2"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "x_target": "[10, 60]",
         "type_of": [
           "Record"
@@ -1133,7 +1133,7 @@
         ],
         "signal": "somatostatin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1241,7 +1241,7 @@
         ],
         "signal": "dopamine",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1348,7 +1348,7 @@
             "chapter": "2"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "x_target": "[1, 7]",
         "type_of": [
           "Record"
@@ -1457,7 +1457,7 @@
         ],
         "signal": "somatostatin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1565,7 +1565,7 @@
         ],
         "signal": "dopamine",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1672,7 +1672,7 @@
             "chapter": "2"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "x_target": "[2, 9]",
         "type_of": [
           "Record"
@@ -1781,7 +1781,7 @@
         ],
         "signal": "somatostatin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1889,7 +1889,7 @@
         ],
         "signal": "dopamine",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1996,7 +1996,7 @@
             "chapter": "2"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "x_target": "[0,20]",
         "type_of": [
           "Record"
@@ -2105,7 +2105,7 @@
         ],
         "signal": "somatostatin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2213,7 +2213,7 @@
         ],
         "signal": "dopamine",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2737,7 +2737,7 @@
         ],
         "signal": "gonadotropin releasing hormone, continuous",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -2820,7 +2820,7 @@
         ],
         "signal": "gonadotropin releasing hormone, continuous",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -3504,7 +3504,7 @@
           }
         ],
         "signal_scale": "autocrine, paracrine, circulatory",
-        "time_scale": "weeks, months",
+        "time_scale": "weeks-months",
         "type_of": [
           "Record"
         ]
@@ -3639,7 +3639,7 @@
           }
         ],
         "signal_scale": "autocrine, paracrine, circulatory",
-        "time_scale": "weeks, months",
+        "time_scale": "weeks-months",
         "type_of": [
           "Record"
         ]
@@ -3775,7 +3775,7 @@
         ],
         "signal": "testosterone",
         "signal_scale": "autocrine, paracrine, circulatory",
-        "time_scale": "weeks, months",
+        "time_scale": "weeks-months",
         "type_of": [
           "Record"
         ]
@@ -3911,7 +3911,7 @@
         ],
         "signal": "testosterone",
         "signal_scale": "autocrine, paracrine, circulatory",
-        "time_scale": "weeks, months",
+        "time_scale": "weeks-months",
         "type_of": [
           "Record"
         ]
@@ -4045,7 +4045,7 @@
             "chapter": "8"
           }
         ],
-        "time_scale": "hours, days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -4181,7 +4181,7 @@
         ],
         "signal": "testosterone",
         "signal_scale": "paracrine",
-        "time_scale": "hours, days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -4315,7 +4315,7 @@
             "chapter": "8"
           }
         ],
-        "time_scale": "days, weeks",
+        "time_scale": "days-weeks",
         "type_of": [
           "Record"
         ]
@@ -4451,7 +4451,7 @@
         ],
         "signal": "testosterone",
         "signal_scale": "circulatory",
-        "time_scale": "days, weeks",
+        "time_scale": "days-weeks",
         "type_of": [
           "Record"
         ]
@@ -4587,7 +4587,7 @@
         ],
         "signal": "testosterone",
         "signal_scale": "circulatory",
-        "time_scale": "days, weeks",
+        "time_scale": "days-weeks",
         "type_of": [
           "Record"
         ]
@@ -4709,7 +4709,7 @@
             "chapter": "8"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4830,7 +4830,7 @@
             "chapter": "8"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]

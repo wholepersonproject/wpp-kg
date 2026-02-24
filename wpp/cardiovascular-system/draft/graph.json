@@ -9,7 +9,7 @@
     "created_by": [
       "https://github.com/hubmapconsortium/hra-do-processor"
     ],
-    "creation_date": "2026-02-20",
+    "creation_date": "2026-02-24",
     "version": "draft",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "publisher": "HuBMAP",
@@ -2941,7 +2941,7 @@
             "chapter": "22"
           }
         ],
-        "time_scale": "hours, days",
+        "time_scale": "hours-days",
         "type_of": [
           "Record"
         ]
@@ -3050,7 +3050,7 @@
         ],
         "signal": "testosterone",
         "signal_scale": "circulatory",
-        "time_scale": "hours, days, weeks",
+        "time_scale": "hours-weeks",
         "type_of": [
           "Record"
         ]
@@ -3159,7 +3159,7 @@
         ],
         "signal": "growth hormone",
         "signal_scale": "circulatory",
-        "time_scale": "hours, days, weeks",
+        "time_scale": "hours-weeks",
         "type_of": [
           "Record"
         ]
@@ -3268,7 +3268,7 @@
         ],
         "signal": "t3",
         "signal_scale": "circulatory",
-        "time_scale": "hours, days, weeks",
+        "time_scale": "hours-weeks",
         "type_of": [
           "Record"
         ]
@@ -3377,7 +3377,7 @@
         ],
         "signal": "insulin",
         "signal_scale": "circulatory",
-        "time_scale": "hours, days, weeks",
+        "time_scale": "hours-weeks",
         "type_of": [
           "Record"
         ]
@@ -3486,7 +3486,7 @@
         ],
         "signal": "estrogen",
         "signal_scale": "circulatory",
-        "time_scale": "hours, days, weeks",
+        "time_scale": "hours-weeks",
         "type_of": [
           "Record"
         ]
@@ -3595,7 +3595,7 @@
         ],
         "signal": "insulin-like growth factor",
         "signal_scale": "circulatory",
-        "time_scale": "hours, days, weeks",
+        "time_scale": "hours-weeks",
         "type_of": [
           "Record"
         ]
@@ -3704,7 +3704,7 @@
         ],
         "signal": "cortisol",
         "signal_scale": "circulatory",
-        "time_scale": "hours, days, weeks",
+        "time_scale": "hours-weeks",
         "type_of": [
           "Record"
         ]
@@ -3799,7 +3799,7 @@
         ],
         "signal": "t3",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -3895,7 +3895,7 @@
         ],
         "signal": "t3",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -3991,7 +3991,7 @@
         ],
         "signal": "t3",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4086,7 +4086,7 @@
         ],
         "signal": "norepinephrine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4182,7 +4182,7 @@
         ],
         "signal": "norepinephrine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4278,7 +4278,7 @@
         ],
         "signal": "norepinephrine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4373,7 +4373,7 @@
         ],
         "signal": "epinephrine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4469,7 +4469,7 @@
         ],
         "signal": "epinephrine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4565,7 +4565,7 @@
         ],
         "signal": "epinephrine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4660,7 +4660,7 @@
         ],
         "signal": "caffeine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4756,7 +4756,7 @@
         ],
         "signal": "caffeine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4852,7 +4852,7 @@
         ],
         "signal": "caffeine",
         "signal_scale": "circulatory",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -4971,7 +4971,7 @@
             "chapter": "22"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -5091,7 +5091,7 @@
           }
         ],
         "signal": "insulin",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]

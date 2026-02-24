@@ -148,9 +148,6 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data",
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
@@ -171,6 +168,9 @@
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "dct:title": "Whole Person Physiome (WPP) table for the fascia system",
             "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "rdfs:comment": "TODO: description",
             "@type": "dcat:Dataset",
             "rdfs:label": "Whole Person Physiome (WPP) table for the fascia system",
@@ -230,6 +230,12 @@
             "@type": "schema1:Person"
         },
         {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#Fascia_System.csv",
             "dcat:mediaType": "text/csv",
             "dcat:downloadURL": {
@@ -243,12 +249,6 @@
             "dct:title": "Raw data distribution 'Fascia_System.csv' file",
             "rdfs:label": "Raw data distribution 'Fascia_System.csv' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         }
     ],
     "@context": {

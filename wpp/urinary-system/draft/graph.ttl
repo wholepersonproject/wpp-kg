@@ -27,7 +27,7 @@
                                                            dct:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                            dct:publisher "HuBMAP" ;
                                                            dct:title "urinary-system (draft) graph data" ;
-                                                           schema1:dateCreated "2026-02-20" ;
+                                                           schema1:dateCreated "2026-02-24" ;
                                                            schema1:version "draft" ;
                                                            rdfs:seeAlso <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft> ;
                                                            prov:wasDerivedFrom <https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data> .
@@ -102,7 +102,9 @@ obo:IAO_0000233 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000112 "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"@en ;
                 obo:IAO_0000115 "An IRI or similar locator for a request or discussion of an ontology term."@en ;
                 oboInOwl:hasDbXref "IAO:0000233" ;
+                oboInOwl:hasOBONamespace "external" ;
                 oboInOwl:id "term_tracker_item" ;
+                oboInOwl:is_class_level "true"^^xsd:boolean ;
                 oboInOwl:is_metadata_tag "true"^^xsd:boolean ;
                 oboInOwl:shorthand "term_tracker_item" ;
                 rdfs:comment "The 'tracker item' can associate a tracker with a specific ontology term."@en ;
@@ -524,6 +526,11 @@ oboInOwl:hasNarrowSynonym rdf:type owl:AnnotationProperty ;
                           rdfs:label "has narrow synonym"@en ,
                                      "has_narrow_synonym" ;
                           rdfs:seeAlso "https://github.com/information-artifact-ontology/ontology-metadata/issues/19" .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+oboInOwl:hasOBONamespace rdf:type owl:AnnotationProperty ;
+                         rdfs:label "has_obo_namespace" .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
@@ -2992,6 +2999,2150 @@ obo:CL_4030031 rdf:type owl:Class ;
    owl:annotatedProperty obo:IAO_0000115 ;
    owl:annotatedTarget "Any cell that is located within the interstitium between the cells most prominent in defining a given tissue. \"Interstitial cell\" is a morphological term and refers to a variety of cells with differing origins and phenotypes." ;
    oboInOwl:hasDbXref "PMID:24987007"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0001990
+obo:GO_0001990 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003044 ,
+                               obo:GO_0050886 ;
+               obo:IAO_0000115 "The process in which hormones modulate the force with which blood passes through the circulatory system. A hormone is one of a group of substances formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells, in the same organism, upon which they have a specific regulatory action." ;
+               oboInOwl:hasExactSynonym "blood pressure regulation by hormone" ,
+                                        "hormonal regulation of blood pressure" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "hormonal control of blood pressure" ;
+               oboInOwl:id "GO:0001990" ;
+               rdfs:label "regulation of systemic arterial blood pressure by hormone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0001990 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which hormones modulate the force with which blood passes through the circulatory system. A hormone is one of a group of substances formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells, in the same organism, upon which they have a specific regulatory action." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio" ,
+                      "ISBN:0721643949"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0001999
+obo:GO_0001999 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003071 ;
+               obo:IAO_0000115 "The physiological response of the kidneys to a decrease in blood flow." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "renal response to blood flow during renin-angiotensin control of blood pressure" ;
+               oboInOwl:id "GO:0001999" ;
+               rdfs:label "renal response to blood flow involved in circulatory renin-angiotensin regulation of systemic arterial blood pressure" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0001999 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The physiological response of the kidneys to a decrease in blood flow." ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002017
+obo:GO_0002017 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0001990 ,
+                               obo:GO_0003084 ;
+               obo:IAO_0000115 "The process in which the hormone aldosterone decreases the rate of diuresis and natriuresis resulting in increased blood volume." ;
+               oboInOwl:hasExactSynonym "aldosterone mediated regulation of blood volume" ,
+                                        "renal regulation of blood volume by aldosterone" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "aldosterone mediated control of body fluids" ;
+               oboInOwl:id "GO:0002017" ;
+               rdfs:label "regulation of blood volume by renal aldosterone" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002017 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which the hormone aldosterone decreases the rate of diuresis and natriuresis resulting in increased blood volume." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb" ,
+                      "ISBN:0721643949"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002017 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "aldosterone mediated regulation of blood volume" ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002017 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "renal regulation of blood volume by aldosterone" ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0002034
+obo:GO_0002034 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003081 ,
+                               obo:GO_0097746 ;
+               obo:IAO_0000115 "The process in which the diameter of a blood vessel is changed due to activity of the renin-angiotensin system." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/12253"^^xsd:anyURI ;
+               oboInOwl:hasBroadSynonym "regulation of blood vessel size by renin-angiotensin" ,
+                                        "renin-angiotensin regulation of blood vessel size" ;
+               oboInOwl:hasExactSynonym "regulation of blood vessel diameter by renin-angiotensin" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0002034" ;
+               rdfs:label "maintenance of blood vessel diameter homeostasis by renin-angiotensin" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002034 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which the diameter of a blood vessel is changed due to activity of the renin-angiotensin system." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:pr" ,
+                      "GOC:tb"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0002034 ;
+   owl:annotatedProperty oboInOwl:hasBroadSynonym ;
+   owl:annotatedTarget "renin-angiotensin regulation of blood vessel size" ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003008
+obo:GO_0003008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ;
+               obo:IAO_0000115 "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." ;
+               oboInOwl:hasExactSynonym "organ system process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003008" ;
+               rdfs:label "system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003012
+obo:GO_0003012 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "An organ system process carried out at the level of a muscle. Muscle tissue is composed of contractile cells or fibers." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "muscle physiological process" ;
+               oboInOwl:id "GO:0003012" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ;
+               rdfs:label "muscle system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003012 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An organ system process carried out at the level of a muscle. Muscle tissue is composed of contractile cells or fibers." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003013
+obo:GO_0003013 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "An organ system process carried out by any of the organs or tissues of the circulatory system. The circulatory system is an organ system that moves extracellular fluids to and from tissue within a multicellular organism." ;
+               oboInOwl:hasDbXref "Wikipedia:Circulatory_system" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003013" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_generic> ;
+               rdfs:label "circulatory system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003013 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An organ system process carried out by any of the organs or tissues of the circulatory system. The circulatory system is an organ system that moves extracellular fluids to and from tissue within a multicellular organism." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003014
+obo:GO_0003014 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "An organ system process carried out by any of the organs or tissues of the renal system. The renal system maintains fluid balance, and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products. In humans, the renal system comprises a pair of kidneys, a pair of ureters, urinary bladder, urethra, sphincter muscle and associated blood vessels; in other species, the renal system may comprise related structures (e.g., nephrocytes and malpighian tubules in Drosophila)." ;
+               oboInOwl:hasExactSynonym "excretory system process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "kidney system process" ;
+               oboInOwl:id "GO:0003014" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_generic> ;
+               rdfs:label "renal system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003014 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "An organ system process carried out by any of the organs or tissues of the renal system. The renal system maintains fluid balance, and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products. In humans, the renal system comprises a pair of kidneys, a pair of ureters, urinary bladder, urethra, sphincter muscle and associated blood vessels; in other species, the renal system may comprise related structures (e.g., nephrocytes and malpighian tubules in Drosophila)." ;
+   oboInOwl:hasDbXref "GOC:cjm" ,
+                      "GOC:mtg_cardio" ,
+                      "GOC:mtg_kidney_jan10"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003018
+obo:GO_0003018 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003013 ;
+               obo:IAO_0000115 "A circulatory process that occurs at the level of the vasculature." ;
+               oboInOwl:hasExactSynonym "vasculature process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003018" ;
+               rdfs:label "vascular process in circulatory system" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003018 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A circulatory process that occurs at the level of the vasculature." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003044
+obo:GO_0003044 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003073 ;
+               obo:IAO_0000115 "The regulation of blood pressure mediated by biochemical signaling: hormonal, autocrine or paracrine." ;
+               oboInOwl:hasExactSynonym "blood pressure regulation mediated by a chemical signal" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003044" ;
+               rdfs:label "regulation of systemic arterial blood pressure mediated by a chemical signal" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003044 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulation of blood pressure mediated by biochemical signaling: hormonal, autocrine or paracrine." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003071
+obo:GO_0003071 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ;
+               obo:IAO_0000115 "Renal process that modulates the force with which blood travels through the circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure." ;
+               oboInOwl:hasExactSynonym "renal control of blood pressure" ,
+                                        "renal regulation of systemic arterial blood pressure" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003071" ;
+               rdfs:label "renal system process involved in regulation of systemic arterial blood pressure" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003071 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Renal process that modulates the force with which blood travels through the circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:mtg_cardio" ,
+                      "GOC:tb"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003071 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "renal regulation of systemic arterial blood pressure" ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003073
+obo:GO_0003073 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0008217 ;
+               obo:IAO_0000115 "The process that modulates the force with which blood travels through the systemic arterial circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003073" ;
+               rdfs:label "regulation of systemic arterial blood pressure" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003073 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process that modulates the force with which blood travels through the systemic arterial circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003081
+obo:GO_0003081 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0001990 ;
+               obo:IAO_0000115 "The process in which renin-angiotensin modulates the force with which blood passes through the circulatory system." ;
+               oboInOwl:hasExactSynonym "blood pressure regulation by renin-angiotensin" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003081" ;
+               rdfs:label "regulation of systemic arterial blood pressure by renin-angiotensin" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003081 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which renin-angiotensin modulates the force with which blood passes through the circulatory system." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003084
+obo:GO_0003084 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0045777 ;
+               obo:IAO_0000115 "The process that increases the force with which blood travels through the systemic arterial circulatory system." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003084" ;
+               rdfs:label "positive regulation of systemic arterial blood pressure" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003084 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process that increases the force with which blood travels through the systemic arterial circulatory system." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003091
+obo:GO_0003091 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ,
+                               obo:GO_0050891 ;
+               obo:IAO_0000115 "Renal process involved in the maintenance of an internal steady state of water in the body." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-432040" ;
+               oboInOwl:hasExactSynonym "water homeostasis by the renal system" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003091" ;
+               rdfs:label "renal water homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003091 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Renal process involved in the maintenance of an internal steady state of water in the body." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003091 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-432040" ;
+   rdfs:label "Vasopressin regulates renal water homeostasis via Aquaporins"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003093
+obo:GO_0003093 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ,
+                               obo:GO_0098801 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of glomerular filtration. Glomerular filtration is the process in which blood is filtered by the glomerulus into the renal tubule." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003093" ;
+               rdfs:label "regulation of glomerular filtration" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003093 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of glomerular filtration. Glomerular filtration is the process in which blood is filtered by the glomerulus into the renal tubule." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003094
+obo:GO_0003094 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0097205 ;
+               obo:IAO_0000115 "The process in which plasma is filtered through the glomerular membrane which consists of capillary endothelial cells, the basement membrane, and epithelial cells. The glomerular filtrate is the same as plasma except it has no significant amount of protein." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003094" ;
+               rdfs:label "glomerular filtration" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003094 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process in which plasma is filtered through the glomerular membrane which consists of capillary endothelial cells, the basement membrane, and epithelial cells. The glomerular filtrate is the same as plasma except it has no significant amount of protein." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio" ,
+                      "GOC:sart" ,
+                      "ISBN:0721643949"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003096
+obo:GO_0003096 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ,
+                               obo:GO_0006814 ;
+               obo:IAO_0000115 "The directed movement of sodium ions (Na+) by the renal system." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003096" ;
+               rdfs:label "renal sodium ion transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003096 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of sodium ions (Na+) by the renal system." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003097
+obo:GO_0003097 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ,
+                               obo:GO_0006833 ;
+               obo:IAO_0000115 "The directed movement of water (H2O) by the renal system." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003097" ;
+               rdfs:label "renal water transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003097 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of water (H2O) by the renal system." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0003105
+obo:GO_0003105 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003093 ,
+                               obo:GO_0051241 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that stops, prevents, or reduces the frequency, rate or extent of glomerular filtration. Glomerular filtration is the process whereby blood is filtered by the glomerulus into the renal tubule." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0003105" ;
+               rdfs:label "negative regulation of glomerular filtration" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0003105 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that stops, prevents, or reduces the frequency, rate or extent of glomerular filtration. Glomerular filtration is the process whereby blood is filtered by the glomerulus into the renal tubule." ;
+   oboInOwl:hasDbXref "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0005575
+obo:GO_0005575 rdf:type owl:Class ;
+               obo:IAO_0000115 "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/17729"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0008372" ;
+               oboInOwl:hasDbXref "NIF_Subcellular:sao1337158144" ;
+               oboInOwl:hasExactSynonym "cell or subcellular entity" ,
+                                        "cellular component" ;
+               oboInOwl:hasOBONamespace "cellular_component" ;
+               oboInOwl:hasRelatedSynonym "subcellular entity" ;
+               oboInOwl:id "GO:0005575" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:comment "Note that, in addition to forming the root of the cellular component ontology, this term is recommended for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this." ;
+               rdfs:label "cellular_component" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005575 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." ;
+   oboInOwl:hasDbXref "GOC:pdt"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0005575 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "subcellular entity" ;
+   oboInOwl:hasDbXref "NIF_Subcellular:nlx_subcell_100315"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006521
+obo:GO_0006521 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ,
+                               obo:GO_0080090 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving amino acids." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/28908"^^xsd:anyURI ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-350562" ;
+               oboInOwl:hasExactSynonym "regulation of amino acid metabolism" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006521" ;
+               rdfs:label "regulation of amino acid metabolic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006521 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving amino acids." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006521 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-350562" ;
+   rdfs:label "Regulation of ornithine decarboxylase (ODC)"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006808
+obo:GO_0006808 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032107 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of nitrogen utilization." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006808" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ;
+               rdfs:label "regulation of nitrogen utilization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006808 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of nitrogen utilization." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006810
+obo:GO_0006810 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051234 ;
+               obo:IAO_0000115 "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/20292"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-13T16:25:32Z" ;
+               oboInOwl:hasAlternativeId "GO:0015457" ,
+                                         "GO:0015460" ,
+                                         "GO:0044765" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-382551" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism transport" ;
+               oboInOwl:id "GO:0006810" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that this term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term, for e.g. to transmembrane transport, to microtubule-based transport or to vesicle-mediated transport." ;
+               rdfs:label "transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006810 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein." ;
+   oboInOwl:hasDbXref "GOC:dos" ,
+                      "GOC:dph" ,
+                      "GOC:jl" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006810 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-382551" ;
+   rdfs:label "Transport of small molecules"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006811
+obo:GO_0006811 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of a monoatomic ion into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic ions (also called simple ions) are ions consisting of exactly one atom." ;
+               oboInOwl:hasBroadSynonym "ion transport" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-425393" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006811" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_yeast> ;
+               rdfs:label "monoatomic ion transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006811 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of a monoatomic ion into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic ions (also called simple ions) are ions consisting of exactly one atom." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006811 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-425393" ;
+   rdfs:label "Transport of inorganic cations/anions and amino acids/oligopeptides"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006812
+obo:GO_0006812 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006811 ;
+               obo:IAO_0000115 "The directed movement of a monoatomic cation, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic cations (also called simple cations) are positively charged ions consisting of exactly one atom." ;
+               oboInOwl:hasAlternativeId "GO:0006819" ,
+                                         "GO:0015674" ,
+                                         "GO:0072512" ;
+               oboInOwl:hasBroadSynonym "cation transport" ;
+               oboInOwl:hasNarrowSynonym "di-, tri-valent inorganic cation transport" ,
+                                         "trivalent inorganic cation transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006812" ;
+               rdfs:label "monoatomic cation transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006812 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of a monoatomic cation, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Monatomic cations (also called simple cations) are positively charged ions consisting of exactly one atom." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006812 ;
+   owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+   owl:annotatedTarget "di-, tri-valent inorganic cation transport" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006814
+obo:GO_0006814 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0030001 ;
+               obo:IAO_0000115 "The directed movement of sodium ions (Na+) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:hasAlternativeId "GO:0006834" ,
+                                         "GO:0016974" ;
+               oboInOwl:hasBroadSynonym "sodium/potassium transport" ;
+               oboInOwl:hasExactSynonym "sodium transport" ;
+               oboInOwl:hasNarrowSynonym "mitochondrial sodium/calcium ion exchange" ,
+                                         "sodium:calcium exchange" ,
+                                         "sodium:solute transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "sodium channel auxiliary protein activity" ;
+               oboInOwl:id "GO:0006814" ;
+               rdfs:label "sodium ion transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006814 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of sodium ions (Na+) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006814 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "sodium channel auxiliary protein activity" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006833
+obo:GO_0006833 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042044 ;
+               obo:IAO_0000115 "The directed movement of water (H2O) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-445717" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006833" ;
+               rdfs:label "water transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006833 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of water (H2O) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006833 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-445717" ;
+   rdfs:label "Aquaporin-mediated transport"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006936
+obo:GO_0006936 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003012 ;
+               obo:IAO_0000115 "A process in which force is generated within muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis." ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-445355" ,
+                                  "Wikipedia:Muscle_contraction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006936" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006936 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis." ;
+   oboInOwl:hasDbXref "GOC:ef" ,
+                      "GOC:mtg_muscle" ,
+                      "ISBN:0198506732"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006936 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-445355" ;
+   rdfs:label "Smooth Muscle Contraction"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0006939
+obo:GO_0006939 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006936 ;
+               obo:IAO_0000115 "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." ;
+               oboInOwl:hasExactSynonym "visceral muscle contraction" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0006939" ;
+               rdfs:label "smooth muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0006939 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. Smooth muscle differs from striated muscle in the much higher actin/myosin ratio, the absence of conspicuous sarcomeres and the ability to contract to a much smaller fraction of its resting length." ;
+   oboInOwl:hasDbXref "GOC:ef" ,
+                      "GOC:jl" ,
+                      "GOC:mtg_muscle" ,
+                      "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007165
+obo:GO_0007165 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009987 ,
+                               obo:GO_0050794 ;
+               obo:IAO_0000115 "The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell." ;
+               oboInOwl:hasAlternativeId "GO:0023014" ,
+                                         "GO:0023015" ,
+                                         "GO:0023016" ,
+                                         "GO:0023033" ,
+                                         "GO:0023045" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-212718" ,
+                                  "Wikipedia:Signal_transduction" ;
+               oboInOwl:hasNarrowSynonym "signaling cascade" ,
+                                         "signalling cascade" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "signaling pathway" ,
+                                          "signalling pathway" ;
+               oboInOwl:id "GO:0007165" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon> ;
+               rdfs:comment "Note that signal transduction is defined broadly to include a ligand interacting with a receptor, downstream signaling steps and a response being triggered. A change in form of the signal in every step is not necessary. Note that in many cases the end of this process is regulation of the initiation of transcription. Note that specific transcription factors may be annotated to this term, but core/general transcription machinery such as RNA polymerase should not." ;
+               rdfs:label "signal transduction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007165 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "GOC:mtg_signaling_feb11"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007165 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-212718" ;
+   rdfs:label "EGFR interacts with phospholipase C-gamma"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007186
+obo:GO_0007186 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007165 ;
+               obo:IAO_0000115 "The series of molecular signals initiated by a ligand binding to its receptor, in which the activated receptor promotes the exchange of GDP for GTP on the alpha-subunit of an associated heterotrimeric G-protein complex. The GTP-bound activated alpha-G-protein then dissociates from the beta- and gamma-subunits to further transmit the signal within the cell. The pathway begins with receptor-ligand interaction, and ends with regulation of a downstream cellular process. The pathway can start from the plasma membrane, Golgi or nuclear membrane." ;
+               oboInOwl:hasAlternativeId "GO:0038042" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-373076" ,
+                                  "Reactome:R-HSA-388396" ;
+               oboInOwl:hasExactSynonym "G protein coupled receptor protein signaling pathway" ,
+                                        "G protein coupled receptor protein signalling pathway" ,
+                                        "G-protein coupled receptor protein signal transduction" ,
+                                        "G-protein coupled receptor protein signaling pathway" ,
+                                        "G-protein coupled receptor signalling pathway" ,
+                                        "G-protein-coupled receptor protein signalling pathway" ,
+                                        "GPCR signaling pathway" ,
+                                        "GPCR signalling pathway" ;
+               oboInOwl:hasNarrowSynonym "G-protein coupled receptor signaling pathway via GPCR dimer" ,
+                                         "dimeric G-protein coupled receptor signaling pathway" ,
+                                         "dimeric G-protein coupled receptor signalling pathway" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007186" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ;
+               rdfs:label "G protein-coupled receptor signaling pathway" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007186 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The series of molecular signals initiated by a ligand binding to its receptor, in which the activated receptor promotes the exchange of GDP for GTP on the alpha-subunit of an associated heterotrimeric G-protein complex. The GTP-bound activated alpha-G-protein then dissociates from the beta- and gamma-subunits to further transmit the signal within the cell. The pathway begins with receptor-ligand interaction, and ends with regulation of a downstream cellular process. The pathway can start from the plasma membrane, Golgi or nuclear membrane." ;
+   oboInOwl:hasDbXref "GOC:bf" ,
+                      "GOC:mah" ,
+                      "PMID:16902576" ,
+                      "PMID:24568158" ,
+                      "Wikipedia:G_protein-coupled_receptor"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007186 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-373076" ;
+   rdfs:label "Class A/1 (Rhodopsin-like receptors)"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007186 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-388396" ;
+   rdfs:label "GPCR downstream signalling"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007186 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "G-protein coupled receptor protein signaling pathway" ;
+   oboInOwl:hasDbXref "GOC:bf"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007186 ;
+   owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+   owl:annotatedTarget "G-protein coupled receptor signaling pathway via GPCR dimer" ;
+   oboInOwl:hasDbXref "GOC:bf"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007186 ;
+   owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+   owl:annotatedTarget "dimeric G-protein coupled receptor signalling pathway" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0007588
+obo:GO_0007588 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/22368"^^xsd:anyURI ;
+               oboInOwl:hasDbXref "Wikipedia:Excretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0007588" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "excretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0007588 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds." ;
+   oboInOwl:hasDbXref "ISBN:0192801023"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0008152
+obo:GO_0008152 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0009987 ;
+               obo:IAO_0000115 "A cellular process consisting of the biochemical pathways by which a living organism transforms chemical substances. This includes including anabolism (biosynthetic process) and catabolism (catabolic process). Metabolic processes includes the transformation of small molecules, as well  macromolecular processes such as DNA repair and replication, protein synthesis and degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/26424"^^xsd:anyURI ,
+                               "https://github.com/geneontology/go-ontology/issues/28932"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-10-17T15:46:40Z" ;
+               oboInOwl:hasAlternativeId "GO:0044236" ,
+                                         "GO:0044710" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-1430728" ,
+                                  "Wikipedia:Metabolism" ;
+               oboInOwl:hasExactSynonym "metabolism" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0008152" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_euk_cellular_processes_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions." ;
+               rdfs:label "metabolic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0008152 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A cellular process consisting of the biochemical pathways by which a living organism transforms chemical substances. This includes including anabolism (biosynthetic process) and catabolism (catabolic process). Metabolic processes includes the transformation of small molecules, as well  macromolecular processes such as DNA repair and replication, protein synthesis and degradation." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "ISBN:0198547684"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0008152 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-1430728" ;
+   rdfs:label "Metabolism"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0008217
+obo:GO_0008217 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065008 ;
+               obo:IAO_0000115 "Any process that modulates the force with which blood travels through the circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure." ;
+               oboInOwl:hasDbXref "Wikipedia:Blood_pressure#Regulation" ;
+               oboInOwl:hasExactSynonym "blood pressure regulation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "blood pressure homeostasis" ,
+                                          "control of blood pressure" ;
+               oboInOwl:id "GO:0008217" ;
+               rdfs:label "regulation of blood pressure" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0008217 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the force with which blood travels through the circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:mtg_cardio" ,
+                      "ISBN:0721643949"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0009987
+obo:GO_0009987 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-12-11T16:56:55Z" ;
+               oboInOwl:hasAlternativeId "GO:0008151" ,
+                                         "GO:0044763" ,
+                                         "GO:0050875" ;
+               oboInOwl:hasExactSynonym "cell physiology" ,
+                                        "cellular physiological process" ;
+               oboInOwl:hasNarrowSynonym "cell growth and/or maintenance" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-organism cellular process" ;
+               oboInOwl:id "GO:0009987" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_plant> ;
+               rdfs:comment "This term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term." ;
+               rdfs:label "cellular process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0009987 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0014821
+obo:GO_0014821 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006939 ;
+               obo:IAO_0000115 "A process in which force is generated within phasic smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. In the phasic smooth muscle, the muscle contraction occurs without an ordered sarcomeric structure. Phasic smooth muscle contraction occurs in a series of discrete contractions and relaxations." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0014821" ;
+               rdfs:label "phasic smooth muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0014821 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within phasic smooth muscle tissue, resulting in a change in muscle geometry. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. In the phasic smooth muscle, the muscle contraction occurs without an ordered sarcomeric structure. Phasic smooth muscle contraction occurs in a series of discrete contractions and relaxations." ;
+   oboInOwl:hasDbXref "GOC:mtg_muscle"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0014848
+obo:GO_0014848 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006939 ;
+               obo:IAO_0000115 "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. This process occurs in the urinary tract. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. The urinary tract consists of organs of the body that produce and discharge urine. These include the kidneys, ureters, bladder, and urethra." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0014848" ;
+               rdfs:label "urinary tract smooth muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0014848 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. This process occurs in the urinary tract. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. The urinary tract consists of organs of the body that produce and discharge urine. These include the kidneys, ureters, bladder, and urethra." ;
+   oboInOwl:hasDbXref "GOC:ef" ,
+                      "GOC:mtg_muscle" ,
+                      "MA:0000325" ,
+                      "MSH:D014551"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0014849
+obo:GO_0014849 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0014821 ,
+                               obo:GO_0014848 ;
+               obo:IAO_0000115 "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. This process occurs in the ureter. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. The ureter is one of a pair of thick-walled tubes that transports urine from the kidney pelvis to the urinary bladder." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0014849" ;
+               rdfs:label "ureter smooth muscle contraction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0014849 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A process in which force is generated within smooth muscle tissue, resulting in a change in muscle geometry. This process occurs in the ureter. Force generation involves a chemo-mechanical energy conversion step that is carried out by the actin/myosin complex activity, which generates force through ATP hydrolysis. The ureter is one of a pair of thick-walled tubes that transports urine from the kidney pelvis to the urinary bladder." ;
+   oboInOwl:hasDbXref "GOC:mtg_muscle" ,
+                      "MA:0000378"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0015701
+obo:GO_0015701 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0015711 ;
+               obo:IAO_0000115 "The directed movement of bicarbonate into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/26780"^^xsd:anyURI ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-1475029" ,
+                                  "Reactome:R-HSA-1480926" ,
+                                  "Reactome:R-HSA-425381" ;
+               oboInOwl:hasExactSynonym "hydrogencarbonate transport" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0015701" ;
+               rdfs:label "bicarbonate transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0015701 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of bicarbonate into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:krc"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0015701 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-1475029" ;
+   rdfs:label "Reversible hydration of carbon dioxide"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0015701 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-1480926" ;
+   rdfs:label "O2/CO2 exchange in erythrocytes"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0015701 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-425381" ;
+   rdfs:label "Bicarbonate transporters"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0015711
+obo:GO_0015711 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of organic anions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Organic anions are atoms or small molecules with a negative charge which contain carbon in covalent linkage." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0015711" ;
+               rdfs:label "organic anion transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0015711 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of organic anions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Organic anions are atoms or small molecules with a negative charge which contain carbon in covalent linkage." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:krc"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0019222
+obo:GO_0019222 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050794 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism." ;
+               oboInOwl:hasAlternativeId "GO:0044246" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-1989781" ;
+               oboInOwl:hasExactSynonym "regulation of metabolism" ;
+               oboInOwl:hasNarrowSynonym "regulation of multicellular organismal metabolic process" ,
+                                         "regulation of organismal metabolic process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0019222" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_metagenomics> ;
+               rdfs:label "regulation of metabolic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0019222 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0019222 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-1989781" ;
+   rdfs:label "PPARA activates gene expression"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0019222 ;
+   owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+   owl:annotatedTarget "regulation of organismal metabolic process" ;
+   oboInOwl:hasDbXref "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030001
+obo:GO_0030001 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006812 ;
+               obo:IAO_0000115 "The directed movement of metal ions, any metal ion with an electric charge, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/23033"^^xsd:anyURI ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2009-07-31T01:07:46Z" ;
+               oboInOwl:hasAlternativeId "GO:0070838" ,
+                                         "GO:0070839" ;
+               oboInOwl:hasNarrowSynonym "divalent metal ion export" ,
+                                         "divalent metal ion transport" ,
+                                         "heavy metal ion transport" ,
+                                         "metal ion export" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0030001" ;
+               rdfs:label "metal ion transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030001 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of metal ions, any metal ion with an electric charge, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0030432
+obo:GO_0030432 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0014821 ;
+               obo:IAO_0000115 "A wavelike sequence of involuntary muscular contraction and relaxation that passes along a tubelike structure, such as the intestine, impelling the contents onwards." ;
+               oboInOwl:hasDbXref "Wikipedia:Peristalsis" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0030432" ;
+               rdfs:label "peristalsis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0030432 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A wavelike sequence of involuntary muscular contraction and relaxation that passes along a tubelike structure, such as the intestine, impelling the contents onwards." ;
+   oboInOwl:hasDbXref "ISBN:0198506732"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032107
+obo:GO_0032107 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048583 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a response to nutrient levels." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0032107" ;
+               rdfs:label "regulation of response to nutrient levels" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032107 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a response to nutrient levels." ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0032501
+obo:GO_0032501 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any biological process, occurring at the level of a multicellular organism, pertinent to its function." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27189"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2012-09-19T16:07:47Z" ;
+               oboInOwl:hasAlternativeId "GO:0044707" ,
+                                         "GO:0050874" ;
+               oboInOwl:hasExactSynonym "organismal physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single-multicellular organism process" ;
+               oboInOwl:id "GO:0032501" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0032501 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process, occurring at the level of a multicellular organism, pertinent to its function." ;
+   oboInOwl:hasDbXref "GOC:curators" ,
+                      "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035150
+obo:GO_0035150 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0090066 ;
+               obo:IAO_0000115 "Ensuring that a tube is of the correct length and diameter. Tube size must be maintained not only during tube formation, but also throughout development and in some physiological processes." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035150" ;
+               rdfs:label "regulation of tube size" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035150 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Ensuring that a tube is of the correct length and diameter. Tube size must be maintained not only during tube formation, but also throughout development and in some physiological processes." ;
+   oboInOwl:hasDbXref "PMID:10887083"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035296
+obo:GO_0035296 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0035150 ;
+               obo:IAO_0000115 "Any process that modulates the diameter of a tube." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035296" ;
+               rdfs:label "regulation of tube diameter" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035296 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the diameter of a tube." ;
+   oboInOwl:hasDbXref "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0035809
+obo:GO_0035809 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ,
+                               obo:GO_0050878 ;
+               obo:IAO_0000115 "Any process that modulates the amount of urine excreted from the body over a unit of time." ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2011-04-20T01:17:38Z" ;
+               oboInOwl:hasExactSynonym "regulation of urinary volume" ,
+                                        "regulation of urine flow" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0035809" ;
+               rdfs:label "regulation of urine volume" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0035809 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the amount of urine excreted from the body over a unit of time." ;
+   oboInOwl:hasDbXref "GOC:mtg_25march11" ,
+                      "GOC:yaf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0036359
+obo:GO_0036359 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0097254 ;
+               obo:IAO_0000115 "The elimination of potassium ions from peritubular capillaries (or surrounding hemolymph in invertebrates) into the renal tubules to be incorporated subsequently into the urine." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/22368"^^xsd:anyURI ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2012-09-20T11:10:47Z" ;
+               oboInOwl:hasExactSynonym "renal K(+) excretion" ,
+                                        "renal K+ elimination" ,
+                                        "renal potassium ion excretion" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0036359" ;
+               rdfs:label "renal potassium excretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0036359 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The elimination of potassium ions from peritubular capillaries (or surrounding hemolymph in invertebrates) into the renal tubules to be incorporated subsequently into the urine." ;
+   oboInOwl:hasDbXref "GOC:gap" ,
+                      "PMID:15034090" ,
+                      "PMID:25287933"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0036359 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "renal K(+) excretion" ;
+   oboInOwl:hasDbXref "PMID:16014448"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0036359 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "renal K+ elimination" ;
+   oboInOwl:hasDbXref "PMID:15034090"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0036359 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "renal potassium ion excretion" ;
+   oboInOwl:hasDbXref "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0038166
+obo:GO_0038166 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0007186 ;
+               obo:IAO_0000115 "A G protein-coupled receptor signaling pathway initiated by angiotensin II binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription." ;
+               oboInOwl:created_by "bf" ;
+               oboInOwl:creation_date "2012-05-14T03:09:03Z" ;
+               oboInOwl:hasExactSynonym "angiotensin II-mediated signaling pathway" ,
+                                        "angiotensin receptor signaling pathway" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "angiotensin-mediated signaling pathway" ;
+               oboInOwl:id "GO:0038166" ;
+               rdfs:label "angiotensin-activated signaling pathway" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0038166 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A G protein-coupled receptor signaling pathway initiated by angiotensin II binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription." ;
+   oboInOwl:hasDbXref "GOC:BHF" ,
+                      "GOC:mtg_cardiac_conduct_nov11" ,
+                      "GOC:nhn" ,
+                      "GOC:signaling" ,
+                      "PMID:10977869"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0038166 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "angiotensin II-mediated signaling pathway" ;
+   oboInOwl:hasDbXref "GOC:bf"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0038166 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "angiotensin receptor signaling pathway" ;
+   oboInOwl:hasDbXref "GOC:bf" ,
+                      "GOC:mtg_cardiac_conduct_nov11"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042044
+obo:GO_0042044 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006810 ;
+               obo:IAO_0000115 "The directed movement of substances that are in liquid form in normal living conditions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0042044" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "fluid transport" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042044 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The directed movement of substances that are in liquid form in normal living conditions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0042592
+obo:GO_0042592 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any biological process involved in the maintenance of an internal steady state. Homeostasis allows cells and organisms to maintain stable internal conditions despite varying external conditions." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/31175"^^xsd:anyURI ;
+               oboInOwl:hasAlternativeId "GO:0032844" ,
+                                         "GO:0032845" ,
+                                         "GO:0032846" ;
+               oboInOwl:hasExactSynonym "homeostasis" ;
+               oboInOwl:hasNarrowSynonym "activation of homeostatic process" ,
+                                         "inhibition of homeostatic process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "negative regulation of homeostatic process" ,
+                                          "positive regulation of homeostatic process" ,
+                                          "regulation of homeostatic process" ;
+               oboInOwl:id "GO:0042592" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_chembl> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ;
+               rdfs:label "homeostatic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0042592 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process involved in the maintenance of an internal steady state. Homeostasis allows cells and organisms to maintain stable internal conditions despite varying external conditions." ;
+   oboInOwl:hasDbXref "PMID:26265027"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0044057
+obo:GO_0044057 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051239 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a system process, a multicellular organismal process carried out by any of the organs or tissues in an organ system." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0044057" ;
+               rdfs:label "regulation of system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0044057 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a system process, a multicellular organismal process carried out by any of the organs or tissues in an organ system." ;
+   oboInOwl:hasDbXref "GOC:jl"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0045777
+obo:GO_0045777 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0008217 ;
+               obo:IAO_0000115 "Any process in which the force of blood traveling through the circulatory system is increased." ;
+               oboInOwl:hasExactSynonym "up regulation of blood pressure" ,
+                                        "up-regulation of blood pressure" ,
+                                        "upregulation of blood pressure" ;
+               oboInOwl:hasNarrowSynonym "activation of blood pressure" ,
+                                         "stimulation of blood pressure" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0045777" ;
+               rdfs:label "positive regulation of blood pressure" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0045777 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process in which the force of blood traveling through the circulatory system is increased." ;
+   oboInOwl:hasDbXref "GOC:go_curators" ,
+                      "GOC:mtg_cardio"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048519
+obo:GO_0048519 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that stops, prevents, or reduces the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+               oboInOwl:hasAlternativeId "GO:0043118" ;
+               oboInOwl:hasExactSynonym "down regulation of biological process" ,
+                                        "down-regulation of biological process" ,
+                                        "downregulation of biological process" ,
+                                        "negative regulation of physiological process" ;
+               oboInOwl:hasNarrowSynonym "inhibition of biological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048519" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ;
+               rdfs:label "negative regulation of biological process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048519 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that stops, prevents, or reduces the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+   oboInOwl:hasDbXref "GOC:jid"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048583
+obo:GO_0048583 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a response to a stimulus. Response to stimulus is a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048583" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "regulation of response to stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048583 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a response to a stimulus. Response to stimulus is a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus." ;
+   oboInOwl:hasDbXref "GOC:jid"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048871
+obo:GO_0048871 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0032501 ,
+                               obo:GO_0042592 ;
+               obo:IAO_0000115 "Any process involved in the maintenance of an internal steady state at the level of the multicellular organism." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048871" ;
+               rdfs:label "multicellular organismal-level homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048871 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process involved in the maintenance of an internal steady state at the level of the multicellular organism." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0048878
+obo:GO_0048878 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0042592 ;
+               obo:IAO_0000115 "Any biological process involved in the maintenance of an internal steady state of a chemical." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0048878" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_drosophila> ;
+               rdfs:label "chemical homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0048878 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any biological process involved in the maintenance of an internal steady state of a chemical." ;
+   oboInOwl:hasDbXref "GOC:isa_complete"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050789
+obo:GO_0050789 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+               oboInOwl:hasAlternativeId "GO:0050791" ;
+               oboInOwl:hasExactSynonym "regulation of physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050789" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_candida> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of biological process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050789 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050794
+obo:GO_0050794 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+               oboInOwl:hasAlternativeId "GO:0051244" ;
+               oboInOwl:hasExactSynonym "regulation of cellular physiological process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050794" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ;
+               rdfs:label "regulation of cellular process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050794 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." ;
+   oboInOwl:hasDbXref "GOC:go_curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050878
+obo:GO_0050878 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065008 ;
+               obo:IAO_0000115 "Any process that modulates the levels of body fluids." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050878" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of body fluid levels" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050878 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the levels of body fluids." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050886
+obo:GO_0050886 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003008 ;
+               obo:IAO_0000115 "The process that involves the secretion of or response to endocrine hormones. An endocrine hormone is a hormone released into the circulatory system." ;
+               oboInOwl:hasExactSynonym "endocrine physiological process" ,
+                                        "endocrine physiology" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050886" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#goslim_generic> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "endocrine process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050886 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The process that involves the secretion of or response to endocrine hormones. An endocrine hormone is a hormone released into the circulatory system." ;
+   oboInOwl:hasDbXref "ISBN:0721662544"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050891
+obo:GO_0050891 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050878 ,
+                               obo:GO_0140962 ;
+               obo:IAO_0000115 "A chemical homeostatic process involved in the maintenance of a steady state level of water within extracellular body fluids, such as blood, xylem or phloem, of a multicellular organism. This is distinct from maintenance of cellular homeostasis, which occurs within a cell." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24554"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "multicellular organismal water homeostasis" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "body fluid osmoregulation" ;
+               oboInOwl:id "GO:0050891" ;
+               rdfs:label "multicellular organismal-level water homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050891 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A chemical homeostatic process involved in the maintenance of a steady state level of water within extracellular body fluids, such as blood, xylem or phloem, of a multicellular organism. This is distinct from maintenance of cellular homeostasis, which occurs within a cell." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050891 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "body fluid osmoregulation" ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0050896
+obo:GO_0050896 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism." ;
+               oboInOwl:hasAlternativeId "GO:0051869" ;
+               oboInOwl:hasExactSynonym "physiological response to stimulus" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0050896" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon> ;
+               rdfs:comment "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC." ;
+               rdfs:label "response to stimulus" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0050896 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:bf"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051179
+obo:GO_0051179 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/27052"^^xsd:anyURI ;
+               oboInOwl:created_by "jl" ;
+               oboInOwl:creation_date "2013-12-18T13:51:04Z" ;
+               oboInOwl:hasAlternativeId "GO:1902578" ;
+               oboInOwl:hasExactSynonym "establishment and maintenance of localization" ,
+                                        "establishment and maintenance of position" ,
+                                        "localisation" ;
+               oboInOwl:hasNarrowSynonym "establishment and maintenance of cellular component location" ,
+                                         "establishment and maintenance of substance location" ,
+                                         "establishment and maintenance of substrate location" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "single organism localization" ,
+                                          "single-organism localization" ;
+               oboInOwl:id "GO:0051179" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "localization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dos"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "localisation" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051179 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "single organism localization" ;
+   oboInOwl:hasDbXref "GOC:TermGenie"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051234
+obo:GO_0051234 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0051179 ;
+               obo:IAO_0000115 "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24200"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "establishment of localisation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051234" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_agr> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_mouse> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "establishment of localization" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051234 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dos"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051234 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "establishment of localisation" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051239
+obo:GO_0051239 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0050789 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051239" ;
+               rdfs:label "regulation of multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051239 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a multicellular organismal process, the processes pertinent to the function of a multicellular organism above the cellular level; includes the integrated processes of tissues and organs." ;
+   oboInOwl:hasDbXref "GOC:ai" ,
+                      "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0051241
+obo:GO_0051241 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048519 ,
+                               obo:GO_0051239 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that stops, prevents, or reduces the frequency, rate or extent of an organismal process, the processes pertinent to the function of an organism above the cellular level; includes the integrated processes of tissues and organs." ;
+               oboInOwl:hasExactSynonym "down regulation of multicellular organismal process" ,
+                                        "down-regulation of multicellular organismal process" ,
+                                        "downregulation of multicellular organismal process" ;
+               oboInOwl:hasNarrowSynonym "inhibition of multicellular organismal process" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0051241" ;
+               rdfs:label "negative regulation of multicellular organismal process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0051241 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that stops, prevents, or reduces the frequency, rate or extent of an organismal process, the processes pertinent to the function of an organism above the cellular level; includes the integrated processes of tissues and organs." ;
+   oboInOwl:hasDbXref "GOC:ai"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0060073
+obo:GO_0060073 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ,
+                               obo:GO_0007588 ;
+               obo:IAO_0000115 "The regulation of body fluids process in which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body." ;
+               oboInOwl:hasDbXref "Wikipedia:Urination" ;
+               oboInOwl:hasExactSynonym "urination" ,
+                                        "urine voiding" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0060073" ;
+               rdfs:label "micturition" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0060073 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The regulation of body fluids process in which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body." ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0062012
+obo:GO_0062012 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0019222 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the rate, frequency or extent of a small molecule metabolic process." ;
+               oboInOwl:created_by "dph" ;
+               oboInOwl:creation_date "2018-03-19T14:11:54Z" ;
+               oboInOwl:hasDbXref "Reactome:R-HSA-9861718" ;
+               oboInOwl:hasExactSynonym "regulation of small molecule metabolism" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0062012" ;
+               rdfs:label "regulation of small molecule metabolic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0062012 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the rate, frequency or extent of a small molecule metabolic process." ;
+   oboInOwl:hasDbXref "GOC:vw"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0062012 ;
+   owl:annotatedProperty oboInOwl:hasDbXref ;
+   owl:annotatedTarget "Reactome:R-HSA-9861718" ;
+   rdfs:label "Regulation of pyruvate metabolism"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0065007
+obo:GO_0065007 rdf:type owl:Class ;
+               obo:IAO_0000115 "Any process that modulates a measurable attribute of any biological process, quality or function." ;
+               oboInOwl:hasBroadSynonym "regulation" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0065007" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "biological regulation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0065007 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates a measurable attribute of any biological process, quality or function." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:mah" ,
+                      "GOC:pr" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0065008
+obo:GO_0065008 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates a qualitative or quantitative trait of a biological quality. A biological quality is a measurable attribute of an organism or part of an organism, such as size, mass, shape, color, etc." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/30599"^^xsd:anyURI ;
+               oboInOwl:hasExactSynonym "regulation of biological attribute" ,
+                                        "regulation of biological characteristic" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0065008" ;
+               oboInOwl:inSubset <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> ,
+                                 <http://purl.obolibrary.org/obo/go#goslim_pir> ;
+               rdfs:label "regulation of biological quality" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0065008 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates a qualitative or quantitative trait of a biological quality. A biological quality is a measurable attribute of an organism or part of an organism, such as size, mass, shape, color, etc." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:isa_complete" ,
+                      "GOC:mah" ,
+                      "GOC:pr" ,
+                      "GOC:vw"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0070293
+obo:GO_0070293 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ;
+               obo:IAO_0000115 "A renal system process in which water, ions, glucose and proteins are taken up from the collecting ducts, glomerulus and proximal and distal loops of the nephron. In non-mammalian species, absorption may occur in related structures (e.g. protein absorption is observed in nephrocytes in Drosophila, see PMID:23264686)." ;
+               oboInOwl:hasExactSynonym "nephron absorption" ,
+                                        "renal reabsorption" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0070293" ;
+               rdfs:label "renal absorption" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070293 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A renal system process in which water, ions, glucose and proteins are taken up from the collecting ducts, glomerulus and proximal and distal loops of the nephron. In non-mammalian species, absorption may occur in related structures (e.g. protein absorption is observed in nephrocytes in Drosophila, see PMID:23264686)." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:mah" ,
+                      "GOC:yaf"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070293 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "nephron absorption" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070293 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "renal reabsorption" ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0070294
+obo:GO_0070294 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003096 ,
+                               obo:GO_0070293 ;
+               obo:IAO_0000115 "A renal system process in which sodium ions are taken up from the collecting ducts and proximal and distal loops of the nephron. In non-mammalian species, absorption may occur in related structures." ;
+               oboInOwl:hasExactSynonym "nephron sodium ion absorption" ,
+                                        "renal sodium ion reabsorption" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0070294" ;
+               rdfs:label "renal sodium ion absorption" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070294 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A renal system process in which sodium ions are taken up from the collecting ducts and proximal and distal loops of the nephron. In non-mammalian species, absorption may occur in related structures." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070294 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "nephron sodium ion absorption" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070294 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "renal sodium ion reabsorption" ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0070295
+obo:GO_0070295 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003097 ,
+                               obo:GO_0070293 ;
+               obo:IAO_0000115 "A renal system process in which water is taken up from the collecting ducts and proximal and distal loops of the nephron. In non-mammalian species, absorption may occur in related structures." ;
+               oboInOwl:hasExactSynonym "nephron water absorption" ,
+                                        "renal water reabsorption" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0070295" ;
+               rdfs:label "renal water absorption" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070295 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A renal system process in which water is taken up from the collecting ducts and proximal and distal loops of the nephron. In non-mammalian species, absorption may occur in related structures." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070295 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "nephron water absorption" ;
+   oboInOwl:hasDbXref "GOC:mah"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0070295 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "renal water reabsorption" ;
+   oboInOwl:hasDbXref "GOC:dph"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0072105
+obo:GO_0072105 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0014849 ,
+                               obo:GO_0030432 ;
+               obo:IAO_0000115 "A wavelike sequence of involuntary muscular contraction and relaxation that passes along the ureter, impelling the contents onwards. The ureter is one of a pair of thick-walled tubes that transports urine from the kidney pelvis to the urinary bladder." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-02-10T03:07:54Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0072105" ;
+               rdfs:label "ureteric peristalsis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0072105 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A wavelike sequence of involuntary muscular contraction and relaxation that passes along the ureter, impelling the contents onwards. The ureter is one of a pair of thick-walled tubes that transports urine from the kidney pelvis to the urinary bladder." ;
+   oboInOwl:hasDbXref "GOC:mtg_kidney_jan10"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0080090
+obo:GO_0080090 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0019222 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism involving those compounds formed as a part of the normal anabolic and catabolic processes. These processes take place in most, if not all, cells of the organism." ;
+               oboInOwl:created_by "dhl" ;
+               oboInOwl:creation_date "2009-04-22T04:30:52Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0080090" ;
+               rdfs:label "regulation of primary metabolic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0080090 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism involving those compounds formed as a part of the normal anabolic and catabolic processes. These processes take place in most, if not all, cells of the organism." ;
+   oboInOwl:hasDbXref "PMID:19211694"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0090066
+obo:GO_0090066 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0065008 ;
+               obo:IAO_0000115 "Any process that modulates the size of an anatomical structure." ;
+               oboInOwl:created_by "tb" ;
+               oboInOwl:creation_date "2009-09-02T11:00:08Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0090066" ;
+               rdfs:label "regulation of anatomical structure size" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0090066 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the size of an anatomical structure." ;
+   oboInOwl:hasDbXref "GOC:dph" ,
+                      "GOC:tb"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0097205
+obo:GO_0097205 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ;
+               obo:IAO_0000115 "A renal system process in which fluid circulating through the body is filtered through a barrier system." ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2012-01-03T03:10:17Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0097205" ;
+               rdfs:label "renal filtration" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0097205 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A renal system process in which fluid circulating through the body is filtered through a barrier system." ;
+   oboInOwl:hasDbXref "GOC:pr" ,
+                      "GOC:sart"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0097254
+obo:GO_0097254 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003014 ,
+                               obo:GO_0007588 ;
+               obo:IAO_0000115 "The elimination of substances from peritubular capillaries (or surrounding hemolymph in invertebrates) into the renal tubules to be incorporated subsequently into the urine. Substances that are secreted include organic anions, ammonia, potassium and drugs." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/22368"^^xsd:anyURI ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2012-03-05T02:03:58Z" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0097254" ;
+               rdfs:label "renal tubular secretion" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0097254 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "The elimination of substances from peritubular capillaries (or surrounding hemolymph in invertebrates) into the renal tubules to be incorporated subsequently into the urine. Substances that are secreted include organic anions, ammonia, potassium and drugs." ;
+   oboInOwl:hasDbXref "GOC:rph" ,
+                      "PMID:25287933" ,
+                      "Wikipedia:Renal_secretion#Secretion"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0097746
+obo:GO_0097746 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0003018 ,
+                               obo:GO_0035296 ;
+               obo:IAO_0000115 "Any process that modulates the diameter of blood vessels." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/12253"^^xsd:anyURI ;
+               oboInOwl:created_by "pr" ;
+               oboInOwl:creation_date "2016-11-24T15:45:05Z" ;
+               oboInOwl:hasAlternativeId "GO:0042312" ,
+                                         "GO:0050880" ;
+               oboInOwl:hasExactSynonym "blood vessel diameter homeostasis" ,
+                                        "regulation of blood vessel diameter" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:hasRelatedSynonym "regulation of blood vessel size" ,
+                                          "regulation of vasodilatation" ,
+                                          "regulation of vasodilation" ;
+               oboInOwl:id "GO:0097746" ;
+               rdfs:label "blood vessel diameter maintenance" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0097746 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the diameter of blood vessels." ;
+   oboInOwl:hasDbXref "GOC:pr"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0098801
+obo:GO_0098801 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0044057 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of a system process, a multicellular organismal process carried out by the renal system." ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0098801" ;
+               rdfs:label "regulation of renal system process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0098801 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of a system process, a multicellular organismal process carried out by the renal system." ;
+   oboInOwl:hasDbXref "GOC:dos"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_0140962
+obo:GO_0140962 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0048871 ,
+                               obo:GO_0048878 ;
+               obo:IAO_0000115 "A homeostatic process involved in the maintenance of a steady state level of a chemical within extracellular body fluids, such as blood, xylem or phloem, of a multicellular organism. This is distinct from maintenance of cellular homeostasis, which occurs within a cell." ;
+               obo:IAO_0000233 "https://github.com/geneontology/go-ontology/issues/24554"^^xsd:anyURI ;
+               oboInOwl:created_by "pg" ;
+               oboInOwl:creation_date "2022-12-12T09:11:06Z" ;
+               oboInOwl:hasExactSynonym "multicellular organism level chemical homeostasis" ,
+                                        "organismal level chemical homeostasis" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:0140962" ;
+               rdfs:label "multicellular organismal-level chemical homeostasis" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_0140962 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A homeostatic process involved in the maintenance of a steady state level of a chemical within extracellular body fluids, such as blood, xylem or phloem, of a multicellular organism. This is distinct from maintenance of cellular homeostasis, which occurs within a cell." ;
+   oboInOwl:hasDbXref "GOC:curators"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_2000211
+obo:GO_2000211 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006521 ,
+                               obo:GO_0062012 ,
+                               obo:GO_0065007 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of glutamate metabolic process." ;
+               oboInOwl:created_by "mah" ;
+               oboInOwl:creation_date "2010-11-03T02:43:51Z" ;
+               oboInOwl:hasExactSynonym "regulation of glutamate metabolism" ,
+                                        "regulation of glutamic acid metabolic process" ,
+                                        "regulation of glutamic acid metabolism" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:2000211" ;
+               rdfs:label "regulation of glutamate metabolic process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_2000211 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of glutamate metabolic process." ;
+   oboInOwl:hasDbXref "GOC:sl"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_2000211 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "regulation of glutamate metabolism" ;
+   oboInOwl:hasDbXref "GOC:obol"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_2000211 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "regulation of glutamic acid metabolic process" ;
+   oboInOwl:hasDbXref "GOC:obol"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_2000211 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "regulation of glutamic acid metabolism" ;
+   oboInOwl:hasDbXref "GOC:obol"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/GO_2001248
+obo:GO_2001248 rdf:type owl:Class ;
+               rdfs:subClassOf obo:GO_0006808 ,
+                               obo:GO_0065007 ,
+                               obo:GO_2000211 ;
+               obo:IAO_0000115 "Any process that modulates the frequency, rate or extent of ammonia assimilation cycle." ;
+               oboInOwl:created_by "rl" ;
+               oboInOwl:creation_date "2011-12-01T10:08:21Z" ;
+               oboInOwl:hasExactSynonym "regulation of glutamate metabolic process via glutamine and ammonia" ,
+                                        "regulation of glutamate metabolism via glutamine and ammonia" ;
+               oboInOwl:hasOBONamespace "biological_process" ;
+               oboInOwl:id "GO:2001248" ;
+               rdfs:label "regulation of ammonia assimilation cycle" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_2001248 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "Any process that modulates the frequency, rate or extent of ammonia assimilation cycle." ;
+   oboInOwl:hasDbXref "GOC:BHF"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_2001248 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "regulation of glutamate metabolic process via glutamine and ammonia" ;
+   oboInOwl:hasDbXref "GOC:obol"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:GO_2001248 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "regulation of glutamate metabolism via glutamine and ammonia" ;
+   oboInOwl:hasDbXref "GOC:obol"
  ] .
 
 
@@ -8063,7 +10214,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 102 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R102-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "minutes–hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R102-ClinicalMeasureField-1
@@ -9256,7 +11407,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 110 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R110-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "seconds–minutes" .
+                                                                     wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R110-ClinicalMeasureField-1
@@ -9800,7 +11951,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R114-ReferenceField-1> ;
                                                                      wpp:signal_field "solute transport" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
-                                                                     wpp:time_scale_field "seconds–minutes" .
+                                                                     wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R114-ClinicalMeasureField-1
@@ -9939,7 +12090,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 115 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R115-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "minutes – hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R115-ClinicalMeasureField-1
@@ -10078,7 +12229,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 116 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R116-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "minutes – hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R116-ClinicalMeasureField-1
@@ -10356,7 +12507,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 118 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R118-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "seconds–minutes" .
+                                                                     wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R118-ClinicalMeasureField-1
@@ -11221,7 +13372,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 123 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R123-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "Minutes–hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R123-ClinicalMeasureField-1
@@ -11362,7 +13513,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 124 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R124-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "Minutes–hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R124-ClinicalMeasureField-1
@@ -11514,7 +13665,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R125-ReferenceField-1> ;
                                                                      wpp:signal_field "Na⁺" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
-                                                                     wpp:time_scale_field "Minutes-hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R125-ClinicalMeasureField-1
@@ -11667,7 +13818,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R126-ReferenceField-1> ;
                                                                      wpp:signal_field "Na⁺" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
-                                                                     wpp:time_scale_field "Minutes–hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R126-ClinicalMeasureField-1
@@ -11821,7 +13972,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R127-ReferenceField-1> ;
                                                                      wpp:signal_field "ADH" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Minutes–hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R127-ClinicalMeasureField-1
@@ -11975,7 +14126,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R128-ReferenceField-1> ;
                                                                      wpp:signal_field "ANP" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Minutes-hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R128-ClinicalMeasureField-1
@@ -12139,7 +14290,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R129-ReferenceField-1> ;
                                                                      wpp:signal_field "ADH" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Minutes-hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R129-ClinicalMeasureField-1
@@ -12733,7 +14884,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R132-ReferenceField-1> ;
                                                                      wpp:signal_field "ENaC/Na⁺-K⁺ ATPase activity" ;
                                                                      wpp:signal_scale_field "Autocrine" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R132-ClinicalMeasureField-1
@@ -12873,7 +15024,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 133 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R133-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R133-ClinicalMeasureField-1
@@ -13014,7 +15165,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 134 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R134-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R134-ClinicalMeasureField-1
@@ -13267,7 +15418,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 136 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R136-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "minutes – hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R136-ClinicalMeasureField-1
@@ -13385,7 +15536,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 137 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R137-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "minutes – hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R137-ClinicalMeasureField-1
@@ -13513,7 +15664,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 138 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R138-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "minutes – hours" .
+                                                                     wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R138-ClinicalMeasureField-1
@@ -14052,7 +16203,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R141-ReferenceField-1> ;
                                                                      wpp:signal_field "Vitamin D" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R141-ClinicalMeasureField-1
@@ -14440,7 +16591,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 144 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R144-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R144-ClinicalMeasureField-1
@@ -14580,7 +16731,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 145 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R145-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R145-ClinicalMeasureField-1
@@ -14718,7 +16869,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:record_number 146 ;
                                                                      wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R146-ReferenceField-1> ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R146-ClinicalMeasureField-1
@@ -14847,7 +16998,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R147-ReferenceField-1> ;
                                                                      wpp:signal_field "LOW PH" ;
                                                                      wpp:signal_scale_field "Intra-organ" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R147-ClinicalMeasureField-1
@@ -14977,7 +17128,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R148-ReferenceField-1> ;
                                                                      wpp:signal_field "PTH" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R148-ClinicalMeasureField-1
@@ -15117,7 +17268,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R149-ReferenceField-1> ;
                                                                      wpp:signal_field "Vitamin D" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R149-ClinicalMeasureField-1
@@ -15407,7 +17558,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R150-ReferenceField-1> ;
                                                                      wpp:signal_field "FGF23" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R150-ClinicalMeasureField-1
@@ -15546,7 +17697,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R151-ReferenceField-1> ;
                                                                      wpp:signal_field "plasma Ca²⁺" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R151-ClinicalMeasureField-1
@@ -15675,7 +17826,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R152-ReferenceField-1> ;
                                                                      wpp:signal_field "Mg²⁺ deficiency" ;
                                                                      wpp:signal_scale_field "Systemic" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R152-ClinicalMeasureField-1
@@ -15805,7 +17956,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                      wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R153-ReferenceField-1> ;
                                                                      wpp:signal_field "blood flow into glomerulus" ;
                                                                      wpp:signal_scale_field "Circulatory" ;
-                                                                     wpp:time_scale_field "Hours–days" .
+                                                                     wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R153-ClinicalMeasureField-1
@@ -17643,7 +19794,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R18-ReferenceField-1> ;
                                                                     wpp:signal_field "glutamine" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R18-ClinicalMeasureField-1
@@ -17796,7 +19947,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R19-ReferenceField-1> ;
                                                                     wpp:signal_field "glutamine" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R19-ClinicalMeasureField-1
@@ -17949,7 +20100,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R20-ReferenceField-1> ;
                                                                     wpp:signal_field "NH₄⁺" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R20-ClinicalMeasureField-1
@@ -18407,7 +20558,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R23-ReferenceField-1> ;
                                                                     wpp:signal_field "NH₄⁺" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R23-ClinicalMeasureField-1
@@ -18558,7 +20709,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R24-ReferenceField-1> ;
                                                                     wpp:signal_field "TA (titratable acid)" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R24-ClinicalMeasureField-1
@@ -18709,7 +20860,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R25-ReferenceField-1> ;
                                                                     wpp:signal_field "HCO₃⁻" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R25-ClinicalMeasureField-1
@@ -18857,7 +21008,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:record_number 26 ;
                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R26-ReferenceField-1> ;
-                                                                    wpp:time_scale_field "minutes–hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R26-ClinicalMeasureField-1
@@ -18995,7 +21146,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:record_number 27 ;
                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R27-ReferenceField-1> ;
-                                                                    wpp:time_scale_field "minutes–hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R27-ClinicalMeasureField-1
@@ -21482,7 +23633,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R45-ReferenceField-1> ;
                                                                     wpp:signal_field "Dopamine" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "minutes–hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R45-ClinicalMeasureField-1
@@ -21622,7 +23773,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R46-ReferenceField-1> ;
                                                                     wpp:signal_field "K⁺" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "seconds–minutes" .
+                                                                    wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R46-ClinicalMeasureField-1
@@ -22362,7 +24513,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R51-ReferenceField-1> ;
                                                                     wpp:signal_field "ANP" ;
                                                                     wpp:signal_scale_field "Systemic" ;
-                                                                    wpp:time_scale_field "minutes–hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R51-ClinicalMeasureField-1
@@ -22513,7 +24664,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R52-ReferenceField-1> ;
                                                                     wpp:signal_field "ANP" ;
                                                                     wpp:signal_scale_field "Systemic" ;
-                                                                    wpp:time_scale_field "minutes–hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R52-ClinicalMeasureField-1
@@ -22664,7 +24815,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R53-ReferenceField-1> ;
                                                                     wpp:signal_field "ANP" ;
                                                                     wpp:signal_scale_field "Systemic" ;
-                                                                    wpp:time_scale_field "minutes–hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R53-ClinicalMeasureField-1
@@ -22816,7 +24967,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R54-ReferenceField-1> ;
                                                                     wpp:signal_field "ANP" ;
                                                                     wpp:signal_scale_field "Systemic" ;
-                                                                    wpp:time_scale_field "minutes–hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R54-ClinicalMeasureField-1
@@ -23129,7 +25280,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:record_number 56 ;
                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R56-ReferenceField-1> ;
-                                                                    wpp:time_scale_field "seconds–minutes" .
+                                                                    wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R56-ClinicalMeasureField-1
@@ -23281,7 +25432,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:record_number 57 ;
                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R57-ReferenceField-1> ;
-                                                                    wpp:time_scale_field "seconds–minutes" .
+                                                                    wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R57-ClinicalMeasureField-1
@@ -23428,7 +25579,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:record_number 58 ;
                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R58-ReferenceField-1> ;
-                                                                    wpp:time_scale_field "seconds–minutes" .
+                                                                    wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R58-EffectorField
@@ -23648,7 +25799,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R60-ReferenceField-1> ;
                                                                     wpp:signal_field "↓Plasma protein" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
-                                                                    wpp:time_scale_field "Seconds" .
+                                                                    wpp:time_scale_field "seconds" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R60-ClinicalMeasureField-1
@@ -23768,7 +25919,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R61-ReferenceField-1> ;
                                                                     wpp:signal_field "↑Pc" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
-                                                                    wpp:time_scale_field "Seconds" .
+                                                                    wpp:time_scale_field "seconds" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R61-ClinicalMeasureField-1
@@ -23889,7 +26040,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R62-ReferenceField-1> ;
                                                                     wpp:signal_field "↑πc" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
-                                                                    wpp:time_scale_field "Seconds–Minutes" .
+                                                                    wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R62-ClinicalMeasureField-1
@@ -24019,7 +26170,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R63-ReferenceField-1> ;
                                                                     wpp:signal_field "↑Pi" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
-                                                                    wpp:time_scale_field "Minutes" .
+                                                                    wpp:time_scale_field "minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R63-ClinicalMeasureField-1
@@ -24137,7 +26288,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R64-ReferenceField-1> ;
                                                                     wpp:signal_field "Starling force changes" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
-                                                                    wpp:time_scale_field "Minutes" .
+                                                                    wpp:time_scale_field "minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R64-EffectorField
@@ -24238,7 +26389,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R65-ReferenceField-1> ;
                                                                     wpp:signal_field "transport maximum" ;
                                                                     wpp:signal_scale_field "Intra-organ" ;
-                                                                    wpp:time_scale_field "minutes – hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R65-ClinicalMeasureField-1
@@ -26192,7 +28343,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:record_number 78 ;
                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R78-ReferenceField-1> ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R78-ClinicalMeasureField-1
@@ -26482,7 +28633,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R80-ReferenceField-1> ;
                                                                     wpp:signal_field "TRPM6 activity" ;
                                                                     wpp:signal_scale_field "Autocrine" ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R80-ClinicalMeasureField-1
@@ -26779,7 +28930,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:record_number 82 ;
                                                                     wpp:record_source <https://purl.wholepersonphysiome.org/wpp/urinary-system> ;
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R82-ReferenceField-1> ;
-                                                                    wpp:time_scale_field "hours–days" .
+                                                                    wpp:time_scale_field "hours-days" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R82-ClinicalMeasureField-1
@@ -27070,7 +29221,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R84-ReferenceField-1> ;
                                                                     wpp:signal_field "Endogenous marker clearance" ;
                                                                     wpp:signal_scale_field "Circulatory" ;
-                                                                    wpp:time_scale_field "minutes–hours" .
+                                                                    wpp:time_scale_field "minutes-hours" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R84-ClinicalMeasureField-1
@@ -28538,7 +30689,7 @@ wpp:ReferenceField rdf:type owl:Class .
                                                                     wpp:reference_field <https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R94-ReferenceField-1> ;
                                                                     wpp:signal_field "NKCC2 activity" ;
                                                                     wpp:signal_scale_field "Autocrine" ;
-                                                                    wpp:time_scale_field "seconds–minutes" .
+                                                                    wpp:time_scale_field "seconds-minutes" .
 
 
 ###  https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R94-ClinicalMeasureField-1

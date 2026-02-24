@@ -119,7 +119,7 @@
     schema1:name "HRA Digital Object Processor" ;
     schema1:targetProduct [ a schema1:SoftwareSourceCode ;
             schema1:codeRepository <https://github.com/hubmapconsortium/hra-do-processor> ;
-            rdfs:seeAlso <https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea> ] ;
+            rdfs:seeAlso <https://github.com/hubmapconsortium/hra-do-processor/commit/a4a99af218d5460121b796e79c9f41a44e766da6> ] ;
     schema1:version "0.10.0" ;
     dcat:conforms_to "SoftwareApplication" .
 

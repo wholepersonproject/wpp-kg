@@ -9,7 +9,7 @@
     "created_by": [
       "https://github.com/hubmapconsortium/hra-do-processor"
     ],
-    "creation_date": "2026-02-20",
+    "creation_date": "2026-02-24",
     "version": "draft",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "publisher": "HuBMAP",
@@ -163,7 +163,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[40, 80]",
         "type_of": [
           "Record"
@@ -314,7 +314,7 @@
         ],
         "signal": "insulin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -464,7 +464,7 @@
         ],
         "signal": "glucose",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -614,7 +614,7 @@
         ],
         "signal": "somatostatin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -764,7 +764,7 @@
         ],
         "signal": "fasted status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -914,7 +914,7 @@
         ],
         "signal": "pancreatic polypeptide",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1103,7 +1103,7 @@
         ],
         "signal": "amylin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1212,7 +1212,7 @@
         ],
         "signal": "glucose",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1350,7 +1350,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[3, 8]",
         "type_of": [
           "Record"
@@ -1489,7 +1489,7 @@
         ],
         "signal": "glucose",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1627,7 +1627,7 @@
         ],
         "signal": "somatostatin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1765,7 +1765,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -1903,7 +1903,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2041,7 +2041,7 @@
         ],
         "signal": "pancreatic polypeptide",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2179,7 +2179,7 @@
         ],
         "signal": "glucose",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2317,7 +2317,7 @@
         ],
         "signal": "insulin",
         "signal_scale": "autocrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2440,7 +2440,7 @@
         ],
         "signal": "glucose",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2564,7 +2564,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[0, 30]",
         "type_of": [
           "Record"
@@ -2700,7 +2700,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[0, 300]",
         "type_of": [
           "Record"
@@ -2836,7 +2836,7 @@
         ],
         "signal": "fasted status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -2945,7 +2945,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -3104,7 +3104,7 @@
         ],
         "signal": "pancreatic polypeptide",
         "signal_scale": "intra-organ",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -3226,7 +3226,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[0.5, 2.0]",
         "type_of": [
           "Record"
@@ -3361,7 +3361,7 @@
             "chapter": "7"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[4.5, 9.5]",
         "type_of": [
           "Record"
@@ -3630,7 +3630,7 @@
         ],
         "signal": "amylin",
         "signal_scale": "paracrine",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -4126,7 +4126,7 @@
             "chapter": "6"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[5, 25]",
         "type_of": [
           "Record"
@@ -4235,7 +4235,7 @@
             "chapter": "51"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[60, 80]",
         "type_of": [
           "Record"
@@ -4345,7 +4345,7 @@
         ],
         "signal": "glucagon",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -4454,7 +4454,7 @@
         ],
         "signal": "insulin",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -4563,7 +4563,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -4672,7 +4672,7 @@
         ],
         "signal": "fasted status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -4781,7 +4781,7 @@
         ],
         "signal": "cortisol",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -4890,7 +4890,7 @@
         ],
         "signal": "glucose",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -4999,7 +4999,7 @@
         ],
         "signal": "glucagon",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5108,7 +5108,7 @@
         ],
         "signal": "insulin",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5217,7 +5217,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5326,7 +5326,7 @@
         ],
         "signal": "fasted status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5435,7 +5435,7 @@
         ],
         "signal": "cortisol",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5544,7 +5544,7 @@
         ],
         "signal": "glucose",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5653,7 +5653,7 @@
             "chapter": "51"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5763,7 +5763,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5873,7 +5873,7 @@
         ],
         "signal": "fasted status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -5983,7 +5983,7 @@
         ],
         "signal": "insulin",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6091,7 +6091,7 @@
             "chapter": "51"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6201,7 +6201,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6311,7 +6311,7 @@
         ],
         "signal": "fasted status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6421,7 +6421,7 @@
         ],
         "signal": "insulin",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6530,7 +6530,7 @@
             "chapter": "51"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6640,7 +6640,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6750,7 +6750,7 @@
         ],
         "signal": "fasted status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6860,7 +6860,7 @@
         ],
         "signal": "glucagon",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -6968,7 +6968,7 @@
             "chapter": "51"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -7078,7 +7078,7 @@
         ],
         "signal": "fed status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -7188,7 +7188,7 @@
         ],
         "signal": "fasted status",
         "signal_scale": "systemic",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -7298,7 +7298,7 @@
         ],
         "signal": "glucagon",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -7609,7 +7609,7 @@
             "chapter": "6"
           }
         ],
-        "time_scale": "hours, seconds",
+        "time_scale": "seconds-hours",
         "x_target": "[0, 140]",
         "type_of": [
           "Record"
@@ -7746,7 +7746,7 @@
             "chapter": "6"
           }
         ],
-        "time_scale": "hours, seconds",
+        "time_scale": "seconds-hours",
         "x_target": "[200, 1700]",
         "type_of": [
           "Record"
@@ -7883,7 +7883,7 @@
             "chapter": "6"
           }
         ],
-        "time_scale": "hours, seconds",
+        "time_scale": "seconds-hours",
         "x_target": "[0, 30]",
         "type_of": [
           "Record"
@@ -14349,7 +14349,7 @@
             "chapter": "52"
           }
         ],
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "x_target": "[8.6, 10.2]",
         "type_of": [
           "Record"
@@ -14541,7 +14541,7 @@
         ],
         "signal": "parathyroid hormone",
         "signal_scale": "circulatory",
-        "time_scale": "minutes, hours",
+        "time_scale": "minutes-hours",
         "type_of": [
           "Record"
         ]
@@ -18111,6 +18111,7 @@
           }
         ],
         "signal": "cholecystokinin",
+        "time_scale": "minutes",
         "type_of": [
           "Record"
         ]
@@ -22342,7 +22343,7 @@
             "chapter": "3"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -25327,7 +25328,7 @@
             "chapter": "10"
           }
         ],
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -25461,7 +25462,7 @@
         ],
         "signal": "exercise",
         "signal_scale": "systemic",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -25595,7 +25596,7 @@
         ],
         "signal": "nitric oxide",
         "signal_scale": "paracrine",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -25729,7 +25730,7 @@
         ],
         "signal": "nitrix oxide",
         "signal_scale": "paracrine",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
@@ -25862,7 +25863,7 @@
         ],
         "signal": "nitrix oxide",
         "signal_scale": "paracrine",
-        "time_scale": "seconds, minutes",
+        "time_scale": "seconds-minutes",
         "type_of": [
           "Record"
         ]
