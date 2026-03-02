@@ -31,6 +31,13 @@
 <https://orcid.org/0000-0002-3321-6137> <http://schema.org/identifier> "0000-0002-3321-6137" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://orcid.org/0000-0002-3321-6137> <http://schema.org/name> "Katy Börner" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/ns/dcat#conforms_to> "Person" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://orcid.org/0000-0003-1531-3096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://orcid.org/0000-0003-1531-3096> <http://www.w3.org/2000/01/rdf-schema#label> "Richard Phillips" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://orcid.org/0000-0003-1531-3096> <http://schema.org/familyName> "Phillips" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://orcid.org/0000-0003-1531-3096> <http://schema.org/givenName> "Richard" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://orcid.org/0000-0003-1531-3096> <http://schema.org/identifier> "0000-0003-1531-3096" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://orcid.org/0000-0003-1531-3096> <http://schema.org/name> "Richard Phillips" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://orcid.org/0000-0003-1531-3096> <http://www.w3.org/ns/dcat#conforms_to> "Person" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'Nervous_System.csv' file" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> <http://purl.org/dc/terms/title> "Raw data distribution 'Nervous_System.csv' file" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
@@ -69,10 +76,11 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the nervous system" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://schema.org/dateCreated> "2026-01-12"^^<http://www.w3.org/2001/XMLSchema#date> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
-_:B04fd270c5a4d935d5f0581165b035fe5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
-_:B04fd270c5a4d935d5f0581165b035fe5 <http://schema.org/award> "1U24AT013504-01" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
-_:B04fd270c5a4d935d5f0581165b035fe5 <http://schema.org/funder> "National Institutes of Health" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
-<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://schema.org/funding> _:B04fd270c5a4d935d5f0581165b035fe5 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+_:B40a373ca81d96405370de5dd63fa9fee <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+_:B40a373ca81d96405370de5dd63fa9fee <http://schema.org/award> "1U24AT013504-01" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+_:B40a373ca81d96405370de5dd63fa9fee <http://schema.org/funder> "National Institutes of Health" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://schema.org/funding> _:B40a373ca81d96405370de5dd63fa9fee <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0003-1531-3096> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#rdfxml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
@@ -90,9 +98,9 @@ _:B04fd270c5a4d935d5f0581165b035fe5 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
-_:Bef132bfca44b1be10798f3d265ac5c14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
-_:Bef132bfca44b1be10798f3d265ac5c14 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
-_:Bef132bfca44b1be10798f3d265ac5c14 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bef132bfca44b1be10798f3d265ac5c14 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+_:Babd18152503d17ac9082f71f2061ffe3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+_:Babd18152503d17ac9082f71f2061ffe3 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+_:Babd18152503d17ac9082f71f2061ffe3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00> <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Babd18152503d17ac9082f71f2061ffe3 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft> .

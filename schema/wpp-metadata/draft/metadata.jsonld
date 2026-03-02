@@ -123,7 +123,6 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data",
-            "@type": "dcat:Dataset",
             "dcat:distribution": [
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml"
@@ -156,12 +155,13 @@
                 "@id": "https://orcid.org/0000-0002-6703-7647"
             },
             "dct:publisher": "HuBMAP",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dct:title": "wpp-metadata linkml schema",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "rdfs:comment": "LinkML Schema for wpp-metadata",
-            "schema1:funding": {
-                "@id": "_:b1"
-            }
+            "@type": "dcat:Dataset"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#turtle",
@@ -239,12 +239,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -273,6 +267,12 @@
             "dct:title": "Raw data distribution 'schema.yaml' file",
             "rdfs:label": "Raw data distribution 'schema.yaml' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-6703-7647",

@@ -66,27 +66,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b0"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-1868-3896",
             "dcat:conforms_to": "Person",
             "schema1:name": "Minyan Zhu",
@@ -155,6 +134,17 @@
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data"
             },
             "schema1:additionalType": "wpp"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b0"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads",
@@ -233,6 +223,16 @@
             "dct:title": "Graph data distribution pulmonary-system (draft) in N-Triples format",
             "rdfs:label": "Graph data distribution pulmonary-system (draft) in N-Triples format",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "_:b1",

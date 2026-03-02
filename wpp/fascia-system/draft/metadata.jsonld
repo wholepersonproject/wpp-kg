@@ -130,9 +130,6 @@
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "schema1:reviewedBy": [
                 {
                     "@id": "https://orcid.org/0000-0002-1005-3726"
@@ -141,6 +138,9 @@
                     "@id": "https://orcid.org/0000-0002-6988-4102"
                 }
             ],
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#Fascia_System.csv"
             },
@@ -210,16 +210,6 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-1005-3726",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katalin Susztak",
@@ -230,10 +220,14 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#Fascia_System.csv",
@@ -249,6 +243,12 @@
             "dct:title": "Raw data distribution 'Fascia_System.csv' file",
             "rdfs:label": "Raw data distribution 'Fascia_System.csv' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         }
     ],
     "@context": {

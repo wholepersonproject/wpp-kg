@@ -62,6 +62,12 @@
             "@type": "schema1:SoftwareApplication"
         },
         {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#ntriples",
             "dcat:mediaType": "application/n-triples",
             "dcat:downloadURL": {
@@ -120,12 +126,6 @@
             "dct:title": "Raw data distribution 'Dental_and_Craniofacial_System.csv' file",
             "rdfs:label": "Raw data distribution 'Dental_and_Craniofacial_System.csv' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0001-7392-8852",

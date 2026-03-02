@@ -31,6 +31,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle",
             "dcat:mediaType": "text/turtle",
             "dcat:downloadURL": {
@@ -135,6 +141,9 @@
             },
             "dct:title": "Whole Person Physiome (WPP) table for the endocrine system",
             "dct:publisher": "WPP",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-0883-9754"
             },
@@ -144,9 +153,6 @@
             },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "rdfs:label": "Whole Person Physiome (WPP) table for the endocrine system",
             "schema1:dateCreated": {
@@ -208,12 +214,6 @@
             "schema1:familyName": "Cappola",
             "rdfs:label": "Anne Cappola",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "_:b1",

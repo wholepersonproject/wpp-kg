@@ -31,6 +31,22 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "https://orcid.org/0000-0003-3980-4797",
+            "dcat:conforms_to": "Person",
+            "schema1:name": "Ernestina Schipani",
+            "schema1:identifier": "0000-0003-3980-4797",
+            "schema1:givenName": "Ernestina",
+            "schema1:familyName": "Schipani",
+            "rdfs:label": "Ernestina Schipani",
+            "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-3321-6137",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katy Börner",
@@ -50,15 +66,18 @@
                 "@type": "xsd:date"
             },
             "dct:title": "Whole Person Physiome (WPP) table for the skeletal system",
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "dct:publisher": "WPP",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "rdfs:comment": "TODO: description",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
+            "schema1:reviewedBy": {
+                "@id": "https://orcid.org/0000-0003-3980-4797"
+            },
             "rdfs:label": "Whole Person Physiome (WPP) table for the skeletal system",
             "@type": "dcat:Dataset",
             "dcat:distribution": {
@@ -74,12 +93,6 @@
             "schema1:familyName": "Scherba",
             "rdfs:label": "Jacob C. Scherba",
             "@type": "schema1:Person"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv",

@@ -1,6 +1,12 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://orcid.org/0000-0002-5604-2651",
             "dcat:conforms_to": "Person",
             "schema1:name": "Kotaro Sasaki",
@@ -34,12 +40,6 @@
             "dct:title": "Graph data distribution male-reproductive-system (draft) in N-Quads format",
             "rdfs:label": "Graph data distribution male-reproductive-system (draft) in N-Quads format",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "_:b1",
@@ -101,6 +101,9 @@
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0001-8187-0507"
             },
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-5604-2651"
             },
@@ -108,9 +111,6 @@
             "schema1:dateCreated": {
                 "@value": "2025-11-05",
                 "@type": "xsd:date"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"

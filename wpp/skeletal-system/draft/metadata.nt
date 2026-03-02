@@ -31,6 +31,13 @@
 <https://orcid.org/0000-0002-3321-6137> <http://schema.org/identifier> "0000-0002-3321-6137" .
 <https://orcid.org/0000-0002-3321-6137> <http://schema.org/name> "Katy Börner" .
 <https://orcid.org/0000-0002-3321-6137> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
+<https://orcid.org/0000-0003-3980-4797> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0003-3980-4797> <http://www.w3.org/2000/01/rdf-schema#label> "Ernestina Schipani" .
+<https://orcid.org/0000-0003-3980-4797> <http://schema.org/familyName> "Schipani" .
+<https://orcid.org/0000-0003-3980-4797> <http://schema.org/givenName> "Ernestina" .
+<https://orcid.org/0000-0003-3980-4797> <http://schema.org/identifier> "0000-0003-3980-4797" .
+<https://orcid.org/0000-0003-3980-4797> <http://schema.org/name> "Ernestina Schipani" .
+<https://orcid.org/0000-0003-3980-4797> <http://www.w3.org/ns/dcat#conforms_to> "Person" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv> <http://www.w3.org/2000/01/rdf-schema#label> "Raw data distribution 'Skeletal_System.csv' file" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv> <http://purl.org/dc/terms/title> "Raw data distribution 'Skeletal_System.csv' file" .
@@ -69,10 +76,11 @@
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://purl.org/dc/terms/publisher> "WPP" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://purl.org/dc/terms/title> "Whole Person Physiome (WPP) table for the skeletal system" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://schema.org/dateCreated> "2025-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:B9ae9eb6ea5c4550351e8ea59a772c709 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
-_:B9ae9eb6ea5c4550351e8ea59a772c709 <http://schema.org/award> "1U24AT013504-01" .
-_:B9ae9eb6ea5c4550351e8ea59a772c709 <http://schema.org/funder> "National Institutes of Health" .
-<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://schema.org/funding> _:B9ae9eb6ea5c4550351e8ea59a772c709 .
+_:B154394d38c76fd7f596693546f5e2e9a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+_:B154394d38c76fd7f596693546f5e2e9a <http://schema.org/award> "1U24AT013504-01" .
+_:B154394d38c76fd7f596693546f5e2e9a <http://schema.org/funder> "National Institutes of Health" .
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://schema.org/funding> _:B154394d38c76fd7f596693546f5e2e9a .
+<https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://schema.org/reviewedBy> <https://orcid.org/0000-0003-3980-4797> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: description" .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data> <http://www.w3.org/ns/dcat#distribution> <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv> .
 <https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
@@ -90,9 +98,9 @@ _:B9ae9eb6ea5c4550351e8ea59a772c709 <http://schema.org/funder> "National Institu
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/2000/01/rdf-schema#label> "HRA Digital Object Processor" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/name> "HRA Digital Object Processor" .
-_:Bdd39a909889e3ae5a31018bf313cf320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
-_:Bdd39a909889e3ae5a31018bf313cf320 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
-_:Bdd39a909889e3ae5a31018bf313cf320 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00> .
-<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bdd39a909889e3ae5a31018bf313cf320 .
+_:Bca2179ad6d194dc416fafa6ae95d4828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareSourceCode> .
+_:Bca2179ad6d194dc416fafa6ae95d4828 <http://schema.org/codeRepository> <https://github.com/hubmapconsortium/hra-do-processor> .
+_:Bca2179ad6d194dc416fafa6ae95d4828 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00> .
+<https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/targetProduct> _:Bca2179ad6d194dc416fafa6ae95d4828 .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://schema.org/version> "0.10.0" .
 <https://github.com/hubmapconsortium/hra-do-processor> <http://www.w3.org/ns/dcat#conforms_to> "SoftwareApplication" .

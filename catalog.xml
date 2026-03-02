@@ -7,11 +7,6 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:ccf="http://purl.org/ccf/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.json</dcat:downloadURL>
@@ -58,6 +53,11 @@
     <rdfs:label>Graph data distribution muscular-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft/graph.ttl</dcat:downloadURL>
@@ -77,9 +77,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#raw-data">
     <rdfs:label>Whole Person Physiome (WPP) table for the cardiovascular system</rdfs:label>
+    <schema1:funding rdf:nodeID="A1"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
-    <schema1:funding rdf:nodeID="A1"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1979-044X"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <rdfs:comment>TODO: description</rdfs:comment>
@@ -99,6 +99,11 @@
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A2">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
     <schema1:funder>National Institutes of Health</schema1:funder>
     <schema1:award>1U24AT013504-01</schema1:award>
     <rdf:type rdf:resource="http://schema.org/Grant"/>
@@ -111,7 +116,12 @@
     <rdfs:label>Graph data distribution digestive-system (draft) in JSON format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
+  <rdf:Description rdf:nodeID="A4">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
     <schema1:funder>National Institutes of Health</schema1:funder>
     <schema1:award>1U24AT013504-01</schema1:award>
     <rdf:type rdf:resource="http://schema.org/Grant"/>
@@ -132,11 +142,11 @@
     <dct:publisher>WPP</dct:publisher>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-0883-9754"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <schema1:funding rdf:nodeID="A4"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#Endocrine_System.csv"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the endocrine system</rdfs:label>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-05</schema1:dateCreated>
+    <schema1:funding rdf:nodeID="A6"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system">
     <dcat:dataset rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft"/>
@@ -189,21 +199,16 @@
     <dct:title xml:lang="en">https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp">
     <dct:title xml:lang="en">wpp</dct:title>
     <dcat:dataset rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft"/>
     <dct:title xml:lang="en">https://wholepersonproject.github.io/wpp-kg/schema/wpp</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A5">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A6">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>
@@ -230,9 +235,9 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A7">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data">
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
@@ -257,11 +262,6 @@
     <rdfs:label>Graph data distribution fascia-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#nquads">
     <dcat:mediaType>application/n-quads</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.nq</dcat:downloadURL>
@@ -285,11 +285,6 @@
     <dct:title>Graph data distribution skeletal-system (draft) in Turtle format</dct:title>
     <rdfs:label>Graph data distribution skeletal-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A9">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp">
     <dcat:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system"/>
@@ -347,11 +342,6 @@
     <dct:title>Raw data distribution 'Muscular_System.csv' file</dct:title>
     <rdfs:label>Raw data distribution 'Muscular_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A10">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
@@ -412,12 +402,17 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-16</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#Muscular_System.csv"/>
+    <schema1:funding rdf:nodeID="A9"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0003-2700-1815"/>
-    <schema1:funding rdf:nodeID="A11"/>
     <dct:publisher>WPP</dct:publisher>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
@@ -431,6 +426,7 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#Immune_and_Lymphatic_System.csv"/>
     <dct:publisher>WPP</dct:publisher>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-05</schema1:dateCreated>
+    <schema1:funding rdf:nodeID="A11"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:title>Whole Person Physiome (WPP) table for the immune and lymphatic system</dct:title>
@@ -438,14 +434,8 @@
     <dct:creator rdf:resource="https://orcid.org/0000-0002-1868-3896"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the immune and lymphatic system</rdfs:label>
-    <schema1:funding rdf:nodeID="A10"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A12">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>
@@ -462,11 +452,6 @@
     <dct:title>Graph data distribution digestive-system (draft) in N-Quads format</dct:title>
     <rdfs:label>Graph data distribution digestive-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A13">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft">
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data"/>
@@ -522,6 +507,11 @@
     <rdfs:label>Graph data distribution female-reproductive-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#rdfxml">
     <dcat:mediaType>application/rdf+xml</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft/graph.xml</dcat:downloadURL>
@@ -562,6 +552,11 @@
     <rdfs:label>Graph data distribution fascia-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata">
     <dct:title xml:lang="en">wpp-metadata</dct:title>
     <dcat:dataset rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft"/>
@@ -592,6 +587,11 @@
     <rdfs:label>Graph data distribution dental-and-craniofacial-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#nquads">
     <dcat:mediaType>application/n-quads</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft/graph.nq</dcat:downloadURL>
@@ -616,6 +616,11 @@
     <rdfs:label>Graph data distribution wpp (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#jsonld">
     <dcat:mediaType>application/ld+json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft/graph.jsonld</dcat:downloadURL>
@@ -638,11 +643,6 @@
     <rdfs:label>Graph data distribution endocrine-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A14">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft/graph.ttl</dcat:downloadURL>
@@ -650,6 +650,15 @@
     <dct:title>Graph data distribution dental-and-craniofacial-system (draft) in Turtle format</dct:title>
     <rdfs:label>Graph data distribution dental-and-craniofacial-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0003-3980-4797">
+    <dcat:conforms_to>Person</dcat:conforms_to>
+    <schema1:name>Ernestina Schipani</schema1:name>
+    <schema1:identifier>0000-0003-3980-4797</schema1:identifier>
+    <schema1:givenName>Ernestina</schema1:givenName>
+    <schema1:familyName>Schipani</schema1:familyName>
+    <rdfs:label>Ernestina Schipani</rdfs:label>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
@@ -729,7 +738,7 @@
     <rdfs:label>Graph data distribution muscular-system (draft) in JSON format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
+  <rdf:Description rdf:nodeID="A15">
     <schema1:funder>National Institutes of Health</schema1:funder>
     <schema1:award>1U24AT013504-01</schema1:award>
     <rdf:type rdf:resource="http://schema.org/Grant"/>
@@ -742,10 +751,14 @@
     <rdfs:label>Graph data distribution nervous-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#raw-data">
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <schema1:funding rdf:nodeID="A15"/>
     <dct:title>Whole Person Physiome (WPP) table for the male reproductive system</dct:title>
     <dct:publisher>WPP</dct:publisher>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
@@ -754,26 +767,42 @@
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-05</schema1:dateCreated>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdfs:comment>TODO: description</rdfs:comment>
+    <schema1:funding rdf:nodeID="A0"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#Male_Reproductive_System.csv"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#raw-data">
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-17</schema1:dateCreated>
-    <schema1:funding rdf:nodeID="A6"/>
+    <schema1:funding rdf:nodeID="A17"/>
     <dct:title>Whole Person Physiome (WPP) table for the skeletal system</dct:title>
     <dct:publisher>WPP</dct:publisher>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
+    <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0003-3980-4797"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the skeletal system</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0003-1531-3096">
+    <dcat:conforms_to>Person</dcat:conforms_to>
+    <schema1:name>Richard Phillips</schema1:name>
+    <schema1:identifier>0000-0003-1531-3096</schema1:identifier>
+    <schema1:givenName>Richard</schema1:givenName>
+    <schema1:familyName>Phillips</schema1:familyName>
+    <rdfs:label>Richard Phillips</rdfs:label>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/collection">
     <dct:title xml:lang="en">collection</dct:title>
     <dcat:catalog rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp"/>
     <dct:title xml:lang="en">https://wholepersonproject.github.io/wpp-kg/collection</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -804,11 +833,6 @@
     <dct:title>Graph data distribution wpp (draft) in JSON-LD format</dct:title>
     <rdfs:label>Graph data distribution wpp (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A16">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft">
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#json"/>
@@ -844,6 +868,7 @@
     <dct:creator rdf:resource="https://orcid.org/0000-0002-6703-7647"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png"/>
+    <schema1:funding rdf:nodeID="A5"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:comment>This schema defines a data model for WPP (Whole Person Physiome) tables.</rdfs:comment>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd"/>
@@ -851,7 +876,6 @@
     <rdfs:label>wpp linkml schema</rdfs:label>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dct:title>wpp linkml schema</dct:title>
-    <schema1:funding rdf:nodeID="A2"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.context.jsonld"/>
     <dct:publisher>HuBMAP</dct:publisher>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.json"/>
@@ -913,6 +937,11 @@
     <rdfs:label>Raw data distribution 'digital-objects.yaml' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#json">
     <dcat:mediaType>application/json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.json</dcat:downloadURL>
@@ -937,11 +966,6 @@
     <rdfs:label>Graph data distribution urinary-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A17">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#jsonld">
     <dcat:mediaType>application/ld+json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/graph.jsonld</dcat:downloadURL>
@@ -957,6 +981,11 @@
     <dct:title>Graph data distribution pulmonary-system (draft) in N-Triples format</dct:title>
     <rdfs:label>Graph data distribution pulmonary-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft">
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#turtle"/>
@@ -987,6 +1016,11 @@
     <dct:title>Graph data distribution cardiovascular-system (draft) in RDF/XML format</dct:title>
     <rdfs:label>Graph data distribution cardiovascular-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft">
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
@@ -1021,7 +1055,6 @@
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#raw-data">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:title>Whole Person Physiome (WPP) table for the integumentary system</dct:title>
-    <schema1:funding rdf:nodeID="A18"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:publisher>WPP</dct:publisher>
@@ -1030,6 +1063,7 @@
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-7036-8359"/>
+    <schema1:funding rdf:nodeID="A13"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-04</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#Integumentary_System.csv"/>
   </rdf:Description>
@@ -1085,16 +1119,6 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#rdfxml"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#nquads"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A19">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A20">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="A21">
     <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
     <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
@@ -1102,27 +1126,27 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://github.com/hubmapconsortium/hra-do-processor">
     <schema1:version>0.10.0</schema1:version>
-    <schema1:targetProduct rdf:nodeID="A5"/>
+    <schema1:targetProduct rdf:nodeID="A2"/>
     <schema1:targetProduct rdf:nodeID="A22"/>
-    <schema1:targetProduct rdf:nodeID="A23"/>
-    <schema1:targetProduct rdf:nodeID="A24"/>
-    <schema1:targetProduct rdf:nodeID="A19"/>
-    <schema1:targetProduct rdf:nodeID="A25"/>
     <dcat:conforms_to>SoftwareApplication</dcat:conforms_to>
-    <schema1:targetProduct rdf:nodeID="A26"/>
-    <schema1:targetProduct rdf:nodeID="A12"/>
+    <schema1:targetProduct rdf:nodeID="A21"/>
+    <schema1:targetProduct rdf:nodeID="A23"/>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <schema1:targetProduct rdf:nodeID="A20"/>
     <schema1:targetProduct rdf:nodeID="A16"/>
-    <schema1:targetProduct rdf:nodeID="A27"/>
+    <schema1:targetProduct rdf:nodeID="A12"/>
+    <schema1:targetProduct rdf:nodeID="A7"/>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
-    <schema1:targetProduct rdf:nodeID="A21"/>
+    <schema1:targetProduct rdf:nodeID="A10"/>
+    <schema1:targetProduct rdf:nodeID="A24"/>
+    <schema1:targetProduct rdf:nodeID="A4"/>
+    <schema1:targetProduct rdf:nodeID="A25"/>
+    <schema1:targetProduct rdf:nodeID="A26"/>
+    <schema1:targetProduct rdf:nodeID="A18"/>
+    <schema1:targetProduct rdf:nodeID="A27"/>
     <schema1:targetProduct rdf:nodeID="A28"/>
-    <schema1:targetProduct rdf:nodeID="A0"/>
-    <schema1:targetProduct rdf:nodeID="A29"/>
-    <schema1:targetProduct rdf:nodeID="A30"/>
-    <schema1:targetProduct rdf:nodeID="A13"/>
+    <schema1:targetProduct rdf:nodeID="A19"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system">
     <dct:title xml:lang="en">muscular-system</dct:title>
@@ -1161,11 +1185,6 @@
     <dct:title>Graph data distribution nervous-system (draft) in N-Quads format</dct:title>
     <rdfs:label>Graph data distribution nervous-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A31">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system">
     <dct:title xml:lang="en">digestive-system</dct:title>
@@ -1213,6 +1232,11 @@
     <rdfs:label>Graph data distribution skeletal-system (draft) in JSON format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#rdfxml">
     <dcat:mediaType>application/rdf+xml</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft/graph.xml</dcat:downloadURL>
@@ -1220,11 +1244,6 @@
     <dct:title>Graph data distribution integumentary-system (draft) in RDF/XML format</dct:title>
     <rdfs:label>Graph data distribution integumentary-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A30">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#jsonld">
     <dcat:mediaType>application/ld+json</dcat:mediaType>
@@ -1275,6 +1294,11 @@
     <rdfs:label>Graph data distribution wpp (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft#jsonld">
     <dcat:mediaType>application/ld+json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/cardiovascular-system/draft/graph.jsonld</dcat:downloadURL>
@@ -1291,11 +1315,11 @@
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:publisher>WPP</dct:publisher>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
-    <schema1:funding rdf:nodeID="A17"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-6988-4102"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#Digestive_System.csv"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-28</schema1:dateCreated>
+    <schema1:funding rdf:nodeID="A30"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0002-1868-3896"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png">
@@ -1336,6 +1360,11 @@
     <dct:title xml:lang="en">https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft/graph.ttl</dcat:downloadURL>
@@ -1360,17 +1389,12 @@
     <rdfs:label>Graph data distribution wpp (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A22">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#raw-data">
     <dct:creator rdf:resource="https://orcid.org/0000-0002-1868-3896"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#Urinary_System.csv"/>
+    <schema1:funding rdf:nodeID="A15"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
-    <schema1:funding rdf:nodeID="A32"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <rdfs:label>Whole Person Physiome (WPP) table for the urinary system</rdfs:label>
@@ -1378,16 +1402,6 @@
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-23</schema1:dateCreated>
     <dct:title>Whole Person Physiome (WPP) table for the urinary system</dct:title>
     <dct:publisher>WPP</dct:publisher>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A23">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A32">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
@@ -1404,11 +1418,6 @@
     <dct:title>Graph data distribution muscular-system (draft) in N-Quads format</dct:title>
     <rdfs:label>Graph data distribution muscular-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A24">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv">
     <dcat:mediaType>text/csv</dcat:mediaType>
@@ -1448,11 +1457,21 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:title>wpp (draft) graph data</dct:title>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/collection/wpp">
     <dct:title xml:lang="en">wpp</dct:title>
     <dcat:dataset rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft"/>
     <dct:title xml:lang="en">https://wholepersonproject.github.io/wpp-kg/collection/wpp</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
@@ -1464,7 +1483,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#raw-data">
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
-    <schema1:funding rdf:nodeID="A14"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0001-7392-8852"/>
     <dct:title>Whole Person Physiome (WPP) table for the craniofacial and dental system</dct:title>
@@ -1473,6 +1491,7 @@
     <rdfs:label>Whole Person Physiome (WPP) table for the craniofacial and dental system</rdfs:label>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/dental-and-craniofacial-system/draft#Dental_and_Craniofacial_System.csv"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-09</schema1:dateCreated>
+    <schema1:funding rdf:nodeID="A33"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
   </rdf:Description>
@@ -1484,6 +1503,11 @@
     <rdfs:label>Raw data distribution 'schema.yaml' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml">
     <dcat:mediaType>text/yaml</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft/assets/schema.yaml</dcat:downloadURL>
@@ -1491,6 +1515,11 @@
     <dct:title>Raw data distribution 'schema.yaml' file</dct:title>
     <rdfs:label>Raw data distribution 'schema.yaml' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-6988-4102">
     <dcat:conforms_to>Person</dcat:conforms_to>
@@ -1501,7 +1530,7 @@
     <rdfs:label>Rebecca Wells</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A18">
+  <rdf:Description rdf:nodeID="A30">
     <schema1:funder>National Institutes of Health</schema1:funder>
     <schema1:award>1U24AT013504-01</schema1:award>
     <rdf:type rdf:resource="http://schema.org/Grant"/>
@@ -1513,16 +1542,6 @@
     <dct:title>Graph data distribution fascia-system (draft) in JSON format</dct:title>
     <rdfs:label>Graph data distribution fascia-system (draft) in JSON format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A27">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A26">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#nquads">
     <dcat:mediaType>application/n-quads</dcat:mediaType>
@@ -1588,11 +1607,6 @@
     <rdfs:label>Graph data distribution fascia-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A29">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/integumentary-system/draft/graph.ttl</dcat:downloadURL>
@@ -1610,10 +1624,10 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data">
+    <schema1:funding rdf:nodeID="A29"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-02</schema1:dateCreated>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0003-1980-6840"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
-    <schema1:funding rdf:nodeID="A7"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#Female_Reproductive_System.csv"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
@@ -1649,6 +1663,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#raw-data">
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
+    <schema1:funding rdf:nodeID="A32"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0002-1868-3896"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-28</schema1:dateCreated>
@@ -1660,17 +1675,6 @@
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-1005-3726"/>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0003-4716-1285"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#Pulmonary_System.csv"/>
-    <schema1:funding rdf:nodeID="A9"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A25">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A33">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
@@ -1716,11 +1720,6 @@
     <dct:title xml:lang="en">https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A15">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft#nquads">
     <dcat:mediaType>application/n-quads</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/endocrine-system/draft/graph.nq</dcat:downloadURL>
@@ -1728,6 +1727,11 @@
     <dct:title>Graph data distribution endocrine-system (draft) in N-Quads format</dct:title>
     <rdfs:label>Graph data distribution endocrine-system (draft) in N-Quads format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.mmd">
     <dcat:mediaType>application/vnd.chipnuts.karaoke-mmd</dcat:mediaType>
@@ -1756,10 +1760,11 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data">
     <dct:publisher>WPP</dct:publisher>
+    <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0003-1531-3096"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the nervous system</rdfs:label>
+    <schema1:funding rdf:nodeID="A3"/>
     <dct:title>Whole Person Physiome (WPP) table for the nervous system</dct:title>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
-    <schema1:funding rdf:nodeID="A31"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -1833,13 +1838,18 @@
     <rdfs:label>Raw data distribution 'Urinary_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#raw-data">
     <rdfs:comment>TODO: description</rdfs:comment>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/collection/wpp/draft#digital-objects.yaml"/>
     <dct:publisher>WPP</dct:publisher>
-    <schema1:funding rdf:nodeID="A3"/>
     <rdfs:label>Whole Person Physiome (WPP)</rdfs:label>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
+    <schema1:funding rdf:nodeID="A31"/>
     <dct:title>Whole Person Physiome (WPP)</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
@@ -1889,6 +1899,11 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#jsonld"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/pulmonary-system/draft#ntriples"/>
     <schema1:additionalType>wpp</schema1:additionalType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/immune-and-lymphatic-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
@@ -1944,11 +1959,6 @@
     <rdfs:label>Graph data distribution wpp (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A11">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0001-9286-4268">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>David Hill</schema1:name>
@@ -2002,6 +2012,11 @@
     <schema1:version>draft</schema1:version>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#json"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0001-8187-0507">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Jacob C. Scherba</schema1:name>
@@ -2036,6 +2051,11 @@
     <rdfs:label>Graph data distribution immune-and-lymphatic-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#rdfxml">
     <dcat:mediaType>application/rdf+xml</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft/graph.xml</dcat:downloadURL>
@@ -2043,11 +2063,6 @@
     <dct:title>Graph data distribution digestive-system (draft) in RDF/XML format</dct:title>
     <rdfs:label>Graph data distribution digestive-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A8">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
@@ -2080,6 +2095,11 @@
     <dct:title>Graph data distribution pulmonary-system (draft) in RDF/XML format</dct:title>
     <rdfs:label>Graph data distribution pulmonary-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples">
     <dcat:mediaType>application/n-triples</dcat:mediaType>
@@ -2129,10 +2149,10 @@
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data">
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml"/>
     <rdfs:label>wpp-metadata linkml schema</rdfs:label>
-    <schema1:funding rdf:nodeID="A33"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.context.jsonld"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json"/>
+    <schema1:funding rdf:nodeID="A14"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema1:dateCreated>
     <dct:creator rdf:resource="https://orcid.org/0000-0002-6703-7647"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.png"/>

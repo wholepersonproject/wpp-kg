@@ -42,6 +42,14 @@
     schema1:name "Katy Börner" ;
     dcat:conforms_to "Person" .
 
+<https://orcid.org/0000-0003-1531-3096> a schema1:Person ;
+    rdfs:label "Richard Phillips" ;
+    schema1:familyName "Phillips" ;
+    schema1:givenName "Richard" ;
+    schema1:identifier "0000-0003-1531-3096" ;
+    schema1:name "Richard Phillips" ;
+    dcat:conforms_to "Person" .
+
 <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> a dcat:Distribution ;
     rdfs:label "Raw data distribution 'Nervous_System.csv' file" ;
     dct:title "Raw data distribution 'Nervous_System.csv' file" ;
@@ -88,6 +96,7 @@
     schema1:funding [ a schema1:Grant ;
             schema1:award "1U24AT013504-01" ;
             schema1:funder "National Institutes of Health" ] ;
+    schema1:reviewedBy <https://orcid.org/0000-0003-1531-3096> ;
     rdfs:comment "TODO: description" ;
     dcat:distribution <https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv> .
 

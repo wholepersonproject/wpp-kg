@@ -14,10 +14,10 @@
             },
             "@type": "dcat:Dataset",
             "rdfs:comment": "TODO: description",
-            "rdfs:label": "Whole Person Physiome (WPP) table for the urinary system",
             "schema1:funding": {
                 "@id": "_:b0"
             },
+            "rdfs:label": "Whole Person Physiome (WPP) table for the urinary system",
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0002-1005-3726"
             },
@@ -140,6 +140,27 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b1",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
+        },
+        {
+            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
+            "dcat:conforms_to": "SoftwareApplication",
+            "schema1:version": "0.10.0",
+            "schema1:targetProduct": {
+                "@id": "_:b1"
+            },
+            "schema1:name": "HRA Digital Object Processor",
+            "rdfs:label": "HRA Digital Object Processor",
+            "@type": "schema1:SoftwareApplication"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#ntriples",
             "dcat:mediaType": "application/n-triples",
             "dcat:downloadURL": {
@@ -200,17 +221,6 @@
             }
         },
         {
-            "@id": "https://github.com/hubmapconsortium/hra-do-processor",
-            "dcat:conforms_to": "SoftwareApplication",
-            "schema1:version": "0.10.0",
-            "schema1:targetProduct": {
-                "@id": "_:b1"
-            },
-            "schema1:name": "HRA Digital Object Processor",
-            "rdfs:label": "HRA Digital Object Processor",
-            "@type": "schema1:SoftwareApplication"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/urinary-system/draft#json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -224,16 +234,6 @@
             "dct:title": "Graph data distribution urinary-system (draft) in JSON format",
             "rdfs:label": "Graph data distribution urinary-system (draft) in JSON format",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
         }
     ],
     "@context": {
