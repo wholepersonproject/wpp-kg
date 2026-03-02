@@ -41,18 +41,18 @@
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0002-5604-2651"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the male reproductive system</rdfs:label>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-05</schema1:dateCreated>
+    <schema1:funding rdf:nodeID="A1"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#Male_Reproductive_System.csv"/>
-    <schema1:funding rdf:nodeID="A1"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft">
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#ntriples"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#json"/>
     <dct:title>male-reproductive-system (draft) graph data</dct:title>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/male-reproductive-system/draft"/>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-02</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#turtle"/>
     <schema1:name>male-reproductive-system</schema1:name>
     <dct:publisher>HuBMAP</dct:publisher>
@@ -93,7 +93,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/a4a99af218d5460121b796e79c9f41a44e766da6"/>
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
     <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
@@ -105,6 +105,11 @@
     <schema1:familyName>Scherba</schema1:familyName>
     <rdfs:label>Jacob C. Scherba</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/male-reproductive-system/draft#nquads">
     <dcat:mediaType>application/n-quads</dcat:mediaType>
@@ -137,10 +142,5 @@
     <dct:title>Graph data distribution male-reproductive-system (draft) in RDF/XML format</dct:title>
     <rdfs:label>Graph data distribution male-reproductive-system (draft) in RDF/XML format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
 </rdf:RDF>

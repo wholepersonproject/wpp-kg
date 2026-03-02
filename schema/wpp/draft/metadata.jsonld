@@ -1,16 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
-            },
-            "schema1:codeRepository": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
-            },
-            "@type": "schema1:SoftwareSourceCode"
-        },
-        {
             "@id": "https://github.com/hubmapconsortium/hra-do-processor",
             "dcat:conforms_to": "SoftwareApplication",
             "schema1:version": "0.10.0",
@@ -20,6 +10,16 @@
             "schema1:name": "HRA Digital Object Processor",
             "rdfs:label": "HRA Digital Object Processor",
             "@type": "schema1:SoftwareApplication"
+        },
+        {
+            "@id": "_:b0",
+            "rdfs:seeAlso": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
+            },
+            "schema1:codeRepository": {
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor"
+            },
+            "@type": "schema1:SoftwareSourceCode"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#json",
@@ -62,10 +62,19 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
+            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd",
+            "dcat:mediaType": "application/vnd.chipnuts.karaoke-mmd",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.mmd",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Raw data distribution 'schema.mmd' file",
+            "rdfs:label": "Raw data distribution 'schema.mmd' file",
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.png",
@@ -95,21 +104,6 @@
             },
             "dct:title": "Raw data distribution 'schema.context.jsonld' file",
             "rdfs:label": "Raw data distribution 'schema.context.jsonld' file",
-            "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd",
-            "dcat:mediaType": "application/vnd.chipnuts.karaoke-mmd",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft/assets/schema.mmd",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.mmd",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Raw data distribution 'schema.mmd' file",
-            "rdfs:label": "Raw data distribution 'schema.mmd' file",
             "@type": "dcat:Distribution"
         },
         {
@@ -170,15 +164,15 @@
                 "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#raw-data"
             },
             "schema1:additionalType": "schema",
-            "schema1:dateCreated": {
-                "@value": "2026-02-24",
-                "@type": "xsd:date"
-            },
             "rdfs:comment": "The graph representation of the wpp linkml schema dataset.",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "schema1:name": "wpp",
+            "schema1:dateCreated": {
+                "@value": "2026-03-02",
+                "@type": "xsd:date"
+            },
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/schema/wpp/draft"
             },
@@ -233,15 +227,15 @@
             ],
             "@type": "dcat:Dataset",
             "rdfs:comment": "This schema defines a data model for WPP (Whole Person Physiome) tables.",
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "rdfs:label": "wpp linkml schema",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
             "dct:title": "wpp linkml schema",
             "dct:publisher": "HuBMAP",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
         },
         {
@@ -298,6 +292,12 @@
             "dct:title": "Raw data distribution 'schema.json' file",
             "rdfs:label": "Raw data distribution 'schema.json' file",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft#schema.yaml",

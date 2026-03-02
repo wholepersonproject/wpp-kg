@@ -9,7 +9,7 @@
     "created_by": [
       "https://github.com/hubmapconsortium/hra-do-processor"
     ],
-    "creation_date": "2026-02-24",
+    "creation_date": "2026-03-02",
     "version": "draft",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "publisher": "HuBMAP",
@@ -144,6 +144,7 @@
             ]
           }
         ],
+        "function_notes": "~80% PT, 15% TALH, 5% CD; role of CA",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R12-InteractionField-1",
@@ -660,6 +661,7 @@
             ]
           }
         ],
+        "function_notes": "Urine pH floor ~4.4; TA & NH₄⁺ pathways",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R15-InteractionField-1",
@@ -1015,6 +1017,7 @@
             ]
           }
         ],
+        "function_notes": "Key titratable acid pathway",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R17-InteractionField-1",
@@ -1189,6 +1192,7 @@
             ]
           }
         ],
+        "function_notes": "Main adaptive response to acidosis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R18-InteractionField-1",
@@ -1536,6 +1540,7 @@
             ]
           }
         ],
+        "function_notes": "New bicarbonate formation",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R20-InteractionField-1",
@@ -1711,6 +1716,7 @@
             ]
           }
         ],
+        "function_notes": "TGF, baroreceptor, sympathetic control of renin",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R21-InteractionField-1",
@@ -1884,6 +1890,7 @@
             ]
           }
         ],
+        "function_notes": "TGF, baroreceptor, sympathetic control of renin",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R22-InteractionField-1",
@@ -2056,6 +2063,7 @@
             ]
           }
         ],
+        "function_notes": "Defines renal acid excretion",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R23-InteractionField-1",
@@ -2228,6 +2236,7 @@
             ]
           }
         ],
+        "function_notes": "Defines renal acid excretion",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R24-InteractionField-1",
@@ -2400,6 +2409,7 @@
             ]
           }
         ],
+        "function_notes": "Defines renal acid excretion",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R25-InteractionField-1",
@@ -2560,6 +2570,7 @@
             ]
           }
         ],
+        "function_notes": "Polarity of IC cells",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R26-InteractionField-1",
@@ -2718,6 +2729,7 @@
             ]
           }
         ],
+        "function_notes": "Polarity of IC cells",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R27-InteractionField-1",
@@ -2889,6 +2901,7 @@
             ]
           }
         ],
+        "function_notes": "Coupled to Na⁺ movement",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R28-InteractionField-1",
@@ -3060,6 +3073,7 @@
             ]
           }
         ],
+        "function_notes": "Coupled to Na⁺ movement",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R29-InteractionField-1",
@@ -3231,6 +3245,7 @@
             ]
           }
         ],
+        "function_notes": "Coupled to Na⁺ movement",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R30-InteractionField-1",
@@ -3403,6 +3418,7 @@
             ]
           }
         ],
+        "function_notes": "Gradient disruption with volume expansion; diuresis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R31-InteractionField-1",
@@ -3576,6 +3592,7 @@
             ]
           }
         ],
+        "function_notes": "Gradient disruption with volume expansion; diuresis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R32-InteractionField-1",
@@ -3746,6 +3763,7 @@
             ]
           }
         ],
+        "function_notes": "Gradient disruption with volume expansion; diuresis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R33-InteractionField-1",
@@ -3919,6 +3937,7 @@
             ]
           }
         ],
+        "function_notes": "65–70% of filtered Na⁺ and water reabsorbed",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R34-InteractionField-1",
@@ -4092,6 +4111,7 @@
             ]
           }
         ],
+        "function_notes": "65–70% of filtered Na⁺ and water reabsorbed",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R35-InteractionField-1",
@@ -4265,6 +4285,7 @@
             ]
           }
         ],
+        "function_notes": "65–70% of filtered Na⁺ and water reabsorbed",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R36-InteractionField-1",
@@ -4437,6 +4458,7 @@
             ]
           }
         ],
+        "function_notes": "H⁺/K⁺ ATPase physiology",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R37-InteractionField-1",
@@ -4609,6 +4631,7 @@
             ]
           }
         ],
+        "function_notes": "H⁺/K⁺ ATPase physiology",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R38-InteractionField-1",
@@ -4756,6 +4779,7 @@
             ]
           }
         ],
+        "function_notes": "Organic acid handling",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R39-InteractionField-1",
@@ -4892,6 +4916,7 @@
             ]
           }
         ],
+        "function_notes": "Organic acid handling",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R40-InteractionField-1",
@@ -5028,6 +5053,7 @@
             ]
           }
         ],
+        "function_notes": "Organic acid handling",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R41-InteractionField-1",
@@ -5176,6 +5202,7 @@
             ]
           }
         ],
+        "function_notes": "Organic acid handling",
         "process": "PAH, oxalate, sulfate secreted in PT: Oxalate is secreted by PT",
         "reference_list": [
           {
@@ -5299,6 +5326,7 @@
             ]
           }
         ],
+        "function_notes": "Organic acid handling",
         "process": "PAH, oxalate, sulfate secreted in PT: Sulfate is secreted by PT",
         "reference_list": [
           {
@@ -5420,6 +5448,7 @@
             ]
           }
         ],
+        "function_notes": "Organic acid handling",
         "process": "PAH, oxalate, sulfate secreted in PT: Sulfate is secreted by PT",
         "reference_list": [
           {
@@ -5554,6 +5583,7 @@
             ]
           }
         ],
+        "function_notes": "Local natriuretic factor",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R45-InteractionField-1",
@@ -5714,6 +5744,7 @@
             ]
           }
         ],
+        "function_notes": "Provides driving force",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R46-InteractionField-1",
@@ -5886,6 +5917,7 @@
             ]
           }
         ],
+        "function_notes": "~4% Na⁺; pharmacology and regulation",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R47-InteractionField-1",
@@ -6057,6 +6089,7 @@
             ]
           }
         ],
+        "function_notes": "Links to bone and intestinal Ca/PO₄ balance",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R48-InteractionField-1",
@@ -6227,6 +6260,7 @@
             ]
           }
         ],
+        "function_notes": "Kidney endocrine roles overview",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R49-InteractionField-1",
@@ -6397,6 +6431,7 @@
             ]
           }
         ],
+        "function_notes": "Kidney endocrine roles overview",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R50-InteractionField-1",
@@ -6569,6 +6604,7 @@
             ]
           }
         ],
+        "function_notes": "Volume expansion natriuresis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R51-InteractionField-1",
@@ -6741,6 +6777,7 @@
             ]
           }
         ],
+        "function_notes": "Volume expansion natriuresis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R52-InteractionField-1",
@@ -6913,6 +6950,7 @@
             ]
           }
         ],
+        "function_notes": "Volume expansion natriuresis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R53-InteractionField-1",
@@ -7086,6 +7124,7 @@
             ]
           }
         ],
+        "function_notes": "Volume expansion natriuresis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R54-InteractionField-1",
@@ -7272,6 +7311,7 @@
             ]
           }
         ],
+        "function_notes": "Maintains GFR across 80–180 mmHg",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R55-InteractionField-1",
@@ -7447,6 +7487,7 @@
             ]
           }
         ],
+        "function_notes": "Key autoregulatory loop",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R56-InteractionField-1",
@@ -7620,6 +7661,7 @@
             ]
           }
         ],
+        "function_notes": "Key autoregulatory loop",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R57-InteractionField-1",
@@ -7754,6 +7796,7 @@
             ]
           }
         ],
+        "function_notes": "Mesangial cell role in Kf",
         "process": "Alters surface area available for filtration: Mesangial cells – alter – filtration surface area",
         "reference_list": [
           {
@@ -7888,6 +7931,7 @@
             ]
           }
         ],
+        "function_notes": "GTB Sense filtered load change",
         "process": "Glomerulotubular Balance: GTB Sense filtered load change",
         "reference_list": [
           {
@@ -8024,6 +8068,7 @@
             ]
           }
         ],
+        "function_notes": "GTB Increase gradient for reabsorption",
         "process": "Acute saline expansion blunts GTB: GTB Increase gradient for reabsorption",
         "reference_list": [
           {
@@ -8160,6 +8205,7 @@
             ]
           }
         ],
+        "function_notes": "GTB Favor fluid reuptake to capillaries",
         "process": "Iso-oncotic expansion: GTB Favor fluid reuptake to capillaries",
         "reference_list": [
           {
@@ -8296,6 +8342,7 @@
             ]
           }
         ],
+        "function_notes": "GTB Drive water & Na⁺ back into blood",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R62-InteractionField-1",
@@ -8446,6 +8493,7 @@
             ]
           }
         ],
+        "function_notes": "GTB Increase passive Na⁺ & water return",
         "process": "Interstitial pressure ↑: GTB Increase passive Na⁺ & water return",
         "reference_list": [
           {
@@ -8556,6 +8604,7 @@
             ]
           }
         ],
+        "function_notes": "GTB Maintain constant proportion reabsorption",
         "process": "Paracellular transport modulation: GTB Maintain constant proportion reabsorption",
         "reference_list": [
           {
@@ -8682,6 +8731,7 @@
             ]
           }
         ],
+        "function_notes": "Active reabsorption of glucose by renal tubules",
         "process": "Carrier-mediated glucose transport in proximal tubule; limited by saturation (Transport Maximum, Tm): Carrier-mediated transporter limited glucose transport by saturation",
         "reference_list": [
           {
@@ -8832,6 +8882,7 @@
             ]
           }
         ],
+        "function_notes": "Overview of RBF, filtration fraction, Starling forces",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R66-InteractionField-1",
@@ -9005,6 +9056,7 @@
             ]
           }
         ],
+        "function_notes": "Overview of RBF, filtration fraction, Starling forces",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R67-InteractionField-1",
@@ -9191,6 +9243,7 @@
             ]
           }
         ],
+        "function_notes": "Starling forces & Kf govern filtration",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R68-InteractionField-1",
@@ -9379,6 +9432,7 @@
             ]
           }
         ],
+        "function_notes": "Starling forces & Kf govern filtration",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R69-InteractionField-1",
@@ -9567,6 +9621,7 @@
             ]
           }
         ],
+        "function_notes": "Starling forces & Kf govern filtration",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R70-InteractionField-1",
@@ -9742,6 +9797,7 @@
             ]
           }
         ],
+        "function_notes": "Filtration fraction concept",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R71-InteractionField-1",
@@ -9917,6 +9973,7 @@
             ]
           }
         ],
+        "function_notes": "Filtration fraction concept",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R72-InteractionField-1",
@@ -10091,6 +10148,7 @@
             ]
           }
         ],
+        "function_notes": "RPF measurement",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R73-InteractionField-1",
@@ -10250,6 +10308,7 @@
             ]
           }
         ],
+        "function_notes": "Hemodynamic impact",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R74-InteractionField-1",
@@ -10409,6 +10468,7 @@
             ]
           }
         ],
+        "function_notes": "Hemodynamic impact",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R75-InteractionField-1",
@@ -10579,6 +10639,7 @@
             ]
           }
         ],
+        "function_notes": "RAAS effector hormone",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R76-InteractionField-1",
@@ -10752,6 +10813,7 @@
             ]
           }
         ],
+        "function_notes": "RAAS effector hormone",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R77-InteractionField-1",
@@ -10913,6 +10975,7 @@
             ]
           }
         ],
+        "function_notes": "Integrated physiology",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R78-InteractionField-1",
@@ -11083,6 +11146,7 @@
             ]
           }
         ],
+        "function_notes": "TAL critical for Mg²⁺",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R79-InteractionField-1",
@@ -11253,6 +11317,7 @@
             ]
           }
         ],
+        "function_notes": "Renal cortex contributes during fasting",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R80-InteractionField-1",
@@ -11425,6 +11490,7 @@
             ]
           }
         ],
+        "function_notes": "Cortical contribution",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R81-InteractionField-1",
@@ -11583,6 +11649,7 @@
             ]
           }
         ],
+        "function_notes": "Drainage and edema prevention",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R82-InteractionField-1",
@@ -11753,6 +11820,7 @@
             ]
           }
         ],
+        "function_notes": "UA balance",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R83-InteractionField-1",
@@ -11925,6 +11993,7 @@
             ]
           }
         ],
+        "function_notes": "Clinical GFR estimate",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R84-InteractionField-1",
@@ -12098,6 +12167,7 @@
             ]
           }
         ],
+        "function_notes": "Threshold/Tm and “splay”; glucosuria when Tm exceeded",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R85-InteractionField-1",
@@ -12271,6 +12341,7 @@
             ]
           }
         ],
+        "function_notes": "Threshold/Tm and “splay”; glucosuria when Tm exceeded",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R86-InteractionField-1",
@@ -12432,6 +12503,7 @@
             ]
           }
         ],
+        "function_notes": "Aminoaciduria if transporters defective",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R87-InteractionField-1",
@@ -12591,6 +12663,7 @@
             ]
           }
         ],
+        "function_notes": "Coupled with gluconeogenesis",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R88-InteractionField-1",
@@ -12763,6 +12836,7 @@
             ]
           }
         ],
+        "function_notes": "Explains clearance > GFR",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R89-InteractionField-1",
@@ -12922,6 +12996,7 @@
             ]
           }
         ],
+        "function_notes": "Explains clearance > GFR",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R90-InteractionField-1",
@@ -13095,6 +13170,7 @@
             ]
           }
         ],
+        "function_notes": "Basis for RPF measurement",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R91-InteractionField-1",
@@ -13254,6 +13330,7 @@
             ]
           }
         ],
+        "function_notes": "Explains low-molecular weight proteinuria",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R92-InteractionField-1",
@@ -13428,6 +13505,7 @@
             ]
           }
         ],
+        "function_notes": "Establishes 300→1200 mOsm/L medullary gradient",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R93-InteractionField-1",
@@ -13589,6 +13667,7 @@
             ]
           }
         ],
+        "function_notes": "Obligatory water flux",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R94-InteractionField-1",
@@ -13750,6 +13829,7 @@
             ]
           }
         ],
+        "function_notes": "Passive salt reabsorption",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R95-InteractionField-1",
@@ -13909,6 +13989,7 @@
             ]
           }
         ],
+        "function_notes": "Passive salt reabsorption",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R96-InteractionField-1",
@@ -14080,6 +14161,7 @@
             ]
           }
         ],
+        "function_notes": "~75–80% proximal Pi reabsorption; diet & PTH control",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R97-InteractionField-1",
@@ -14253,6 +14335,7 @@
             ]
           }
         ],
+        "function_notes": "~70% PT, ~20% TAL K⁺ reabsorption; determinants",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R98-InteractionField-1",
@@ -14386,6 +14469,7 @@
             ]
           }
         ],
+        "function_notes": "~70% PT, ~20% TAL K⁺ reabsorption; determinants",
         "process": "PT paracellular (solvent drag/diffusion); TAL via NKCC2 cycle: Thick ascending limb – reabsorbs – solutes via NKCC2",
         "reference_list": [
           {
@@ -14533,6 +14617,7 @@
             ]
           }
         ],
+        "function_notes": "BK/ROMK channels; diet, aldosterone, acid–base effects",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R100-InteractionField-1",
@@ -14692,6 +14777,7 @@
             ]
           }
         ],
+        "function_notes": "Long-term BP control",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R101-InteractionField-1",
@@ -14852,6 +14938,7 @@
             ]
           }
         ],
+        "function_notes": "Countercurrent exchange principle",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R102-InteractionField-1",
@@ -15023,6 +15110,7 @@
             ]
           }
         ],
+        "function_notes": "Neural control",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R103-InteractionField-1",
@@ -15196,6 +15284,7 @@
             ]
           }
         ],
+        "function_notes": "Supports medullary gradient for water reabsorption",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R104-InteractionField-1",
@@ -15370,6 +15459,7 @@
             ]
           }
         ],
+        "function_notes": "Supports medullary gradient for water reabsorption",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R105-InteractionField-1",
@@ -15530,6 +15620,7 @@
             ]
           }
         ],
+        "function_notes": "Endothelin role",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R106-InteractionField-1",
@@ -15702,6 +15793,7 @@
             ]
           }
         ],
+        "function_notes": "Local modulators",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R107-InteractionField-1",
@@ -15875,6 +15967,7 @@
             ]
           }
         ],
+        "function_notes": "Natriuretic mechanisms",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R108-InteractionField-1",
@@ -16050,6 +16143,7 @@
             ]
           }
         ],
+        "function_notes": "Max urine concentration to ~1200 mOsm/L; DI pathophysiology",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R109-InteractionField-1",
@@ -16225,6 +16319,7 @@
             ]
           }
         ],
+        "function_notes": "Obligatory water reabsorption",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R110-InteractionField-1",
@@ -20709,6 +20804,7 @@
             ]
           }
         ],
+        "function_notes": "~8–9% distal, hormonally regulated; thiazides reduce calciuria",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R138-InteractionField-1",
@@ -20867,6 +20963,7 @@
             ]
           }
         ],
+        "function_notes": "~8–9% distal, hormonally regulated; thiazides reduce calciuria",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R139-InteractionField-1",
@@ -21015,6 +21112,7 @@
             ]
           }
         ],
+        "function_notes": "~8–9% distal, hormonally regulated; thiazides reduce calciuria",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R140-InteractionField-1",
@@ -23927,6 +24025,7 @@
             ]
           }
         ],
+        "function_notes": "Storage phase",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R160-InteractionField-1",
@@ -24088,6 +24187,7 @@
             ]
           }
         ],
+        "function_notes": "Storage phase",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R161-InteractionField-1",
@@ -24249,6 +24349,7 @@
             ]
           }
         ],
+        "function_notes": "Coordinated voiding",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R162-InteractionField-1",
@@ -24410,6 +24511,7 @@
             ]
           }
         ],
+        "function_notes": "Coordinated voiding",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R163-InteractionField-1",
@@ -24570,6 +24672,7 @@
             ]
           }
         ],
+        "function_notes": "Somatic voluntary control",
         "interaction": [
           {
             "id": "https://purl.wholepersonphysiome.org/wpp/urinary-system/draft#R164-InteractionField-1",

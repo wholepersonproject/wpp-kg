@@ -31,12 +31,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-3321-6137",
             "dcat:conforms_to": "Person",
             "schema1:name": "Katy Börner",
@@ -56,6 +50,9 @@
                 "@type": "xsd:date"
             },
             "dct:title": "Whole Person Physiome (WPP) table for the skeletal system",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "dct:publisher": "WPP",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
@@ -66,9 +63,6 @@
             "@type": "dcat:Dataset",
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             }
         },
         {
@@ -80,6 +74,12 @@
             "schema1:familyName": "Scherba",
             "rdfs:label": "Jacob C. Scherba",
             "@type": "schema1:Person"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv",
@@ -153,6 +153,10 @@
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "dct:publisher": "HuBMAP",
+            "schema1:dateCreated": {
+                "@value": "2026-03-02",
+                "@type": "xsd:date"
+            },
             "schema1:additionalType": "wpp",
             "rdfs:label": "skeletal-system (draft) graph data",
             "prov:wasDerivedFrom": {
@@ -160,10 +164,6 @@
             },
             "dct:title": "skeletal-system (draft) graph data",
             "schema1:name": "skeletal-system",
-            "schema1:dateCreated": {
-                "@value": "2026-02-24",
-                "@type": "xsd:date"
-            },
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft"
             },
@@ -215,7 +215,7 @@
         {
             "@id": "_:b1",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/a4a99af218d5460121b796e79c9f41a44e766da6"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"

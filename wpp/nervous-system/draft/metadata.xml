@@ -15,7 +15,6 @@
     <dct:title>nervous-system (draft) graph data</dct:title>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <dct:publisher>HuBMAP</dct:publisher>
     <schema1:version>draft</schema1:version>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#jsonld"/>
@@ -25,11 +24,12 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#nquads"/>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/nervous-system/draft"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-02</schema1:dateCreated>
     <rdfs:label>nervous-system (draft) graph data</rdfs:label>
     <schema1:additionalType>wpp</schema1:additionalType>
   </rdf:Description>
   <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/a4a99af218d5460121b796e79c9f41a44e766da6"/>
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
     <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
@@ -59,6 +59,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data">
     <dct:publisher>WPP</dct:publisher>
+    <schema1:funding rdf:nodeID="A1"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the nervous system</rdfs:label>
     <dct:title>Whole Person Physiome (WPP) table for the nervous system</dct:title>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
@@ -67,7 +68,6 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-12</schema1:dateCreated>
-    <schema1:funding rdf:nodeID="A1"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#ntriples">

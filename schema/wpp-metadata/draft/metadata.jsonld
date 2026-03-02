@@ -14,7 +14,7 @@
         {
             "@id": "_:b0",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
@@ -74,15 +74,15 @@
             "prov:wasDerivedFrom": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data"
             },
+            "schema1:dateCreated": {
+                "@value": "2026-03-02",
+                "@type": "xsd:date"
+            },
             "schema1:additionalType": "schema",
             "dct:title": "wpp-metadata (draft) graph data",
             "@type": "dcat:Dataset",
             "rdfs:label": "wpp-metadata (draft) graph data",
             "schema1:name": "wpp-metadata",
-            "schema1:dateCreated": {
-                "@value": "2026-02-24",
-                "@type": "xsd:date"
-            },
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
@@ -123,6 +123,7 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#raw-data",
+            "@type": "dcat:Dataset",
             "dcat:distribution": [
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.yaml"
@@ -144,9 +145,6 @@
                 }
             ],
             "rdfs:label": "wpp-metadata linkml schema",
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
             },
@@ -161,7 +159,9 @@
             "dct:title": "wpp-metadata linkml schema",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))",
             "rdfs:comment": "LinkML Schema for wpp-metadata",
-            "@type": "dcat:Dataset"
+            "schema1:funding": {
+                "@id": "_:b1"
+            }
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#turtle",
@@ -239,6 +239,12 @@
             "@type": "dcat:Distribution"
         },
         {
+            "@id": "_:b1",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
+        },
+        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp-metadata/draft#schema.json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -267,12 +273,6 @@
             "dct:title": "Raw data distribution 'schema.yaml' file",
             "rdfs:label": "Raw data distribution 'schema.yaml' file",
             "@type": "dcat:Distribution"
-        },
-        {
-            "@id": "_:b1",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0002-6703-7647",

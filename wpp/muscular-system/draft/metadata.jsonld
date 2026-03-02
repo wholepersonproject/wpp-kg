@@ -88,6 +88,9 @@
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data",
             "dct:title": "Whole Person Physiome (WPP) table for the muscular system",
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "rdfs:label": "Whole Person Physiome (WPP) table for the muscular system",
             "ccf:project_lead": {
                 "@id": "https://orcid.org/0000-0002-3321-6137"
@@ -106,12 +109,15 @@
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0003-2700-1815"
             },
-            "schema1:funding": {
-                "@id": "_:b0"
-            },
             "dct:publisher": "WPP",
             "rdfs:comment": "TODO: description",
             "dct:license": "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://orcid.org/0000-0001-8187-0507",
@@ -134,15 +140,9 @@
             "@type": "schema1:Person"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "_:b1",
             "rdfs:seeAlso": {
-                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/a4a99af218d5460121b796e79c9f41a44e766da6"
+                "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
             },
             "schema1:codeRepository": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
@@ -192,6 +192,10 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft",
+            "schema1:dateCreated": {
+                "@value": "2026-03-02",
+                "@type": "xsd:date"
+            },
             "dcat:distribution": [
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#json"
@@ -214,10 +218,6 @@
             ],
             "schema1:additionalType": "wpp",
             "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the muscular system dataset.",
-            "schema1:dateCreated": {
-                "@value": "2026-02-24",
-                "@type": "xsd:date"
-            },
             "rdfs:seeAlso": {
                 "@id": "https://purl.wholepersonphysiome.org/wpp/muscular-system/draft"
             },

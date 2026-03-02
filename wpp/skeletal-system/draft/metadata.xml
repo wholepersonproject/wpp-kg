@@ -7,11 +7,6 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:ccf="http://purl.org/ccf/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/a4a99af218d5460121b796e79c9f41a44e766da6"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle">
     <dcat:mediaType>text/turtle</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.ttl</dcat:downloadURL>
@@ -34,11 +29,11 @@
     <dct:title>Whole Person Physiome (WPP) table for the skeletal system</dct:title>
     <dct:publisher>WPP</dct:publisher>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
-    <schema1:funding rdf:nodeID="A1"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <rdfs:label>Whole Person Physiome (WPP) table for the skeletal system</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#Skeletal_System.csv"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples">
@@ -66,6 +61,11 @@
     <rdfs:label>Raw data distribution 'Skeletal_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld">
     <dcat:mediaType>application/ld+json</dcat:mediaType>
     <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft/graph.jsonld</dcat:downloadURL>
@@ -79,6 +79,7 @@
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the skeletal system dataset.</rdfs:comment>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <dct:publisher>HuBMAP</dct:publisher>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-02</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#rdfxml"/>
     <schema1:additionalType>wpp</schema1:additionalType>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#jsonld"/>
@@ -88,7 +89,6 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#nquads"/>
     <schema1:name>skeletal-system</schema1:name>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#ntriples"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/skeletal-system/draft"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/skeletal-system/draft#turtle"/>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>

@@ -58,7 +58,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data">
     <dct:title>Whole Person Physiome (WPP) table for the digestive system</dct:title>
-    <schema1:funding rdf:nodeID="A1"/>
     <rdfs:label>Whole Person Physiome (WPP) table for the digestive system</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
@@ -69,6 +68,7 @@
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#Digestive_System.csv"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-28</schema1:dateCreated>
+    <schema1:funding rdf:nodeID="A1"/>
     <dct:creator rdf:resource="https://orcid.org/0000-0002-1868-3896"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-3321-6137">
@@ -88,7 +88,6 @@
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#nquads"/>
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the digestive system dataset.</rdfs:comment>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-24</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#turtle"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#json"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#ntriples"/>
@@ -96,6 +95,7 @@
     <dct:publisher>HuBMAP</dct:publisher>
     <schema1:name>digestive-system</schema1:name>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#jsonld"/>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-02</schema1:dateCreated>
     <dct:title>digestive-system (draft) graph data</dct:title>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/digestive-system/draft#raw-data"/>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/digestive-system/draft"/>
@@ -109,6 +109,16 @@
     <rdfs:label>Graph data distribution digestive-system (draft) in Turtle format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"/>
+    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
+    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-1868-3896">
     <dcat:conforms_to>Person</dcat:conforms_to>
     <schema1:name>Minyan Zhu</schema1:name>
@@ -117,11 +127,6 @@
     <schema1:familyName>Zhu</schema1:familyName>
     <rdfs:label>Minyan Zhu</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdfs:seeAlso rdf:resource="https://github.com/hubmapconsortium/hra-do-processor/commit/592abba418b2e715819ffa976a10a1705a8511ea"/>
-    <schema1:codeRepository rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
-    <rdf:type rdf:resource="http://schema.org/SoftwareSourceCode"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0002-6988-4102">
     <dcat:conforms_to>Person</dcat:conforms_to>
@@ -147,10 +152,5 @@
     <dct:title>Raw data distribution 'Digestive_System.csv' file</dct:title>
     <rdfs:label>Raw data distribution 'Digestive_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
 </rdf:RDF>
