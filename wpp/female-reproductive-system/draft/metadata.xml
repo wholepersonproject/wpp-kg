@@ -16,6 +16,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data">
+    <schema1:funding rdf:nodeID="A0"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-02</schema1:dateCreated>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0003-1980-6840"/>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
@@ -24,7 +25,6 @@
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <dct:title>Whole Person Physiome (WPP) table for the female reproductive system</dct:title>
-    <schema1:funding rdf:nodeID="A0"/>
     <rdfs:comment>TODO: description</rdfs:comment>
     <rdfs:label>Whole Person Physiome (WPP) table for the female reproductive system</rdfs:label>
     <dct:publisher>WPP</dct:publisher>
@@ -36,6 +36,11 @@
     <schema1:name>HRA Digital Object Processor</schema1:name>
     <rdfs:label>HRA Digital Object Processor</rdfs:label>
     <rdf:type rdf:resource="http://schema.org/SoftwareApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft">
     <schema1:additionalType>wpp</schema1:additionalType>
@@ -49,11 +54,11 @@
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/female-reproductive-system/draft"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#nquads"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#rdfxml"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-02</schema1:dateCreated>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <dct:publisher>HuBMAP</dct:publisher>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the female reproductive system dataset.</rdfs:comment>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-10</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#turtle"/>
     <prov:wasDerivedFrom rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/female-reproductive-system/draft#raw-data"/>
     <dct:title>female-reproductive-system (draft) graph data</dct:title>
@@ -137,10 +142,5 @@
     <dct:title>Graph data distribution female-reproductive-system (draft) in N-Triples format</dct:title>
     <rdfs:label>Graph data distribution female-reproductive-system (draft) in N-Triples format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
 </rdf:RDF>

@@ -30,13 +30,13 @@
         },
         {
             "@id": "https://purl.wholepersonphysiome.org/schema/wpp",
-            "schema1:dateCreated": "2026-03-02",
             "rdfs:seeAlso": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft"
             },
             "@type": "owl:Ontology",
             "schema1:version": "draft",
             "dct:title": "wpp (draft) graph data",
+            "schema1:dateCreated": "2026-03-10",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"

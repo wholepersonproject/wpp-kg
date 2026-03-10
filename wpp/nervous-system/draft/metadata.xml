@@ -21,10 +21,10 @@
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#turtle"/>
     <schema1:name>nervous-system</schema1:name>
     <rdfs:comment>The graph representation of the Whole Person Physiome (WPP) table for the nervous system dataset.</rdfs:comment>
+    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-10</schema1:dateCreated>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#nquads"/>
     <rdfs:seeAlso rdf:resource="https://purl.wholepersonphysiome.org/wpp/nervous-system/draft"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-02</schema1:dateCreated>
     <rdfs:label>nervous-system (draft) graph data</rdfs:label>
     <schema1:additionalType>wpp</schema1:additionalType>
   </rdf:Description>
@@ -52,11 +52,6 @@
     <rdfs:label>Raw data distribution 'Nervous_System.csv' file</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <schema1:funder>National Institutes of Health</schema1:funder>
-    <schema1:award>1U24AT013504-01</schema1:award>
-    <rdf:type rdf:resource="http://schema.org/Grant"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#raw-data">
     <dct:publisher>WPP</dct:publisher>
     <schema1:reviewedBy rdf:resource="https://orcid.org/0000-0003-1531-3096"/>
@@ -64,10 +59,10 @@
     <dct:title>Whole Person Physiome (WPP) table for the nervous system</dct:title>
     <dct:license>Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))</dct:license>
     <ccf:project_lead rdf:resource="https://orcid.org/0000-0002-3321-6137"/>
-    <schema1:funding rdf:nodeID="A1"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:comment>TODO: description</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:distribution rdf:resource="https://wholepersonproject.github.io/wpp-kg/wpp/nervous-system/draft#Nervous_System.csv"/>
+    <schema1:funding rdf:nodeID="A1"/>
     <schema1:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-01-12</schema1:dateCreated>
     <dct:creator rdf:resource="https://orcid.org/0000-0001-8187-0507"/>
   </rdf:Description>
@@ -112,6 +107,11 @@
     <dct:title>Graph data distribution nervous-system (draft) in JSON-LD format</dct:title>
     <rdfs:label>Graph data distribution nervous-system (draft) in JSON-LD format</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <schema1:funder>National Institutes of Health</schema1:funder>
+    <schema1:award>1U24AT013504-01</schema1:award>
+    <rdf:type rdf:resource="http://schema.org/Grant"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://orcid.org/0000-0001-8187-0507">
     <dcat:conforms_to>Person</dcat:conforms_to>

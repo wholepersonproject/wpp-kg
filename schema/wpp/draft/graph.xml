@@ -30,11 +30,11 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://purl.wholepersonphysiome.org/schema/wpp">
-    <schema1:dateCreated>2026-03-02</schema1:dateCreated>
     <rdfs:seeAlso rdf:resource="https://wholepersonproject.github.io/wpp-kg/schema/wpp/draft"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <schema1:version>draft</schema1:version>
     <dct:title>wpp (draft) graph data</dct:title>
+    <schema1:dateCreated>2026-03-10</schema1:dateCreated>
     <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
     <dct:creator rdf:resource="https://github.com/hubmapconsortium/hra-do-processor"/>
     <dct:publisher>HuBMAP</dct:publisher>

@@ -71,12 +71,6 @@
             "@type": "dcat:Distribution"
         },
         {
-            "@id": "_:b0",
-            "schema1:funder": "National Institutes of Health",
-            "schema1:award": "1U24AT013504-01",
-            "@type": "schema1:Grant"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#json",
             "dcat:mediaType": "application/json",
             "dcat:downloadURL": {
@@ -90,6 +84,12 @@
             "dct:title": "Graph data distribution muscular-system (draft) in JSON format",
             "rdfs:label": "Graph data distribution muscular-system (draft) in JSON format",
             "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "_:b0",
+            "schema1:funder": "National Institutes of Health",
+            "schema1:award": "1U24AT013504-01",
+            "@type": "schema1:Grant"
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#raw-data",
@@ -106,14 +106,14 @@
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#Muscular_System.csv"
             },
+            "schema1:funding": {
+                "@id": "_:b0"
+            },
             "dct:creator": {
                 "@id": "https://orcid.org/0000-0001-8187-0507"
             },
             "schema1:reviewedBy": {
                 "@id": "https://orcid.org/0000-0003-2700-1815"
-            },
-            "schema1:funding": {
-                "@id": "_:b0"
             },
             "dct:publisher": "WPP",
             "rdfs:comment": "TODO: description",
@@ -140,6 +140,21 @@
             "@type": "schema1:Person"
         },
         {
+            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#rdfxml",
+            "dcat:mediaType": "application/rdf+xml",
+            "dcat:downloadURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft/graph.xml",
+                "@type": "xsd:anyURI"
+            },
+            "dcat:accessURL": {
+                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#rdfxml",
+                "@type": "xsd:anyURI"
+            },
+            "dct:title": "Graph data distribution muscular-system (draft) in RDF/XML format",
+            "rdfs:label": "Graph data distribution muscular-system (draft) in RDF/XML format",
+            "@type": "dcat:Distribution"
+        },
+        {
             "@id": "_:b1",
             "rdfs:seeAlso": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor/commit/8a1fcf16e58298fba65d1d2a72768f3553c4ea00"
@@ -161,21 +176,6 @@
             "@type": "schema1:SoftwareApplication"
         },
         {
-            "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#rdfxml",
-            "dcat:mediaType": "application/rdf+xml",
-            "dcat:downloadURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft/graph.xml",
-                "@type": "xsd:anyURI"
-            },
-            "dcat:accessURL": {
-                "@value": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#rdfxml",
-                "@type": "xsd:anyURI"
-            },
-            "dct:title": "Graph data distribution muscular-system (draft) in RDF/XML format",
-            "rdfs:label": "Graph data distribution muscular-system (draft) in RDF/XML format",
-            "@type": "dcat:Distribution"
-        },
-        {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#jsonld",
             "dcat:mediaType": "application/ld+json",
             "dcat:downloadURL": {
@@ -192,10 +192,6 @@
         },
         {
             "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft",
-            "schema1:dateCreated": {
-                "@value": "2026-03-02",
-                "@type": "xsd:date"
-            },
             "dcat:distribution": [
                 {
                     "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/muscular-system/draft#json"
@@ -228,6 +224,10 @@
             "schema1:name": "muscular-system",
             "@type": "dcat:Dataset",
             "schema1:version": "draft",
+            "schema1:dateCreated": {
+                "@value": "2026-03-10",
+                "@type": "xsd:date"
+            },
             "rdfs:label": "muscular-system (draft) graph data",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dct:creator": {

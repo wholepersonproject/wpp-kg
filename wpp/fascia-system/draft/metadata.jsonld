@@ -67,16 +67,16 @@
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#raw-data"
             },
             "rdfs:comment": "The graph representation of the Whole Person Physiome (WPP) table for the fascia system dataset.",
+            "schema1:dateCreated": {
+                "@value": "2026-03-10",
+                "@type": "xsd:date"
+            },
             "schema1:version": "draft",
             "dct:creator": {
                 "@id": "https://github.com/hubmapconsortium/hra-do-processor"
             },
             "schema1:additionalType": "wpp",
             "dct:license": "https://creativecommons.org/licenses/by/4.0/",
-            "schema1:dateCreated": {
-                "@value": "2026-03-02",
-                "@type": "xsd:date"
-            },
             "dct:publisher": "HuBMAP",
             "schema1:name": "fascia-system"
         },
@@ -138,9 +138,6 @@
                     "@id": "https://orcid.org/0000-0002-6988-4102"
                 }
             ],
-            "schema1:funding": {
-                "@id": "_:b1"
-            },
             "dcat:distribution": {
                 "@id": "https://wholepersonproject.github.io/wpp-kg/wpp/fascia-system/draft#Fascia_System.csv"
             },
@@ -151,6 +148,9 @@
             "dct:title": "Whole Person Physiome (WPP) table for the fascia system",
             "dct:publisher": "WPP",
             "rdfs:comment": "TODO: description",
+            "schema1:funding": {
+                "@id": "_:b1"
+            },
             "@type": "dcat:Dataset",
             "rdfs:label": "Whole Person Physiome (WPP) table for the fascia system",
             "schema1:dateCreated": {
