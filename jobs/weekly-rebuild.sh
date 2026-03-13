@@ -11,3 +11,4 @@ time do-processor build --clean collection/wpp/draft
 
 time do-processor finalize --skip-db
 time jobs/fix-dist-dir.sh
+time jobs/deploy.sh
