@@ -1,5 +1,241 @@
 {
     "$defs": {
+        "BehaviorField": {
+            "additionalProperties": false,
+            "description": "BehaviorField",
+            "properties": {
+                "conforms_to": {
+                    "description": "Indicates the type or specification that the entity adheres to.",
+                    "enum": [
+                        "BehaviorField"
+                    ],
+                    "title": "conforms to",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Unique identifier for WPP concepts.",
+                    "title": "concept identifier",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "Human-readable label or name for the concept.",
+                    "title": "label",
+                    "type": "string"
+                },
+                "pref_label": {
+                    "title": "preferred label",
+                    "type": "string"
+                },
+                "record_field": {
+                    "description": "Field the object was derived from.",
+                    "title": "record field",
+                    "type": "string"
+                },
+                "record_number": {
+                    "description": "Numerical identifier for individual records.",
+                    "title": "record number",
+                    "type": "integer"
+                },
+                "source_concept": {
+                    "description": "Source concept providing the origin of this record within the WPP model.",
+                    "title": "source concept",
+                    "type": "string"
+                },
+                "type_of": {
+                    "description": "Defines the class type that this instance belongs to.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "type of",
+                    "type": "array"
+                }
+            },
+            "required": [
+                "source_concept",
+                "record_number",
+                "record_field",
+                "id"
+            ],
+            "title": "BehaviorField",
+            "type": "object"
+        },
+        "BehaviorXField": {
+            "additionalProperties": false,
+            "description": "BehaviorXField",
+            "properties": {
+                "conforms_to": {
+                    "description": "Indicates the type or specification that the entity adheres to.",
+                    "enum": [
+                        "BehaviorXField"
+                    ],
+                    "title": "conforms to",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Unique identifier for WPP concepts.",
+                    "title": "concept identifier",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "Human-readable label or name for the concept.",
+                    "title": "label",
+                    "type": "string"
+                },
+                "pref_label": {
+                    "title": "preferred label",
+                    "type": "string"
+                },
+                "record_field": {
+                    "description": "Field the object was derived from.",
+                    "title": "record field",
+                    "type": "string"
+                },
+                "record_number": {
+                    "description": "Numerical identifier for individual records.",
+                    "title": "record number",
+                    "type": "integer"
+                },
+                "source_concept": {
+                    "description": "Source concept providing the origin of this record within the WPP model.",
+                    "title": "source concept",
+                    "type": "string"
+                },
+                "type_of": {
+                    "description": "Defines the class type that this instance belongs to.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "type of",
+                    "type": "array"
+                }
+            },
+            "required": [
+                "source_concept",
+                "record_number",
+                "record_field",
+                "id"
+            ],
+            "title": "BehaviorXField",
+            "type": "object"
+        },
+        "BehaviorYField": {
+            "additionalProperties": false,
+            "description": "BehaviorYField",
+            "properties": {
+                "conforms_to": {
+                    "description": "Indicates the type or specification that the entity adheres to.",
+                    "enum": [
+                        "BehaviorYField"
+                    ],
+                    "title": "conforms to",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Unique identifier for WPP concepts.",
+                    "title": "concept identifier",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "Human-readable label or name for the concept.",
+                    "title": "label",
+                    "type": "string"
+                },
+                "pref_label": {
+                    "title": "preferred label",
+                    "type": "string"
+                },
+                "record_field": {
+                    "description": "Field the object was derived from.",
+                    "title": "record field",
+                    "type": "string"
+                },
+                "record_number": {
+                    "description": "Numerical identifier for individual records.",
+                    "title": "record number",
+                    "type": "integer"
+                },
+                "source_concept": {
+                    "description": "Source concept providing the origin of this record within the WPP model.",
+                    "title": "source concept",
+                    "type": "string"
+                },
+                "type_of": {
+                    "description": "Defines the class type that this instance belongs to.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "type of",
+                    "type": "array"
+                }
+            },
+            "required": [
+                "source_concept",
+                "record_number",
+                "record_field",
+                "id"
+            ],
+            "title": "BehaviorYField",
+            "type": "object"
+        },
+        "BehaviorZField": {
+            "additionalProperties": false,
+            "description": "BehaviorZField",
+            "properties": {
+                "conforms_to": {
+                    "description": "Indicates the type or specification that the entity adheres to.",
+                    "enum": [
+                        "BehaviorZField"
+                    ],
+                    "title": "conforms to",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Unique identifier for WPP concepts.",
+                    "title": "concept identifier",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "Human-readable label or name for the concept.",
+                    "title": "label",
+                    "type": "string"
+                },
+                "pref_label": {
+                    "title": "preferred label",
+                    "type": "string"
+                },
+                "record_field": {
+                    "description": "Field the object was derived from.",
+                    "title": "record field",
+                    "type": "string"
+                },
+                "record_number": {
+                    "description": "Numerical identifier for individual records.",
+                    "title": "record number",
+                    "type": "integer"
+                },
+                "source_concept": {
+                    "description": "Source concept providing the origin of this record within the WPP model.",
+                    "title": "source concept",
+                    "type": "string"
+                },
+                "type_of": {
+                    "description": "Defines the class type that this instance belongs to.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "type of",
+                    "type": "array"
+                }
+            },
+            "required": [
+                "source_concept",
+                "record_number",
+                "record_field",
+                "id"
+            ],
+            "title": "BehaviorZField",
+            "type": "object"
+        },
         "ClinicalMeasureField": {
             "additionalProperties": false,
             "description": "A function record represents a specific value in the WPP table, located in the \"ClinicalMeasure\" column, identified by its row (record number) and column (order number).",
@@ -68,6 +304,76 @@
                 "id"
             ],
             "title": "Clinical Measure Field",
+            "type": "object"
+        },
+        "CommonDataElementField": {
+            "additionalProperties": false,
+            "description": "A function record represents a specific value in the WPP table, located in the \"CDE\" column, identified by its row (record number) and column (order number).",
+            "properties": {
+                "conforms_to": {
+                    "description": "Indicates the type or specification that the entity adheres to.",
+                    "enum": [
+                        "CommonDataElementField"
+                    ],
+                    "title": "conforms to",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Unique identifier for WPP concepts.",
+                    "title": "concept identifier",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "Human-readable label or name for the concept.",
+                    "title": "label",
+                    "type": "string"
+                },
+                "notes": {
+                    "description": "Reference to the notes column in the WPP table",
+                    "title": "notes",
+                    "type": "string"
+                },
+                "order_number": {
+                    "description": "Order position within a defined sequence.",
+                    "title": "order number",
+                    "type": "integer"
+                },
+                "pref_label": {
+                    "title": "preferred label",
+                    "type": "string"
+                },
+                "record_field": {
+                    "description": "Field the object was derived from.",
+                    "title": "record field",
+                    "type": "string"
+                },
+                "record_number": {
+                    "description": "Numerical identifier for individual records.",
+                    "title": "record number",
+                    "type": "integer"
+                },
+                "source_concept": {
+                    "description": "Source concept providing the origin of this record within the WPP model.",
+                    "title": "source concept",
+                    "type": "string"
+                },
+                "type_of": {
+                    "description": "Defines the class type that this instance belongs to.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "type of",
+                    "type": "array"
+                }
+            },
+            "required": [
+                "source_concept",
+                "record_number",
+                "order_number",
+                "record_field",
+                "id"
+            ],
+            "title": "Common Data Element Field",
             "type": "object"
         },
         "Container": {
@@ -655,24 +961,24 @@
             "description": "An WPP record is a single row in the WPP table that ...",
             "properties": {
                 "behavior": {
+                    "$ref": "#/$defs/BehaviorField",
                     "description": "TODO behavior description",
-                    "title": "behavior",
-                    "type": "string"
+                    "title": "behavior"
                 },
                 "behavior_x": {
+                    "$ref": "#/$defs/BehaviorXField",
                     "description": "TODO behavior_x description",
-                    "title": "behavior x",
-                    "type": "string"
+                    "title": "behavior x"
                 },
                 "behavior_y": {
+                    "$ref": "#/$defs/BehaviorYField",
                     "description": "TODO behavior_y description",
-                    "title": "behavior y",
-                    "type": "string"
+                    "title": "behavior y"
                 },
                 "behavior_z": {
+                    "$ref": "#/$defs/BehaviorZField",
                     "description": "TODO behavior_z description",
-                    "title": "behavior z",
-                    "type": "string"
+                    "title": "behavior z"
                 },
                 "clinical_measure_list": {
                     "description": "List of clinical measure instances related to WPP records.",
@@ -680,6 +986,14 @@
                         "$ref": "#/$defs/ClinicalMeasureField"
                     },
                     "title": "clinical measure list",
+                    "type": "array"
+                },
+                "common_data_element_list": {
+                    "description": "List of common data element instances related to WPP records.",
+                    "items": {
+                        "$ref": "#/$defs/CommonDataElementField"
+                    },
+                    "title": "common data element list",
                     "type": "array"
                 },
                 "effect": {
@@ -719,6 +1033,11 @@
                     },
                     "title": "anatomical structure",
                     "type": "array"
+                },
+                "function_notes": {
+                    "description": "TODO function_notes description",
+                    "title": "function notes",
+                    "type": "string"
                 },
                 "id": {
                     "description": "Unique identifier for WPP concepts.",
@@ -777,9 +1096,9 @@
                     "type": "string"
                 },
                 "signal": {
+                    "$ref": "#/$defs/SignalField",
                     "description": "TODO signal description",
-                    "title": "signal",
-                    "type": "string"
+                    "title": "signal"
                 },
                 "signal_scale": {
                     "description": "TODO signal_scale description",
@@ -901,6 +1220,65 @@
                 "id"
             ],
             "title": "Reference Field",
+            "type": "object"
+        },
+        "SignalField": {
+            "additionalProperties": false,
+            "description": "SignalField",
+            "properties": {
+                "conforms_to": {
+                    "description": "Indicates the type or specification that the entity adheres to.",
+                    "enum": [
+                        "SignalField"
+                    ],
+                    "title": "conforms to",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Unique identifier for WPP concepts.",
+                    "title": "concept identifier",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "Human-readable label or name for the concept.",
+                    "title": "label",
+                    "type": "string"
+                },
+                "pref_label": {
+                    "title": "preferred label",
+                    "type": "string"
+                },
+                "record_field": {
+                    "description": "Field the object was derived from.",
+                    "title": "record field",
+                    "type": "string"
+                },
+                "record_number": {
+                    "description": "Numerical identifier for individual records.",
+                    "title": "record number",
+                    "type": "integer"
+                },
+                "source_concept": {
+                    "description": "Source concept providing the origin of this record within the WPP model.",
+                    "title": "source concept",
+                    "type": "string"
+                },
+                "type_of": {
+                    "description": "Defines the class type that this instance belongs to.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "type of",
+                    "type": "array"
+                }
+            },
+            "required": [
+                "source_concept",
+                "record_number",
+                "record_field",
+                "id"
+            ],
+            "title": "SignalField",
             "type": "object"
         },
         "SoftwareApplication": {

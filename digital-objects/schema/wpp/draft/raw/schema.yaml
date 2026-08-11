@@ -52,6 +52,9 @@ prefixes:
   LOINC:
     prefix_prefix: LOINC
     prefix_reference: https://loinc.org/
+  VT:
+    prefix_prefix: VT
+    prefix_reference: http://purl.obolibrary.org/obo/VT_
   xsd:
     prefix_prefix: xsd
     prefix_reference: http://www.w3.org/2001/XMLSchema#
@@ -351,7 +354,9 @@ slots:
     title: behavior
     from_schema: https://purl.wholepersonphysiome.org/schema/wpp
     slot_uri: wpp:behavior_field
+    range: BehaviorField
     required: false
+    inlined: true
   behavior_x:
     name: behavior_x
     annotations:
@@ -362,7 +367,9 @@ slots:
     title: behavior x
     from_schema: https://purl.wholepersonphysiome.org/schema/wpp
     slot_uri: wpp:behavior_x_field
+    range: BehaviorXField
     required: false
+    inlined: true
   behavior_y:
     name: behavior_y
     annotations:
@@ -373,7 +380,9 @@ slots:
     title: behavior y
     from_schema: https://purl.wholepersonphysiome.org/schema/wpp
     slot_uri: wpp:behavior_y_field
+    range: BehaviorYField
     required: false
+    inlined: true
   behavior_z:
     name: behavior_z
     annotations:
@@ -384,7 +393,9 @@ slots:
     title: behavior z
     from_schema: https://purl.wholepersonphysiome.org/schema/wpp
     slot_uri: wpp:behavior_z_field
+    range: BehaviorZField
     required: false
+    inlined: true
   clinical_measure_list:
     name: clinical_measure_list
     annotations:
@@ -397,6 +408,20 @@ slots:
     slot_uri: wpp:clinical_measure_field
     multivalued: true
     range: ClinicalMeasureField
+    required: false
+    inlined_as_list: true
+  common_data_element_list:
+    name: common_data_element_list
+    annotations:
+      owl:
+        tag: owl
+        value: AnnotationAssertion, AnnotationProperty
+    description: List of common data element instances related to WPP records.
+    title: common data element list
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    slot_uri: wpp:common_data_element_field
+    multivalued: true
+    range: CommonDataElementField
     required: false
     inlined_as_list: true
   effect:
@@ -483,6 +508,17 @@ slots:
     range: FunctionField
     required: false
     inlined_as_list: true
+  function_notes:
+    name: function_notes
+    annotations:
+      owl:
+        tag: owl
+        value: AnnotationAssertion, AnnotationProperty
+    description: TODO function_notes description
+    title: function notes
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    slot_uri: wpp:function_notes_field
+    required: false
   interaction:
     name: interaction
     annotations:
@@ -565,7 +601,9 @@ slots:
     title: signal
     from_schema: https://purl.wholepersonphysiome.org/schema/wpp
     slot_uri: wpp:signal_field
+    range: SignalField
     required: false
+    inlined: true
   signal_scale:
     name: signal_scale
     annotations:
@@ -1266,6 +1304,7 @@ classes:
     - effect_parameters_quantative
     - effect_scale
     - function_list
+    - function_notes
     - interaction
     - process
     - process_triple
@@ -1277,6 +1316,7 @@ classes:
     - state
     - time_scale
     - x_target
+    - common_data_element_list
     class_uri: wpp:Record
   WppConcept:
     name: WppConcept
@@ -1327,6 +1367,34 @@ classes:
     - record_number
     - order_number
     - record_field
+  BehaviorField:
+    name: BehaviorField
+    description: BehaviorField
+    title: BehaviorField
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    is_a: WppField
+    class_uri: wpp:BehaviorField
+  BehaviorXField:
+    name: BehaviorXField
+    description: BehaviorXField
+    title: BehaviorXField
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    is_a: WppField
+    class_uri: wpp:BehaviorXField
+  BehaviorYField:
+    name: BehaviorYField
+    description: BehaviorYField
+    title: BehaviorYField
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    is_a: WppField
+    class_uri: wpp:BehaviorYField
+  BehaviorZField:
+    name: BehaviorZField
+    description: BehaviorZField
+    title: BehaviorZField
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    is_a: WppField
+    class_uri: wpp:BehaviorZField
   EffectorField:
     name: EffectorField
     description: EffectorField
@@ -1357,6 +1425,15 @@ classes:
     from_schema: https://purl.wholepersonphysiome.org/schema/wpp
     is_a: WppListFieldItem
     class_uri: wpp:ClinicalMeasureField
+  CommonDataElementField:
+    name: CommonDataElementField
+    description: A function record represents a specific value in the WPP table, located
+      in the "CDE" column, identified by its row (record number) and column (order
+      number).
+    title: Common Data Element Field
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    is_a: WppListFieldItem
+    class_uri: wpp:CommonDataElementField
   FunctionField:
     name: FunctionField
     description: A function record represents a specific value in the WPP table, located
@@ -1379,6 +1456,13 @@ classes:
     - external_id
     - chapter
     class_uri: wpp:ReferenceField
+  SignalField:
+    name: SignalField
+    description: SignalField
+    title: SignalField
+    from_schema: https://purl.wholepersonphysiome.org/schema/wpp
+    is_a: WppField
+    class_uri: wpp:SignalField
   WppMetadata:
     name: WppMetadata
     description: The metadata section for the "wpp" digital object.
