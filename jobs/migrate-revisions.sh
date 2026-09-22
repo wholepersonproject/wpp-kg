@@ -18,7 +18,7 @@ for DRAFT_CSV in digital-objects/wpp/*/draft/raw/*.csv; do
 
   rm -rf digital-objects/wpp/$DO_NAME/v0.*
   PREV_CSV=""
-  for CURRENT_CSV in temp/*.csv; do
+  for CURRENT_CSV in `find temp -name "*.csv"`; do
     VERSION=`echo $CURRENT_CSV | perl -pe 's/temp\//v0\./g;' | cut -d '-' -f 1`
     DATE_RAW=$(echo "$VERSION" | cut -d '.' -f 2)
     DATE="${DATE_RAW:0:4}-${DATE_RAW:4:2}-${DATE_RAW:6:2}"
